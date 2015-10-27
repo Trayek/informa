@@ -1,0 +1,68 @@
+﻿---
+ID: 72cd9317-52c1-480a-afc1-6b9e2eae16c3
+Parent: fe7569b1-d67c-4afd-97d9-88eb64462bb8
+Template: 7cd4fb93-c30c-422b-8ba5-902c35505798
+Path: /sitecore/content/Global/Hero/Banners/Store/Christmas
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141204T163819
+    - ID: 3eed451b-d15c-44a1-997f-377ada28c11e
+      # Background Image
+      Value: "<image mediaid=\"{67CC36B3-8A79-424F-A588-4005BA44239D}\" ></image>"
+    - ID: 76f3f31b-7f3e-4b92-8b56-d9b091a6f632
+      # Content
+      Value: |
+        	 <div class="caption lft slide_title"
+        		 data-x="30"
+        		 data-y="105"
+        		 data-speed="400"
+        		 data-start="1500"
+        		 data-easing="easeOutExpo">
+        		 What else included ?
+        	</div>
+        	<div class="caption lft slide_subtitle"
+        		 data-x="30"
+        		 data-y="180"
+        		 data-speed="400"
+        		 data-start="2000"
+        		 data-easing="easeOutExpo">
+        		 The Most Complete Admin Theme
+        	</div>
+        	<div class="caption lft slide_desc"
+        		 data-x="30"
+        		 data-y="225"
+        		 data-speed="400"
+        		 data-start="2500"
+        		 data-easing="easeOutExpo">
+        		 Lorem ipsum dolor sit amet, consectetuer elit sed diam<br/> nonummy amet euismod dolore.
+        	</div>
+        	<a class="caption lft slide_btn btn red slide_item_left" href="http://www.keenthemes.com/preview/index.php?theme=metronic_admin" target="_blank" 
+        		 data-x="30"
+        		 data-y="300"
+        		 data-speed="400"
+        		 data-start="3000"
+        		 data-easing="easeOutExpo">
+        		 Learn More!
+        	</a>                        
+        	<div class="caption lft start"  
+        		 data-x="670" 
+        		 data-y="55" 
+        		 data-speed="400" 
+        		 data-start="2000" 
+        		 data-easing="easeOutBack"  >
+        		 <img src="/metronic/frontend/pages/img/revolutionslider/iphone_left.png" alt="Image 2"/>
+        	</div>
+        	
+        	<div class="caption lft start"  
+        		 data-x="850" 
+        		 data-y="55" 
+        		 data-speed="400" 
+        		 data-start="2400" 
+        		 data-easing="easeOutBack"  >
+        		 <img src="/metronic/frontend/pages/img/revolutionslider/iphone_right.png" alt="Image 3"/>
+        	</div>

@@ -1,0 +1,45 @@
+﻿---
+ID: 16bd74c7-f7f4-48dd-a9b6-8f2815e08cc8
+Parent: f58dc5f0-5315-4981-9a2b-0388a245516e
+Template: 0a3823b0-3200-4c40-8056-da295d05efcc
+Path: /sitecore/content/Global/Media Tabs/Battlefield 4
+SharedFields:
+- ID: 4862cdf7-1513-4ad3-ba69-3983c98ccfbc
+  # Images
+  Type: Treelist
+  Value: |
+    {6E175AB6-9BCC-4AC3-8D72-29CCFFFF1FAF}
+    {816B9C89-C39D-4A5E-9CBE-7FA45AAC2124}
+    {51F7A586-8CE4-4422-8CAF-9EED157C225A}
+    {078C96F9-B551-4543-A3A4-FE2D3980864F}
+    {5D262470-F9F4-49CB-9667-DE7D6E936902}
+    {F4F22887-E8C2-412D-8D78-3D13655D4398}
+    {26446644-F56A-4B24-9390-476924B70400}
+    {86477E74-F2BB-4251-BD5B-49367605D45E}
+    {ECFDC034-B57F-4D88-9D35-2077BBE49D75}
+    {616D2D80-8A31-451F-9374-126168D00F16}
+- ID: e9ef37ce-12ce-4dac-adf1-b1faeb2d14c9
+  # Video
+  Type: Treelist
+  Value: {E051477A-0FFC-4CF0-A522-142B96B19698}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150217T140922Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122129Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

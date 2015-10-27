@@ -1,0 +1,23 @@
+﻿---
+ID: 265867ac-0dcb-4fb1-bdf5-287ada43d795
+Parent: a133491c-6dd1-4ffe-bf3c-1a1413a4f16b
+Template: f1f1d639-4f54-40c2-8be0-81266b392ceb
+Path: /sitecore/layout/Renderings/msdemo/Core/Login Check
+SharedFields:
+- ID: 1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f
+  # Datasource Template
+  Value: /sitecore/templates/User Defined/msdemo/Items/Footer
+- ID: 78783f79-1411-4b91-958d-ad81f81e2485
+  # Path
+  Value: /xsl/msdemo/header.xslt
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141119T155016

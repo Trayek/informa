@@ -1,0 +1,65 @@
+﻿---
+ID: 8cbda387-0ffe-4258-acd9-aa7ce0abf10a
+Parent: 197ad351-b577-4aee-8269-ef276c9cf795
+Template: 451a7b31-e1e6-4145-b1ab-ee9152172a0e
+Path: /sitecore/content/Global/Blockquotes/Default
+SharedFields:
+- ID: 75eec381-2d7d-41c4-a950-77564469a91e
+  # Hover Colour
+  Value: {BB014AE2-CC6E-4BCA-A542-5C907E960700}
+- ID: 8f8ed436-db8a-48f2-83fc-961ec66ed947
+  # Icon
+  Value: fa fa-arrow-circle-right margin-right-10
+- ID: 9407998a-8ac1-46aa-9cab-005c715f3fd2
+  # Link
+  Value: "<link text=\"\" linktype=\"internal\" class=\"\" title=\"\" target='Active Browser' querystring=\"\" id=\"{E6EE5E01-D3B1-4225-AC07-D8368398947E}\" />"
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 50
+- ID: fc382c03-7be6-4c9e-bee3-bb7a5c83599a
+  # Colour
+  Value: {691B30B8-E07F-49B8-BABA-361784D05383}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141211T153034
+    - ID: 27a9c845-f70a-42f9-a5d5-6bcdb28060df
+      # Link Text
+      Value: Click here!
+    - ID: 880b22dd-e04f-4a7e-a3a3-dca5afb723ee
+      # Quote
+      Value: Want to find out more?
+  - Version: 2
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150513T145043Z
+    - ID: 27a9c845-f70a-42f9-a5d5-6bcdb28060df
+      # Link Text
+      Value: Click here!
+    - ID: 880b22dd-e04f-4a7e-a3a3-dca5afb723ee
+      # Quote
+      Value: Want to find out more?
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      # __Valid from
+      Value: 20150513T145043Z
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T121356Z
+    - ID: 27a9c845-f70a-42f9-a5d5-6bcdb28060df
+      # Link Text
+      Value: ここをクリック！
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 880b22dd-e04f-4a7e-a3a3-dca5afb723ee
+      # Quote
+      Value: もっと知りたいですか？

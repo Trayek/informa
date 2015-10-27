@@ -1,0 +1,28 @@
+﻿---
+ID: 757dc5cf-69a5-4fc9-af63-57fee3195e21
+Parent: 27de31e6-fd4f-41a3-a530-e0c1b499684a
+Template: 951e5c7d-f8d2-4864-b06c-5d44985e7693
+Path: /sitecore/content/Global/Hero/Sliders/Surface Pro
+SharedFields:
+- ID: b01434bc-e57e-457f-b829-25981d3bd3ce
+  # Source
+  Type: Treelist
+  Value: {DB33B177-A6E3-48ED-ABB9-25B38AEBBFF4}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150120T094350Z
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T123547Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

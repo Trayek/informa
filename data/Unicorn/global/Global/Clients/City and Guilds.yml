@@ -1,0 +1,40 @@
+﻿---
+ID: 8508d608-6793-42b8-b7e7-b20f32bfdea5
+Parent: 7e3cfdc4-6ff3-48ed-a474-d8f6b2e7abe4
+Template: 269fe657-09ee-4d96-955d-8ca1d1c19ade
+Path: /sitecore/content/Global/Clients/City and Guilds
+SharedFields:
+- ID: 165f0491-cda3-408a-ba9a-e73740d65dad
+  # Logo On
+  Value: "<image mediaid=\"{FACA6118-578F-4829-93AC-634B08914C1B}\" ></image>"
+- ID: 17429ee7-6264-46aa-a7ca-6c1106417700
+  # Tags
+  Type: Treelist
+  Value: {A63AA953-9EC9-4234-9992-DE483927CCEE}
+- ID: 46fdb2ef-d6c6-46f7-a2b1-93b9910febb8
+  # Website
+  Value: "<link text=\"City &amp; Guilds\" linktype=\"external\" url=\"http://www.cityandguilds.com/\" anchor=\"\" target=\"_blank\" />"
+- ID: 50881f1e-7324-412c-9fbb-de9ad64bcff8
+  # Logo Off
+  Value: "<image mediaid=\"{5B71E5F2-9F43-49B4-B65C-40674F4CDC50}\" ></image>"
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 2100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150313T143540Z
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T110405Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

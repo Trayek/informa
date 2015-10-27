@@ -1,0 +1,16 @@
+﻿---
+ID: e7811377-9179-4d47-8858-61a00bd133c6
+Parent: d975a75c-cd7c-4d5c-a14f-b90f36bc4b2e
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/User Defined/msdemo/Items/Service Box/Service One
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150119T135353Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

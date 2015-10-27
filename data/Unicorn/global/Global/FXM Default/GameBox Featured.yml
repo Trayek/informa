@@ -1,0 +1,32 @@
+﻿---
+ID: dc8cdca8-2fa4-4a6d-b650-3062e7841148
+Parent: e35d1cc2-7a0a-48b2-a1c6-2a32fec3bbb2
+Template: 8fd46617-a947-4964-9b92-67b3fbe68b26
+Path: /sitecore/content/Global/FXM Default/GameBox Featured
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B2FD4E6E-7FE0-4A96-8669-3BA9C5498ED1}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150604T093631Z
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{A98632BC-CB5E-4EA5-BEAC-406B17ED4B39}\" ></image>"
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {4AC5E48B-7A3E-462C-BF8E-1B87BF7E14B3}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: GameBox Featured
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa vel mauris sollicitudin dignissim....
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: New Product

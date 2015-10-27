@@ -1,0 +1,40 @@
+﻿---
+ID: ea1b2762-6703-4cea-95c2-3ad6ef67a75d
+Parent: 7e3cfdc4-6ff3-48ed-a474-d8f6b2e7abe4
+Template: 269fe657-09ee-4d96-955d-8ca1d1c19ade
+Path: /sitecore/content/Global/Clients/Fulham FC
+SharedFields:
+- ID: 165f0491-cda3-408a-ba9a-e73740d65dad
+  # Logo On
+  Value: "<image mediaid=\"{2AAC2CFE-21B7-41A3-AB57-BAB8C69220BC}\" ></image>"
+- ID: 17429ee7-6264-46aa-a7ca-6c1106417700
+  # Tags
+  Type: Treelist
+  Value: {F84EC9BB-8972-4566-B650-C20CA5181983}
+- ID: 46fdb2ef-d6c6-46f7-a2b1-93b9910febb8
+  # Website
+  Value: "<link text=\"Fulham FC\" linktype=\"external\" url=\"http://www.fulhamfc.com/\" anchor=\"\" target=\"_blank\" />"
+- ID: 50881f1e-7324-412c-9fbb-de9ad64bcff8
+  # Logo Off
+  Value: "<image mediaid=\"{0F55D463-539C-4A8D-B0F8-CD9BE0D80AA4}\" ></image>"
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 2900
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150313T130417Z
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T120451Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

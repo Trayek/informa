@@ -1,0 +1,27 @@
+﻿---
+ID: e950f1a8-cdd8-408c-83f7-669260fdb79e
+Parent: b9118115-4d06-49d0-8f52-0c950c4d2899
+Template: 962ff5a1-31fb-400f-a058-404829f5025e
+Path: /sitecore/content/Global/Tags/Xbox Games/Adventure
+SharedFields:
+- ID: 88b84628-6508-4ca5-805e-54530f3e2ffd
+  # Tag
+  Value: Adventure
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150119T162408Z
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122748Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

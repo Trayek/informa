@@ -1,0 +1,33 @@
+﻿---
+ID: 267129cc-54b6-4ef6-b0d6-f729fd90e463
+Parent: 7839b152-b098-43e8-9aa0-a6808d195404
+Template: 66ac1b0d-4d2e-446a-8a3c-1dfdec3206a2
+Path: /sitecore/content/Global/Social/Pinterest
+SharedFields:
+- ID: 14c68dc5-ac79-4dd5-986a-c13a05dfd93e
+  # Title
+  Value: Pinterest
+- ID: 4299a22f-59f6-4583-b505-6d182e100ae9
+  # Image
+  Value: "<image mediaid=\"{58C04D50-1B58-43CC-841C-39B027B3F66D}\" />"
+- ID: 58c3128a-9980-4eac-b390-dedabf5c26eb
+  # Link
+  Value: "<link text=\"Pinterest\" linktype=\"external\" url=\"https://uk.pinterest.com/sitecore/\" anchor=\"\" target=\"_blank\" />"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141119T160843
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122508Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

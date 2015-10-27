@@ -1,0 +1,19 @@
+﻿---
+ID: 39bc5176-f1eb-44d2-a824-52e4eeda3353
+Parent: 151a2f84-a503-44de-8eaf-466fa8193d9a
+Template: 4fcee257-db59-4af2-8076-619bfe31f186
+Path: /sitecore/content/Global/SEO/Keywords/Folder/Keyword 2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150506T074448Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: da3c2706-c76b-4c51-ab0a-0ee754a1df0f
+      # Title
+      Value: Keyword 2

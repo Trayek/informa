@@ -1,0 +1,32 @@
+﻿---
+ID: e3e7263a-bb15-42d5-a923-383ad36a9a0c
+Parent: dbd48767-d626-49b5-9641-db283140d6b0
+Template: 0a98e368-cdb9-4e1e-927c-8e0c24a003fb
+Path: /sitecore/layout/Sublayouts/msdemo/Top Content
+SharedFields:
+- ID: 32cee5fb-efce-4ca6-b697-3b97900c40d3
+  # Placeholder
+  Value: topcontent
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 600
+- ID: e42081b6-8a95-4a11-89ce-df70ed502f57
+  # Path
+  Value: /layouts/msdemo/TopContent.ascx
+- ID: e441abe7-2ca3-4640-ae26-3789967925d7
+  # Compatible Renderings
+  Type: Treelist
+  Value: |
+    {EC001B77-907B-48B7-BA91-1D5DF9AE5EDB}
+    {E3E7263A-BB15-42D5-A923-383AD36A9A0C}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141119T154402
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

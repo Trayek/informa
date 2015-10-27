@@ -1,0 +1,17 @@
+﻿---
+ID: f2602843-5ee3-480d-809e-737f7e690e1c
+Parent: 41eceff0-73f3-4c2c-81ca-8ef036d6c462
+Template: 60e4a220-b639-46e8-93ef-8466990256aa
+Path: /sitecore/content/Home/Email Campaign/Message Types/Periodical
+BranchID: f8fae92a-4f10-470c-ad5c-7ed9e6b636af
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150908T094507Z
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Subscription Message

@@ -1,0 +1,52 @@
+﻿---
+ID: 580d84a6-be6a-4157-8142-e6e9719102ed
+Parent: 7e737598-5fff-4992-8a07-62b9aac10bfb
+Template: 078d8a76-f971-4891-b422-76c0bcf9fa03
+Path: /sitecore/content/Home/Email Campaign/Messages/2015/09/08T094707/test
+BranchID: 09cb5d5d-bb3c-41b0-b531-bda28023f3be
+SharedFields:
+- ID: 0934bec4-325a-427b-95bb-46f78cea9591
+  # Message Type
+  Value: Trickle
+- ID: 09ad7c00-a8de-46f7-bc54-e7572e38c136
+  # Body
+  Value: {79285412-A618-4ADB-A41A-84BF87D062C5}
+- ID: 21f2a1e0-ac16-443b-b7a9-83504159f2bb
+  # Device
+  Value: {FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}
+- ID: 2bbf5276-ed11-4cd0-946f-66678b524457
+  # Campaign Position
+  Value: {C1B8669B-C41A-4ED3-BF0D-E859CF880D42}
+- ID: af0fe26a-a78b-491d-885c-03d95bc17342
+  # State
+  Value: Drafts
+- ID: ed5a9033-96ed-41f8-9731-7499c55ecbfa
+  # Engagement Plan
+  Value: {479CF6D7-2429-4665-8AD8-37AA739A9F51}
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  # __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{5D4CE8E4-A682-4882-822B-C5CF0D857F13}" />
+    </r>
+- ID: fade34d8-c101-420d-9620-e4deb659c36b
+  # Campaign Group
+  Value: {AB2F413C-4854-48EB-B7EB-6FD2E8142B19}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0d844c9c-bd6c-49b8-9475-947da791f268
+      # From Address
+      Value: info@officecore.demo
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150908T094707Z
+    - ID: 8436a90c-85c0-4f16-8373-393c4c0a82c6
+      # From Name
+      Value: Officecore
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: test

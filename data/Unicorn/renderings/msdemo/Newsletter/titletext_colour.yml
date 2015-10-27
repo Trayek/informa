@@ -1,0 +1,33 @@
+﻿---
+ID: 42157b68-48d6-4949-a9f7-4eba8c0572df
+Parent: 2f7e22b5-a01d-4f36-bf6e-1672c6e92128
+Template: f1f1d639-4f54-40c2-8be0-81266b392ceb
+Path: /sitecore/layout/Renderings/msdemo/Newsletter/titletext_colour
+SharedFields:
+- ID: 1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f
+  # Datasource Template
+  Value: /sitecore/templates/User Defined/msdemo/Email Content/Title Text
+- ID: 78783f79-1411-4b91-958d-ad81f81e2485
+  # Path
+  Value: /xsl/msdemo/email/titletext_colour.xslt
+- ID: a2f5d9df-8cba-4a1d-99eb-51acb94cb057
+  # Page Editor Buttons
+  Type: Treelist
+  Value: {69E187E1-6128-4F2A-BD01-7D6A464D1703}
+- ID: b5b27af1-25ef-405c-87ce-369b3a004016
+  # Datasource Location
+  Value: ./content
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 300
+- ID: c7c26117-dbb1-42b2-ab5e-f7223845cca3
+  # __Thumbnail
+  Value: "<image mediaid=\"{CCA08430-8D3D-4B50-9361-5ACEF7DCCA23}\" />"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150715T105757Z

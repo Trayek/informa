@@ -1,0 +1,13 @@
+﻿---
+ID: 2f7e22b5-a01d-4f36-bf6e-1672c6e92128
+Parent: 07bd3bcf-429e-4361-9a0d-35a41201aa66
+Template: 7ee0975b-0698-493e-b3a2-0b2ef33d0522
+Path: /sitecore/layout/Renderings/msdemo/Newsletter
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150715T104821Z

@@ -1,0 +1,168 @@
+﻿---
+ID: 164028bf-9ddc-44ac-841f-28b01198482b
+Parent: 8e810b67-bff3-4d1f-aa07-efa0b90c345f
+Template: 8fd46617-a947-4964-9b92-67b3fbe68b26
+Path: /sitecore/content/Home/Products/Xbox/Xbox One Games/Assassins Creed Unity
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B2FD4E6E-7FE0-4A96-8669-3BA9C5498ED1}
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{F8013B04-E03A-4685-ACF6-F8C662215553}" name="Gaming Interest" presets="adventure|100||">
+        <key name="Action" value="0" />
+        <key name="Adventure" value="10" />
+        <key name="Fighting" value="0" />
+        <key name="Racing" value="0" />
+        <key name="Sports" value="0" />
+      </profile>
+      <profile id="{B000189D-DE2F-473F-817F-7006254F047E}" name="Site Interest" presets="xbox|100||">
+        <key name="Office" value="0" />
+        <key name="Xbox" value="10" />
+        <key name="Surface" value="0" />
+        <key name="Mobile" value="0" />
+      </profile>
+    </tracking>
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  # __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r uid="{77DC072C-1019-428C-99A8-83D64FD54FA7}">
+          <p:d />
+        </r>
+        <r uid="{B4A479AC-7AC7-4B96-A221-6DF21BBAA7C7}" s:id="{3FBED397-E0CC-4B2C-992F-5F8D76FC6A9F}" />
+        <r uid="{F62C3253-C477-4C02-B4C9-43257812D764}" s:ph="onecontent" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{8DFDD68C-FA68-44A7-B5B3-3FC954EABDA9}" p:before="r[@uid='{77DC072C-1019-428C-99A8-83D64FD54FA7}']" s:ds="{5191477F-A603-453C-9083-2144AC54A66A}" s:id="{3FBA5F7E-5563-4D00-8959-BF5E0A973559}" s:ph="/body/maincontent/content/onecontent" />
+            <r uid="{77DC072C-1019-428C-99A8-83D64FD54FA7}" p:before="r[@uid='{E19DA30E-3C4F-4649-89E2-2ACE9B9DD2B6}']" s:id="{2C405192-3C95-4621-A14F-0347827A4483}" s:ph="/body/maincontent/leftcontent" />
+            <r uid="{B4A479AC-7AC7-4B96-A221-6DF21BBAA7C7}" s:id="{5ECF6E4C-95B6-4EB4-A57B-201C5D863297}" />
+            <r uid="{F62C3253-C477-4C02-B4C9-43257812D764}" s:ph="content" />
+            <r uid="{0711E9E7-CB44-4159-85CA-ED1BA6D50566}" s:id="{4553BEB2-B94D-4F69-BA73-E52E42BBB8E8}" s:ph="/body/maincontent/content" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150119T170735Z
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{4BE4C87F-B311-42DB-8961-D3B5D54B7881}\" />"
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        <p>Paris, 1789. The French Revolution turns a once-magnificent city into a place of terror and chaos. Its cobblestoned streets run red with the blood of commoners who dare to rise up against an oppressive aristocracy. Yet as the nation tears itself apart, a young man named Arno will embark upon an extraordinary journey to expose the true powers behind the Revolution. His pursuit will throw him into the middle of a ruthless struggle for the fate of a nation, and transform him into a true Master Assassin.</p>
+        <p>Introducing Assassin&rsquo;s Creed&reg; Unity, the blockbuster franchise&rsquo;s new chapter powered by the all new Anvil engine, rebuilt from the ground up for new gen. From the storming of the Bastille to the execution of King Louis XVI, experience the French Revolution as never before &ndash; and help the people of France carve an entirely new destiny.</p>
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {E950F1A8-CDD8-408C-83F7-669260FDB79E}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Assassins Creed Unity
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: From the storming of the Bastille to the execution of King Louis XVI, experience the French Revolution as never before, and help carve an entirely new destiny.
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Assassins Creed Unity
+  - Version: 2
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{77DC072C-1019-428C-99A8-83D64FD54FA7}" p:before="r[@uid='{E19DA30E-3C4F-4649-89E2-2ACE9B9DD2B6}']" s:id="{2C405192-3C95-4621-A14F-0347827A4483}" s:ph="/body/maincontent/leftcontent" />
+            <r uid="{B4A479AC-7AC7-4B96-A221-6DF21BBAA7C7}" s:id="{5ECF6E4C-95B6-4EB4-A57B-201C5D863297}" />
+            <r uid="{F62C3253-C477-4C02-B4C9-43257812D764}" s:ph="content" />
+            <r uid="{0711E9E7-CB44-4159-85CA-ED1BA6D50566}" s:id="{4553BEB2-B94D-4F69-BA73-E52E42BBB8E8}" s:ph="/body/maincontent/content" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150508T090923Z
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{4BE4C87F-B311-42DB-8961-D3B5D54B7881}\" />"
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {E903F29B-7B9A-4651-9BD6-854B745FAC21}
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\mark
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        <p>Paris, 1789. The French Revolution turns a once-magnificent city into a place of terror and chaos. Its cobblestoned streets run red with the blood of commoners who dare to rise up against an oppressive aristocracy. Yet as the nation tears itself apart, a young man named Arno will embark upon an extraordinary journey to expose the true powers behind the Revolution. His pursuit will throw him into the middle of a ruthless struggle for the fate of a nation, and transform him into a true Master Assassin.</p>
+        <p>Introducing Assassin&rsquo;s Creed&reg; Unity, the blockbuster franchise&rsquo;s new chapter powered by the all new Anvil engine, rebuilt from the ground up for new gen. From the storming of the Bastille to the execution of King Louis XVI, experience the French Revolution as never before &ndash; and help the people of France carve an entirely new destiny.</p>
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {E950F1A8-CDD8-408C-83F7-669260FDB79E}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Assassins Creed Unity
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      # __Valid from
+      Value: 20150508T090923Z
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: From the storming of the Bastille to the execution of King Louis XVI, experience the French Revolution as never before, and help carve an entirely new destiny.
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Assassins Creed Unity
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T103450Z
+    - ID: 2cd3e702-4a51-4faa-aa10-a6f4956e13d3
+      # Show in menu
+      Value: 1
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{4BE4C87F-B311-42DB-8961-D3B5D54B7881}\" />"
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {4AC5E48B-7A3E-462C-BF8E-1B87BF7E14B3}
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        パリ、1789年ザ・フランス革命は、恐怖と混乱の代わりに一度の壮大な都市になります。その石畳の通りは抑圧的な貴族に対して立ち上がることを敢えて庶民の血で赤く実行します。国民が自分自身を離れて涙まだ、アルノという若い男が革命の背後にある真の力を露出させるために特別な旅の際に乗り出します。彼の追求は国家の運命のための無慈悲な闘争の最中に彼を投げると、真のマスターアサシンに彼を変換します。<br>
+        <br>
+        アサシンCreed&reg;Unityの紹介、すべての新しいアンヴィルエンジンを搭載し大ヒットフランチャイズの新しい章では、新しい世代のために地面から再構築。国王ルイ16世の実行にバスティーユの襲撃から、これまでにないようフランス革命を体験 - とフランスの人々はまったく新しい運命を切り開くのに役立ちます。
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {E950F1A8-CDD8-408C-83F7-669260FDB79E}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Assassins Creed Unity
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: 国王ルイ16世の実行にバスティーユの襲撃から、これまでにないようフランス革命を経験して、全く新しい運命を切り開くのに役立ちます。
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Assassins Creed Unity

@@ -1,0 +1,57 @@
+﻿---
+ID: 08e56f99-f6d0-4de4-a54e-e1f1e48a8f8e
+Parent: 1ce3b36c-9b0c-4eb5-a996-bfcb4eaa5287
+Template: 5c547d4e-7111-4995-95b0-6b561751bf2e
+Path: /sitecore/layout/Placeholder Settings/nl-body
+SharedFields:
+- ID: 7256bdab-1fd2-49dd-b205-cb4873d2917c
+  # Placeholder Key
+  Value: nl-body
+- ID: e391b526-d0c5-439d-803e-17512eae6222
+  # Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {658C28C8-BD1A-45A8-A7B3-DE46111FF3BC}
+    {CC003124-656D-4380-AF33-1CFC703D4242}
+    {32887EA0-D21A-4067-97BD-DB6D71E65FE3}
+    {7C45DAF8-5714-4698-8FBD-CCDE3DAFF935}
+    {4F94DE18-0749-44B0-B73D-38F3AE784AF2}
+    {5EF740DA-4BDA-485F-B8F5-F42186D0CF34}
+    {2CDC72D2-AE44-4CAE-9546-2DD9E2C85EB4}
+Languages:
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150518T111818:635675446987831385Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: nl-body
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20101203T155311
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: nl-body
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150518T112052:635675448522493735Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: nl 本文 （nl-body）

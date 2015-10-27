@@ -1,0 +1,43 @@
+﻿---
+ID: ec2f1f93-c90d-4fdf-8303-1b703a6f2e12
+Parent: f58dc5f0-5315-4981-9a2b-0388a245516e
+Template: 0a3823b0-3200-4c40-8056-da295d05efcc
+Path: /sitecore/content/Global/Media Tabs/Forza Motorsport 5
+SharedFields:
+- ID: 4862cdf7-1513-4ad3-ba69-3983c98ccfbc
+  # Images
+  Type: Treelist
+  Value: |
+    {90531EEE-528B-4ACD-A210-D6DCDE56B257}
+    {13284405-F1BB-4C73-8D9B-7F38237FC939}
+    {4058D3A1-F874-4103-AE69-2FA13030D781}
+    {9F98FCF3-C182-48A1-8D89-57727CA44E9F}
+    {05F56BAC-0B0F-4959-8629-9EA679C8B8BE}
+    {A72E54A4-4E75-4647-8466-A170E75C5EB2}
+    {3D78CE54-C037-400F-A482-C281CE7360D1}
+    {9DD149C2-5087-4E70-A20E-18AF655A7646}
+    {01E49BBC-F70A-4581-B02C-5BD3847874E5}
+    {76BAA936-5573-4C6E-9282-4AB1058BA681}
+    {9510508D-51B3-48E3-99CC-6AA50DE93B81}
+    {59713454-4DEE-47C7-86C2-ECCD1F293B14}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150219T155910Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122151Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

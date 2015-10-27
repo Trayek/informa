@@ -1,0 +1,26 @@
+﻿---
+ID: 6677c830-3783-4176-b56d-f17e00c9bc3c
+Parent: 90dd3f71-459f-46ba-978b-69e80744e925
+Template: 9795c562-98d9-4a9e-bc9c-c6b7a079fdf4
+Path: /sitecore/content/Home/Email Campaign/Message Types/Trickle/Default
+BranchID: f8fae92a-4f10-470c-ad5c-7ed9e6b636af
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  # __Masters
+  Type: TreelistEx
+  Value: |
+    {09CB5D5D-BB3C-41B0-B531-BDA28023F3BE}
+    {F112BDEF-8D86-4CEA-9B9A-8477A582926C}
+    {9E170B31-F8AA-4E1F-B605-2FC0BD4FE120}
+    {6FE51EB4-1D30-4E6B-8BA0-0EBB1405D283}
+    {ECF0A9C8-FE56-45D8-B750-6BDE3A34A532}
+    {1AFE38A7-9461-4278-ADAF-D807F27F36E4}
+    {F868C724-50D0-4347-9C9B-BABB8DB705FE}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150908T094507Z

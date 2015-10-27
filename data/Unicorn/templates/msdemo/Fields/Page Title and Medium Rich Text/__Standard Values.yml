@@ -1,0 +1,22 @@
+﻿---
+ID: 267ec9fe-86c1-4560-9a2d-34db27fe57ad
+Parent: 774c6475-c4d3-425c-9c56-1091be0d0583
+Template: 774c6475-c4d3-425c-9c56-1091be0d0583
+Path: /sitecore/templates/User Defined/msdemo/Fields/Page Title and Medium Rich Text/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20071206T101404
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: c7faa1d4-bdaf-4a83-b36e-9217a87da98e
+      # Text
+      Value: <p>Provide your main text here...</p>
+    - ID: e1ca5b6b-9caf-4ee5-b14e-a781a0100c2d
+      # Title
+      Value: $name

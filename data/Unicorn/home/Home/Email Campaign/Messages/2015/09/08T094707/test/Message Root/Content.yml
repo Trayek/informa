@@ -1,0 +1,24 @@
+﻿---
+ID: 6eec6a9f-98cf-4517-a114-3564086f0f9b
+Parent: 79285412-a618-4adb-a41a-84bf87d062c5
+Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+Path: /sitecore/content/Home/Email Campaign/Messages/2015/09/08T094707/test/Message Root/Content
+BranchID: 09cb5d5d-bb3c-41b0-b531-bda28023f3be
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  # __Masters
+  Type: TreelistEx
+  Value: |
+    {54D80E3D-D951-4EB0-BB35-84F5A50B30ED}
+    {49904736-1958-4BD0-A7F5-CF2222C9A3CA}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150908T094707Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

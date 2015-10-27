@@ -1,0 +1,46 @@
+﻿---
+ID: 20c2e790-159e-4027-9707-7b1b23e24151
+Parent: f58dc5f0-5315-4981-9a2b-0388a245516e
+Template: 0a3823b0-3200-4c40-8056-da295d05efcc
+Path: /sitecore/content/Global/Media Tabs/Fifa 15
+SharedFields:
+- ID: 4862cdf7-1513-4ad3-ba69-3983c98ccfbc
+  # Images
+  Type: Treelist
+  Value: |
+    {2FB0DA0C-024F-4F6D-9FBA-82AFDE575B9D}
+    {991947B7-946A-446C-86AB-77107D51B1B0}
+    {02C65AAC-5283-4F8F-9B62-B8EE70D51437}
+    {409E6DB9-1EF7-4377-9C69-6C75B8C19CA3}
+    {CFD61B1A-307F-42AA-AEF9-F340BBC175AF}
+    {B77FFB15-7BD8-41EB-BA11-C19322E83EC6}
+    {5C71B085-6293-456A-8471-792E68ADE05C}
+    {7C930D0A-2E73-45FE-A275-B53E30C4B5B7}
+    {C422AA14-15F5-42F0-ACE3-61D911FA2604}
+    {F5BE1E45-7C3F-4685-881B-AEFC84078467}
+    {0B21E04F-E01E-4913-9099-E6EE0F23245C}
+- ID: e9ef37ce-12ce-4dac-adf1-b1faeb2d14c9
+  # Video
+  Type: Treelist
+  Value: {DB506686-C24F-4134-9BE6-5B7CB799E6FE}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150217T143557Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122143Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

@@ -1,0 +1,31 @@
+﻿---
+ID: 526917b0-2e70-4246-bd3c-1727dd4503df
+Parent: 27de31e6-fd4f-41a3-a530-e0c1b499684a
+Template: 951e5c7d-f8d2-4864-b06c-5d44985e7693
+Path: /sitecore/content/Global/Hero/Sliders/Call back submitted
+SharedFields:
+- ID: b01434bc-e57e-457f-b829-25981d3bd3ce
+  # Source
+  Type: Treelist
+  Value: {46EFBE91-5848-4E6C-9BC1-2F959EA1A24F}
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150202T113132Z
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T123555Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

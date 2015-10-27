@@ -1,0 +1,20 @@
+﻿---
+ID: 32012e10-7ad0-41eb-903b-0815f86a8b4f
+Parent: 722f10eb-9404-49c8-8ac0-472135367d00
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/User Defined/msdemo/Items/Microsite Home/Data/Logo
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Image
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141119T162439

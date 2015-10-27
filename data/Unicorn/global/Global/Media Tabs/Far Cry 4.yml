@@ -1,0 +1,43 @@
+﻿---
+ID: e7f83ba4-e87a-40ae-beb7-1ac001c54124
+Parent: f58dc5f0-5315-4981-9a2b-0388a245516e
+Template: 0a3823b0-3200-4c40-8056-da295d05efcc
+Path: /sitecore/content/Global/Media Tabs/Far Cry 4
+SharedFields:
+- ID: 4862cdf7-1513-4ad3-ba69-3983c98ccfbc
+  # Images
+  Type: Treelist
+  Value: |
+    {16EB27C3-D10B-43F7-8113-F513AD1810B8}
+    {0050144D-3209-4569-959B-950EFFCDDB10}
+    {4F5E6179-8A01-4858-9941-0CB4254A8C31}
+    {2EEC0818-71F2-4664-831F-382C17454C73}
+    {856D2841-435D-468B-B4F6-CA9002A5DC3F}
+    {4733DB9A-ADB0-4792-8AD0-16899A95EF59}
+    {8C26988A-265A-4007-A66B-5142541F64AA}
+    {37CA5747-4D21-48F9-84A8-3C2C96EE8BB8}
+    {B7E58F57-3C9E-4A72-82E7-C76D2D6BDB40}
+    {7721A325-516A-4D60-ABB3-F898FB346E8D}
+    {867D3090-72B9-42A0-88E8-D1A6ADAFDF1E}
+    {D7EC884F-1CA3-4DA2-B441-E5B5BBE74AF9}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150219T152122Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122140Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

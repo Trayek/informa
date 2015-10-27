@@ -1,0 +1,23 @@
+﻿---
+ID: 210054f3-d8fd-4486-aceb-e6720c3cc7d9
+Parent: de35af93-730f-4a43-9621-d6dcb93218d0
+Template: 3a45a723-64ee-4919-9d41-02fd40fd1466
+Path: /sitecore/layout/Layouts/msdemo/LogOut
+SharedFields:
+- ID: a036b2bc-ba04-44f6-a75f-bae6cd242abf
+  # Path
+  Value: /layouts/LogOut.aspx
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150302T155024Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

@@ -1,0 +1,59 @@
+﻿---
+ID: 6b116780-6805-440c-8ff7-5b45cce14b0d
+Parent: eaf5ed0f-e05a-47ba-b8a6-618881fa2527
+Template: eaf5ed0f-e05a-47ba-b8a6-618881fa2527
+Path: /sitecore/templates/User Defined/msdemo/Items/Microsite Home/__Standard Values
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  # __Masters
+  Type: TreelistEx
+  Value: {F76F859A-F34F-45AF-AD50-FE74CCA41D25}
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  # __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{B0BCC7AE-135D-4B90-BC17-F708D51EDDC2}">
+        <r ds="" id="{0BC5FF90-C8D6-4D4A-B7F9-BE3A11CEC796}" par="" ph="body" uid="{E19DA30E-3C4F-4649-89E2-2ACE9B9DD2B6}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{2C63C7C6-9D57-4B82-81A7-79693E4AF085}">
+              <p:d />
+            </r>
+            <r uid="{6F9D1A55-0E35-4DAF-9F6A-5F96C3B573D9}">
+              <p:d />
+            </r>
+            <r uid="{372ED4C7-AE7F-4B22-92F3-D490344A9D52}">
+              <p:d />
+            </r>
+            <r uid="{E1C3CA03-8FBA-49AB-8121-3423BFE5C81B}">
+              <p:d />
+            </r>
+            <r uid="{2E0E5CED-DE13-4305-99E0-576949D3363F}">
+              <p:d />
+            </r>
+            <r uid="{D735F39B-16A6-4F6E-BE80-877B5F4B323A}">
+              <p:d />
+            </r>
+            <r uid="{B94CA53F-F741-48B7-AF72-319DCA72021E}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141119T151742
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

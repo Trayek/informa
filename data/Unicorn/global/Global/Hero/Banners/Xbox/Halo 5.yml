@@ -1,0 +1,46 @@
+﻿---
+ID: a67596a2-3004-4c5d-96c1-900db6bfde60
+Parent: 810afacb-5be7-4fa2-abac-7612b062f0dd
+Template: 7cd4fb93-c30c-422b-8ba5-902c35505798
+Path: /sitecore/content/Global/Hero/Banners/Xbox/Halo 5
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141204T133810
+    - ID: 3eed451b-d15c-44a1-997f-377ada28c11e
+      # Background Image
+      Value: "<image mediaid=\"{D6C7DA1D-E527-425B-BC64-6212C28C7017}\" ></image>"
+    - ID: 76f3f31b-7f3e-4b92-8b56-d9b091a6f632
+      # Content
+      Value: |
+                      <a class="caption lft btn scbrandred slide_btn slide_item_left" href="/Products/Xbox/Xbox-One-Games/Halo-5"
+                        data-x="250"
+                        data-y="300"
+                        data-speed="400"
+                        data-start="1300"
+                        data-easing="easeOutExpo" >
+                        Discover more
+                      </a>
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T124231Z
+    - ID: 3eed451b-d15c-44a1-997f-377ada28c11e
+      # Background Image
+      Value: "<image mediaid=\"{D6C7DA1D-E527-425B-BC64-6212C28C7017}\" ></image>"
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 76f3f31b-7f3e-4b92-8b56-d9b091a6f632
+      # Content
+      Value: |
+                      <a class="caption lft btn scbrandred slide_btn slide_item_left" href="/Products/Xbox/Xbox-One-Games/Halo-5" data-x="250" data-y="300" data-speed="400" data-start="1300" data-easing="easeOutExpo">
+                        発見より
+                      </a>

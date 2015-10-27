@@ -1,0 +1,71 @@
+﻿---
+ID: 8b60ab49-1d60-4caf-9d02-77aff885adcf
+Parent: 6b13f1ed-dc83-4081-8f53-bcbd30d1a0f0
+Template: d975a75c-cd7c-4d5c-a14f-b90f36bc4b2e
+Path: /sitecore/content/Global/Service Box/Office
+SharedFields:
+- ID: 1ea1660a-68b2-48c6-b234-999309f672d8
+  # Icon 1
+  Value: fa fa-wrench blue
+- ID: 7e0c088f-6ab5-44c6-a6e2-68824f0e25cf
+  # Icon 2
+  Value: fa fa-download red
+- ID: afcbf17c-4b3c-4da6-9b81-37192e42f6e8
+  # Icon 3
+  Value: fa fa-question green
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 13c8c491-7109-44de-9513-645ff75f7378
+      # Text 2
+      Value: Select from our wide range of Office software and download direct to your PC. And when you purchase Office from us, we save your product keys
+    - ID: 24d13288-687d-4fd4-90ca-e6d2348a0e55
+      # Text 1
+      Value: Get started with Office by connection with one of our experts - at no extra charge
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150119T141541Z
+    - ID: 31facd78-f0cb-4105-85e9-491eb08c90b5
+      # Text 3
+      Value: Our customer service team are here to help with all of your Office questions and needs
+    - ID: 52252547-7dce-49df-8eb1-bf57d2164860
+      # Title 3
+      Value: Ongoing support and service
+    - ID: da84c425-174c-4dac-8a5a-1a3f2f8b1058
+      # Title 1
+      Value: We'll get you up and running
+    - ID: e78b3be0-1d4a-474d-bb0b-87a9072605bd
+      # Title 2
+      Value: Download from Microsoft
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 13c8c491-7109-44de-9513-645ff75f7378
+      # Text 2
+      Value: Officeソフトウェアの私達の広い範囲から選択し、PCに直接ダウンロードしてください。あなたは私たちからのOfficeを購入する時、私たちはあなたのプロダクトキーを保存します
+    - ID: 24d13288-687d-4fd4-90ca-e6d2348a0e55
+      # Text 1
+      Value: |
+        我々の専門家の1に関連して、Office入門 - 追加料金なしで
+        
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122353Z
+    - ID: 31facd78-f0cb-4105-85e9-491eb08c90b5
+      # Text 3
+      Value: 私たちの顧客サービスチームは、Officeの質問やニーズのすべてを助けるためにここにいます
+    - ID: 52252547-7dce-49df-8eb1-bf57d2164860
+      # Title 3
+      Value: 継続的なサポートとサービス
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: da84c425-174c-4dac-8a5a-1a3f2f8b1058
+      # Title 1
+      Value: 私たちは、稼働してあなたを取得します
+    - ID: e78b3be0-1d4a-474d-bb0b-87a9072605bd
+      # Title 2
+      Value: マイクロソフトからダウンロード

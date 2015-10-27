@@ -1,0 +1,23 @@
+﻿---
+ID: d09be2ad-6fd2-4165-8643-0c001acdee13
+Parent: 93a0e2e4-f257-4af8-92d2-a81bdcbb35fe
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/User Defined/msdemo/Items/Section/Navigation/Dropdown
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Checkbox
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+- ID: be351a73-fcb0-4213-93fa-c302d8ab4f51
+  # Shared
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150112T134826Z

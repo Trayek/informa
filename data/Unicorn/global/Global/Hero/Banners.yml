@@ -1,0 +1,16 @@
+﻿---
+ID: e4fb81dc-d78f-4e5d-8653-ee035e666853
+Parent: 8ea508db-5ba2-428e-b78e-dd99adae59c7
+Template: 8c283cb2-204b-4c43-bce0-a37fc2d161c9
+Path: /sitecore/content/Global/Hero/Banners
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141203T152749
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

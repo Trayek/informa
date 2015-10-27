@@ -1,0 +1,40 @@
+﻿---
+ID: 74be731b-68cf-464b-9c7a-f6e89fd5277c
+Parent: 7e3cfdc4-6ff3-48ed-a474-d8f6b2e7abe4
+Template: 269fe657-09ee-4d96-955d-8ca1d1c19ade
+Path: /sitecore/content/Global/Clients/Virgin Active
+SharedFields:
+- ID: 165f0491-cda3-408a-ba9a-e73740d65dad
+  # Logo On
+  Value: "<image mediaid=\"{1B7ACD94-E772-47D0-8F69-92D5B48D7AD0}\" ></image>"
+- ID: 17429ee7-6264-46aa-a7ca-6c1106417700
+  # Tags
+  Type: Treelist
+  Value: {E380B20D-E737-4366-8303-7B83AA0FFE26}
+- ID: 46fdb2ef-d6c6-46f7-a2b1-93b9910febb8
+  # Website
+  Value: "<link text=\"Virgin Active\" linktype=\"external\" url=\"http://www.virginactive.co.uk\" anchor=\"\" target=\"_blank\" />"
+- ID: 50881f1e-7324-412c-9fbb-de9ad64bcff8
+  # Logo Off
+  Value: "<image mediaid=\"{7FE0F8D5-F504-4593-9ACC-1E1576EFA232}\" ></image>"
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 8600
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141212T101353
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T120934Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

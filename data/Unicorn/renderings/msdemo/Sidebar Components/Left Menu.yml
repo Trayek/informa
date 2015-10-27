@@ -1,0 +1,20 @@
+﻿---
+ID: 864918c1-b711-45d8-b36b-934e33453a7f
+Parent: 151503ed-8c61-4307-8f87-a5c2a334b614
+Template: f1f1d639-4f54-40c2-8be0-81266b392ceb
+Path: /sitecore/layout/Renderings/msdemo/Sidebar Components/Left Menu
+SharedFields:
+- ID: 78783f79-1411-4b91-958d-ad81f81e2485
+  # Path
+  Value: /xsl/msdemo/leftmenu.xslt
+- ID: c7c26117-dbb1-42b2-ab5e-f7223845cca3
+  # __Thumbnail
+  Value: "<image mediaid=\"{1D7E97A1-D6DD-4A96-AD04-D3263ED9D214}\" />"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141211T142021Z

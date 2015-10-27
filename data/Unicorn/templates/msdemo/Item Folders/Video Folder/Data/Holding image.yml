@@ -1,0 +1,20 @@
+﻿---
+ID: d825d030-a66b-4a47-8461-40069204c82f
+Parent: 19f04725-a835-4387-a445-1a81d1d5081e
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/User Defined/msdemo/Item Folders/Video Folder/Data/Holding image
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Image
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141205T114733

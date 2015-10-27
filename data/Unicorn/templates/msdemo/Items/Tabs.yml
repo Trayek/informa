@@ -1,0 +1,27 @@
+﻿---
+ID: 7b39f0d2-512e-4dc2-a478-e22e95fdbd9c
+Parent: d06493f7-026c-4974-805a-3c912033e6d9
+Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+Path: /sitecore/templates/User Defined/msdemo/Items/Tabs
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Business/32x32/index.png
+- ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
+  # __Base template
+  Type: tree list
+  Value: {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+- ID: f7d48a55-2158-4f02-9356-756654404f73
+  # __Standard values
+  Value: {1B269A21-F46D-4536-BCE4-3BEA38C4D44F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150312T104415Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

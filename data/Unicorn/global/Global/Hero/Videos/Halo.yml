@@ -1,0 +1,20 @@
+﻿---
+ID: 6e50c013-4d59-483d-9e41-9de1c6340398
+Parent: da1b9bcb-defa-4f4d-ad0b-331a7c923874
+Template: 45b160ca-dfd6-44af-85ca-657ac10ff04c
+Path: /sitecore/content/Global/Hero/Videos/Halo
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141205T104301
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: c38772b5-db2d-4b69-b479-95f10a361386
+      # Video
+      Type: Treelist
+      Value: {0D6C5ECB-E92F-4EA7-BB9A-953ABECECB3E}

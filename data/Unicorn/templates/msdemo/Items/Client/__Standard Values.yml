@@ -1,0 +1,34 @@
+﻿---
+ID: 9a58edf5-bf12-44b0-b356-a0d658f40d42
+Parent: 269fe657-09ee-4d96-955d-8ca1d1c19ade
+Template: 269fe657-09ee-4d96-955d-8ca1d1c19ade
+Path: /sitecore/templates/User Defined/msdemo/Items/Client/__Standard Values
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: business/32x32/businessman.png
+- ID: c9283d9e-7c29-4419-9c28-5a5c8ff53e84
+  # __Bucketable
+  Value: 1
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  # __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{B0BCC7AE-135D-4B90-BC17-F708D51EDDC2}">
+        <r ds="" id="{0BC5FF90-C8D6-4D4A-B7F9-BE3A11CEC796}" par="" ph="body" uid="{E19DA30E-3C4F-4649-89E2-2ACE9B9DD2B6}" />
+        <r id="{3FBED397-E0CC-4B2C-992F-5F8D76FC6A9F}" ph="content" uid="{B4A479AC-7AC7-4B96-A221-6DF21BBAA7C7}" />
+        <r id="{C0273FD5-F76C-443A-A314-187D0C033062}" ph="leftcontent" uid="{F62C3253-C477-4C02-B4C9-43257812D764}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141212T092840Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

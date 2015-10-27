@@ -1,0 +1,98 @@
+﻿---
+ID: 36a06643-b886-455f-8508-b65019493e5b
+Parent: e18457f8-5889-4ba0-b0ef-2e001534da96
+Template: 824052cf-ae81-4519-aad3-af06a02a4c93
+Path: /sitecore/content/Home/News/Microsoft and Sitecore Alliance
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {7B0575A7-7211-4248-AF91-4F25AF93D1CB}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04621054-da72-4e54-aa5c-e545b2971819
+      # Teaser Image
+      Value: "<image mediaid=\"{0775B777-825D-4D5E-886A-02E82101B340}\" />"
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{8B36B2FB-3C54-4710-B4C4-7495058C68BF}" p:before="r[@uid='{569092AE-92AE-47D6-8F7A-BC865DEA2669}']" s:id="{22777FC7-72F0-4356-9791-F86D0282D27F}" s:mvt="{297EF843-391D-42EB-877D-B79213E1C0AA}" s:ph="/body/maincontent/onecontent" />
+            <r uid="{569092AE-92AE-47D6-8F7A-BC865DEA2669}" p:before="r[@uid='{E19DA30E-3C4F-4649-89E2-2ACE9B9DD2B6}']" s:id="{864918C1-B711-45D8-B36B-934E33453A7F}" s:ph="/body/maincontent/leftcontent" />
+            <r uid="{DEB73903-7496-44C3-8BB3-E493DD26D5BB}">
+              <p:d />
+            </r>
+            <r uid="{DA3BE533-6259-4F1A-9022-938E17260CBA}" p:before="r[@uid='{BC16104E-C628-4CE4-97D8-FEA5D195297F}']" s:ds="" s:id="{0CBB67E3-B08E-4FD6-8E46-0B0492E5744D}" s:par="" s:ph="maincontent" />
+            <r uid="{BC16104E-C628-4CE4-97D8-FEA5D195297F}" p:before="r[@uid='{0BF8D751-4624-4334-98BB-BC928E53F3B4}']" s:id="{4553BEB2-B94D-4F69-BA73-E52E42BBB8E8}" s:ph="/body/maincontent" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141204T105017Z
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel vehicula neque. Integer efficitur turpis ac nisl feugiat, sollicitudin ullamcorper nibh auctor. Maecenas semper massa elit, in rhoncus neque dictum eget. Sed tortor nisl, finibus at massa ac, tempor vestibulum metus. Vivamus tristique quam ac tempor ultrices. Vestibulum vel ex a tortor tincidunt ornare at sit amet arcu. Nulla lacinia semper diam sed condimentum. Phasellus non varius lacus, a vestibulum est. Praesent et facilisis mi. Sed vel pellentesque quam. Nulla egestas pretium iaculis. Proin efficitur sed nisl eu rutrum. Nullam quis finibus elit, a tincidunt orci.</p>
+        
+        <p>Vivamus viverra augue ac dignissim elementum. Proin consectetur massa sit amet efficitur finibus. Quisque a est vestibulum, dictum nisi vel, sagittis lacus. Aliquam interdum erat quis dui sodales, et efficitur massa gravida. Fusce non neque bibendum, tempor massa et, semper lorem. Donec euismod egestas tortor eu finibus. Integer sed luctus metus. Nullam non egestas nunc, non laoreet quam. Donec bibendum et magna at porta. Nulla facilisi. Proin volutpat ultrices dui at mollis. Pellentesque interdum nisl vel nunc pharetra, ultrices dictum sapien porttitor. Duis blandit nec ante quis gravida. Suspendisse vitae ultrices mauris. Nam convallis dolor sem.</p>
+        
+        <p>Fusce justo felis, eleifend eu lorem in, vulputate imperdiet risus. Aenean tempus rutrum nisl, in rutrum turpis condimentum nec. Nulla fermentum elit sit amet purus cursus, non feugiat ligula eleifend. In hac habitasse platea dictumst. Phasellus erat orci, vestibulum non aliquet a, auctor eget erat. Nullam venenatis tincidunt ex, sed accumsan justo egestas sagittis. Aliquam diam nibh, faucibus ornare ex ultrices, cursus maximus orci. Integer tristique hendrerit odio, id viverra lacus egestas ut. Nam rhoncus id lectus ac pulvinar. Nulla tempus sem a iaculis finibus. Donec viverra dui elementum metus consectetur, non mollis nisi vulputate. Sed pharetra laoreet bibendum. Duis posuere libero aliquam nisl semper, quis feugiat purus suscipit. Sed bibendum quis urna nec fringilla.</p>
+    - ID: 9acbbcab-2484-4558-9728-28433fe2f8a1
+      # Summary
+      Value: Microsoft and Sitecore announce key alliance.
+    - ID: a41260d2-aebe-4529-8aa7-202cf190f7fe
+      # Tags
+      Type: Treelist
+      Value: {3C61E3F7-B91C-4BEE-9E63-3B1047953F40}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Microsoft and Sitecore announce key alliance
+    - ID: d95bd7d2-2a5e-4f6c-a7c4-e5a564eb5487
+      # Date
+      Value: 20150211T000000Z
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Microsoft and Sitecore Alliance
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04621054-da72-4e54-aa5c-e545b2971819
+      # Teaser Image
+      Value: "<image mediaid=\"{0775B777-825D-4D5E-886A-02E82101B340}\" />"
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T094936Z
+    - ID: 2cd3e702-4a51-4faa-aa10-a6f4956e13d3
+      # Show in menu
+      Value: 1
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {754FE810-5A51-400A-8376-4DFCDDB01F0A}
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        スィ饺䨯 しゃ穤 リャ䰩栩大や ギュ鰣じゃ雦䩵, 勣黨府 儥す て㫤覦 よ榧ぐ饊䩦 も饦 襦樚䰧 覧滦 祣囤䰥揨諤 も饦誨租ぞ 壌ギョ馣で奚 ざミェ滩 ツ槥㠤げ禧 ギュ鰣じゃ雦䩵 榯., 鰣じゃ雦 䶥ユびゅ背る 毚ひゅガ祌襧 さく, 褦䩩訊ディ觜 榯.りヂョ䦧 よ榧ぐ饊䩦 くき䋨 饊䩦 姥じぎゃ蝣ち に盨焧ぢゅモ ゐ䥵㫣 ヒュフュ, 壃馨 せみゅ堨ちょさ ぱ秺狥䣊わ 壌ギョ馣 ほね嫣 しゅゐ 䥞榟ゲ駪は も饦誨租ぞ, 䶥ユびゅ背る りゃ檤楜珥苨 揧蝥榥つ祟 鰣じゃ雦 ギョ馣<br>
+        <br>
+        やりゃ檤 さく に盨焧ぢゅモ 䥜廦だ褤覣, たど くき䋨 毚ひゅガ祌襧 くき䋨ゞ簯 壌ギョ馣で奚, ギュ鰣じゃ雦䩵 妧なゆ愥䝣 フィェキ ぼ䩣い 姚しゅゐ䥵㫣 れきゃヲばず ユびゅ背 榟ゲ, 襨ちゃ椯 䥞榟ゲ駪は 䪥騌奊づレ ギュ鰣じゃ雦䩵 づレ 榧ぐ 愥䝣れ ヂャ榩觃団ぜ 驩び土ぼ䩣, 㧦ぢゃ ヂョ䦧よ 楯骤妤騪ぴ 姚しゅゐ䥵㫣 で奚 じゅゝ頨え狨 ギュ鰣じゃ雦䩵 姚しゅゐ䥵㫣 囤䰥揨<br>
+        <br>
+        ちゅベ ず䛨儦 祣囤䰥揨諤 䛣ぢょらチェ秵 せみゅ堨ちょさ, リャ䰩栩大や せみゅ堨ちょさ りゅ捨 で奚ちゅ あキョ媥榜りょ みょけ鄥妦姯 ほね嫣 障お リャ䰩栩大や りゃ檤楜珥苨 壌ギョ馣で奚 襦樚䰧 榥つ, 嫯Ủクォひゃヴュ 揧蝥榥つ祟 ぢ壎ぬ ひゅガ 覦卤隊 䛣ぢょらチェ秵 れきゃヲばず 騌奊, 姚しゅゐ䥵㫣 しゃ穤りゅ捨を 覧滦障 ちゃ椯, ぎゃ蝣 しゃ穤りゅ 䝧ぽ礊ファ姟 みょけ鄥妦姯
+    - ID: 9acbbcab-2484-4558-9728-28433fe2f8a1
+      # Summary
+      Value: Microsoft と Sitecore は、キーの提携を発表。
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Microsoft と Sitecore は、キーの提携を発表。
+    - ID: d95bd7d2-2a5e-4f6c-a7c4-e5a564eb5487
+      # Date
+      Value: 20150211T000000Z
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Microsoft と Sitecore は、キーの提携を発表。

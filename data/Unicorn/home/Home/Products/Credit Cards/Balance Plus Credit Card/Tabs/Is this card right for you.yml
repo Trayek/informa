@@ -1,0 +1,44 @@
+﻿---
+ID: 720ff680-9ee1-4d87-afd8-d87616331c22
+Parent: d9f240d1-9823-464a-a33d-dc7b4e199337
+Template: faedcc41-e96f-4565-84b9-397259a3b3de
+Path: /sitecore/content/Home/Products/Credit Cards/Balance Plus Credit Card/Tabs/Is this card right for you
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150312T105322Z
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{DE936F74-5BC9-4E50-B563-23584D6B402F}\" />"
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        <h3 style="padding-top:0px !important">IS THIS CREDIT CARD RIGHT FOR YOU?</h3>
+        <p>With our Balance Plus credit card, there's no need to worry about paying the balance transfer or annual fees. Our realistically low rate of 6.94% means it's the card you can stick with and that sticks with you in return.</p>
+        <br>
+        <p>Always try and pay more than your minimum payment as paying only the minimum takes longer to pay off your balance and will cost your more money in the long run.</p>
+        <br>
+        
+        <h4 class="text-success">We're more likely to accept you if you:</h4>
+        <ul class="list-unstyled margin-bottom-20">
+        <li><em class="fa fa-check"></em>You've had credit cards in the past</li>
+        <li><em class="fa fa-check"></em>You're aged 21 or over</li>
+        <li><em class="fa fa-check"></em>You're a home owner</li>
+        <li><em class="fa fa-check"></em>You have an income of more than £20,000 p.a.</li>
+        </ul>
+        <h4 class="text-danger">We're not likely to accept you if you:</h4>
+        <ul class="list-unstyled margin-bottom-20">
+        <li><em class="fa fa-check"></em>You have missed payments in the past</li>
+        <li><em class="fa fa-check"></em>You've never had credit in the UK before</li>
+        <li><em class="fa fa-check"></em>You've had CCJs or defaults</li>
+        </ul>
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Is this card right for you?
+    - ID: d547796d-9183-45a7-9a76-70445bfbb88f
+      # Tab name
+      Value: tab-1

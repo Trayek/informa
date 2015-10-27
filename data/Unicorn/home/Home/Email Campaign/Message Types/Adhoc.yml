@@ -1,0 +1,17 @@
+﻿---
+ID: 3f3483e8-0d14-4acc-a577-af4b36691419
+Parent: 41eceff0-73f3-4c2c-81ca-8ef036d6c462
+Template: fa257176-aa15-4999-91c5-c03f3bda5027
+Path: /sitecore/content/Home/Email Campaign/Message Types/Adhoc
+BranchID: f8fae92a-4f10-470c-ad5c-7ed9e6b636af
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150908T094507Z
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: One Time Message

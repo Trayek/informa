@@ -1,0 +1,35 @@
+﻿---
+ID: 5ea48441-86cb-463e-9626-f3c1bb85e5bb
+Parent: 451a7b31-e1e6-4145-b1ab-ee9152172a0e
+Template: 451a7b31-e1e6-4145-b1ab-ee9152172a0e
+Path: /sitecore/templates/User Defined/msdemo/Items/Blockquote/__Standard Values
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: WordProcessing/32x32/bold_red_a.png
+- ID: 75eec381-2d7d-41c4-a950-77564469a91e
+  # Hover Colour
+  Value: {F3485060-3C97-4957-BC1C-13E2083B9061}
+- ID: 8f8ed436-db8a-48f2-83fc-961ec66ed947
+  # Icon
+  Value: fa fa-rocket margin-right-10
+- ID: fc382c03-7be6-4c9e-bee3-bb7a5c83599a
+  # Colour
+  Value: {C4679974-E93C-4F31-A002-E3039EF67FF9}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141211T152918
+    - ID: 27a9c845-f70a-42f9-a5d5-6bcdb28060df
+      # Link Text
+      Value: Learn more
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 880b22dd-e04f-4a7e-a3a3-dca5afb723ee
+      # Quote
+      Value: $name

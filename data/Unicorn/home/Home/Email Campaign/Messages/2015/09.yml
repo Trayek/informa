@@ -1,0 +1,16 @@
+﻿---
+ID: 12b950c6-bb3d-4886-9b90-6febd270951f
+Parent: 08c52033-2413-4df4-899e-01adf5009fcb
+Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+Path: /sitecore/content/Home/Email Campaign/Messages/2015/09
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150908T094707Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

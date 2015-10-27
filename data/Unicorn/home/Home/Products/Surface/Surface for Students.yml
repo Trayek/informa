@@ -1,0 +1,72 @@
+﻿---
+ID: 517abdf9-fd0c-4025-8a33-f6b69a0f9547
+Parent: fd056149-e0f6-4e86-810a-d48d48e3880a
+Template: 8fd46617-a947-4964-9b92-67b3fbe68b26
+Path: /sitecore/content/Home/Products/Surface/Surface for Students
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B2FD4E6E-7FE0-4A96-8669-3BA9C5498ED1}
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{B000189D-DE2F-473F-817F-7006254F047E}" name="Site Interest" presets="surface|100||">
+        <key name="Mobile" value="1" />
+        <key name="Office" value="1" />
+        <key name="Surface" value="10" />
+        <key name="Xbox" value="0" />
+      </profile>
+    </tracking>
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150112T170028Z
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{1BD84443-CC68-4B0C-A986-DA64904B3412}\" />"
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Surface for Students
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: Select your school to get great deals
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Surface for Students
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T102649Z
+    - ID: 2cd3e702-4a51-4faa-aa10-a6f4956e13d3
+      # Show in menu
+      Value: 1
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{1BD84443-CC68-4B0C-A986-DA64904B3412}\" />"
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {4AC5E48B-7A3E-462C-BF8E-1B87BF7E14B3}
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Surface 学生のための
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: お得を得るためにあなたの学校を選択
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Surface 学生のための

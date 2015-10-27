@@ -1,0 +1,16 @@
+﻿---
+ID: 76c1f179-2ba9-4213-8f74-1e6e9991d963
+Parent: f02b19d3-59c7-41a1-93bd-d04e07eb8185
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/User Defined/msdemo/Items/Important Info/Base
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150129T093443Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

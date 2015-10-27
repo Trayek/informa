@@ -1,0 +1,53 @@
+﻿---
+ID: 430713b5-e92b-4611-b1b6-6ea6b687ac08
+Parent: 824052cf-ae81-4519-aad3-af06a02a4c93
+Template: 824052cf-ae81-4519-aad3-af06a02a4c93
+Path: /sitecore/templates/User Defined/msdemo/Items/News Item/__Standard Values
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: network/32x32/news.png
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B2FD4E6E-7FE0-4A96-8669-3BA9C5498ED1}
+- ID: ca9b9f52-4fb0-4f87-a79f-24dea62cda65
+  # __Default workflow
+  Value: {7B0575A7-7211-4248-AF91-4F25AF93D1CB}
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  # __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{B0BCC7AE-135D-4B90-BC17-F708D51EDDC2}">
+        <r ds="" id="{0BC5FF90-C8D6-4D4A-B7F9-BE3A11CEC796}" par="" ph="body" uid="{E19DA30E-3C4F-4649-89E2-2ACE9B9DD2B6}" />
+        <r ds="" id="{3B11875D-05BA-40E1-8E9B-BBA6EC083330}" par="" ph="maincontent" uid="{DEB73903-7496-44C3-8BB3-E493DD26D5BB}" />
+        <r ds="" id="{54704326-5CFC-4B06-BF28-FD613AD5E320}" par="" ph="content" uid="{0BF8D751-4624-4334-98BB-BC928E53F3B4}" />
+        <r ds="" id="{25E25A7E-17E7-4852-A3A5-311F595DBE33}" par="" ph="rightcontent" uid="{98B42645-B616-4DF2-A02E-19E5E21A8425}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{DEB73903-7496-44C3-8BB3-E493DD26D5BB}" s:id="{3B11875D-05BA-40E1-8E9B-BBA6EC083330}" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141204T104427Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {4AC5E48B-7A3E-462C-BF8E-1B87BF7E14B3}
+    - ID: d95bd7d2-2a5e-4f6c-a7c4-e5a564eb5487
+      # Date
+      Value: $date
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: $name

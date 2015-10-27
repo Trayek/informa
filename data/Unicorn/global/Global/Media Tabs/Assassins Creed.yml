@@ -1,0 +1,43 @@
+﻿---
+ID: 5191477f-a603-453c-9083-2144ac54a66a
+Parent: f58dc5f0-5315-4981-9a2b-0388a245516e
+Template: 0a3823b0-3200-4c40-8056-da295d05efcc
+Path: /sitecore/content/Global/Media Tabs/Assassins Creed
+SharedFields:
+- ID: 4862cdf7-1513-4ad3-ba69-3983c98ccfbc
+  # Images
+  Type: Treelist
+  Value: |
+    {4BE4C87F-B311-42DB-8961-D3B5D54B7881}
+    {7AF28118-16C8-4BC8-8E4F-B4D92F9A8D19}
+    {9FD6409C-69A7-437D-AABF-97AB700B027E}
+    {DC5ADF4F-9312-4A07-BAED-8C7D002ACEA1}
+    {7079BF63-31DD-4BB0-A37D-E9F013368CE0}
+    {1260B21C-D357-49B7-ACD4-FA0FE45CECAF}
+    {8BB6F1B8-1BE7-42CE-9632-84B946BBFB16}
+    {99A529AB-40B8-43FA-93C1-B17D14602B95}
+    {AE0DEE6F-8166-4CEA-9209-41897A45E465}
+    {9C18ACE2-7C2C-4EFF-A4A4-66787FD8D6B8}
+    {4CB825AC-D1CC-4CCB-B5A6-B363E44FC334}
+    {90328CFB-DD5E-4BF2-980A-BD571DEBA775}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150219T144318Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122100Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

@@ -1,0 +1,20 @@
+﻿---
+ID: 1443a761-637c-4886-8dd9-5f5156ee229e
+Parent: 39af5b5c-dfc7-4515-be98-8ce7ea088f4f
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/User Defined/msdemo/Items/Steps/Step One/One Title
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Single-Line Text
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150310T162031Z

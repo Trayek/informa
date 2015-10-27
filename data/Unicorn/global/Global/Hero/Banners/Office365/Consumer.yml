@@ -1,0 +1,91 @@
+﻿---
+ID: 29687772-2e46-4e70-a79f-9729323788eb
+Parent: b90ec2a5-fcf5-4ada-9391-d8753b8af594
+Template: 7cd4fb93-c30c-422b-8ba5-902c35505798
+Path: /sitecore/content/Global/Hero/Banners/Office365/Consumer
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141204T163344
+    - ID: 3eed451b-d15c-44a1-997f-377ada28c11e
+      # Background Image
+      Value: "<image mediaid=\"{DCE3FE65-FD88-4AF7-87CA-3FE589481D81}\" />"
+    - ID: 76f3f31b-7f3e-4b92-8b56-d9b091a6f632
+      # Content
+      Value: |
+          <div class="caption lfl slide_title slide_item_left"
+        	data-x="30"
+        	data-y="125"
+        	data-speed="400"
+        	data-start="3500"
+        	data-easing="easeOutExpo">
+        	Powerfull &amp; Clean
+          </div>
+          <div class="caption lfl slide_subtitle slide_item_left"
+        	data-x="30"
+        	data-y="200"
+        	data-speed="400"
+        	data-start="4000"
+        	data-easing="easeOutExpo">
+        	Responsive Admin &amp; Website Theme
+          </div>
+          <div class="caption lfl slide_desc slide_item_left"
+        	data-x="30"
+        	data-y="245"
+        	data-speed="400"
+        	data-start="4500"
+        	data-easing="easeOutExpo">
+        	Lorem ipsum dolor sit amet, consectetuer elit sed diam<br/> nonummy amet euismod dolore.
+          </div>                        
+          <div class="caption lfr slide_item_right" 
+        	data-x="635" 
+        	data-y="105" 
+        	data-speed="1200" 
+        	data-start="1500" 
+        	data-easing="easeOutBack">
+        	<img src="/metronic/frontend/pages/img/revolutionslider/mac.png" alt="Image 1"/>
+          </div>
+          <div class="caption lfr slide_item_right" 
+        	data-x="580" 
+        	data-y="245" 
+        	data-speed="1200" 
+        	data-start="2000" 
+        	data-easing="easeOutBack">
+        	<img src="/metronic/frontend/pages/img/revolutionslider/ipad.png" alt="Image 1"/>
+          </div>
+          <div class="caption lfr slide_item_right" 
+        	data-x="735" 
+        	data-y="290" 
+        	data-speed="1200" 
+        	data-start="2500" 
+        	data-easing="easeOutBack">
+        	<img src="/metronic/frontend/pages/img/revolutionslider/iphone.png" alt="Image 1"/>
+          </div>
+          <div class="caption lfr slide_item_right" 
+        	data-x="835" 
+        	data-y="230" 
+        	data-speed="1200" 
+        	data-start="3000" 
+        	data-easing="easeOutBack">
+        	<img src="/metronic/frontend/pages/img/revolutionslider/macbook.png" alt="Image 1"/>
+          </div>
+          <div class="caption lft slide_item_right" 
+        	data-x="865" 
+        	data-y="45" 
+        	data-speed="500" 
+        	data-start="5000" 
+        	data-easing="easeOutBack">
+        	<img src="/metronic/frontend/pages/img/revolutionslider/hint1-red.png" id="rev-hint1" alt="Image 1"/>
+          </div>                        
+          <div class="caption lfb slide_item_right" 
+        	data-x="355" 
+        	data-y="355" 
+        	data-speed="500" 
+        	data-start="5500" 
+        	data-easing="easeOutBack">
+        	<img src="/metronic/frontend/pages/img/revolutionslider/hint2-red.png" id="rev-hint2" alt="Image 1"/>
+          </div>

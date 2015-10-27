@@ -1,0 +1,33 @@
+﻿---
+ID: f3485060-3c97-4957-bc1c-13e2083b9061
+Parent: 956e6c91-6c43-423b-9a08-988f5f64e7cb
+Template: ef31dbef-81a6-4d15-91b9-f74aac494331
+Path: /sitecore/content/Global/Colours/Sitecore Purple
+SharedFields:
+- ID: 4e869701-0d81-4caf-936f-c4b7f3331b42
+  # CSS Filename
+  Value: purple.css
+- ID: c546b60c-07ba-45c7-b4e3-6bbcfae000a1
+  # CSS
+  Value: scbrandpurple
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150121T141017Z
+    - ID: f7b61ddf-29c1-4de8-98a6-17a3045a1a68
+      # HEX
+      Value: #651F76
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T121741Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

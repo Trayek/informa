@@ -1,0 +1,105 @@
+﻿---
+ID: 79e2706f-4e77-437a-89b7-220735700760
+Parent: 8e810b67-bff3-4d1f-aa07-efa0b90c345f
+Template: 8fd46617-a947-4964-9b92-67b3fbe68b26
+Path: /sitecore/content/Home/Products/Xbox/Xbox One Games/Fifa 15
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B2FD4E6E-7FE0-4A96-8669-3BA9C5498ED1}
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{B000189D-DE2F-473F-817F-7006254F047E}" name="Site Interest" presets="xbox|100||">
+        <key name="Office" value="0" />
+        <key name="Xbox" value="10" />
+        <key name="Surface" value="0" />
+        <key name="Mobile" value="0" />
+      </profile>
+      <profile id="{F8013B04-E03A-4685-ACF6-F8C662215553}" name="Gaming Interest" presets="sports|100||">
+        <key name="Action" value="0" />
+        <key name="Adventure" value="0" />
+        <key name="Fighting" value="0" />
+        <key name="Racing" value="0" />
+        <key name="Sports" value="10" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{706942A9-5DD5-45A8-9B4B-C3CA0FFBA147}" p:before="r[@uid='{77DC072C-1019-428C-99A8-83D64FD54FA7}']" s:ds="{20C2E790-159E-4027-9707-7B1B23E24151}" s:id="{3FBA5F7E-5563-4D00-8959-BF5E0A973559}" s:ph="/body/maincontent/content/onecontent" />
+            <r uid="{8A631C59-C28B-4805-B4C0-8EAB6D4D2A68}" s:id="{4553BEB2-B94D-4F69-BA73-E52E42BBB8E8}" s:ph="/body/maincontent/content" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150119T155605Z
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{2FB0DA0C-024F-4F6D-9FBA-82AFDE575B9D}\" />"
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        <p>For the first time ever, players will show emotion based on the context of the match. With over 600 new emotional reactions, players now respond to pivotal moments on the pitch &ndash; bad tackles, missed chances, epic goals - as they would in real life.</p>
+        <p>Match Day is dynamic and immersive. Improved commentary will highlight unique fan reactions, while chants and behaviours will be relevant to your club. New bench reactions, side line character animations, 10-man goal celebrations, and more will keep you engaged in the story of the match.</p>
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {A8662AEB-187D-46E2-BB6F-386F419C168B}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Fifa 15
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: Football is the greatest drama on earth and FIFA 15 puts fans centre stage, allowing them to feel the emotion and intensity of the world's greatest sport.
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Fifa 15
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T104522Z
+    - ID: 2cd3e702-4a51-4faa-aa10-a6f4956e13d3
+      # Show in menu
+      Value: 1
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{2FB0DA0C-024F-4F6D-9FBA-82AFDE575B9D}\" />"
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {4AC5E48B-7A3E-462C-BF8E-1B87BF7E14B3}
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        史上初めて、選手たちは試合の状況に基づいて、感情が表示されます。悪いタックル、逃したチャンス、壮大な目標 - - 600以上の新しい感情的な反応と、選手たちは今、ピッチ上の重要な瞬間に反応し、彼らが実際の生活の中で同じように。<br>
+        <br>
+        マッチデーは、ダイナミックで臨場感のあります。チャントや行動はあなたのクラブに関連するが改善された解説は、ユニークなファンの反応を強調表示します。新しいベンチ反応、サイドラインのキャラクタアニメーション、10人のゴールのお祝い、そしてより多くのあなたが試合の話に従事していきます。
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {A8662AEB-187D-46E2-BB6F-386F419C168B}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Fifa 15
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: サッカーは地球上で最も偉大なドラマで、FIFA15は、彼らが世界で最も偉大なスポーツの感情と強さを感じるようにできるように、センターステージのファンを置きます。
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Fifa 15

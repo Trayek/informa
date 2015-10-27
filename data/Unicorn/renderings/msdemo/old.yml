@@ -1,0 +1,17 @@
+﻿---
+ID: 278c3dd2-9f3e-4d77-8eab-f27913efe1f1
+Parent: 07bd3bcf-429e-4361-9a0d-35a41201aa66
+Template: 7ee0975b-0698-493e-b3a2-0b2ef33d0522
+Path: /sitecore/layout/Renderings/msdemo/old
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 1700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150126T162639Z

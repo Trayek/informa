@@ -1,0 +1,23 @@
+﻿---
+ID: c0273fd5-f76c-443a-a314-187d0c033062
+Parent: f7288446-8fe0-4ed1-ad39-2dd506481693
+Template: f1f1d639-4f54-40c2-8be0-81266b392ceb
+Path: /sitecore/layout/Renderings/msdemo/Content/Product Item
+SharedFields:
+- ID: 78783f79-1411-4b91-958d-ad81f81e2485
+  # Path
+  Value: /xsl/msdemo/productitem.xslt
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141119T155016
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Page Title Text & Image

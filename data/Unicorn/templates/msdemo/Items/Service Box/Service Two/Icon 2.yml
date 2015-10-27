@@ -1,0 +1,23 @@
+﻿---
+ID: 7e0c088f-6ab5-44c6-a6e2-68824f0e25cf
+Parent: d205cbb3-1311-4951-bd80-d12c66a4244a
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/User Defined/msdemo/Items/Service Box/Service Two/Icon 2
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Single-Line Text
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+- ID: be351a73-fcb0-4213-93fa-c302d8ab4f51
+  # Shared
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150119T135353Z

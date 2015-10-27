@@ -1,0 +1,23 @@
+﻿---
+ID: 48d38f86-4ccb-4741-99e3-ece990dc9ff5
+Parent: cf1484d0-15d7-4b0d-9279-e52ee408f193
+Template: f1f1d639-4f54-40c2-8be0-81266b392ceb
+Path: /sitecore/layout/Renderings/msdemo/Page Components/Workflow Reports
+SharedFields:
+- ID: 78783f79-1411-4b91-958d-ad81f81e2485
+  # Path
+  Value: /xsl/msdemo/workflowreports.xslt
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+- ID: c7c26117-dbb1-42b2-ab5e-f7223845cca3
+  # __Thumbnail
+  Value: "<image mediaid=\"{CF9B3EDE-4846-4F2A-B41E-B4581E843A5F}\" />"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141211T142021Z

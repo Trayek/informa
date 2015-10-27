@@ -1,0 +1,47 @@
+﻿---
+ID: 43b46e8b-f87a-4d3e-bc5d-68d6992b6aa2
+Parent: f58dc5f0-5315-4981-9a2b-0388a245516e
+Template: 0a3823b0-3200-4c40-8056-da295d05efcc
+Path: /sitecore/content/Global/Media Tabs/Halo 5
+SharedFields:
+- ID: 4862cdf7-1513-4ad3-ba69-3983c98ccfbc
+  # Images
+  Type: Treelist
+  Value: |
+    {FDE04EFF-BF7A-4745-A8FF-6B4F67BF05E4}
+    {70F1FCDE-0362-4642-A282-F3D41FFFBF1C}
+    {F7A4C448-1946-4EA8-B5A0-C1CB0C9FF670}
+    {260B842A-3839-4342-B5D4-186300926918}
+    {010F5A78-AB85-428E-A11D-374CD34EE86F}
+    {ADFC7F93-E824-4DFB-8D32-03F50E629D31}
+    {F838E6DF-5145-4093-B43A-BEEFB26CA58C}
+    {6C3BD278-EEE6-4F2C-99B5-D4A12A2D994C}
+    {3CF92F1F-BA65-45E3-BA57-B8CBE7F6D958}
+    {D7802375-CC5D-4E1C-9449-E2B6F3D6E9EB}
+    {543E5999-1D42-498C-88E0-2DC707C4BE00}
+    {F3E60C9C-6829-4D45-8B3A-824911387866}
+- ID: e9ef37ce-12ce-4dac-adf1-b1faeb2d14c9
+  # Video
+  Type: Treelist
+  Value: {6EC2FE61-DA54-4B5A-9C1C-A49C95733916}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150309T134041Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122158Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

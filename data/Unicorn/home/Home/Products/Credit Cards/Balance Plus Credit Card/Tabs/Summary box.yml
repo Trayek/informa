@@ -1,0 +1,230 @@
+﻿---
+ID: cbf93aa6-fd5b-421f-a38d-92b5c874820a
+Parent: d9f240d1-9823-464a-a33d-dc7b4e199337
+Template: faedcc41-e96f-4565-84b9-397259a3b3de
+Path: /sitecore/content/Home/Products/Credit Cards/Balance Plus Credit Card/Tabs/Summary box
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150312T105335Z
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        <h3>Key features of your Capital One credit card</h3>
+        <table border="0" cellpadding="0" cellspacing="0" class="summary-table">
+        	
+        	<tbody><tr>
+        		<td colspan="2" scope="row"><p align="center"><strong>SUMMARY BOX</strong><br>
+        				The information contained in this table summarises key product features and is not intended to replace any terms and conditions.</p></td>
+        	</tr>
+        	<!--End Header--> 
+        	<!--Representative Example-->
+        	<tr>
+        		<th scope="row">Representative Example</th>
+        		<td class="rep-ex" style="padding-left:50px;"><ul class="list-unstyled">
+        				<li>19.9% APR representative variable</li>
+        				<li>19.94% p.a. variable on purchases</li>
+        				<li>£1,200 assumed credit limit</li>
+        			</ul></td>
+        	</tr>
+        	<!--End Representative Example--> 
+        	<!--Rates-->
+        	<tr>
+        		<th scope="row">Interest Rates</th>
+        		<td class="table" style="padding-left:50px;"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="summary-sub-table">
+        				<tbody><tr>
+        					<th scope="col">&nbsp;</th>
+        					<th scope="col"><p align="center">Introductory Rate</p></th>
+        					<th scope="col"><p align="center">Monthly Rate</p></th>
+        					<th scope="col" class="end"><p align="center">Annual Rate</p></th>
+        				</tr>
+        				<tr>
+        					<td class="summary-color1">Purchases</td>
+        					<td class="summary-color2"><p align="center">N/A</p></td>
+        					<td class="summary-color2"><p align="center">1.53%</p></td>
+        					<td class="summary-color2 end"><p align="center">19.94%*</p></td>
+        				</tr>
+        				<tr>
+        					<td class="summary-color1">Cash withdrawals</td>
+        					<td class="summary-color2"><p align="center">N/A</p></td>
+        					<td class="summary-color2"><p align="center">1.53%</p></td>
+        					<td class="summary-color2 end"><p align="center">19.94%*</p></td>
+        				</tr>
+        				<tr>
+        					<td class="summary-color1 bottom">Balance transfers</td>
+        					<td class="summary-color2 bottom"><p align="center">N/A</p></td>
+        					<td class="summary-color2 bottom"><p align="center">0.56%</p></td>
+        					<td class="summary-color2 end bottom"><p align="center">6.94%*</p></td>
+        				</tr>
+        			</tbody></table></td>
+        	</tr>
+        	<!--End Rates--> 
+        	<!--Interest Free-->
+        	<tr>
+        		<th scope="row">Interest free period</th>
+        		<td style="padding-left:50px;"><ul class="list-unstyled">
+        				<li>Maximum of 56 days for purchases where the balance is paid in full every month</li>
+        				<li>0 days for balance transfers and cash</li>
+        			</ul>
+        			<br>
+        			Subject to any interest free period that may apply. </td>
+        	</tr>
+        	<!--End Interest Free--> 
+        	<!--Misc-->
+        	<tr>
+        		<th scope="row" rowspan="2">Interest charging information</th>
+        		<td class="summary-color2" style="padding-left:50px;">No interest is payable on purchases if you pay in full the outstanding balance on your first statement by its payment due date. No interest is payable on purchases on subsequent statements if the outstanding balances on your current statement and the previous statement are paid in full by their respective payment due dates. <br>
+        			<br>
+        			Otherwise the period over which interest is charged is as follows: </td>
+        	</tr>
+        	<tr>
+        		<td class="table" style="padding-left:50px;"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="summary-sub-table">
+        				<tbody><tr>
+        					<th width="251" scope="col" class="light">&nbsp;</th>
+        					<th width="151" scope="col" class="light">From</th>
+        					<th width="201" scope="col" class="light end">Until</th>
+        				</tr>
+        				<tr>
+        					<td class="summary-color2">Purchases</td>
+        					<td class="summary-color2">Posted date</td>
+        					<td class="summary-color2 end">Paid in full</td>
+        				</tr>
+        				<tr>
+        					<td class="summary-color2">Cash Withdrawals</td>
+        					<td class="summary-color2">Posted date</td>
+        					<td class="summary-color2 end">Paid in full</td>
+        				</tr>
+        				<tr>
+        					<td class="summary-color2 bottom">Balance Transfers</td>
+        					<td class="summary-color2 bottom">Posted date</td>
+        					<td class="summary-color2 end bottom">Paid in full</td>
+        				</tr>
+        			</tbody></table></td>
+        	</tr>
+        	<tr>
+        		<th scope="row">Allocation of payments</th>
+        		<td style="padding-left:50px;"> Unless you pay the outstanding balance in full, we will allocate your payments to balances which attract the highest interest rate first. <br>
+        			<br>
+        			We will always allocate your payments to any amounts which have already appeared on a statement before allocating your payments to any amounts subsequently applied to your account. </td>
+        	</tr>
+        	<!--End Misc--> 
+        	<!--Repay-->
+        	<tr>
+        		<th scope="row">Minimum repayment</th>
+        		<td style="padding-left:50px;"> The monthly credit card payment is:<br>
+        			- the full outstanding balance if it is less than £5, but otherwise the greater of:<br>
+        			<ul class="list-unstyled">
+        				<li>An amount equal to the total of (i) 1% of the outstanding balance on your account; (ii) interest applied to your account in that month; (iii) all Default Sums incurred in that month; and (iv) one twelfth of your Annual Fee, or</li>
+        				<li> £5 </li>
+        			</ul></td>
+        	</tr>
+        	<tr>
+        		<th scope="row">Credit limit</th>
+        		<td class="table" style="padding-left:50px;"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="summary-sub-table2">
+        				<tbody><tr>
+        					<th scope="row">Minimum credit limit</th>
+        					<td class="summary-color2 end">£2,000 </td>
+        				</tr>
+        				<tr>
+        					<th scope="row" class="bottom">Maximum credit limit</th>
+        					<td class="summary-color2 end bottom">£12,000 </td>
+        				</tr>
+        			</tbody></table></td>
+        	</tr>
+        	<!--End Repay--> 
+        	<!--Fee-->
+        	<tr>
+        		<th scope="row">Fees</th>
+        		<td class="summary-color2 row" style="padding-left:50px;">No Annual Fee</td>
+        	</tr>
+        	<!--End Fee--> 
+        	<!--Charges-->
+        	<tr>
+        		<th scope="row">Charges</th>
+        		<td class="table" style="padding-left:50px;"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="summary-sub-table3">
+        				<tbody><tr>
+        					<th scope="row">Balance transfer handling fee</th>
+        					<td class="summary-color2 end"> 0.0% </td>
+        				</tr>
+        				<!--<tr>
+        					<th scope="row">Foreign currency conversion charge</th>
+        					<td class="summary-color2 end">2.75%</td>
+        				</tr>-->
+        				<tr>
+        					<th scope="row">Cash fee</th>
+        					<td class="summary-color2 end">3.0% <br>
+        						(minimum £3)</td>
+        				</tr>
+        				<tr>
+        					<th scope="row" class="bottom">Copy statement charge</th>
+        					<td class="summary-color2 end bottom">£3 (maximum £10 per request)</td>
+        				</tr>
+        			</tbody></table></td>
+        	</tr>
+        	  <tr>
+                <th scope="row">Foreign Usage</th>
+                <td class="table" style="padding-left:50px;"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="summary-sub-table3">
+                    <tbody>			
+        				<tr><th rowspan="4" scope="row">Payment Scheme Exchange Rate</th>
+        				</tr><tr>
+        					<td class="summary-color2">Rates can be found at:</td>
+        				</tr>
+        				<tr>
+        					<td class="summary-color2"><a href="http://www.visaeurope.com/en/cardholders/exchange_rates.aspx" target="_blank">Visa</a></td>
+        				</tr>
+        				<tr>
+        					<td class="summary-color2 end"><a href="https://www.mastercard.com/global/currencyconversion/index.html" target="_blank">MasterCard</a></td>
+        				</tr>
+        		  <tr>
+        		  	<td colspan="2" scope="row"><strong>One or more of the following may apply:</strong></td>
+        		  </tr>
+                    <tr>
+                    <th scope="row">Non-sterling transaction fee</th>
+                    <td class="summary-color2 end">2.75%</td>
+                  </tr>
+                    <tr>
+                    <th class="bottom" scope="row">Cash Fee</th>
+                    <td class="summary-color2 end bottom">3.0% <br>
+                        (minimum £3)</td>
+                  </tr>
+                  </tbody></table></td>
+              </tr>
+        	<tr>
+        		<th scope="row">Default charges</th>
+        		<td class="table" style="padding-left:50px;"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="summary-sub-table2">
+        				<tbody><tr>
+        					<th scope="row" class="white">Late and Failure to Pay Default Sum</th>
+        					<td class="end">£12 </td>
+        				</tr>
+        				<tr>
+        					<th scope="row" class="white">Returned Payment Default Sum</th>
+        					<td class="end">£12 </td>
+        				</tr>
+        				<tr>
+        					<th scope="row" class="white">Overlimit Default Sum</th>
+        					<td class="end">£12 </td>
+        				</tr>
+        				<tr>
+        					<th scope="row" class="white bottom">Returned Credit Card Cheque Default Sum</th>
+        					<td class="end bottom">£12.00 </td>
+        				</tr>
+        			</tbody></table>
+        
+        </td>
+        </tr>
+        <!--End Charges--> 
+        <!--Small Print single rate-->
+        <tr>
+        	<td colspan="2" class="bottom" style="padding-top:50px;">*The simple interest rate is 18.32% for purchases, 6.73% for balance transfers and 18.32% for cash withdrawals from the date of this agreement.</td>
+        </tr>
+        </tbody></table>
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Summary box
+    - ID: d547796d-9183-45a7-9a76-70445bfbb88f
+      # Tab name
+      Value: tab-2

@@ -1,0 +1,26 @@
+﻿---
+ID: 942aa534-6f43-48c1-900d-916ae8eeda8f
+Parent: 3c77af3d-dc32-468a-9a79-6198b462bdb1
+Template: 8fd46617-a947-4964-9b92-67b3fbe68b26
+Path: /sitecore/content/Home/Products/Xbox/Xbox 360 Games/Mark of the Ninja
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150305T120738Z
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{334949CE-FDE0-4AAC-8D15-D9F19F566434}\" />"
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {1AA042D8-77AE-4717-8FE8-C6D4879FD6A7}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Mark of the Ninja
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Mark of the Ninja

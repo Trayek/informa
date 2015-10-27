@@ -1,0 +1,33 @@
+﻿---
+ID: cdda400a-3aec-4ab2-ab51-8b3f2cb0fa08
+Parent: 110d559f-dea5-42ea-9c1c-8a5df7e70ef9
+Template: cf9c8a2a-2794-4fea-980a-ef8426f3d6c3
+Path: /sitecore/content/Home/Email Campaign
+BranchID: f8fae92a-4f10-470c-ad5c-7ed9e6b636af
+SharedFields:
+- ID: 1b963507-6176-4336-a14d-d5070c3b0286
+  # Base URL
+  Value: http://officecore.demo
+- ID: 52d572ad-9678-423f-96e2-477528418ba1
+  # Global Opt-out List
+  Value: cbb52755-ce11-4671-8f6c-733f3f1f7a24
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  # __Security
+  Value: ar|sitecore\ECM Users|pd|^*|+item:read|pe|^*|+item:read|ar|sitecore\ECM Advanced Users|pd|+item:delete|+item:admin|+item:create|+item:rename|^*|+item:read|+item:write|pe|+item:delete|+item:admin|+item:create|+item:rename|^*|+item:read|+item:write|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0f383cd8-c031-4a9d-9ed0-d55217f91287
+      # From Address
+      Value: info@officecore.demo
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150908T094507Z
+    - ID: 69aad409-ca36-4767-b945-abb77f3611fd
+      # From Name
+      Value: Officecore
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Email Campaign

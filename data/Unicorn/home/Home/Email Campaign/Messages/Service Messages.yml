@@ -1,0 +1,14 @@
+﻿---
+ID: f27d4279-a45b-4495-8b9c-307ecd89c0fe
+Parent: f0927828-3ae8-4200-98a2-1804ea9aa7d9
+Template: 69474581-3668-4fed-b0f0-0b88c2532cae
+Path: /sitecore/content/Home/Email Campaign/Messages/Service Messages
+BranchID: f8fae92a-4f10-470c-ad5c-7ed9e6b636af
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150908T094507Z

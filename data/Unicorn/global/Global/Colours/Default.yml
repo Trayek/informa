@@ -1,0 +1,33 @@
+﻿---
+ID: 8f6ce293-1747-47ea-af9a-de054793ac76
+Parent: 956e6c91-6c43-423b-9a08-988f5f64e7cb
+Template: ef31dbef-81a6-4d15-91b9-f74aac494331
+Path: /sitecore/content/Global/Colours/Default
+SharedFields:
+- ID: 4e869701-0d81-4caf-936f-c4b7f3331b42
+  # CSS Filename
+  Value: red.css
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+- ID: c546b60c-07ba-45c7-b4e3-6bbcfae000a1
+  # CSS
+  Value: scbrandred
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141203T155602
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T121727Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

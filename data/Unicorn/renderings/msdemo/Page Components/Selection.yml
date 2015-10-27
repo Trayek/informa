@@ -1,0 +1,23 @@
+﻿---
+ID: 1bd806d1-283b-4fdd-8003-de80c7541e3f
+Parent: cf1484d0-15d7-4b0d-9279-e52ee408f193
+Template: f1f1d639-4f54-40c2-8be0-81266b392ceb
+Path: /sitecore/layout/Renderings/msdemo/Page Components/Selection
+SharedFields:
+- ID: 78783f79-1411-4b91-958d-ad81f81e2485
+  # Path
+  Value: /xsl/msdemo/selection.xslt
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+- ID: c7c26117-dbb1-42b2-ab5e-f7223845cca3
+  # __Thumbnail
+  Value: "<image mediaid=\"{B6705D3B-02C8-491E-B621-90B563AA254D}\" />"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141211T142021Z

@@ -1,0 +1,86 @@
+﻿---
+ID: b1d14b7f-ac32-4f09-b228-811f814758bc
+Parent: e18457f8-5889-4ba0-b0ef-2e001534da96
+Template: 824052cf-ae81-4519-aad3-af06a02a4c93
+Path: /sitecore/content/Home/News/Cloud Computing with Microsoft Windows Azure and Sitecore
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {7B0575A7-7211-4248-AF91-4F25AF93D1CB}
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04621054-da72-4e54-aa5c-e545b2971819
+      # Teaser Image
+      Value: "<image mediaid=\"{74BF49D2-3804-4BDF-A49B-CF3836208BB3}\" ></image>"
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141204T111158
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel vehicula neque. Integer efficitur turpis ac nisl feugiat, sollicitudin ullamcorper nibh auctor. Maecenas semper massa elit, in rhoncus neque dictum eget. Sed tortor nisl, finibus at massa ac, tempor vestibulum metus. Vivamus tristique quam ac tempor ultrices. Vestibulum vel ex a tortor tincidunt ornare at sit amet arcu. Nulla lacinia semper diam sed condimentum. Phasellus non varius lacus, a vestibulum est. Praesent et facilisis mi. Sed vel pellentesque quam. Nulla egestas pretium iaculis. Proin efficitur sed nisl eu rutrum. Nullam quis finibus elit, a tincidunt orci.</p>
+        <p>Vivamus viverra augue ac dignissim elementum. Proin consectetur massa sit amet efficitur finibus. Quisque a est vestibulum, dictum nisi vel, sagittis lacus. Aliquam interdum erat quis dui sodales, et efficitur massa gravida. Fusce non neque bibendum, tempor massa et, semper lorem. Donec euismod egestas tortor eu finibus. Integer sed luctus metus. Nullam non egestas nunc, non laoreet quam. Donec bibendum et magna at porta. Nulla facilisi. Proin volutpat ultrices dui at mollis. Pellentesque interdum nisl vel nunc pharetra, ultrices dictum sapien porttitor. Duis blandit nec ante quis gravida. Suspendisse vitae ultrices mauris. Nam convallis dolor sem.</p>
+        <p>Fusce justo felis, eleifend eu lorem in, vulputate imperdiet risus. Aenean tempus rutrum nisl, in rutrum turpis condimentum nec. Nulla fermentum elit sit amet purus cursus, non feugiat ligula eleifend. In hac habitasse platea dictumst. Phasellus erat orci, vestibulum non aliquet a, auctor eget erat. Nullam venenatis tincidunt ex, sed accumsan justo egestas sagittis. Aliquam diam nibh, faucibus ornare ex ultrices, cursus maximus orci. Integer tristique hendrerit odio, id viverra lacus egestas ut. Nam rhoncus id lectus ac pulvinar. Nulla tempus sem a iaculis finibus. Donec viverra dui elementum metus consectetur, non mollis nisi vulputate. Sed pharetra laoreet bibendum. Duis posuere libero aliquam nisl semper, quis feugiat purus suscipit. Sed bibendum quis urna nec fringilla.</p>
+    - ID: 9acbbcab-2484-4558-9728-28433fe2f8a1
+      # Summary
+      Value: Many organizations are starting to consider moving their applications to a cloud platform. For those interested in how to work in the Windows Azure cloud using web content management platform Sitecore, here's a look.
+    - ID: a41260d2-aebe-4529-8aa7-202cf190f7fe
+      # Tags
+      Type: Treelist
+      Value: {AC30B2CF-F599-4DEA-8A7C-3E53F05BE8D6}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Cloud Computing with Microsoft Windows Azure and Sitecore
+    - ID: d95bd7d2-2a5e-4f6c-a7c4-e5a564eb5487
+      # Date
+      Value: 20141101T111100Z
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Cloud Computing with Microsoft Windows Azure and Sitecore
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04621054-da72-4e54-aa5c-e545b2971819
+      # Teaser Image
+      Value: "<image mediaid=\"{74BF49D2-3804-4BDF-A49B-CF3836208BB3}\" />"
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T095450Z
+    - ID: 2cd3e702-4a51-4faa-aa10-a6f4956e13d3
+      # Show in menu
+      Value: 1
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {754FE810-5A51-400A-8376-4DFCDDB01F0A}
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        曣樃 ぢゃにゃをご栧 窣げちゃしゃぢ 滥団奚ゔ㠨 大姌儥, 穃 て 廥襦䥜䥚ぴょ っツィザぐヨ 曣樃ー きょ骦禯ひゅき よ碜土ミェ囨 どぎゃロ杧饨 フィェ祌 ゞ饣妥 ぢゃにゃ か䶥䨵*ン积 廥襦䥜䥚ぴょ きょ骦禯ひゅき 楌ホ鋨 䋥大 窯篞祧 ひょ覌襪愦媤 坣橣駣びょ覨 夯䋧とりゅ鄥<br>
+        <br>
+        ゞ饣 覧䋤びゃ 坣橣駣びょ覨 夯䋧とりゅ鄥 どぎゃロ杧饨, 檨駧な が䋥大姌儥 檤黧以ヴ㤣 覦睢じゅッ勯 ぢゃにゃ 禌フィェ祌 雤ほ榧䤤䤂 か䶥䨵*ン积 勤䨯, 祧令 雤ほ榧䤤䤂 さギュみょ軩櫦 蟤ぺヒョ, ニェ焩餣䧎觜 ヒョ䏨フ駺氨 䝧ぎ稪エ禌 䧣けぢゅ 驦榯 駣びょ覨 窯篞 窯篞祧令绨 さギュみょ軩櫦, が䋥大姌儥 䶧背解谣ヂョ ひょ覌襪愦媤 穤府 䰧わ榚 障饥にょグェジェ ー拥婨ひゃ覧 よ碜土ミェ囨 わ榚 ブぜぴゅ, か䶥䨵*ン积 つぴだゐꤎ 㠯りぴゃグァ馜 拥婨ひゃ 囤む, 䥜䥚 ꤎ坣橣 ぢゃにゃをご栧 廥襦䥜䥚ぴょ しょブぜぴゅきゃ 䰧わ榚睥楦 ッ訊䪩穯セ 㠯りぴゃグァ馜 䋥大 檨駧な, ヴャ䝧 が䋥大姌儥 &micro;れ䛤めヲ ꤎ坣橣<br>
+        <br>
+        䪥ぢょゞ饣妥 囥やフョ曣樃 坣橣駣びょ覨 㤣&micro; 果ぷべ, じゅッ 叧ま䧨 障饥にょグェジェ きょ骦禯ひゅき の軣ぎょづ㦵, え埥 っツィザぐヨ 䶧背解谣ヂョ 秺ウァいふヴャ 楌ホ鋨 た知 ぴだゐ ぽは驦榯グィ 饃壪りょ餩驚 滥団奚ゔ㠨, 㠯りぴゃ 廥襦䥜䥚ぴょ しゅ檨駧な卤 夯䋧とりゅ鄥 栧馤, の軣ぎょづ㦵 さギュみょ軩櫦 壌焣 ぎ稪エ 驦榯 障饥にょグェジェ 䰧わ榚睥楦 ッ訊䪩穯セ 愦媤よ, ニェ焩餣䧎觜 䋤びゃ叧ま䧨 どぎゃロ杧饨 愦媤 の軣ぎょ, 驚窣 雤ほ榧䤤䤂 ぢゃにゃをご栧 しょブぜぴゅきゃ 鄥穃 て ぎ稪 姚ぞ揦 ニェ焩餣䧎觜 坣橣駣びょ覨, ブぜぴゅ し穤府蟤ぺ しゅ檨駧な卤 饃壪 ぞ揦 せ廨姚ぞ揦 갣䧦觟う栤 ッ訊䪩, 蟤ぺヒョ いふ ニェ焩餣䧎觜 穃 て䯞奟ウゥ ちょ捨鎌勤䨯 榯グィ椯 ヒョ䏨フ駺氨 秺ウァいふヴャ の軣ぎょづ㦵 こ䰧, 樦じょ ロ杧饨 つぴだゐꤎ 夯䋧とりゅ鄥 滥団奚ゔ㠨 りょ餩驚 雤ほ榧䤤䤂 の軣ぎょづ㦵 㦵夯, 䤂ぢゃにゃ ー拥 䝧ぎ稪エ禌 ッ訊䪩穯セ みゃず壌焣ノ, 秺ウァい よ碜土ミェ囨 饃壪りょ餩驚 グェジェ<br>
+        <br>
+        し穤府蟤ぺ みゃず壌焣ノ ゞ饣妥 っツィ, ぷべ きょ骦禯ひゅき 䋤びゃ叧ま䧨 檤黧以ヴ㤣 姚ぞ揦, 窯篞祧令绨 ニェ焩餣䧎觜 みゃず壌焣ノ 䰧わ榚 㤣&micro; 蝥ち りょ餩驚 しゅ檨駧な卤 窣げちゃしゃぢ ちょ捨鎌勤䨯, 窯篞祧令绨 お夦あびに 盯馯りゃ蝥ち 覌襪 の軣ぎょ 拥婨ひゃ 障饥にょグェジェ 椯楌ホ鋨苩 㠯りぴゃグァ馜 覦睢 さギュ りょ餩驚 椯楌ホ鋨苩 갣䧦觟う栤 っツィザぐヨ 極じ盥嶥そ どぎゃロ杧饨 みゃず 䧣けぢゅ
+    - ID: 9acbbcab-2484-4558-9728-28433fe2f8a1
+      # Summary
+      Value: 多くの組織では、クラウドプラットフォームへのアプリケーションの移行を検討し始めています。 Webコンテンツ管理プラットフォームサイトコアのWindows Azureのクラウド使用してで作業する方法に興味のある方については、こちらをご覧です。
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: マイクロソフトのWindows Azureのとサイトコアを使用したクラウドコンピューティング
+    - ID: d95bd7d2-2a5e-4f6c-a7c4-e5a564eb5487
+      # Date
+      Value: 20141101T000000Z
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: マイクロソフトのWindows Azureのとサイトコアを使用したクラウドコンピューティング

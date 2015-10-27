@@ -1,0 +1,49 @@
+﻿---
+ID: 69ceaf5f-1976-443c-b246-f64807b6c49b
+Parent: d6d325ae-4a21-44a0-9158-4be55130aaab
+Template: f02b19d3-59c7-41a1-93bd-d04e07eb8185
+Path: /sitecore/content/Global/Important Info/Default
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150129T093656Z
+    - ID: 37d9c131-8cca-4b26-a0cc-d42ca864e1d7
+      # Button Colour
+      Value: {F3485060-3C97-4957-BC1C-13E2083B9061}
+    - ID: 98a2f3c7-e19e-4d54-a948-018c5c9df3f0
+      # Title
+      Value: <h2><em>Important</em> Information</h2>
+    - ID: 9ed380e4-5981-45cc-81eb-48336cd8e898
+      # Button Text
+      Value: More details
+    - ID: ec1cd934-5773-4f34-997d-9c4f934a7635
+      # Text
+      Value: |
+        <p>Lorem ipsum dolor ut sit ame dolore  adipiscing elit, sed sit nonumy nibh sed euismod ut laoreet dolore magna aliquarm erat sit volutpat. Nostrud exerci tation ullamcorper suscipit lobortis nisl aliquip  commodo sdgfsdfsdfquat.</p>
+        <p>Duis autem vel eum iriure at dolor vulputate velit esse vel molestie at dolore.</p>
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T121823Z
+    - ID: 37d9c131-8cca-4b26-a0cc-d42ca864e1d7
+      # Button Colour
+      Value: {F3485060-3C97-4957-BC1C-13E2083B9061}
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 98a2f3c7-e19e-4d54-a948-018c5c9df3f0
+      # Title
+      Value: <strong><em>重要な情報</em></strong>
+    - ID: 9ed380e4-5981-45cc-81eb-48336cd8e898
+      # Button Text
+      Value: 詳細
+    - ID: ec1cd934-5773-4f34-997d-9c4f934a7635
+      # Text
+      Value: 曣樃 ぢゃにゃをご栧 窣げちゃしゃぢ 滥団奚ゔ㠨 大姌儥, 穃 て 廥襦䥜䥚ぴょ っツィザぐヨ 曣樃ー きょ骦禯ひゅき よ碜土ミェ囨 どぎゃロ杧饨 フィェ祌 ゞ饣妥 ぢゃにゃ か䶥䨵*ン积 廥襦䥜䥚ぴょ きょ骦禯ひゅき 楌ホ鋨 䋥大 窯篞祧 ひょ覌襪愦媤 坣橣駣びょ覨 夯䋧とりゅ鄥<br>

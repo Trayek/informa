@@ -1,0 +1,27 @@
+﻿---
+ID: 66ac1b0d-4d2e-446a-8a3c-1dfdec3206a2
+Parent: d06493f7-026c-4974-805a-3c912033e6d9
+Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+Path: /sitecore/templates/User Defined/msdemo/Items/Social Network
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Network/32x32/earth_preferences.png
+- ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
+  # __Base template
+  Type: tree list
+  Value: {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+- ID: f7d48a55-2158-4f02-9356-756654404f73
+  # __Standard values
+  Value: {DCA4778E-6DFA-4F1E-AB18-018A60C2C681}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141119T160131
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

@@ -1,0 +1,34 @@
+﻿---
+ID: 6d77ef34-3c01-417f-87c2-17151d4fccc0
+Parent: f9a15236-6c31-4086-9ba8-5efae77eb7cc
+Template: f9a15236-6c31-4086-9ba8-5efae77eb7cc
+Path: /sitecore/templates/User Defined/msdemo/Items/Steps/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1443a761-637c-4886-8dd9-5f5156ee229e
+      # One Title
+      Value: Goal Definition
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150310T162218Z
+    - ID: 5c0f33f1-7bc3-48e8-88df-4482f4d7f34b
+      # Two Title
+      Value: Analyse
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b3bc5932-fcf7-4780-a44f-788c4d8fa599
+      # Three Title
+      Value: Implementation
+    - ID: d4bbdd78-2172-44a3-9538-2b8662b4f1f4
+      # One Text
+      Value: Lorem ipsum dolor sit amet sit consectetur adipisicing eiusmod tempor.
+    - ID: e3a34bc6-b50e-4069-8a6c-6f2bdb7cc1ea
+      # Three Text
+      Value: Lorem ipsum dolor sit amet sit consectetur adipisicing eiusmod tempor.
+    - ID: e4d29c2b-2a67-44fa-935c-433d9cba599a
+      # Two Text
+      Value: Lorem ipsum dolor sit amet sit consectetur adipisicing eiusmod tempor.

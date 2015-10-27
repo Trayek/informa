@@ -1,0 +1,335 @@
+﻿---
+ID: 110d559f-dea5-42ea-9c1c-8a5df7e70ef9
+Parent: 0de95ae4-41ab-4d01-9eb0-67441b7c2450
+Template: 4a8822cc-b418-4452-ab0f-8bb6df2f2114
+Path: /sitecore/content/Home
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Network/16x16/home.png
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: -1
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  # __Security
+  Value: ar|sitecore\Officecore Marketing|pe|+item:write|pd|+item:write|ar|sitecore\hca demo|pe|-item:rename|-item:delete|+item:read|-item:write|+item:create|!*|pd|+item:create|+item:read|+item:rename|+item:delete|+item:write|^*|
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  # __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r uid="{2C63C7C6-9D57-4B82-81A7-79693E4AF085}">
+          <rls>
+            <ruleset>
+              <rule uid="{6C175EEA-7EF1-4EB7-9BFA-F958E39A9DC2}">
+                <p:d />
+              </rule>
+              <rule uid="{0FDB8C37-3D7B-4B2E-A01C-A2CE12D31A71}">
+                <conditions>
+                  <condition uid="00578AFD4EFE4F3599EADE194FEA70D0">
+                    <p:d />
+                  </condition>
+                  <condition uid="3B06E53468B6400289BB8829194E34CE" s:id="{B158DDE5-BA14-49E1-AE9A-46A4B3D31541}" s:CampaignId="{4BEF5EE7-3C8D-4C77-A359-318BC5753461}" />
+                </conditions>
+                <actions>
+                  <action uid="4C6F0516A9B74777A84F8FA07FF40B1F" s:DataSource="{C9FE66AE-7620-4608-937B-A5DD3F61F5A9}" />
+                  <action uid="795C1B1DB48946B1A31D7C44AA43515D">
+                    <p:d />
+                  </action>
+                </actions>
+              </rule>
+            </ruleset>
+          </rls>
+        </r>
+        <r uid="{6F9D1A55-0E35-4DAF-9F6A-5F96C3B573D9}" s:ds="{8CBDA387-0FFE-4258-ACD9-AA7CE0ABF10A}">
+          <rls>
+            <p:d />
+          </rls>
+        </r>
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{2C63C7C6-9D57-4B82-81A7-79693E4AF085}">
+              <rls>
+                <ruleset>
+                  <rule uid="{6C175EEA-7EF1-4EB7-9BFA-F958E39A9DC2}" p:before="rule[@uid='{1EF08891-46F8-411C-9668-4E7AD04858A2}']" s:name="Visitor is Action Gamer">
+                    <conditions>
+                      <and uid="98BE687612D0488A80DF133D75477C84">
+                        <condition uid="E5BA7E34F98C4939B4D89AB19DC52845" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Gaming Interest" s:PatternName="Action Gamer" />
+                        <condition uid="5E9FDD545CB84E20BFD8448E3BE4FE31" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Site Interest" s:PatternName="Gamer" />
+                      </and>
+                    </conditions>
+                    <actions>
+                      <action uid="CA71204E05C542ACB95B3983DD37B515" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{7459A72C-8DC8-4CBE-8AE3-D90BF25CD48E}" />
+                      <action uid="630396B57B4E4CB99F8FD5FFC7E622B6" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{0D40E2E5-0E68-491F-83B1-18DB82E9E052}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{1EF08891-46F8-411C-9668-4E7AD04858A2}" p:before="rule[@uid='{57045653-9B80-4160-94ED-8204F4550C53}']" s:name="Social Media - WPC 2015">
+                    <conditions>
+                      <condition uid="A39D07704BFA46A4BFE319CA06FF2290" s:id="{B2E953D3-688F-45B8-BCD2-1E480503706B}" s:CampaignId="{5368B16E-93D6-4674-BC1E-06437AE2062A}" />
+                    </conditions>
+                    <actions>
+                      <action uid="0EEEF46A3F074B2F92D4210C5F91C237" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{32A9C627-3322-458C-85D5-607ABC1ECD1B}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{57045653-9B80-4160-94ED-8204F4550C53}" p:before="rule[@uid='{0FDB8C37-3D7B-4B2E-A01C-A2CE12D31A71}']" s:name="Call-back form submitted">
+                    <conditions>
+                      <condition uid="E2659A37983543DC91054DC9F0F1A5CA" s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" s:GoalId="{F8BD7E3A-439E-4AF9-8568-77F7A9762C1B}" />
+                    </conditions>
+                    <actions>
+                      <action uid="BBC47FCD9CF64BA7ACC32AF706AA3011" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{526917B0-2E70-4246-BD3C-1727DD4503DF}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{0FDB8C37-3D7B-4B2E-A01C-A2CE12D31A71}" s:name="'Surface Pro 3' PPC triggered">
+                    <conditions>
+                      <condition uid="3B06E53468B6400289BB8829194E34CE">
+                        <p:d />
+                      </condition>
+                      <condition uid="00578AFD4EFE4F3599EADE194FEA70D0" s:id="{B2E953D3-688F-45B8-BCD2-1E480503706B}" s:CampaignId="{DB623302-7EB2-4ABA-A4A9-8CE8E9DCD2D3}" />
+                    </conditions>
+                    <actions>
+                      <action uid="4C6F0516A9B74777A84F8FA07FF40B1F" s:DataSource="{757DC5CF-69A5-4FC9-AF63-57FEE3195E21}" />
+                      <action uid="795C1B1DB48946B1A31D7C44AA43515D" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{5F1C2796-7DCA-4C19-BC82-3F7293555C23}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r uid="{6F9D1A55-0E35-4DAF-9F6A-5F96C3B573D9}" s:ds="{E5D8E853-9D51-4658-9719-743911D30377}">
+              <rls>
+                <ruleset>
+                  <rule uid="{74DA5848-6D98-4746-9D1C-0C3DD75B6AAE}" s:name="Call back form submitted">
+                    <actions>
+                      <action uid="98F7102FF0924B6FA86B5E63ADEC79D6" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{E5D8E853-9D51-4658-9719-743911D30377}" />
+                    </actions>
+                    <conditions>
+                      <condition uid="9E9BAC66FB9C445980BF6B6B94B1F186" s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" s:GoalId="{F8BD7E3A-439E-4AF9-8568-77F7A9762C1B}" />
+                    </conditions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="6A81CB55E9AE4638B0A53FF91092864E" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action uid="833A2C020EE14DDE8A6512BC027789CB" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{8CBDA387-0FFE-4258-ACD9-AA7CE0ABF10A}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r uid="{D735F39B-16A6-4F6E-BE80-877B5F4B323A}" p:before="r[@uid='{E1C3CA03-8FBA-49AB-8121-3423BFE5C81B}']" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20080407T135900
+    - ID: 577f1689-7de4-4ad2-a15f-7fdc1759285f
+      # __Long description
+      Value: The Home item is the default starting point for a website.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 79357b7c-4d56-4b3b-b75d-6b713d7dbea0
+      # Logo
+      Value: "<image mediaid=\"{FD122A92-AAD7-429C-BE1D-D8B29E5B5B58}\" />"
+    - ID: 9541e67d-ce8c-4225-803d-33f7f29f09ef
+      # __Short description
+      Value: Welcome to Sitecore.
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Home
+    - ID: f72fb8c9-b9f3-494a-a54d-2760d3ddff3f
+      # Title
+      Value: Officecore Demo
+  - Version: 2
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{2C63C7C6-9D57-4B82-81A7-79693E4AF085}">
+              <rls>
+                <ruleset>
+                  <rule uid="{6C175EEA-7EF1-4EB7-9BFA-F958E39A9DC2}" p:before="rule[@uid='{1EF08891-46F8-411C-9668-4E7AD04858A2}']" s:name="Visitor is Action Gamer">
+                    <conditions>
+                      <and uid="98BE687612D0488A80DF133D75477C84">
+                        <condition uid="E5BA7E34F98C4939B4D89AB19DC52845" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Gaming Interest" s:PatternName="Action Gamer" />
+                        <condition uid="5E9FDD545CB84E20BFD8448E3BE4FE31" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Site Interest" s:PatternName="Gamer" />
+                      </and>
+                    </conditions>
+                    <actions>
+                      <action uid="CA71204E05C542ACB95B3983DD37B515" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{7459A72C-8DC8-4CBE-8AE3-D90BF25CD48E}" />
+                      <action uid="630396B57B4E4CB99F8FD5FFC7E622B6" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{0D40E2E5-0E68-491F-83B1-18DB82E9E052}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{1EF08891-46F8-411C-9668-4E7AD04858A2}" p:before="rule[@uid='{57045653-9B80-4160-94ED-8204F4550C53}']" s:name="Social Media - WPC 2015">
+                    <conditions>
+                      <condition uid="12DD3197A612455A8A8BAE91AC8489A5" s:id="{6AC8CF4D-8BF1-4E16-B29B-051751B32782}" s:CampaignId="{73EC4235-C040-4F5A-95FD-298724F9B620}" />
+                    </conditions>
+                    <actions>
+                      <action uid="0EEEF46A3F074B2F92D4210C5F91C237" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{32A9C627-3322-458C-85D5-607ABC1ECD1B}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{57045653-9B80-4160-94ED-8204F4550C53}" p:before="rule[@uid='{0FDB8C37-3D7B-4B2E-A01C-A2CE12D31A71}']" s:name="Call-back form submitted">
+                    <conditions>
+                      <condition uid="E2659A37983543DC91054DC9F0F1A5CA" s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" s:GoalId="{AC8E7BAB-0D60-4F48-9CE5-D988992BD95F}" />
+                    </conditions>
+                    <actions>
+                      <action uid="BBC47FCD9CF64BA7ACC32AF706AA3011" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{526917B0-2E70-4246-BD3C-1727DD4503DF}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{0FDB8C37-3D7B-4B2E-A01C-A2CE12D31A71}" s:name="'Surface Pro 3' PPC triggered">
+                    <conditions>
+                      <condition uid="3B06E53468B6400289BB8829194E34CE">
+                        <p:d />
+                      </condition>
+                      <condition uid="753887B1A17A4C0491FCD6C9C66F0668" s:id="{6AC8CF4D-8BF1-4E16-B29B-051751B32782}" s:CampaignId="{87925D56-34D9-4080-A725-6EC8B3B4CB0A}" />
+                    </conditions>
+                    <actions>
+                      <action uid="4C6F0516A9B74777A84F8FA07FF40B1F" s:DataSource="{757DC5CF-69A5-4FC9-AF63-57FEE3195E21}" />
+                      <action uid="795C1B1DB48946B1A31D7C44AA43515D" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{5F1C2796-7DCA-4C19-BC82-3F7293555C23}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r uid="{6F9D1A55-0E35-4DAF-9F6A-5F96C3B573D9}" s:ds="{E5D8E853-9D51-4658-9719-743911D30377}">
+              <rls>
+                <ruleset>
+                  <rule uid="{180F2D7D-9843-4F06-BF6E-4E88C58D1AE1}" s:name="CRM user">
+                    <actions>
+                      <action uid="71F90E81E2314EE0A054BAC6EC94BC9F" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{31F56347-EDD3-4755-BFD8-F5F320D843BE}" />
+                      <action uid="2DB156326D9A4302A1357E1B04C33B76" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{A34389B2-88CA-42E9-BF09-4236056950B6}" />
+                    </actions>
+                    <conditions>
+                      <condition uid="2DF87573506F49C799A026DF762A592A" s:id="{F9EFD6A0-E8A7-45D7-A153-6FCC851794E8}" s:value="crm" s:operatorid="{10537C58-1684-4CAB-B4C0-40C10907CE31}" />
+                    </conditions>
+                  </rule>
+                  <rule uid="{74DA5848-6D98-4746-9D1C-0C3DD75B6AAE}" s:name="Call back form submitted">
+                    <actions>
+                      <action uid="98F7102FF0924B6FA86B5E63ADEC79D6" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{E5D8E853-9D51-4658-9719-743911D30377}" />
+                    </actions>
+                    <conditions>
+                      <condition uid="9E9BAC66FB9C445980BF6B6B94B1F186" s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" s:GoalId="{AC8E7BAB-0D60-4F48-9CE5-D988992BD95F}" />
+                    </conditions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="6A81CB55E9AE4638B0A53FF91092864E" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action uid="833A2C020EE14DDE8A6512BC027789CB" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{8CBDA387-0FFE-4258-ACD9-AA7CE0ABF10A}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r uid="{E1C3CA03-8FBA-49AB-8121-3423BFE5C81B}">
+              <p:d />
+            </r>
+            <r uid="{B94CA53F-F741-48B7-AF72-319DCA72021E}">
+              <p:d />
+            </r>
+            <r uid="{2E0E5CED-DE13-4305-99E0-576949D3363F}">
+              <p:d />
+            </r>
+            <r uid="{B891FDEF-BBE3-481B-AE4C-4FA96594EBD8}" p:before="r[@uid='{FFCB1A3D-4316-4B77-A640-1BB70FB3EC4A}']" s:id="{9D535F5B-4297-4E06-A31D-80D07561D369}" s:ph="/body/maincontent" />
+            <r uid="{FFCB1A3D-4316-4B77-A640-1BB70FB3EC4A}" p:before="r[@uid='{42C37516-A364-46AE-82F7-DBE509CCE09D}']" s:ds="{D98F814A-AD46-40A9-9448-B981054E151F}" s:id="{CB1267CB-463A-4835-8527-0CD68AB4C63F}" s:ph="/body/maincontent" />
+            <r uid="{42C37516-A364-46AE-82F7-DBE509CCE09D}" s:ds="{FCA2DEED-D107-4267-BBA6-B3063A82F2AB}" s:id="{949658FD-43BD-4386-A924-BEE003CF04C9}" s:ph="/body/maincontent" />
+            <r uid="{D735F39B-16A6-4F6E-BE80-877B5F4B323A}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: 0582109b-9d24-4347-a969-8e59297c548d
+      # Theme
+      Value: {F3485060-3C97-4957-BC1C-13E2083B9061}
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150213T153046Z
+    - ID: 577f1689-7de4-4ad2-a15f-7fdc1759285f
+      # __Long description
+      Value: The Home item is the default starting point for a website.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 79357b7c-4d56-4b3b-b75d-6b713d7dbea0
+      # Logo
+      Value: "<image mediaid=\"{FD122A92-AAD7-429C-BE1D-D8B29E5B5B58}\" />"
+    - ID: 9541e67d-ce8c-4225-803d-33f7f29f09ef
+      # __Short description
+      Value: Welcome to Sitecore.
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      # __Valid from
+      Value: 20150101T000000Z
+    - ID: e2801612-74d9-4d25-b247-7eb97c7d3253
+      # Logo White
+      Value: "<image mediaid=\"{39B7CD49-4536-4728-8D3D-C0FA739B13D4}\" />"
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Home
+    - ID: f72fb8c9-b9f3-494a-a54d-2760d3ddff3f
+      # Title
+      Value: Officecore Demo
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{2C63C7C6-9D57-4B82-81A7-79693E4AF085}" s:ds="{E610CD62-4C69-45BF-AFCC-E75F5D484090}" />
+            <r uid="{D735F39B-16A6-4F6E-BE80-877B5F4B323A}" s:ph="/body/maincontent" />
+            <r uid="{B94CA53F-F741-48B7-AF72-319DCA72021E}">
+              <p:d />
+            </r>
+            <r uid="{2E0E5CED-DE13-4305-99E0-576949D3363F}" p:before="r[@uid='{E1C3CA03-8FBA-49AB-8121-3423BFE5C81B}']" s:ds="{D98F814A-AD46-40A9-9448-B981054E151F}" s:ph="/body/maincontent" />
+            <r uid="{E1C3CA03-8FBA-49AB-8121-3423BFE5C81B}" p:before="*[1=2]" s:ds="{FCA2DEED-D107-4267-BBA6-B3063A82F2AB}" />
+          </d>
+        </r>
+    - ID: 0582109b-9d24-4347-a969-8e59297c548d
+      # Theme
+      Value: {754BE79F-2299-4AAD-95BA-BA72DB169050}
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T091153Z
+    - ID: 577f1689-7de4-4ad2-a15f-7fdc1759285f
+      # __Long description
+      Value: ホーム アイテムは Web サイトのデフォルトの開始場所です
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 79357b7c-4d56-4b3b-b75d-6b713d7dbea0
+      # Logo
+      Value: "<image mediaid=\"{FD122A92-AAD7-429C-BE1D-D8B29E5B5B58}\" />"
+    - ID: 9541e67d-ce8c-4225-803d-33f7f29f09ef
+      # __Short description
+      Value: Sitecore へようこそ
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ホーム
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: ホーム
+    - ID: f72fb8c9-b9f3-494a-a54d-2760d3ddff3f
+      # Title
+      Value: Officecore デモ

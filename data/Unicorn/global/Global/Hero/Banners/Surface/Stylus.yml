@@ -1,0 +1,16 @@
+﻿---
+ID: 7811ad29-cdce-49a2-9511-348dc94d40b0
+Parent: 1ab9abe8-8dee-4d15-a5aa-beb52c9730b8
+Template: 7cd4fb93-c30c-422b-8ba5-902c35505798
+Path: /sitecore/content/Global/Hero/Banners/Surface/Stylus
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141204T163603
+    - ID: 3eed451b-d15c-44a1-997f-377ada28c11e
+      # Background Image
+      Value: "<image mediaid=\"{68EA2065-A982-4F60-9794-DF67DD68BDB9}\" />"

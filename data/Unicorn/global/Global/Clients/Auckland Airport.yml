@@ -1,0 +1,40 @@
+﻿---
+ID: 43158a03-d456-4ddb-97ec-77e80ea21b27
+Parent: 7e3cfdc4-6ff3-48ed-a474-d8f6b2e7abe4
+Template: 269fe657-09ee-4d96-955d-8ca1d1c19ade
+Path: /sitecore/content/Global/Clients/Auckland Airport
+SharedFields:
+- ID: 165f0491-cda3-408a-ba9a-e73740d65dad
+  # Logo On
+  Value: "<image mediaid=\"{E7892CE6-4329-4655-956B-CD95B203E557}\" ></image>"
+- ID: 17429ee7-6264-46aa-a7ca-6c1106417700
+  # Tags
+  Type: Treelist
+  Value: {13B06F35-168C-4DA5-BAE0-4440F75BC53F}
+- ID: 46fdb2ef-d6c6-46f7-a2b1-93b9910febb8
+  # Website
+  Value: "<link text=\"Auckland Airport\" linktype=\"external\" url=\"http://www.aucklandairport.co.nz/\" anchor=\"\" target=\"_blank\" />"
+- ID: 50881f1e-7324-412c-9fbb-de9ad64bcff8
+  # Logo Off
+  Value: "<image mediaid=\"{2E9CD7E3-C526-4201-93EB-8424E59DBAE7}\" ></image>"
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150313T093359Z
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T110115Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

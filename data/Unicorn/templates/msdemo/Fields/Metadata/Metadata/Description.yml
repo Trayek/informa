@@ -1,0 +1,32 @@
+﻿---
+ID: f6195d4e-8abf-45e6-a493-df62fdfe953c
+Parent: c4c45921-3333-4cea-b60a-90f14b24237e
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/User Defined/msdemo/Fields/Metadata/Metadata/Description
+SharedFields:
+- ID: 21828437-ea4b-40a1-8c61-4ce60ea41db6
+  # Validate Button
+  Type: tree list
+  Value: {EED857ED-2521-465E-A94F-C79D4E64251E}
+- ID: 337e20e1-999a-4eea-85ad-b58a03ae75cc
+  # Quick Action Bar
+  Type: tree list
+  Value: {EED857ED-2521-465E-A94F-C79D4E64251E}
+- ID: 9c903e29-650d-4af2-b9bd-526d5c14a1a5
+  # Validator Bar
+  Type: tree list
+  Value: {EED857ED-2521-465E-A94F-C79D4E64251E}
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Single-Line Text
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150506T073634Z

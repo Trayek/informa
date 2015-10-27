@@ -1,0 +1,21 @@
+﻿---
+ID: 80de9e2c-8cb7-4ef5-95fb-25afe975fc58
+Parent: 4c758b7d-17f9-470b-b403-e6cb207d8182
+Template: 4c758b7d-17f9-470b-b403-e6cb207d8182
+Path: /sitecore/templates/User Defined/msdemo/Item Folders/Video Folder/__Standard Values
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  # __Masters
+  Type: TreelistEx
+  Value: {45B160CA-DFD6-44AF-85CA-657AC10FF04C}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141205T104215
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

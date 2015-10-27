@@ -1,0 +1,40 @@
+﻿---
+ID: fbaaf2b8-290d-44f3-9287-26c5137d0cf3
+Parent: 7e3cfdc4-6ff3-48ed-a474-d8f6b2e7abe4
+Template: 269fe657-09ee-4d96-955d-8ca1d1c19ade
+Path: /sitecore/content/Global/Clients/Natwest
+SharedFields:
+- ID: 165f0491-cda3-408a-ba9a-e73740d65dad
+  # Logo On
+  Value: "<image mediaid=\"{97CD903C-9E0A-4D44-B71A-93CD9DA429F2}\" ></image>"
+- ID: 17429ee7-6264-46aa-a7ca-6c1106417700
+  # Tags
+  Type: Treelist
+  Value: {AC30B2CF-F599-4DEA-8A7C-3E53F05BE8D6}
+- ID: 46fdb2ef-d6c6-46f7-a2b1-93b9910febb8
+  # Website
+  Value: "<link text=\"Natwest\" linktype=\"external\" url=\"http://www.natwest.co.uk\" anchor=\"\" target=\"_blank\" />"
+- ID: 50881f1e-7324-412c-9fbb-de9ad64bcff8
+  # Logo Off
+  Value: "<image mediaid=\"{04C9B09F-1FFD-4184-BD2A-58521CA330D1}\" ></image>"
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 4800
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150122T160843Z
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T120604Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

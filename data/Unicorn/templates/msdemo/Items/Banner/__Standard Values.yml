@@ -1,0 +1,16 @@
+﻿---
+ID: 9e37a7fa-13f8-4bc2-ba83-8d0f5c5b9b3b
+Parent: 7cd4fb93-c30c-422b-8ba5-902c35505798
+Template: 7cd4fb93-c30c-422b-8ba5-902c35505798
+Path: /sitecore/templates/User Defined/msdemo/Items/Banner/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141203T154059
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

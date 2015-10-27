@@ -1,0 +1,28 @@
+﻿---
+ID: c9fe66ae-7620-4608-937b-a5dd3f61f5a9
+Parent: 27de31e6-fd4f-41a3-a530-e0c1b499684a
+Template: 951e5c7d-f8d2-4864-b06c-5d44985e7693
+Path: /sitecore/content/Global/Hero/Sliders/Xbox
+SharedFields:
+- ID: b01434bc-e57e-457f-b829-25981d3bd3ce
+  # Source
+  Type: Treelist
+  Value: {7B5D3FD5-5A83-4832-B6B0-7778F8EE0AA9}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141203T125744
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T123552Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

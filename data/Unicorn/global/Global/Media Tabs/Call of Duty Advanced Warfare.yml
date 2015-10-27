@@ -1,0 +1,47 @@
+﻿---
+ID: 6c2bace4-b963-4529-8d75-f405a3226cdd
+Parent: f58dc5f0-5315-4981-9a2b-0388a245516e
+Template: 0a3823b0-3200-4c40-8056-da295d05efcc
+Path: /sitecore/content/Global/Media Tabs/Call of Duty Advanced Warfare
+SharedFields:
+- ID: 4862cdf7-1513-4ad3-ba69-3983c98ccfbc
+  # Images
+  Type: Treelist
+  Value: |
+    {39DAE389-DFB7-4F37-9C9B-F81E2AFBA79D}
+    {501A1AF5-C9E8-49BA-AF5E-FEA0F7E095A1}
+    {93C03445-7FE7-4BFA-A7A2-5AE7607F71A3}
+    {38C29C6C-DA0B-43F5-8C71-31CA3C553250}
+    {F4DBC089-3D09-493F-A052-45C9224F0081}
+    {425DDDA5-8C79-4D18-88D2-02FD127D059F}
+    {ECB8F805-A8DA-4350-9B53-0B93C51694A0}
+    {6F4BDA44-ACD4-4487-B99B-5BD30DB8AFDE}
+    {8AF21297-34CF-47B5-B494-5A371D3414E3}
+    {C365F929-E068-4512-897E-AAA394155876}
+    {AACA4BBF-BAF3-4539-981F-7A5986FDC195}
+    {6020B429-0B03-4192-9D2E-D923F86342DE}
+- ID: e9ef37ce-12ce-4dac-adf1-b1faeb2d14c9
+  # Video
+  Type: Treelist
+  Value: {D2242BF4-708E-4E2D-928F-6CD7E2353A48}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150219T150431Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122133Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

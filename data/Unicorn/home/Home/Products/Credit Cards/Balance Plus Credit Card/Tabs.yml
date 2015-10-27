@@ -1,0 +1,13 @@
+﻿---
+ID: d9f240d1-9823-464a-a33d-dc7b4e199337
+Parent: 35e1a622-c5d0-4dd2-982d-9e036df2dd11
+Template: 7b39f0d2-512e-4dc2-a478-e22e95fdbd9c
+Path: /sitecore/content/Home/Products/Credit Cards/Balance Plus Credit Card/Tabs
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150312T105306Z

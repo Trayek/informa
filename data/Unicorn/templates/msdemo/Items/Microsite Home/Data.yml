@@ -1,0 +1,16 @@
+﻿---
+ID: 722f10eb-9404-49c8-8ac0-472135367d00
+Parent: eaf5ed0f-e05a-47ba-b8a6-618881fa2527
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/User Defined/msdemo/Items/Microsite Home/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141119T151527
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

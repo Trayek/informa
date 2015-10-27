@@ -1,0 +1,69 @@
+﻿---
+ID: fca2deed-d107-4267-bba6-b3063a82f2ab
+Parent: 6b13f1ed-dc83-4081-8f53-bcbd30d1a0f0
+Template: d975a75c-cd7c-4d5c-a14f-b90f36bc4b2e
+Path: /sitecore/content/Global/Service Box/Default
+SharedFields:
+- ID: 1ea1660a-68b2-48c6-b234-999309f672d8
+  # Icon 1
+  Value: fa fa-location-arrow blue
+- ID: 7e0c088f-6ab5-44c6-a6e2-68824f0e25cf
+  # Icon 2
+  Value: fa fa-check red
+- ID: afcbf17c-4b3c-4da6-9b81-37192e42f6e8
+  # Icon 3
+  Value: fa fa-compress green
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 13c8c491-7109-44de-9513-645ff75f7378
+      # Text 2
+      Value: Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris. Sed unde omnis iste natus error sit voluptatem.
+    - ID: 24d13288-687d-4fd4-90ca-e6d2348a0e55
+      # Text 1
+      Value: Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris. Sed unde omnis iste natus error sit voluptatem.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150119T135808Z
+    - ID: 31facd78-f0cb-4105-85e9-491eb08c90b5
+      # Text 3
+      Value: Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris. Sed unde omnis iste natus error sit voluptatem.
+    - ID: 52252547-7dce-49df-8eb1-bf57d2164860
+      # Title 3
+      Value: Responsive Design
+    - ID: da84c425-174c-4dac-8a5a-1a3f2f8b1058
+      # Title 1
+      Value: Multipurpose Template
+    - ID: e78b3be0-1d4a-474d-bb0b-87a9072605bd
+      # Title 2
+      Value: Well Documented
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 13c8c491-7109-44de-9513-645ff75f7378
+      # Text 2
+      Value: グェジェ 雤ほ榧䤤䤂 秺ウァいふヴャ びにきょ 睢じゅッ 氨鰦 檤黧以ヴ㤣 つぴだゐꤎ
+    - ID: 24d13288-687d-4fd4-90ca-e6d2348a0e55
+      # Text 1
+      Value: グェジェ 雤ほ榧䤤䤂 秺ウァいふヴャ びにきょ 睢じゅッ 氨鰦 檤黧以ヴ㤣 つぴだゐꤎ
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122233Z
+    - ID: 31facd78-f0cb-4105-85e9-491eb08c90b5
+      # Text 3
+      Value: グェジェ 雤ほ榧䤤䤂 秺ウァいふヴャ びにきょ 睢じゅッ 氨鰦 檤黧以ヴ㤣 つぴだゐꤎ
+    - ID: 52252547-7dce-49df-8eb1-bf57d2164860
+      # Title 3
+      Value: 応答デザイン
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: da84c425-174c-4dac-8a5a-1a3f2f8b1058
+      # Title 1
+      Value: 多目的テンプレート
+    - ID: e78b3be0-1d4a-474d-bb0b-87a9072605bd
+      # Title 2
+      Value: 十分に文書化

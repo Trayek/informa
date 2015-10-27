@@ -1,0 +1,13 @@
+﻿---
+ID: 31899a85-946e-4232-af64-2a6356377dcf
+Parent: e4fb81dc-d78f-4e5d-8653-ee035e666853
+Template: 8c283cb2-204b-4c43-bce0-a37fc2d161c9
+Path: /sitecore/content/Global/Hero/Banners/Custom
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150312T160728Z

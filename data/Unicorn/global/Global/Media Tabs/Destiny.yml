@@ -1,0 +1,43 @@
+﻿---
+ID: 93504ccd-dbdf-457d-aac6-38b6fe19ea19
+Parent: f58dc5f0-5315-4981-9a2b-0388a245516e
+Template: 0a3823b0-3200-4c40-8056-da295d05efcc
+Path: /sitecore/content/Global/Media Tabs/Destiny
+SharedFields:
+- ID: 4862cdf7-1513-4ad3-ba69-3983c98ccfbc
+  # Images
+  Type: Treelist
+  Value: |
+    {BBC5CAAD-5E36-4C79-868C-2A6904357C4D}
+    {FDBED9A8-F655-4EE4-9004-9D631A826782}
+    {D9D3C411-8E6E-4E99-A017-0E19D63C0184}
+    {433A73C6-BDD6-4C4E-A237-B47CB31F3D5B}
+    {7160F47F-F0E4-4723-8BE1-EB5A9B39B8FC}
+    {576470FE-B781-4992-A260-25A9A72C8CD9}
+    {AB81E825-408C-4D98-83A3-74144A8A4814}
+    {6D62B1D8-3F41-46C1-B6A3-55CC50691267}
+    {EEEE0417-04E0-4AB1-85EE-2428A92A96B9}
+    {381B7DF1-F112-46D9-B70E-C79046FFA4AF}
+    {B599D620-B272-4130-983A-F1CAA0BCE697}
+    {B3B3EFBA-B764-43B5-BB3C-02E706FF33AF}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150219T151221Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122136Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

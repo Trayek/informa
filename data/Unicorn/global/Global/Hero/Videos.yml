@@ -1,0 +1,19 @@
+﻿---
+ID: da1b9bcb-defa-4f4d-ad0b-331a7c923874
+Parent: 8ea508db-5ba2-428e-b78e-dd99adae59c7
+Template: 4c758b7d-17f9-470b-b403-e6cb207d8182
+Path: /sitecore/content/Global/Hero/Videos
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141205T104157
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: d825d030-a66b-4a47-8461-40069204c82f
+      # Holding image
+      Value: "<image mediaid=\"{F1D42397-78BF-4957-A333-1CFAE7B0D8F7}\" />"

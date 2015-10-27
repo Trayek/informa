@@ -1,0 +1,21 @@
+﻿---
+ID: d13b14ab-ae1b-4d9a-81a5-3ef68e74f6b7
+Parent: 5a185608-41c4-40e4-9942-9c0fc6f364f1
+Template: 5a185608-41c4-40e4-9942-9c0fc6f364f1
+Path: /sitecore/templates/User Defined/msdemo/Item Folders/Microsite/__Standard Values
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  # __Masters
+  Type: TreelistEx
+  Value: {EAF5ED0F-E05A-47BA-B8A6-618881FA2527}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141203T154407
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

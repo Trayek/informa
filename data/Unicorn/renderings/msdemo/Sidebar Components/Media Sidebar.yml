@@ -1,0 +1,26 @@
+﻿---
+ID: 3fba5f7e-5563-4d00-8959-bf5e0a973559
+Parent: 151503ed-8c61-4307-8f87-a5c2a334b614
+Template: f1f1d639-4f54-40c2-8be0-81266b392ceb
+Path: /sitecore/layout/Renderings/msdemo/Sidebar Components/Media Sidebar
+SharedFields:
+- ID: 1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f
+  # Datasource Template
+  Value: /sitecore/templates/User Defined/msdemo/Items/Media Tabs
+- ID: 78783f79-1411-4b91-958d-ad81f81e2485
+  # Path
+  Value: /xsl/msdemo/videosidebar.xslt
+- ID: b5b27af1-25ef-405c-87ce-369b3a004016
+  # Datasource Location
+  Value: /sitecore/content/Global/Media Tabs
+- ID: c7c26117-dbb1-42b2-ab5e-f7223845cca3
+  # __Thumbnail
+  Value: "<image mediaid=\"{2D5F440A-F6C5-4C7A-8634-7C447757A210}\" />"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141211T142021Z

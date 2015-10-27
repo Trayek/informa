@@ -1,0 +1,16 @@
+﻿---
+ID: 9a322841-faed-4cf7-b4b3-a69891fd60f8
+Parent: a4dee81e-af05-4556-917a-9f8126835442
+Template: 7cd4fb93-c30c-422b-8ba5-902c35505798
+Path: /sitecore/content/Global/Hero/Banners/Windows/Traveller
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141204T163947
+    - ID: 3eed451b-d15c-44a1-997f-377ada28c11e
+      # Background Image
+      Value: "<image mediaid=\"{30F7FA38-819D-434D-A333-D5B7836F46C2}\" />"

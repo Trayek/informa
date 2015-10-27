@@ -1,0 +1,16 @@
+﻿---
+ID: 0362f7f8-20f4-4849-901b-4a3557a9347a
+Parent: 1ab9abe8-8dee-4d15-a5aa-beb52c9730b8
+Template: 7cd4fb93-c30c-422b-8ba5-902c35505798
+Path: /sitecore/content/Global/Hero/Banners/Surface/Macbook
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141204T163553
+    - ID: 3eed451b-d15c-44a1-997f-377ada28c11e
+      # Background Image
+      Value: "<image mediaid=\"{6EDB7A6C-E766-4E15-9A96-9C940FAEAF02}\" />"

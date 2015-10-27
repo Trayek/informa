@@ -1,0 +1,108 @@
+﻿---
+ID: 2bf3732c-3a6e-4fe4-bc23-2aeb4a6febe7
+Parent: 8e810b67-bff3-4d1f-aa07-efa0b90c345f
+Template: 8fd46617-a947-4964-9b92-67b3fbe68b26
+Path: /sitecore/content/Home/Products/Xbox/Xbox One Games/Far Cry 4
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B2FD4E6E-7FE0-4A96-8669-3BA9C5498ED1}
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{B000189D-DE2F-473F-817F-7006254F047E}" name="Site Interest" presets="xbox|100||">
+        <key name="Office" value="0" />
+        <key name="Xbox" value="10" />
+        <key name="Surface" value="0" />
+        <key name="Mobile" value="0" />
+      </profile>
+      <profile id="{F8013B04-E03A-4685-ACF6-F8C662215553}" name="Gaming Interest" presets="action|100||">
+        <key name="Action" value="10" />
+        <key name="Adventure" value="0" />
+        <key name="Fighting" value="0" />
+        <key name="Racing" value="0" />
+        <key name="Sports" value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{9F11E69E-D387-4E94-8368-027C87A5CC8D}" p:before="r[@uid='{77DC072C-1019-428C-99A8-83D64FD54FA7}']" s:ds="{E7F83BA4-E87A-40AE-BEB7-1AC001C54124}" s:id="{3FBA5F7E-5563-4D00-8959-BF5E0A973559}" s:ph="/body/maincontent/content/onecontent" />
+            <r uid="{03EB3934-B466-4888-BA7D-8A5806198FDC}" s:id="{4553BEB2-B94D-4F69-BA73-E52E42BBB8E8}" s:ph="/body/maincontent/content" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150119T173020Z
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{16EB27C3-D10B-43F7-8113-F513AD1810B8}\" />"
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        <p>Hidden in the towering Himalayas lies Kyrat, a mountainous paradise steeped in tradition and violence...</p>
+        <p>You are Ajay Ghale, a young man returning to the country of your birth in the Himalayas to fulfill your mother&rsquo;s final wish. She had fled from civil war in Kyrat 25 years ago and has asked you to return to scatter her ashes. What she hasn&rsquo;t told you is that your family, the Ghales, founded a rebellion that is struggling, fighting a war against a despotic, self-appointed King, Pagan Min.</p>
+        <p>As you explore and discover more about Kyrat, you will become involved in the Rebellion and The Golden Path, following your parents&rsquo; footsteps. The rebels are willing and able but their leadership is divided and, through your actions, you will begin to make choices which will steer the Golden Path towards the liberation of Kyrat, one way or another...</p>
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {1AA042D8-77AE-4717-8FE8-C6D4879FD6A7}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Far Cry 4
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: Travelling to Kyrat to fulfill your mother's dying wish, you find yourself caught up in a civil war to overthrow the oppressive regime of dictator Pagan Min. 
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Far Cry 4
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T104420Z
+    - ID: 2cd3e702-4a51-4faa-aa10-a6f4956e13d3
+      # Show in menu
+      Value: 1
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{16EB27C3-D10B-43F7-8113-F513AD1810B8}\" />"
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {4AC5E48B-7A3E-462C-BF8E-1B87BF7E14B3}
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        そびえ立つヒマラヤに隠しはKyrat、伝統と暴力が染み込ん山岳楽園に位置...<br>
+        <br>
+        あなたはアジャイGhale、あなたのお母さんの最後の願いを満たすためにヒマラヤのご誕生の国に戻って若い男です。彼女は25年前Kyratで内戦から逃れていた、彼女の灰を散乱させるために返すようにあなたを求めています。彼女があなたに言っていないことはあなたの家族、Ghalesは、専制、自薦の王、異教分に対して戦争を戦って、苦労している反乱を設立していることです。<br>
+        <br>
+        あなたが探検し、Kyratについての詳細を発見したように、あなたの両親の足跡を以下、アナーキーとゴールデンパスに巻き込まれます。反乱軍は喜んとができますが、そのリーダーシップを分割して、あなたの行動を通して、あなたはKyrat、一つの方法または別の解放に向けゴールデンパスを操縦します選択をするために開始されます...
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {1AA042D8-77AE-4717-8FE8-C6D4879FD6A7}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Far Cry 4
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: Kyratに旅行すると、あなたの母の遺志を満たすために、あなた自身が独裁者パガン分の抑圧的な政権を転覆する内戦に巻き込ま見つけます。
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Far Cry 4

@@ -1,0 +1,42 @@
+﻿---
+ID: 6cd126e0-0d1e-4800-bd8e-c78edccf7e7b
+Parent: 4988c2de-f5f1-4f92-ac59-87ddff81510d
+Template: faedcc41-e96f-4565-84b9-397259a3b3de
+Path: /sitecore/content/Home/Products/Credit Cards/Classic Credit Card/Tabs/Is this card right for you
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150312T105322Z
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{DE936F74-5BC9-4E50-B563-23584D6B402F}\" />"
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        <h3 style="padding-top:0px !important">IS THIS CREDIT CARD RIGHT FOR YOU?</h3>
+        <p>Our Classic Card could help you turn bad credit into a thing of the past by building your credit.</p>
+        <br>
+        <p>To build your credit rating and potentially be eligible for credit limit increases, use your card sensibly by making your monthly minimum payment on time About your minimum payment. Tooltip image and staying below your credit limit. Not doing so could harm your credit rating.</p>
+        <br>
+        
+        <h4 class="text-success">We're more likely to accept you if you:</h4>
+        <ul class="list-unstyled margin-bottom-20">
+        <li><em class="fa fa-check"></em>Are over 18</li>
+        <li><em class="fa fa-check"></em>Have some history of managing your credit even if you have had CCJs or defaults in the past</li>
+        <li><em class="fa fa-check"></em>Are on the electoral roll</li>
+        </ul>
+        <h4 class="text-danger">We're not likely to accept you if you:</h4>
+        <ul class="list-unstyled margin-bottom-20">
+        <li><em class="fa fa-check"></em>Have not had credit in the UK before</li>
+        <li><em class="fa fa-check"></em>Have declared bankruptcy in the last 12 months</li>
+        </ul>
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Is this card right for you?
+    - ID: d547796d-9183-45a7-9a76-70445bfbb88f
+      # Tab name
+      Value: tab-1

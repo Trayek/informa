@@ -1,0 +1,16 @@
+﻿---
+ID: 5ae4c094-2783-4543-b376-d36c91450a36
+Parent: bf8fc165-5c6c-4f92-9ff9-e5b4aae68887
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/User Defined/msdemo/Items/Footer/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141119T153534
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

@@ -1,0 +1,13 @@
+﻿---
+ID: f6aadd72-b53f-4bc0-ada5-0e52f9b8c759
+Parent: 2136b9c6-92df-4ecc-b61d-f39f96ed978c
+Template: eea526f2-da89-43fe-8daa-e76710b67f85
+Path: /sitecore/content/Home/Contact/Page
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141120T162354

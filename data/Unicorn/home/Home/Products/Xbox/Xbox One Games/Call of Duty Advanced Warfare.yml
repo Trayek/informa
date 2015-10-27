@@ -1,0 +1,108 @@
+﻿---
+ID: e4f11d2d-4bcc-4ff2-924e-0cc0095241d5
+Parent: 8e810b67-bff3-4d1f-aa07-efa0b90c345f
+Template: 8fd46617-a947-4964-9b92-67b3fbe68b26
+Path: /sitecore/content/Home/Products/Xbox/Xbox One Games/Call of Duty Advanced Warfare
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B2FD4E6E-7FE0-4A96-8669-3BA9C5498ED1}
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{B000189D-DE2F-473F-817F-7006254F047E}" name="Site Interest" presets="xbox|100||">
+        <key name="Office" value="0" />
+        <key name="Xbox" value="10" />
+        <key name="Surface" value="0" />
+        <key name="Mobile" value="0" />
+      </profile>
+      <profile id="{F8013B04-E03A-4685-ACF6-F8C662215553}" name="Gaming Interest" presets="action|100||">
+        <key name="Action" value="10" />
+        <key name="Adventure" value="0" />
+        <key name="Fighting" value="0" />
+        <key name="Racing" value="0" />
+        <key name="Sports" value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{2D3F2A1C-B804-4148-8699-80C496A35860}" p:before="r[@uid='{77DC072C-1019-428C-99A8-83D64FD54FA7}']" s:ds="{6C2BACE4-B963-4529-8D75-F405A3226CDD}" s:id="{3FBA5F7E-5563-4D00-8959-BF5E0A973559}" s:ph="/body/maincontent/content/onecontent" />
+            <r uid="{2166469D-2579-4BF1-B800-E292CF4B0CE5}" s:id="{4553BEB2-B94D-4F69-BA73-E52E42BBB8E8}" s:ph="/body/maincontent/content" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150119T151901Z
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{39DAE389-DFB7-4F37-9C9B-F81E2AFBA79D}\" ></image>"
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        <h3>A new era of combat</h3>
+        <p>Call of Duty&reg;: Advanced Warfare, developed by Sledgehammer Games (co-developers of Call of Duty&reg;: Modern Warfare&reg; 3), harnesses the first three-year, all next-gen development cycle in franchise history. Call of Duty&reg;: Advanced Warfare envisions the powerful battlegrounds of the future, where both technology and tactic have evolved to usher in a new era of combat for the franchise. delivering a stunning performance, academy award&reg; winning actor Kevin Spacey stars as Jonathan Irons &ndash; one of the most powerful men in the world &ndash; shaping this chilling vision of the future of war.</p>
+        <p>Power changes everything.</p>
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {1AA042D8-77AE-4717-8FE8-C6D4879FD6A7}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Call of Duty Advanced Warfare
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: In 2054, a PMC has emerged with the power to rescue humanity from a world struggling to rebuild after a global attack on its military and infrastructure.
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Call of Duty Advanced Warfare
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T104240Z
+    - ID: 2cd3e702-4a51-4faa-aa10-a6f4956e13d3
+      # Show in menu
+      Value: 1
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{39DAE389-DFB7-4F37-9C9B-F81E2AFBA79D}\" />"
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {4AC5E48B-7A3E-462C-BF8E-1B87BF7E14B3}
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        <strong>戦闘の新時代</strong><br>
+        <br>
+        スレッジハンマー・ゲームズが開発した高度な戦、：Duty&reg;のコール（Duty&reg;のコールの共同開発者：現代Warfare&reg;3）は、最初の3年間のフランチャイズの歴史の中ですべての次世代の開発サイクルを活用します。 Duty&reg;のコール：高度な戦争は、技術と戦術の両方がフランチャイズの戦闘の新時代の到来を告げるように進化した未来の強力な戦場を想定しています。世界で最も強力な男性の一人 - - 戦争の今後のこの冷却ビジョンを形作る見事なパフォーマンスを提供、アカデミーは、ジョナサン・アイアンズとして俳優のケビン・スペイシーの星を獲得しaward&reg;。<br>
+        <br>
+        電源はすべてを変更します。
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {1AA042D8-77AE-4717-8FE8-C6D4879FD6A7}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Call of Duty Advanced Warfare
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: 2054年では、PMCは軍事とインフラのグローバルな攻撃の後に再構築するために苦労し、世界から人類を救うために力で浮上しています。
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Call of Duty Advanced Warfare

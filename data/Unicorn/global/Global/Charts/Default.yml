@@ -1,0 +1,28 @@
+﻿---
+ID: 2d5d707d-1d44-4812-8616-291449808af8
+Parent: 62418077-9dcc-4a6a-9513-98c13137cd41
+Template: 6e49b748-41ae-4a18-a0cd-97d5d7e72ec0
+Path: /sitecore/content/Global/Charts/Default
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 06e0b3e8-ce6d-489c-9ae1-fa8d8420f296
+      # Background
+      Value: #FDFDFD
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150622T081826Z
+    - ID: 740203f6-d3fc-4a02-9112-fc33d6050d48
+      # Type
+      Value: serial
+    - ID: 8b12007f-86c5-49a8-8c35-935e3a73e33d
+      # Title
+      Value: Default
+    - ID: cb4f46c3-9e13-4b96-a682-71dbc6dba98c
+      # Width
+      Value: 100%
+    - ID: d0757839-fec8-42cf-8023-254dbb6b2623
+      # Height
+      Value: 400px

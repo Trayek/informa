@@ -1,0 +1,30 @@
+﻿---
+ID: 824052cf-ae81-4519-aad3-af06a02a4c93
+Parent: d06493f7-026c-4974-805a-3c912033e6d9
+Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+Path: /sitecore/templates/User Defined/msdemo/Items/News Item
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Network/32x32/news.png
+- ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
+  # __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {EEA526F2-DA89-43FE-8DAA-E76710B67F85}
+    {E2D1902A-3567-4DAC-8614-790B60013729}
+- ID: f7d48a55-2158-4f02-9356-756654404f73
+  # __Standard values
+  Value: {430713B5-E92B-4611-B1B6-6EA6B687AC08}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141204T104340Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

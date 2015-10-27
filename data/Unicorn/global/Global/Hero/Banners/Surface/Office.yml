@@ -1,0 +1,27 @@
+﻿---
+ID: db33b177-a6e3-48ed-abb9-25b38aebbff4
+Parent: 1ab9abe8-8dee-4d15-a5aa-beb52c9730b8
+Template: 7cd4fb93-c30c-422b-8ba5-902c35505798
+Path: /sitecore/content/Global/Hero/Banners/Surface/Office
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141204T163557
+    - ID: 3eed451b-d15c-44a1-997f-377ada28c11e
+      # Background Image
+      Value: "<image mediaid=\"{C2777448-6AC5-4959-B25E-A222E5B5257F}\" ></image>"
+    - ID: 76f3f31b-7f3e-4b92-8b56-d9b091a6f632
+      # Content
+      Value: |
+                      <div class="caption lft scbrandblue slide_item_left" data-x="30" data-y="105" data-speed="400" data-start="1000" data-easing="easeOutExpo" style="color: #FFFFFF; padding:15px 25px 25px 25px; font-size: 18px;line-height:normal;text-transform:none !important;max-width:270px;white-space:normal;">
+                        <span style="font-size:35px;display:block;font-weight:100;">Surface</span><br>
+                        <span style="line-height:normal !important; font-size:20px;font-weight:100;">Meet the tablet that can replace your laptop.<br>
+                        Surface Pro 3.</span>
+                      </div>
+                      <a class="caption lft btn scbrandred slide_btn slide_item_left" href="/Products/Surface/Surface-Pro-3" data-x="30" data-y="340" data-speed="400" data-start="1300" data-easing="easeOutExpo">
+                        Learn more
+                      </a>

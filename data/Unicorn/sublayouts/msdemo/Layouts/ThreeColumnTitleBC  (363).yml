@@ -1,0 +1,53 @@
+﻿---
+ID: 0cbb67e3-b08e-4fd6-8e46-0b0492e5744d
+Parent: 1f562ffd-43a2-460f-aec3-993699005fad
+Template: 0a98e368-cdb9-4e1e-927c-8e0c24a003fb
+Path: /sitecore/layout/Sublayouts/msdemo/Layouts/ThreeColumnTitleBC  (363)
+SharedFields:
+- ID: 32cee5fb-efce-4ca6-b697-3b97900c40d3
+  # Placeholder
+  Value: content
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 2000
+- ID: e42081b6-8a95-4a11-89ce-df70ed502f57
+  # Path
+  Value: /layouts/msdemo/ThreeColumnTitleBC.ascx
+- ID: e441abe7-2ca3-4640-ae26-3789967925d7
+  # Compatible Renderings
+  Type: Treelist
+  Value: |
+    {4553BEB2-B94D-4F69-BA73-E52E42BBB8E8}
+    {3FBED397-E0CC-4B2C-992F-5F8D76FC6A9F}
+    {6C444DFE-9392-42FB-8E99-F0BD4895F0EB}
+    {F9716952-352D-4A71-911F-15D302956938}
+    {3690BAD7-A59D-4D17-870D-C9D06FC8AC56}
+    {C1CA931F-2A26-4445-9A36-619206474604}
+    {EC001B77-907B-48B7-BA91-1D5DF9AE5EDB}
+    {3B11875D-05BA-40E1-8E9B-BBA6EC083330}
+    {9D92DF81-631F-44C5-995D-80D9751ADD27}
+    {5ECF6E4C-95B6-4EB4-A57B-201C5D863297}
+    {B84F07F0-2B36-458D-9206-549F7E7ABA2E}
+    {65919D42-11F7-427C-8755-8CCBACB3D700}
+    {2C442951-804C-4C89-A5F2-9594A50039C1}
+    {A59B115E-7029-4202-9BEE-DEDF405D6201}
+    {695A3790-C9D0-4EB6-83FA-2BA081F2C223}
+    {0CBB67E3-B08E-4FD6-8E46-0B0492E5744D}
+    {F1C1C007-066B-4BB9-9FCF-FE581A6A6294}
+    {0AA6AA04-6F00-4CA6-8B12-972C864C459E}
+    {59F58EED-58FC-4F90-8FB7-607857776EED}
+    {7891EA5D-970D-4AB6-AC5B-A31394762367}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141120T162941
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ThreeColumnTitleBC (3.6.3)

@@ -1,0 +1,26 @@
+﻿---
+ID: 5ef740da-4bda-485f-b8f5-f42186d0cf34
+Parent: 9c704c5f-25fd-4290-9b11-cc81b1787577
+Template: f1f1d639-4f54-40c2-8be0-81266b392ceb
+Path: /sitecore/layout/Renderings/msdemo/Newsletter/old/producthighlight
+SharedFields:
+- ID: 1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f
+  # Datasource Template
+  Value: /sitecore/templates/User Defined/msdemo/Items/Product
+- ID: 78783f79-1411-4b91-958d-ad81f81e2485
+  # Path
+  Value: /xsl/msdemo/newsletter_producthighlight.xslt
+- ID: b5b27af1-25ef-405c-87ce-369b3a004016
+  # Datasource Location
+  Value: /sitecore/content/Home/Products
+- ID: e67044ad-fb48-489e-83a6-263a89a8c948
+  # Data source
+  Value: {798D415D-6814-495D-A853-A42F8FAB905A}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150715T104858Z

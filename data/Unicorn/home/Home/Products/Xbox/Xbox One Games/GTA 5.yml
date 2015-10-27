@@ -1,0 +1,168 @@
+﻿---
+ID: 21c0652c-3c31-4d96-b23d-d1ff9f9e1393
+Parent: 8e810b67-bff3-4d1f-aa07-efa0b90c345f
+Template: 8fd46617-a947-4964-9b92-67b3fbe68b26
+Path: /sitecore/content/Home/Products/Xbox/Xbox One Games/GTA 5
+SharedFields:
+- ID: 8546d6e6-0749-4591-90f3-cec033d6e8d8
+  # __Page Level Test Set Definition
+  Value: /sitecore/system/Marketing Control Panel/Test Lab/2015/04/21/14/39/GTA 5 E3D28C5081F943038307EA6E7F3F1989
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B2FD4E6E-7FE0-4A96-8669-3BA9C5498ED1}
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{B000189D-DE2F-473F-817F-7006254F047E}" name="Site Interest" presets="xbox|100||">
+        <key name="Office" value="0" />
+        <key name="Xbox" value="10" />
+        <key name="Surface" value="0" />
+        <key name="Mobile" value="0" />
+      </profile>
+      <profile id="{F8013B04-E03A-4685-ACF6-F8C662215553}" name="Gaming Interest" presets="action|100||">
+        <key name="Action" value="10" />
+        <key name="Adventure" value="0" />
+        <key name="Fighting" value="0" />
+        <key name="Racing" value="0" />
+        <key name="Sports" value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{C3507D7D-D811-420F-BA49-D9F8290F0A2F}" s:ds="{4581927E-184D-43AF-BC81-079138BB4CB4}" s:id="{3FBA5F7E-5563-4D00-8959-BF5E0A973559}" s:ph="/body/maincontent/content" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150119T151922Z
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{90E2D547-1BA8-4A80-92A7-169E75542910}\" />"
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {4AC5E48B-7A3E-462C-BF8E-1B87BF7E14B3}
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        <p>Los Santos: a sprawling sun-soaked metropolis full of self-help gurus, starlets and fading celebrities, once the envy of the Western world, now struggling to stay afloat in an era of economic uncertainty and cheap reality TV.</p>
+        <p>Amidst the turmoil, three very different criminals plot their own chances of survival and success: Franklin, a street hustler looking for real opportunities and serious money; Michael, a professional ex-con whose retirement is a lot less rosy than he hoped it would be; and Trevor, a violent maniac driven by the chance of a cheap high and the next big score. Running out of options, the crew risks everything in a series of daring and dangerous heists that could set them up for life.</p>
+        <p>The biggest, most dynamic and most diverse open world ever created, Grand Theft Auto V blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game&rsquo;s three lead characters, playing all sides of the game&rsquo;s interwoven story.</p>
+        <p>All the classic hallmarks of the groundbreaking series return, including incredible attention to detail and Grand Theft Auto&rsquo;s darkly humorous take on modern culture, alongside a brand new and ambitious approach to open world multiplayer.</p>
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {1AA042D8-77AE-4717-8FE8-C6D4879FD6A7}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Grand Theft Auto V
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: Enter the lives of three very different criminals, Michael, Franklin and Trevor, as they risk everything in a series of daring and dangerous heists that could set them up for life.
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Grand Theft Auto V
+  - Version: 2
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{6083CC74-17A7-4B0E-B48D-F04FCF392172}" p:before="r[@uid='{70286582-FBC4-427D-B132-550F34C1A161}']" s:ds="{0979C117-1A06-4048-9362-581E574DEBC5}" s:id="{540E37BF-18D5-439F-ABAE-38F2494EEFEF}" s:ph="/body/maincontent/onecontent" />
+            <r uid="{70286582-FBC4-427D-B132-550F34C1A161}" p:before="r[@uid='{6486BDB0-2E25-4BC5-80E1-5D7D7A5D0F6C}']" s:ds="{0002572E-89D5-4DF7-8786-833B7BED657B}" s:id="{22777FC7-72F0-4356-9791-F86D0282D27F}" s:ph="/body/maincontent/onecontent" />
+            <r uid="{6486BDB0-2E25-4BC5-80E1-5D7D7A5D0F6C}" p:before="r[@uid='{77DC072C-1019-428C-99A8-83D64FD54FA7}']" s:id="{C0273FD5-F76C-443A-A314-187D0C033062}" s:ph="/body/maincontent/onecontent" />
+            <r uid="{B4A479AC-7AC7-4B96-A221-6DF21BBAA7C7}">
+              <p:d />
+            </r>
+            <r uid="{AF9244AC-BBBF-468C-9BC4-149C3140DFDE}" s:ds="" s:id="{3FBED397-E0CC-4B2C-992F-5F8D76FC6A9F}" s:par="" s:ph="maincontent" />
+            <r uid="{F62C3253-C477-4C02-B4C9-43257812D764}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150309T135527Z
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{90E2D547-1BA8-4A80-92A7-169E75542910}\" alt=\"Grand Theft Auto V\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {4AC5E48B-7A3E-462C-BF8E-1B87BF7E14B3}
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        <p>Los Santos: a sprawling sun-soaked metropolis full of self-help gurus, starlets and fading celebrities, once the envy of the Western world, now struggling to stay afloat in an era of economic uncertainty and cheap reality TV.</p>
+        <p>Amidst the turmoil, three very different criminals plot their own chances of survival and success: Franklin, a street hustler looking for real opportunities and serious money; Michael, a professional ex-con whose retirement is a lot less rosy than he hoped it would be; and Trevor, a violent maniac driven by the chance of a cheap high and the next big score. Running out of options, the crew risks everything in a series of daring and dangerous heists that could set them up for life.</p>
+        <p>The biggest, most dynamic and most diverse open world ever created, Grand Theft Auto V blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game&rsquo;s three lead characters, playing all sides of the game&rsquo;s interwoven story.</p>
+        <p>All the classic hallmarks of the groundbreaking series return, including incredible attention to detail and Grand Theft Auto&rsquo;s darkly humorous take on modern culture, alongside a brand new and ambitious approach to open world multiplayer.</p>
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {1AA042D8-77AE-4717-8FE8-C6D4879FD6A7}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Grand Theft Auto V
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      # __Valid from
+      Value: 20150309T135527Z
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: Enter the lives of three very different criminals, Michael, Franklin and Trevor, as they risk everything in a series of daring and dangerous heists that could set them up for life.
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Grand Theft Auto V
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T104815Z
+    - ID: 2cd3e702-4a51-4faa-aa10-a6f4956e13d3
+      # Show in menu
+      Value: 1
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{90E2D547-1BA8-4A80-92A7-169E75542910}\" />"
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {4AC5E48B-7A3E-462C-BF8E-1B87BF7E14B3}
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        ロスサントス：セルフヘルプの達人、若手とフェージング有名人のフル広大な日に浸した大都市は、西洋世界の羨望と、今の経済の不確実性と安価なリアリティTVの時代に生き延びるのに苦労。<br>
+        <br>
+        混乱の中、3つの非常に異なった犯罪者は、生存と成功の独自のチャンスプロット：フランクリン、実際の機会と深刻なお金を探している通りのハスラーを。マイケル、その退職彼はそれが望んだよりもはるかに少ないバラ色であるプロEX-CON。そして、トレバー、安い高いのチャンスと次の大きなスコアで駆動暴力マニアック。オプションの不足、乗組員は生活のためにそれらを設定することができ大胆かつ危険heists一連のすべてをリスク。<br>
+        <br>
+        これまでに作成した最大の、最もダイナミックで最も多様なオープンワールドのプレイヤーが繰り返しゲームの織り交ぜ物語のすべての側面を再生し、ゲームの3本のリード文字の生活の中でと飛び出すように、グランド・セフト・オートVは新しい方法でストーリーテリングとゲームプレイをブレンド。<br>
+        <br>
+        世界のマルチプレイヤーを開くためのブランドの新しい、野心的なアプローチと並んで現代文化の詳細とグランドセフトオートの暗くユーモラス取るために信じられないほどの注目を含む画期的なシリーズの戻りのすべての古典的な特徴、。
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {1AA042D8-77AE-4717-8FE8-C6D4879FD6A7}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Grand Theft Auto V
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: 彼らは生活のためにそれらを設定することができ大胆かつ危険heistsシリーズのすべてを危険にさらすように、3つの非常に異なった犯罪者、マイケル、フランクリンとトレバーの生活を入力してください。
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Grand Theft Auto V

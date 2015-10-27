@@ -1,0 +1,29 @@
+﻿---
+ID: ebf00b9d-c4ef-4ef3-89a9-156d6b5064bb
+Parent: 1ce3b36c-9b0c-4eb5-a996-bfcb4eaa5287
+Template: 5c547d4e-7111-4995-95b0-6b561751bf2e
+Path: /sitecore/layout/Placeholder Settings/emailbody
+SharedFields:
+- ID: 7256bdab-1fd2-49dd-b205-cb4873d2917c
+  # Placeholder Key
+  Value: emailbody
+- ID: e391b526-d0c5-439d-803e-17512eae6222
+  # Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {BCCEE5F7-9132-47EE-BD46-CA77E74DAC5C}
+    {2B55F73C-187D-47FC-8BC3-1FE7833C91A9}
+    {42157B68-48D6-4949-A9F7-4EBA8C0572DF}
+    {C049E2A8-8F06-40FC-9057-64ECC2AD26D1}
+    {7F69BCD1-E86B-4F16-9C91-BFA233F6A8D7}
+    {C8569E4F-B733-4832-AB96-59BD3F41E2FF}
+    {62B2AD7E-8FD0-40EF-A4E9-A7C677A28626}
+    {0A475001-5BC5-4832-83E2-1325FD0F1869}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150906T185347Z

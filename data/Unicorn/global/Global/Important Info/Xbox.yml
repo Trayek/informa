@@ -1,0 +1,44 @@
+﻿---
+ID: d8a03974-c03d-472b-b3c7-ebd4dd79362d
+Parent: d6d325ae-4a21-44a0-9158-4be55130aaab
+Template: f02b19d3-59c7-41a1-93bd-d04e07eb8185
+Path: /sitecore/content/Global/Important Info/Xbox
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150219T164512Z
+    - ID: 98a2f3c7-e19e-4d54-a948-018c5c9df3f0
+      # Title
+      Value: <h2><em>Important</em> Information</h2>
+    - ID: ec1cd934-5773-4f34-997d-9c4f934a7635
+      # Text
+      Value: <p>We are sad to announce that the Xbox 360 is no longer available and is only being shown for informational purposes.</p><p>Limited games are available for purchase through the store at this time.</p>
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122004Z
+    - ID: 37d9c131-8cca-4b26-a0cc-d42ca864e1d7
+      # Button Colour
+      Value: {4A25DCB6-A365-42D1-9EDC-636B94E8A923}
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 98a2f3c7-e19e-4d54-a948-018c5c9df3f0
+      # Title
+      Value: <strong><em>重要な情報</em></strong>
+    - ID: 9ed380e4-5981-45cc-81eb-48336cd8e898
+      # Button Text
+      Value: 詳細
+    - ID: ec1cd934-5773-4f34-997d-9c4f934a7635
+      # Text
+      Value: |
+        私たちは、Xbox 360のは、使用できなくなり、情報提供のみを目的のために示されていることを発表して悲しいです。<br>
+        <br>
+        限定ゲームは、この時点で店を通じてご購入いただけます。

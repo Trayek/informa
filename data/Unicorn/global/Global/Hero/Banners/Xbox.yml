@@ -1,0 +1,13 @@
+﻿---
+ID: 810afacb-5be7-4fa2-abac-7612b062f0dd
+Parent: e4fb81dc-d78f-4e5d-8653-ee035e666853
+Template: 8c283cb2-204b-4c43-bce0-a37fc2d161c9
+Path: /sitecore/content/Global/Hero/Banners/Xbox
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141203T154456

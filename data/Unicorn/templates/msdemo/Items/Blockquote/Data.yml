@@ -1,0 +1,16 @@
+﻿---
+ID: 6f87c791-a5f8-4576-91fc-bda7345390c6
+Parent: 451a7b31-e1e6-4145-b1ab-ee9152172a0e
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/User Defined/msdemo/Items/Blockquote/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141211T152838
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

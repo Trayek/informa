@@ -1,0 +1,26 @@
+﻿---
+ID: 27ec08ed-a0ca-4f1e-8740-ac3a4ea49642
+Parent: 3c77af3d-dc32-468a-9a79-6198b462bdb1
+Template: 8fd46617-a947-4964-9b92-67b3fbe68b26
+Path: /sitecore/content/Home/Products/Xbox/Xbox 360 Games/Halo 3
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150305T120732Z
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{F8B50363-DCB1-4473-A6F8-BEC677A63470}\" />"
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {1AA042D8-77AE-4717-8FE8-C6D4879FD6A7}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Halo 3
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Halo 3

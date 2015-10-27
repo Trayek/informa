@@ -1,0 +1,105 @@
+﻿---
+ID: 551174d0-3adb-41cd-8ce5-7088c1fb652d
+Parent: 4a8822cc-b418-4452-ab0f-8bb6df2f2114
+Template: 4a8822cc-b418-4452-ab0f-8bb6df2f2114
+Path: /sitecore/templates/User Defined/msdemo/Items/Home/__Standard Values
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  # __Masters
+  Type: TreelistEx
+  Value: {F76F859A-F34F-45AF-AD50-FE74CCA41D25}
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  # __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{B0BCC7AE-135D-4B90-BC17-F708D51EDDC2}">
+        <r ds="" id="{5F1C2796-7DCA-4C19-BC82-3F7293555C23}" par="" ph="slider" uid="{2C63C7C6-9D57-4B82-81A7-79693E4AF085}" />
+        <r ds="" id="{0BC5FF90-C8D6-4D4A-B7F9-BE3A11CEC796}" par="" ph="body" uid="{E19DA30E-3C4F-4649-89E2-2ACE9B9DD2B6}" />
+        <r ds="{8CBDA387-0FFE-4258-ACD9-AA7CE0ABF10A}" id="{22777FC7-72F0-4356-9791-F86D0282D27F}" par="" ph="maincontent" uid="{6F9D1A55-0E35-4DAF-9F6A-5F96C3B573D9}" />
+        <r ds="{E18457F8-5889-4BA0-B0EF-2E001534DA96}" id="{9085E1D2-0372-446A-82BC-EA1F7D7A1B1A}" par="" ph="maincontent" uid="{372ED4C7-AE7F-4B22-92F3-D490344A9D52}" />
+        <r ds="" id="{949658FD-43BD-4386-A924-BEE003CF04C9}" par="" ph="maincontent" uid="{E1C3CA03-8FBA-49AB-8121-3423BFE5C81B}" />
+        <r ds="" id="{CB1267CB-463A-4835-8527-0CD68AB4C63F}" par="" ph="maincontent" uid="{2E0E5CED-DE13-4305-99E0-576949D3363F}" />
+        <r ds="" id="{9D535F5B-4297-4E06-A31D-80D07561D369}" par="" ph="maincontent" uid="{D735F39B-16A6-4F6E-BE80-877B5F4B323A}" />
+        <r ds="" id="{B182975E-50A9-48FE-9B9F-D5CD16B32231}" par="" ph="maincontent" uid="{B94CA53F-F741-48B7-AF72-319DCA72021E}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{2C63C7C6-9D57-4B82-81A7-79693E4AF085}" p:before="r[@uid='{6F9D1A55-0E35-4DAF-9F6A-5F96C3B573D9}']" s:ds="{E610CD62-4C69-45BF-AFCC-E75F5D484090}">
+              <rls>
+                <ruleset>
+                  <rule uid="{6C175EEA-7EF1-4EB7-9BFA-F958E39A9DC2}" s:name="Visitor is Action Gamer">
+                    <conditions>
+                      <condition uid="E5BA7E34F98C4939B4D89AB19DC52845" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Gaming Interest" s:PatternName="Action Gamer" />
+                    </conditions>
+                    <actions>
+                      <action uid="CA71204E05C542ACB95B3983DD37B515" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{7459A72C-8DC8-4CBE-8AE3-D90BF25CD48E}" />
+                      <action uid="630396B57B4E4CB99F8FD5FFC7E622B6" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{0D40E2E5-0E68-491F-83B1-18DB82E9E052}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{0FDB8C37-3D7B-4B2E-A01C-A2CE12D31A71}" s:name="Search term 'xbox'">
+                    <conditions>
+                      <condition uid="00578AFD4EFE4F3599EADE194FEA70D0" s:id="{B2E953D3-688F-45B8-BCD2-1E480503706B}" s:CampaignId="{DB623302-7EB2-4ABA-A4A9-8CE8E9DCD2D3}" />
+                    </conditions>
+                    <actions>
+                      <action uid="4C6F0516A9B74777A84F8FA07FF40B1F" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{757DC5CF-69A5-4FC9-AF63-57FEE3195E21}" />
+                      <action uid="795C1B1DB48946B1A31D7C44AA43515D" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{5F1C2796-7DCA-4C19-BC82-3F7293555C23}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="01D1F113DF8C47DFBC8C349B18442F06" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r uid="{6F9D1A55-0E35-4DAF-9F6A-5F96C3B573D9}" s:ds="{E5D8E853-9D51-4658-9719-743911D30377}" s:ph="maincontent">
+              <rls>
+                <ruleset>
+                  <rule uid="{74DA5848-6D98-4746-9D1C-0C3DD75B6AAE}" s:name="Condition Name">
+                    <actions>
+                      <action uid="98F7102FF0924B6FA86B5E63ADEC79D6" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{E5D8E853-9D51-4658-9719-743911D30377}" />
+                    </actions>
+                    <conditions>
+                      <condition uid="234F958BAE744CB89BDE32D7B536E124" s:id="{B2E953D3-688F-45B8-BCD2-1E480503706B}" s:CampaignId="{DB623302-7EB2-4ABA-A4A9-8CE8E9DCD2D3}" />
+                    </conditions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="6A81CB55E9AE4638B0A53FF91092864E" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action uid="833A2C020EE14DDE8A6512BC027789CB" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{8CBDA387-0FFE-4258-ACD9-AA7CE0ABF10A}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r uid="{372ED4C7-AE7F-4B22-92F3-D490344A9D52}" s:ph="maincontent" />
+            <r uid="{E1C3CA03-8FBA-49AB-8121-3423BFE5C81B}" s:ds="{FCA2DEED-D107-4267-BBA6-B3063A82F2AB}" s:par="" s:ph="maincontent" />
+            <r uid="{B94CA53F-F741-48B7-AF72-319DCA72021E}" p:before="r[@uid='{2E0E5CED-DE13-4305-99E0-576949D3363F}']" s:ds="" s:par="" s:ph="maincontent" />
+            <r uid="{2E0E5CED-DE13-4305-99E0-576949D3363F}" s:ds="" s:par="" s:ph="maincontent" />
+            <r uid="{D735F39B-16A6-4F6E-BE80-877B5F4B323A}" s:ds="" s:par="" s:ph="maincontent" />
+          </d>
+        </r>
+    - ID: 0582109b-9d24-4347-a969-8e59297c548d
+      # Theme
+      Value: {4A25DCB6-A365-42D1-9EDC-636B94E8A923}
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141119T151742
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

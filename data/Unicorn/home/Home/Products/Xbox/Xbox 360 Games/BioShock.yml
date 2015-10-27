@@ -1,0 +1,26 @@
+﻿---
+ID: 5c3102c0-a7e9-4fd7-86a3-2d51654dac27
+Parent: 3c77af3d-dc32-468a-9a79-6198b462bdb1
+Template: 8fd46617-a947-4964-9b92-67b3fbe68b26
+Path: /sitecore/content/Home/Products/Xbox/Xbox 360 Games/BioShock
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150305T120404Z
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediapath=\"/Images/Product Images/Xbox/Xbox 360/xb360_bioshock\" alt=\"\" width=\"\" height=\"\" hspace=\"\" vspace=\"\" showineditor=\"\" usethumbnail=\"\" src=\"~/media/Images/Product Images/Xbox/Xbox 360/xb360_bioshock\" mediaid=\"{11309B13-961A-4E54-987F-EE41E14C917A}\" />"
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {E950F1A8-CDD8-408C-83F7-669260FDB79E}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: BioShock
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: BioShock

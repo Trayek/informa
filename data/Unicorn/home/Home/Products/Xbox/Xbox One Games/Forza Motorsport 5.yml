@@ -1,0 +1,114 @@
+﻿---
+ID: 8ef5d078-54e8-4968-8b90-429f254a3f05
+Parent: 8e810b67-bff3-4d1f-aa07-efa0b90c345f
+Template: 8fd46617-a947-4964-9b92-67b3fbe68b26
+Path: /sitecore/content/Home/Products/Xbox/Xbox One Games/Forza Motorsport 5
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B2FD4E6E-7FE0-4A96-8669-3BA9C5498ED1}
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{B000189D-DE2F-473F-817F-7006254F047E}" name="Site Interest" presets="xbox|100||">
+        <key name="Office" value="0" />
+        <key name="Xbox" value="10" />
+        <key name="Surface" value="0" />
+        <key name="Mobile" value="0" />
+      </profile>
+      <profile id="{F8013B04-E03A-4685-ACF6-F8C662215553}" name="Gaming Interest" presets="racing|100||">
+        <key name="Action" value="0" />
+        <key name="Adventure" value="0" />
+        <key name="Fighting" value="0" />
+        <key name="Racing" value="10" />
+        <key name="Sports" value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{0B7CF17C-0A1C-44E9-9F76-DFF8ACF33B51}" p:before="r[@uid='{77DC072C-1019-428C-99A8-83D64FD54FA7}']" s:ds="{EC2F1F93-C90D-4FDF-8303-1B703A6F2E12}" s:id="{3FBA5F7E-5563-4D00-8959-BF5E0A973559}" s:ph="/body/maincontent/content/onecontent" />
+            <r uid="{2C6168D8-ACDA-4DAB-8FD5-0CE14DD51DA8}" s:id="{4553BEB2-B94D-4F69-BA73-E52E42BBB8E8}" s:ph="/body/maincontent/content" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150119T170938Z
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{90531EEE-528B-4ACD-A210-D6DCDE56B257}\" ></image>"
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        <p>Forza Motorsport 5 is a cinematic automotive journey starring the world&rsquo;s greatest cars and tracks. Built from the ground up to take advantage of Xbox One and the vast power of the cloud, no game better delivers the wide-eyed thrill of racing.</p>
+        <h3>Never Race Alone</h3>
+        <p>By learning how you and your friends drive, the power of the cloud delivers real human behavior. Drivatar technology creates an ever-evolving network of opponents who are always ready to race. Real tendencies, real mistakes, real victories.</p>
+        <h3>Astonishing Detail</h3>
+        <p>A new graphics engine created exclusively for Xbox One delivers physically based material rendering that re-creates the real-life characteristics of thousands of unique materials. Surfaces such as metal, glass, leather, rubber and concrete look real enough to touch.</p>
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {A1F36BC1-E55A-45D3-A860-863EC04B6DDA}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Forza Motorsport 5
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: Experience the thrill of racing with some of the world’s greatest tracks and most powerful cars in a beautifully crafted automotive journey.
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Forza Motorsport 5
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T104724Z
+    - ID: 2cd3e702-4a51-4faa-aa10-a6f4956e13d3
+      # Show in menu
+      Value: 1
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{90531EEE-528B-4ACD-A210-D6DCDE56B257}\" />"
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {4AC5E48B-7A3E-462C-BF8E-1B87BF7E14B3}
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        フォルツァモータースポーツ5は、世界で最も偉大な車やトラックの主演映画の自動車旅です。 Xbox Oneとクラウドの膨大なパワー、優れたノーゲームの利点を取るために基礎から構築され、レースの目を大きく見開いてスリルを提供しています。<br>
+        <br>
+        <strong>アローンレース決して</strong><br>
+        <br>
+        あなたとあなたの友人が運転方法を学習することで、クラウドのパワーは本物の人間の行動を提供します。 Drivatar技術は常にレースをする準備ができている相手の進化し続けるネットワークを作成します。レアルの傾向、本当のミス、本当の勝利。<br>
+        <br>
+        <strong>驚くほどのディテール</strong><br>
+        <br>
+        Xboxの一つのためだけに作成された新しいグラフィックスエンジンは、物理的に再作成するユニークな材料の数千人の実際の特性を材料レンダリングをベース提供します。金属、ガラス、皮革、ゴム、コンクリートなどの表面は、実際に十分な手触りが見えます。
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {A1F36BC1-E55A-45D3-A860-863EC04B6DDA}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Forza Motorsport 5
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: 美しく細工された自動車の旅で世界最大のトラックと最も強力な車のいくつかのレースのスリルを体験してください。
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Forza Motorsport 5

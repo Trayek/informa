@@ -1,0 +1,108 @@
+﻿---
+ID: 7cca49f2-444a-45eb-a377-2744e2abbbca
+Parent: 8e810b67-bff3-4d1f-aa07-efa0b90c345f
+Template: 8fd46617-a947-4964-9b92-67b3fbe68b26
+Path: /sitecore/content/Home/Products/Xbox/Xbox One Games/Destiny
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B2FD4E6E-7FE0-4A96-8669-3BA9C5498ED1}
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{B000189D-DE2F-473F-817F-7006254F047E}" name="Site Interest" presets="xbox|100||">
+        <key name="Office" value="0" />
+        <key name="Xbox" value="10" />
+        <key name="Surface" value="0" />
+        <key name="Mobile" value="0" />
+      </profile>
+      <profile id="{F8013B04-E03A-4685-ACF6-F8C662215553}" name="Gaming Interest" presets="action|100||">
+        <key name="Action" value="10" />
+        <key name="Adventure" value="0" />
+        <key name="Fighting" value="0" />
+        <key name="Racing" value="0" />
+        <key name="Sports" value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{910F3125-8E40-4948-BFC0-14C145115962}" p:before="r[@uid='{77DC072C-1019-428C-99A8-83D64FD54FA7}']" s:ds="{93504CCD-DBDF-457D-AAC6-38B6FE19EA19}" s:id="{3FBA5F7E-5563-4D00-8959-BF5E0A973559}" s:ph="/body/maincontent/content/onecontent" />
+            <r uid="{AE5C9247-4195-43BA-BC4E-5FE7709C01B8}" s:id="{4553BEB2-B94D-4F69-BA73-E52E42BBB8E8}" s:ph="/body/maincontent/content" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150119T172837Z
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{BBC5CAAD-5E36-4C79-868C-2A6904357C4D}\" />"
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        <p>From the Creators of Halo and the company that brought you Call of Duty. In Destiny you are a Guardian of the last city on Earth, able to wield incredible power. Explore the ancient ruins of our solar system, from the red dunes of Mars to the lush jungles of Venus. Defeat Earth’s enemies. Reclaim all that we have lost. Become legend.</p>
+        <p>The next evolution of the first-person action genre that provides an unprecedented combination of storytelling, cooperative, competitive, and public gameplay, and personal activities that are all seamlessly woven into an expansive, persistent online world. Venture out alone or join up with friends. The choice is yours.</p>
+        <p>Personalize and upgrade every aspect of how you look and fight with a nearly limitless combination of armor, weapons, and visual customizations. Take your upgraded character into every mode, including campaign, cooperative, social, public, and competitive multiplayer.</p>
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {1AA042D8-77AE-4717-8FE8-C6D4879FD6A7}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Destiny
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: Embark on an epic action adventure with rich cinematic storytelling, unravel the mysteries of our universe, and reclaim what we lost at the fall of our Golden Age.
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Destiny
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T104322Z
+    - ID: 2cd3e702-4a51-4faa-aa10-a6f4956e13d3
+      # Show in menu
+      Value: 1
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{BBC5CAAD-5E36-4C79-868C-2A6904357C4D}\" />"
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {4AC5E48B-7A3E-462C-BF8E-1B87BF7E14B3}
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        ヘイローのクリエイター、あなたはコールオブデューティーもたらした会社から。運命では信じられないほどの力を振るうことができる地球上の最後の都市の守護者です。金星の緑豊かなジャングルに火星の赤い砂丘から、私たちの太陽系の古代遺跡を探索。地球の敵を倒します。我々が失ったものをすべて取り戻します。伝説になります。<br>
+        <br>
+        すべてシームレスに広大な、永続的なオンラインの世界に織り込まれている物語、協力、競争、公共ゲームプレイ、および個人の活動の前例のない組み合わせを提供一人称アクションジャンルの次の進化。単独のアウトベンチャーや友人と合流。選択はあなた次第です。<br>
+        <br>
+        パーソナライズとあなたが見て、鎧、武器、および視覚的なカスタマイズのほぼ無限の組み合わせと戦う方法のあらゆる側面をアップグレードします。キャンペーン、協力的、社会的、公共、および競争力のあるマルチプレイヤーを含むすべてのモード、にアップグレードした文字を取ります。
+    - ID: 8ad51c12-5704-4850-b8f3-134bdcfafd49
+      # Tags
+      Type: Treelist
+      Value: {1AA042D8-77AE-4717-8FE8-C6D4879FD6A7}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Destiny
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: 、豊かな映画のストーリーテリングとの壮大なアクションアドベンチャーに乗り出す我々の宇宙の謎を解明し、私たちは私たちの黄金時代の立ち下がりで失ったものを取り戻します。
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Destiny

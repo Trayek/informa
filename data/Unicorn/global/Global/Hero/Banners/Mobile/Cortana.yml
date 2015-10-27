@@ -1,0 +1,59 @@
+﻿---
+ID: ed92a97d-196c-42eb-8edf-1e6aa220a6e7
+Parent: a5c62f4e-55c5-4254-89cd-645bdb58baaf
+Template: 7cd4fb93-c30c-422b-8ba5-902c35505798
+Path: /sitecore/content/Global/Hero/Banners/Mobile/Cortana
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141204T163447
+    - ID: 3eed451b-d15c-44a1-997f-377ada28c11e
+      # Background Image
+      Value: "<image mediaid=\"{81D77F77-317F-4A41-A849-FAB8E6E15FAF}\" ></image>"
+    - ID: 76f3f31b-7f3e-4b92-8b56-d9b091a6f632
+      # Content
+      Value: |
+                      <div class="caption lft scbrandgrey slide_item_left"
+                        data-x="30"
+                        data-y="55"
+                        data-speed="400"
+                        data-start="1000"
+                        data-easing="easeOutExpo" style="color: #FFFFFF; padding:15px 25px 25px 25px; font-size: 18px;line-height:normal;text-transform:none !important;max-width:270px;white-space:normal;">
+                        <span style="font-size:35px;display:block;font-weight:100;">Cortana</span><br/>
+                        <span style="line-height:normal !important; font-size:20px;font-weight:100;">Say hello to Cortana on a Lumia 635 or HTC One (M8) for Windows</span>
+                      </div>
+                      <a class="caption lft btn scbrandpurple slide_btn slide_item_left" href=""
+                        data-x="30"
+                        data-y="259"
+                        data-speed="400"
+                        data-start="1300"
+                        data-easing="easeOutExpo" >
+                        Learn more
+                      </a>
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T124039Z
+    - ID: 3eed451b-d15c-44a1-997f-377ada28c11e
+      # Background Image
+      Value: "<image mediaid=\"{81D77F77-317F-4A41-A849-FAB8E6E15FAF}\" ></image>"
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 76f3f31b-7f3e-4b92-8b56-d9b091a6f632
+      # Content
+      Value: |
+                      <div class="caption lft scbrandgrey slide_item_left" data-x="30" data-y="55" data-speed="400" data-start="1000" data-easing="easeOutExpo" style="color: #FFFFFF; padding:15px 25px 25px 25px; font-size: 18px;line-height:normal;text-transform:none !important;max-width:270px;white-space:normal;">
+                        <span style="font-size:35px;display:block;font-weight:100;">Cortana</span><br>
+                        <span style="line-height:normal !important; font-size:20px;font-weight:100;">Windows用のLumia635やHTC One（M8）にコルタナに挨拶</span>
+                      </div>
+                      <a class="caption lft btn scbrandpurple slide_btn slide_item_left" href="" data-x="30" data-y="259" data-speed="400" data-start="1300" data-easing="easeOutExpo">
+                        もっと詳しく知る
+                      </a>

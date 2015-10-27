@@ -1,0 +1,28 @@
+﻿---
+ID: eea526f2-da89-43fe-8daa-e76710b67f85
+Parent: fad3fe52-9152-4a3a-be2c-83e374619930
+Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+Path: /sitecore/templates/User Defined/msdemo/Standard Items/Page
+SharedFields:
+- ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
+  # __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {66A43C90-5525-47E5-812A-CA0B467F968D}
+    {E83CC241-5816-4698-9BEA-30DBE46E8E06}
+    {5DD48ADD-EE8E-4FDB-A50D-1B1EA757157A}
+- ID: f7d48a55-2158-4f02-9356-756654404f73
+  # __Standard values
+  Value: {3C91713D-3E30-4607-A839-49E7422F9A45}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141120T162314
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

@@ -1,0 +1,46 @@
+﻿---
+ID: 4581927e-184d-43af-bc81-079138bb4cb4
+Parent: f58dc5f0-5315-4981-9a2b-0388a245516e
+Template: 0a3823b0-3200-4c40-8056-da295d05efcc
+Path: /sitecore/content/Global/Media Tabs/GTA V
+SharedFields:
+- ID: 4862cdf7-1513-4ad3-ba69-3983c98ccfbc
+  # Images
+  Type: Treelist
+  Value: |
+    {8233AAEB-00AA-43BE-B055-C577F1D8C3F0}
+    {D3025660-EC7F-487A-B880-11E52CAA463B}
+    {F2C69116-9FC9-471C-B4E5-0D7069C1D3DC}
+    {5908733F-C27A-4E56-90DD-447E8F721EFF}
+    {F6EE7995-3B38-4644-96B7-BAFE8AE4A6C1}
+    {2CAA2A63-2A33-4CCD-BAA5-21D7FD03CD04}
+    {88A93717-6314-4814-9BC0-F76E2A15DF1F}
+    {E49BC7DB-A4A2-4AC2-9C5B-97A0467668D3}
+    {45A7E6D2-6421-4848-ABCE-978AE16DA060}
+    {66C94AB9-6431-4D9E-9E5D-831574129E17}
+    {0E506792-DBD3-4AF3-9E65-5704722983D8}
+- ID: e9ef37ce-12ce-4dac-adf1-b1faeb2d14c9
+  # Video
+  Type: Treelist
+  Value: {0979C117-1A06-4048-9362-581E574DEBC5}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150309T134736Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122154Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

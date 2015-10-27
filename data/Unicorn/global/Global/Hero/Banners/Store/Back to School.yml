@@ -1,0 +1,16 @@
+﻿---
+ID: 99e1d719-0a28-43b3-9fae-85f4171bfe89
+Parent: fe7569b1-d67c-4afd-97d9-88eb64462bb8
+Template: 7cd4fb93-c30c-422b-8ba5-902c35505798
+Path: /sitecore/content/Global/Hero/Banners/Store/Back to School
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141204T163814
+    - ID: 3eed451b-d15c-44a1-997f-377ada28c11e
+      # Background Image
+      Value: "<image mediaid=\"{2012A608-EEA4-48B3-A681-88D1BDA798FE}\" />"

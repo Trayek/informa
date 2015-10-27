@@ -1,0 +1,49 @@
+﻿---
+ID: 39b7cd49-4536-4728-8d3d-c0fa739b13d4
+Parent: 2f6bbb24-2f46-478b-b9d7-07767254e764
+Template: f1828a2c-7e5d-4bbd-98ca-320474871548
+Path: /sitecore/media library/Custom demo/logo/officecore_v8_white
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: ~/media/39B7CD49453647288D3DC0FA739B13D4.ashx?h=16&thn=1&w=16
+- ID: 22eac599-f13b-4607-a89d-c091763a467d
+  # Width
+  Value: 249
+- ID: 40e50ed9-ba07-4702-992e-a912738d32dc
+  # Blob
+  BlobID: 3c1d38b9-a75a-4607-8a95-e579ba25d6f5
+  Value: iVBORw0KGgoAAAANSUhEUgAAAPkAAAA3CAMAAAD5cxxmAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAC31BMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////u7u7u7u7u7u7u7u7////u7u7u7u7////////////u7u7////////////////////u7u7u7u7u7u7u7u7////////////////////////////////u7u7u7u7u7u7////////////////////////////////////////////////////////////////////////////////////u7u4AAAAxJnywAAAA8nRSTlMAGThro8ni7eFqGmKu7u+wYx0tmenrnDIhnvX4pCdu9HYEH7W/JjznRUry5rylluX3VyJ3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
+- ID: 6954b7c7-2487-423f-8600-436cb3b6dc0e
+  # Size
+  Value: 3452
+- ID: 6f47a0a5-9c94-4b48-abeb-42d38def6054
+  # Mime Type
+  Value: image/png
+- ID: c06867fe-9a43-4c7d-b739-48780492d06f
+  # Extension
+  Value: png
+- ID: cb09946f-3218-4823-87d2-d5007c199a96
+  # Dimensions
+  Value: 249 x 55
+- ID: de2ca9e4-c117-4c8a-a139-1ff4b199d15a
+  # Height
+  Value: 55
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150906T210751Z
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150906T210751Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

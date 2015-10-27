@@ -1,0 +1,57 @@
+﻿---
+ID: 8c8100ed-68f8-404b-9f60-f25f183e7fae
+Parent: a5c62f4e-55c5-4254-89cd-645bdb58baaf
+Template: 7cd4fb93-c30c-422b-8ba5-902c35505798
+Path: /sitecore/content/Global/Hero/Banners/Mobile/Lumia
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141204T163516
+    - ID: 3eed451b-d15c-44a1-997f-377ada28c11e
+      # Background Image
+      Value: "<image mediaid=\"{C3784973-DAB2-4345-A913-B8F279501157}\" />"
+    - ID: 76f3f31b-7f3e-4b92-8b56-d9b091a6f632
+      # Content
+      Value: |
+                      <div class="caption lft slide_title slide_item_left"
+                        data-x="30"
+                        data-y="105"
+                        data-speed="400"
+                        data-start="1500"
+                        data-easing="easeOutExpo">
+                        Need a website design? 
+                      </div>
+                      <div class="caption lft slide_subtitle slide_item_left"
+                        data-x="30"
+                        data-y="180"
+                        data-speed="400"
+                        data-start="2000"
+                        data-easing="easeOutExpo">
+                        This is what you were looking for
+                      </div>
+                      <div class="caption lft slide_desc slide_item_left"
+                        data-x="30"
+                        data-y="220"
+                        data-speed="400"
+                        data-start="2500"
+                        data-easing="easeOutExpo">
+                        Lorem ipsum dolor sit amet, dolore eiusmod<br/> quis tempor incididunt. Sed unde omnis iste.
+                      </div>
+                      <a class="caption lft btn green slide_btn slide_item_left" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes"
+                        data-x="30"
+                        data-y="290"
+                        data-speed="400"
+                        data-start="3000"
+                        data-easing="easeOutExpo">
+                        Purchase Now!
+                      </a>                        
+                      <div class="caption lfb"
+                        data-x="640" 
+                        data-y="55" 
+                        data-speed="700" 
+                        data-start="1000" 
+                        data-easing="easeOutExpo">

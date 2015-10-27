@@ -1,0 +1,22 @@
+﻿---
+ID: bd8ab615-966c-414d-b2a3-4e65e6069c3b
+Parent: 6eec6a9f-98cf-4517-a114-3564086f0f9b
+Template: 49904736-1958-4bd0-a7f5-cf2222c9a3ca
+Path: /sitecore/content/Home/Email Campaign/Messages/2015/09/08T094707/test/Message Root/Content/Intro Text
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150908T095500Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 7aa93451-387e-4306-b24a-8f3e0d9e74e8
+      # Title
+      Value: Hello world!
+    - ID: 98d31225-a98d-4656-8887-5ec9b7524155
+      # Text
+      Value: Lots more text goes in here

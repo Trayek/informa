@@ -1,0 +1,33 @@
+﻿---
+ID: 12c73a81-dc23-4815-a3a0-f03d4376d864
+Parent: f3826046-a939-4395-b3bc-d6e68ba9b8de
+Template: c5cfcbe9-9b14-45b0-87af-00d63e5fa49f
+Path: /sitecore/content/Global/Officecore
+SharedFields:
+- ID: 07493b08-e709-4553-b4f8-657f92aced60
+  # Notes
+  Value: HACK: webedit.css:597 remove height
+- ID: 6d6b77dc-e699-4bc1-89cc-bc02e9263a27
+  # Version
+  Value: 1.0 rev.220115
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150122T145449Z
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122819Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

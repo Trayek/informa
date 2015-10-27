@@ -1,0 +1,19 @@
+﻿---
+ID: e2d7e6e1-c3ca-4baa-a604-ce4572e2cb84
+Parent: 2d5d707d-1d44-4812-8616-291449808af8
+Template: b5965735-801d-41cb-8af3-24b554da1172
+Path: /sitecore/content/Global/Charts/Default/United States
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1275125c-788a-46bc-90e9-11d0d7f14fd1
+      # Field
+      Value: United States
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150622T082030Z
+    - ID: e419d03d-10c1-47cc-a58b-0aa17a3c3b40
+      # Value
+      Value: 45

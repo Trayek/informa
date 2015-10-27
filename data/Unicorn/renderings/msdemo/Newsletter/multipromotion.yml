@@ -1,0 +1,23 @@
+﻿---
+ID: c8569e4f-b733-4832-ab96-59bd3f41e2ff
+Parent: 2f7e22b5-a01d-4f36-bf6e-1672c6e92128
+Template: f1f1d639-4f54-40c2-8be0-81266b392ceb
+Path: /sitecore/layout/Renderings/msdemo/Newsletter/multipromotion
+SharedFields:
+- ID: 78783f79-1411-4b91-958d-ad81f81e2485
+  # Path
+  Value: /xsl/msdemo/email/multipromotion.xslt
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 500
+- ID: c7c26117-dbb1-42b2-ab5e-f7223845cca3
+  # __Thumbnail
+  Value: "<image mediaid=\"{DEEF4A1B-015F-4DB1-B843-B96718FF8515}\" />"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150715T105757Z

@@ -1,0 +1,17 @@
+﻿---
+ID: 9c704c5f-25fd-4290-9b11-cc81b1787577
+Parent: 2f7e22b5-a01d-4f36-bf6e-1672c6e92128
+Template: 7ee0975b-0698-493e-b3a2-0b2ef33d0522
+Path: /sitecore/layout/Renderings/msdemo/Newsletter/old
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 1000
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150906T190940Z

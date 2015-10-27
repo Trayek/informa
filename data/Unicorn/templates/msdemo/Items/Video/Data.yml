@@ -1,0 +1,16 @@
+﻿---
+ID: 81343d98-d6ad-43e2-bc53-62746cc98061
+Parent: 45b160ca-dfd6-44af-85ca-657ac10ff04c
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/User Defined/msdemo/Items/Video/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141205T103936
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

@@ -1,0 +1,42 @@
+﻿---
+ID: a34389b2-88ca-42e9-bf09-4236056950b6
+Parent: 197ad351-b577-4aee-8269-ef276c9cf795
+Template: 451a7b31-e1e6-4145-b1ab-ee9152172a0e
+Path: /sitecore/content/Global/Blockquotes/Personalised Blockquote
+SharedFields:
+- ID: 9407998a-8ac1-46aa-9cab-005c715f3fd2
+  # Link
+  Value: "<link linktype=\"internal\" querystring=\"\" target=\"\" id=\"{8E810B67-BFF3-4D1F-AA07-EFA0B90C345F}\" />"
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150428T101802Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\mark
+    - ID: 880b22dd-e04f-4a7e-a3a3-dca5afb723ee
+      # Quote
+      Value: welcome back! Have you checked out the latest games on offer?
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T121537Z
+    - ID: 27a9c845-f70a-42f9-a5d5-6bcdb28060df
+      # Link Text
+      Value: もっと詳しく知る
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 880b22dd-e04f-4a7e-a3a3-dca5afb723ee
+      # Quote
+      Value: お帰りなさい！あなたが提供する上で最新のゲームをチェックアウトしたことがありますか？

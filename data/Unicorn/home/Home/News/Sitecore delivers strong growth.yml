@@ -1,0 +1,81 @@
+﻿---
+ID: fb560c8f-d452-4b8d-b644-a9aa82e7ce82
+Parent: e18457f8-5889-4ba0-b0ef-2e001534da96
+Template: 824052cf-ae81-4519-aad3-af06a02a4c93
+Path: /sitecore/content/Home/News/Sitecore delivers strong growth
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {7B0575A7-7211-4248-AF91-4F25AF93D1CB}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04621054-da72-4e54-aa5c-e545b2971819
+      # Teaser Image
+      Value: "<image mediaid=\"{46F173BA-46BD-4BDB-9A0F-7FC7E709E0B2}\" ></image>"
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141204T105529
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel vehicula neque. Integer efficitur turpis ac nisl feugiat, sollicitudin ullamcorper nibh auctor. Maecenas semper massa elit, in rhoncus neque dictum eget. Sed tortor nisl, finibus at massa ac, tempor vestibulum metus. Vivamus tristique quam ac tempor ultrices. Vestibulum vel ex a tortor tincidunt ornare at sit amet arcu. Nulla lacinia semper diam sed condimentum. Phasellus non varius lacus, a vestibulum est. Praesent et facilisis mi. Sed vel pellentesque quam. Nulla egestas pretium iaculis. Proin efficitur sed nisl eu rutrum. Nullam quis finibus elit, a tincidunt orci.</p>
+        <p>Vivamus viverra augue ac dignissim elementum. Proin consectetur massa sit amet efficitur finibus. Quisque a est vestibulum, dictum nisi vel, sagittis lacus. Aliquam interdum erat quis dui sodales, et efficitur massa gravida. Fusce non neque bibendum, tempor massa et, semper lorem. Donec euismod egestas tortor eu finibus. Integer sed luctus metus. Nullam non egestas nunc, non laoreet quam. Donec bibendum et magna at porta. Nulla facilisi. Proin volutpat ultrices dui at mollis. Pellentesque interdum nisl vel nunc pharetra, ultrices dictum sapien porttitor. Duis blandit nec ante quis gravida. Suspendisse vitae ultrices mauris. Nam convallis dolor sem.</p>
+        <p>Fusce justo felis, eleifend eu lorem in, vulputate imperdiet risus. Aenean tempus rutrum nisl, in rutrum turpis condimentum nec. Nulla fermentum elit sit amet purus cursus, non feugiat ligula eleifend. In hac habitasse platea dictumst. Phasellus erat orci, vestibulum non aliquet a, auctor eget erat. Nullam venenatis tincidunt ex, sed accumsan justo egestas sagittis. Aliquam diam nibh, faucibus ornare ex ultrices, cursus maximus orci. Integer tristique hendrerit odio, id viverra lacus egestas ut. Nam rhoncus id lectus ac pulvinar. Nulla tempus sem a iaculis finibus. Donec viverra dui elementum metus consectetur, non mollis nisi vulputate. Sed pharetra laoreet bibendum. Duis posuere libero aliquam nisl semper, quis feugiat purus suscipit. Sed bibendum quis urna nec fringilla.</p>
+    - ID: 9acbbcab-2484-4558-9728-28433fe2f8a1
+      # Summary
+      Value: Sitecore, the global leader in customer experience management solutions, today announced another year of significant topline growth and profitability in its fiscal year ending June 30, 2014
+    - ID: a41260d2-aebe-4529-8aa7-202cf190f7fe
+      # Tags
+      Type: Treelist
+      Value: {3C61E3F7-B91C-4BEE-9E63-3B1047953F40}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Sitecore delivers strong growth
+    - ID: d95bd7d2-2a5e-4f6c-a7c4-e5a564eb5487
+      # Date
+      Value: 20141201T105500Z
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Sitecore delivers strong growth
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04621054-da72-4e54-aa5c-e545b2971819
+      # Teaser Image
+      Value: "<image mediaid=\"{46F173BA-46BD-4BDB-9A0F-7FC7E709E0B2}\" />"
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T095146Z
+    - ID: 2cd3e702-4a51-4faa-aa10-a6f4956e13d3
+      # Show in menu
+      Value: 1
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {754FE810-5A51-400A-8376-4DFCDDB01F0A}
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        氩ゑ 蝣ち廥 䝧ぽ礊ファ姟 リャ䰩栩大や ほね嫣觚騧, か姚 ひゃヴュ䥜 楯骤妤騪ぴ くき䋨ゞ簯 が階 駣ひょ樦とう みょけ鄥妦姯 氩ゑびょ䤤ぷ 榧ぐ饊, しゅゐ ヂャ榩觃団ぜ い覧滦障お 饟鰧諧べひ ベフィェキ, 姥じぎゃ蝣ち 壌ギョ馣で奚 卣ヒュフュしょセ るみょけ 黨府 あキョ媥榜りょ 樚䰧襨ちゃ椯 卣ヒュフュしょセ 駺榞 觚騧嶥 チェ秵 ツ槥㠤げ禧 くき䋨ゞ簯 卣ヒュフュしょセ びょ䤤ぷ, 䥞榟ゲ駪は 榯.りヂョ䦧 䛨儦谨尤骧 駣ひょ 樦とう 揧蝥榥つ祟 ぱ秺狥䣊わ ツ槥 槥㠤げ きゃヲ ちゅベフィェキか ざミェ滩が階 え狨儥, ヂャ榩 ディ觜䶥 ツ槥㠤げ禧 せみゅ堨ちょさ 饟鰧諧べひ<br>
+        <br>
+        毚ひゅガ 䪥騌奊づレ も饦誨租ぞ ちゅベフィェキか ひぱ, 毚ひゅガ 䝧ぽ礊ファ姟 卤隊たど廩 䨯グォ りゅ捨 じゅゝ頨え狨 こ訦綦びゃきゅ しゃ穤りゅ捨を 捨を卣, 姥じ 䥜廦だ褤覣 ちゅベフィェキか ほね嫣觚騧 愥䝣れ き䋨 姥じぎゃ蝣ち れきゃヲばず ぱ秺狥䣊わ スィ饺䨯, しゃ穤 廥壃馨焣鋨 卣ヒュフュしょセ 驩び土 う䥞 りゃ檤楜珥苨 こ訦綦びゃきゅ 樚䰧襨ちゃ椯 鄥妦姯, 勣黨府 あキョ媥榜りょ しゃ穤りゅ捨を ぽ礊 たど廩 誨租 祣囤䰥揨諤 氩ゑびょ䤤ぷ, 䨯グォ 姥じぎゃ蝣ち 䥞榟ゲ駪は ヂャ榩觃団ぜ ヒュフュしょ 綦びゃ 榧ぐ饊 榯.りヂョ䦧 ちゅベフィェキか 姚しゅゐ䥵㫣, 榯.り チェ秵 リャ䰩栩大や 嫯Ủクォひゃヴュ<br>
+        <br>
+        槥㠤げ 廩に ぶ詞っぴゅ䏦 そスぢ壎ぬ, ひゃヴュ䥜 䪥騌奊づレ ざミェ滩が階 珥苨 ベフィェキ リャ䰩栩大や も饦誨租ぞ ほね嫣觚騧 きゃヲ, 䝧ぽ礊ファ姟 ギュ鰣じゃ雦䩵 䩩訊 詞っぴゅ 䪥騌奊づレ 饟鰧諧べひ 䶥ユ ユびゅ背 嫯Ủクォひゃヴュ ちゅベフィェキか ディ觜 覦卤隊, 饊䩦 禧楯骤 樚䰧襨ちゃ椯 ハ礨じょ駺榞 れきゃヲばず 姚しゅゐ䥵㫣 氩ゑびょ䤤ぷ 嫯Ủ びょ䤤ぷ, 駣ひょ樦とう ちゅベフィェキか ざミェ滩が階 觃団 姟ヂャ榩 壌ギョ馣 祌襧 ざミェ滩が階 ぱ秺狥䣊わ, 嫯Ủクォ 䶥ユびゅ背る 饟鰧諧べひ す て, しゃ穤りゅ が階 ギュ鰣じゃ雦䩵 榯.りヂョ䦧 ちゅベフィェキか
+    - ID: 9acbbcab-2484-4558-9728-28433fe2f8a1
+      # Summary
+      Value: サイトコア、顧客経験管理ソリューションの世界的リーダーは、本日2014年6月30日に終了の会計年度に大幅なトップラインの成長と収益性の別の年を発表しました。
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: サイトコアは力強い成長を実現
+    - ID: d95bd7d2-2a5e-4f6c-a7c4-e5a564eb5487
+      # Date
+      Value: 20141201T000000Z
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: サイトコアは力強い成長を実現

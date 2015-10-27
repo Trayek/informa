@@ -1,0 +1,21 @@
+﻿---
+ID: 460630bc-83b5-4f7c-b8bf-9d962aa5ae07
+Parent: bb1ba86d-7110-41f0-a926-91d44bf8050d
+Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+Path: /sitecore/content/Global/Tags/Industry
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  # __Masters
+  Type: TreelistEx
+  Value: {962FF5A1-31FB-400F-A058-404829F5025E}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150122T152901Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

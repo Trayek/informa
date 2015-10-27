@@ -1,0 +1,27 @@
+﻿---
+ID: f84ec9bb-8972-4566-b650-c20ca5181983
+Parent: 460630bc-83b5-4f7c-b8bf-9d962aa5ae07
+Template: 962ff5a1-31fb-400f-a058-404829f5025e
+Path: /sitecore/content/Global/Tags/Industry/Sports
+SharedFields:
+- ID: 88b84628-6508-4ca5-805e-54530f3e2ffd
+  # Tag
+  Value: Sports
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150123T095405Z
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122710Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

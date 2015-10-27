@@ -1,0 +1,23 @@
+﻿---
+ID: c546b60c-07ba-45c7-b4e3-6bbcfae000a1
+Parent: 76f8c301-d867-4676-8b8e-1de478cff940
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/User Defined/msdemo/Fields/Frame colour/Data/CSS
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Single-Line Text
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 200
+- ID: be351a73-fcb0-4213-93fa-c302d8ab4f51
+  # Shared
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141211T160844

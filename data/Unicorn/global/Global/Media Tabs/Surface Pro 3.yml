@@ -1,0 +1,44 @@
+﻿---
+ID: 737ea584-6528-41d0-b59a-0c87e38c5e12
+Parent: f58dc5f0-5315-4981-9a2b-0388a245516e
+Template: 0a3823b0-3200-4c40-8056-da295d05efcc
+Path: /sitecore/content/Global/Media Tabs/Surface Pro 3
+SharedFields:
+- ID: 4862cdf7-1513-4ad3-ba69-3983c98ccfbc
+  # Images
+  Type: Treelist
+  Value: |
+    {FD9309BD-B6D4-4261-89FD-485474E96011}
+    {0DECEE00-7C49-498D-A2D4-F2A5B2E8CC41}
+    {8DA36FB2-300D-4DA3-97B1-64C889711B67}
+    {B8531D3E-23CD-4AF1-B580-3217C3E36DC3}
+    {1C05AF79-782A-448F-8425-6C49AE01009F}
+    {25F09FC7-DD52-4390-A9DF-26430B505837}
+    {2156CBFE-824E-4892-B9D2-99978F7A9136}
+    {FABA4AF1-6912-4081-B8F1-912F76C92644}
+    {4C60B4B5-B80C-4381-8303-5903AC114BF3}
+- ID: e9ef37ce-12ce-4dac-adf1-b1faeb2d14c9
+  # Video
+  Type: Treelist
+  Value: {BD801438-2098-4BA7-A679-37B6919E9FF6}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150129T153151Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122202Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

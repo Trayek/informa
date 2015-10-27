@@ -1,0 +1,30 @@
+﻿---
+ID: 553a188f-bf29-44c7-b3c5-c06d6baa2fa7
+Parent: 7839b152-b098-43e8-9aa0-a6808d195404
+Template: 66ac1b0d-4d2e-446a-8a3c-1dfdec3206a2
+Path: /sitecore/content/Global/Social/RSS
+SharedFields:
+- ID: 14c68dc5-ac79-4dd5-986a-c13a05dfd93e
+  # Title
+  Value: RSS
+- ID: 4299a22f-59f6-4583-b505-6d182e100ae9
+  # Image
+  Value: "<image mediaid=\"{2E7D92DE-59D3-4818-95E0-93029C9CC008}\" />"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141119T160645
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122511Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

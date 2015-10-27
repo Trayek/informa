@@ -1,0 +1,33 @@
+﻿---
+ID: 283da439-5b36-4c1c-872d-0ff14c3f104a
+Parent: 7839b152-b098-43e8-9aa0-a6808d195404
+Template: 66ac1b0d-4d2e-446a-8a3c-1dfdec3206a2
+Path: /sitecore/content/Global/Social/Twitter
+SharedFields:
+- ID: 14c68dc5-ac79-4dd5-986a-c13a05dfd93e
+  # Title
+  Value: Twitter
+- ID: 4299a22f-59f6-4583-b505-6d182e100ae9
+  # Image
+  Value: "<image mediaid=\"{FDDB0B5C-B12F-4E49-BD49-FCC04B781C42}\" />"
+- ID: 58c3128a-9980-4eac-b390-dedabf5c26eb
+  # Link
+  Value: "<link text=\"Twitter\" linktype=\"external\" url=\"http://www.twitter.com/SitecoreUK\" anchor=\"\" target=\"_blank\" />"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141119T160613
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122514Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

@@ -1,0 +1,16 @@
+﻿---
+ID: 39af5b5c-dfc7-4515-be98-8ce7ea088f4f
+Parent: f9a15236-6c31-4086-9ba8-5efae77eb7cc
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/User Defined/msdemo/Items/Steps/Step One
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150310T162031Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

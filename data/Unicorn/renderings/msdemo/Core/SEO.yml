@@ -1,0 +1,17 @@
+﻿---
+ID: 0c7288f7-b54e-4125-af82-e5b9245845c1
+Parent: a133491c-6dd1-4ffe-bf3c-1a1413a4f16b
+Template: f1f1d639-4f54-40c2-8be0-81266b392ceb
+Path: /sitecore/layout/Renderings/msdemo/Core/SEO
+SharedFields:
+- ID: 78783f79-1411-4b91-958d-ad81f81e2485
+  # Path
+  Value: /xsl/msdemo/seo.xslt
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150506T080704Z

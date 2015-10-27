@@ -1,0 +1,30 @@
+﻿---
+ID: e1d827df-1b07-4340-ad45-9eef1b693c10
+Parent: 1ab9abe8-8dee-4d15-a5aa-beb52c9730b8
+Template: 7cd4fb93-c30c-422b-8ba5-902c35505798
+Path: /sitecore/content/Global/Hero/Banners/Surface/Surface 3 Launch
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141204T163547
+    - ID: 3eed451b-d15c-44a1-997f-377ada28c11e
+      # Background Image
+      Value: "<image mediaid=\"{B7C70EF6-5CC0-406C-9AA1-D6559CF20DB0}\" />"
+    - ID: 76f3f31b-7f3e-4b92-8b56-d9b091a6f632
+      # Content
+      Value: |
+        <div class="caption lft slide_title slide_item_left" data-x="275" data-y="370" data-speed="400" data-start="500" data-easing="easeOutExpo">
+             <span style="color:#fff;line-height:normal !important; font-size:20px;font-weight:100;">There’s a Surface that’s right for everyone. Starting at £419.</span>
+        </div>
+        
+        <a class="caption lft btn scbrandred slide_btn slide_item_left" href="" data-x="400" data-y="440" data-speed="400" data-start="1000" data-easing="easeOutExpo">
+             Learn more
+        </a>
+        
+        <a class="caption lft btn scbrandred slide_btn slide_item_left" href="" data-x="600" data-y="440" data-speed="400" data-start="1000" data-easing="easeOutExpo">
+             Pre-order now
+        </a>

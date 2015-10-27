@@ -1,0 +1,18 @@
+﻿---
+ID: f58dc5f0-5315-4981-9a2b-0388a245516e
+Parent: f3826046-a939-4395-b3bc-d6e68ba9b8de
+Template: 4c758b7d-17f9-470b-b403-e6cb207d8182
+Path: /sitecore/content/Global/Media Tabs
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  # __Masters
+  Type: TreelistEx
+  Value: {0A3823B0-3200-4C40-8056-DA295D05EFCC}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150129T153144Z

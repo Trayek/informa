@@ -1,0 +1,41 @@
+﻿---
+ID: 7e3cfdc4-6ff3-48ed-a474-d8f6b2e7abe4
+Parent: f3826046-a939-4395-b3bc-d6e68ba9b8de
+Template: 85d965a1-08aa-4da4-abe1-5d3006493e92
+Path: /sitecore/content/Global/Clients
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Applications/32x32/folder_red.png
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  # __Masters
+  Type: TreelistEx
+  Value: {269FE657-09EE-4D96-955D-8CA1D1C19ADE}
+- ID: a0cb3965-8884-4c7a-8815-b6b2e5ced162
+  # __Editors
+  Type: TreelistEx
+  Value: {A0C460F4-DBAE-4A5A-8F3A-C4ADFCDACEEA}
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+- ID: d312103c-b36c-4ca5-864a-c85f9abda503
+  # __Is Bucket
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{5A39A085-7E87-42CC-B3F8-EDF986CB4F04}" p:before="r[@uid='{E19DA30E-3C4F-4649-89E2-2ACE9B9DD2B6}']" s:id="{C0001573-E712-44BA-85DD-FA9D847CC7D2}" s:ph="/body/content/leftcontent" />
+            <r uid="{B5308F50-F600-40A7-B938-AB9A98ED29B7}" s:ds="{C157418B-DD91-440E-B562-1939A327BBF9}" s:id="{22777FC7-72F0-4356-9791-F86D0282D27F}" s:par="" s:ph="/body/content" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141120T112324

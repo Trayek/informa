@@ -1,0 +1,110 @@
+﻿---
+ID: 0b205538-ced1-4065-871a-b531f51c2568
+Parent: fd056149-e0f6-4e86-810a-d48d48e3880a
+Template: 8fd46617-a947-4964-9b92-67b3fbe68b26
+Path: /sitecore/content/Home/Products/Surface/Surface Pro 3
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B2FD4E6E-7FE0-4A96-8669-3BA9C5498ED1}
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{B000189D-DE2F-473F-817F-7006254F047E}" name="Site Interest" presets="surface|100||">
+        <key name="Mobile" value="1" />
+        <key name="Office" value="1" />
+        <key name="Surface" value="10" />
+        <key name="Xbox" value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{77DC072C-1019-428C-99A8-83D64FD54FA7}">
+              <p:d />
+            </r>
+            <r uid="{DAD517FC-7E29-4974-9EAF-828511333B60}" p:before="r[@uid='{A2136CA2-997A-43DF-BD8C-64D80D04DE70}']" s:ds="{737EA584-6528-41D0-B59A-0C87E38C5E12}" s:id="{3FBA5F7E-5563-4D00-8959-BF5E0A973559}" s:ph="/body/maincontent/content" />
+            <r uid="{A2136CA2-997A-43DF-BD8C-64D80D04DE70}" p:before="r[@uid='{E19DA30E-3C4F-4649-89E2-2ACE9B9DD2B6}']" s:ds="" s:id="{6D3B4E7D-FEF8-4110-804A-B56605688830}" s:par="FormID=%7B85BDCAB5-FB66-4751-B6F3-9BD547FFA50D%7D&amp;ReadQueryString" s:ph="/body/maincontent/rightcontent" />
+            <r uid="{B4A479AC-7AC7-4B96-A221-6DF21BBAA7C7}">
+              <p:d />
+            </r>
+            <r uid="{7CF707C6-E6F2-4AF1-82E2-568363E505C4}" p:before="r[@uid='{F62C3253-C477-4C02-B4C9-43257812D764}']" s:ds="" s:id="{3FBED397-E0CC-4B2C-992F-5F8D76FC6A9F}" s:par="" s:ph="maincontent" />
+            <r uid="{F62C3253-C477-4C02-B4C9-43257812D764}" s:ph="onecontent" />
+            <r uid="{F8272418-B868-4112-8693-9567626E647C}" s:id="{59F58EED-58FC-4F90-8FB7-607857776EED}" s:ph="/body/maincontent" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150112T165957Z
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{3BFC73E2-753E-4DF6-9FB6-C58661054F07}\" ></image>"
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        <p>Barely tipping the scales at 798 grams, the new 12-inch Surface Pro 3 has all the power and performance of a premium laptop in a thin and lightweight design. It also comes with the all-new Surface Pen which delivers a natural writing and drawing experience.</p>
+        
+        <h3>Larger screen, lighter form</h3>
+        <p>Featuring a gorgeous 12-inch display encased in a sleek magnesium frame, Surface Pro 3 is the thinnest and lightest in our Pro family. Refined to its essential elements, Surface Pro 3 is as beautiful as it is functional so you can stay productive from anywhere. Just slip it into your bag or backpack and go.
+        
+        <h3>Run your favourite programs and apps</h3>
+        <p>Pre-loaded with Windows 8.1 Pro, you can install your favourite desktop software, including the full Microsoft Office Suite1 and thousands of programs created for the Windows platform. Surface Pro 3 also has a 4th generation Intel Core processor which delivers blazing-fast performance.</p>
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Surface Pro 3
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: The new 12-inch Pro 3 is the best of a laptop, best of a tablet. 
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Surface Pro 3
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T102353Z
+    - ID: 2cd3e702-4a51-4faa-aa10-a6f4956e13d3
+      # Show in menu
+      Value: 1
+    - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
+      # Image
+      Value: "<image mediaid=\"{3BFC73E2-753E-4DF6-9FB6-C58661054F07}\" />"
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {4AC5E48B-7A3E-462C-BF8E-1B87BF7E14B3}
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        やっと798グラムでスケールを傾け、新しい12インチの表面プロ3は、薄型軽量デザインのすべてのパワーとプレミアムノートパソコンの性能を持っています。また、自然の書き込みと描画体験を実現全く新しい表面ペンが付属しています。<br>
+        <br>
+        <strong>大画面、軽いフォーム</strong><br>
+        <br>
+        洗練されたマグネシウムフレームに収められゴージャスな12インチディスプレイを搭載し、3は私たちProファミリで最薄・最軽量であるプロ表面。その本質的な要素に洗練された、プロ3は、あなたがどこからでも生産性を維持できるように、それが機能しているように美しいされた表面。ちょうどあなたのバッグの中にそれをスリップやバックパックと行きます。<br>
+        <br>
+        <strong>お気に入りのプログラムやアプリケーションを実行します。</strong><br>
+        <br>
+        プリロードされたWindowsのプロ8.1で、あなたは完全なMicrosoft OfficeのSuite1およびWindowsプラットフォーム用に作成されたプログラムの数千人を含め、お気に入りのデスクトップ・ソフトウェアをインストールすることができます。表面プロ3も燃える高速パフォーマンスを提供し、第4世代Intel Coreプロセッサを持っています。
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Surface Pro 3
+    - ID: dec38f42-43bd-4e9f-9c34-baa5b57f0523
+      # Summary
+      Value: 3 Proの新しい12インチは、タブレットの最高のラップトップのベストです。
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Surface Pro 3

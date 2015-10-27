@@ -1,0 +1,19 @@
+﻿---
+ID: d8be6718-abb3-4e90-ba9e-ffd3cc9c8aea
+Parent: f726c87e-f93f-4c9b-9950-d06f821d1a50
+Template: 4fcee257-db59-4af2-8076-619bfe31f186
+Path: /sitecore/content/Global/SEO/Keywords/Folder 2/Folder 1/Keyword 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150506T074556Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: da3c2706-c76b-4c51-ab0a-0ee754a1df0f
+      # Title
+      Value: Keyword 1

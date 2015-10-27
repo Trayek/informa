@@ -1,0 +1,47 @@
+﻿---
+ID: f2488ef3-b484-47fb-b6a7-5c8d60973d3a
+Parent: f58dc5f0-5315-4981-9a2b-0388a245516e
+Template: 0a3823b0-3200-4c40-8056-da295d05efcc
+Path: /sitecore/content/Global/Media Tabs/Forza Horizon 2
+SharedFields:
+- ID: 4862cdf7-1513-4ad3-ba69-3983c98ccfbc
+  # Images
+  Type: Treelist
+  Value: |
+    {86948DB6-3CFC-44D8-B2C5-AD5D0859D5C7}
+    {831A1609-FE31-4A7D-A86F-8A0DF6FF1F0A}
+    {B2955CD3-50DC-4F0D-BEA6-75DAA67F2FAD}
+    {50036B83-1508-4CF3-855D-6C8B9774E3E6}
+    {627B5D43-26B2-4CEE-8910-E6038A1957CC}
+    {9ABECB81-A667-4669-AB5E-E7F40C5340FC}
+    {F3FACB95-D9A4-4A3F-B136-8F0A67D85C27}
+    {A7922FD9-823E-483C-8157-8F09C597D56E}
+    {D4C26E67-ED3C-4650-8DB2-8BF327E16881}
+    {44A492BF-8D72-4082-B439-273435B709A7}
+    {DCA21A18-30EE-43AF-801A-E24C286003C1}
+    {B7E41F1F-67AB-4EE4-AF00-A52EBD31D5F3}
+- ID: e9ef37ce-12ce-4dac-adf1-b1faeb2d14c9
+  # Video
+  Type: Treelist
+  Value: {59301449-8431-4251-8EAA-1AEC1F9DFBBE}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150219T155031Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T122147Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
