@@ -196,13 +196,11 @@ vars.user.cmd
 /App_Config/Include/SwitchMasterToWeb.config.example
 /App_Config/Include/Symsoft.Calendar.config
 /App_Config/Include/Unicorn/Unicorn.AutoPublish.config
-/App_Config/Include/Unicorn/Unicorn.Configs.Default.config
 /App_Config/Include/Unicorn/Unicorn.Configs.NewItemsOnly.example
 /App_Config/Include/Unicorn/Unicorn.DataProvider.config
 /App_Config/Include/Unicorn/Unicorn.Deployed.config.disabled
 /App_Config/Include/Unicorn/Unicorn.Remote.config.disabled
 /App_Config/Include/Unicorn/Unicorn.UI.config
-/App_Config/Include/Unicorn/Unicorn.config
 /App_Config/Include/WebDeploy.config.example
 /App_Config/Include/XdbCloud/Sitecore.Cloud.Xdb.config.disabled
 /App_Config/Include/XdbCloud/Sitecore.ContentSearch.Cloud.DefaultIndexConfiguration.config.disabled
