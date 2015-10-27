@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1048B748-D073-487E-A102-985414E94A61}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ms8</RootNamespace>
+    <AssemblyName>ms8</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Kamsar.WebConsole, Version=1.2.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Kamsar.WebConsole.1.2.2.0\lib\net40\Kamsar.WebConsole.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Rainbow, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Rainbow.Core.1.0.0\lib\net45\Rainbow.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Rainbow.Storage.Sc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Rainbow.Storage.Sc.1.0.0\lib\net45\Rainbow.Storage.Sc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Rainbow.Storage.Yaml, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Rainbow.Storage.Yaml.1.0.0\lib\net45\Rainbow.Storage.Yaml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Client, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Sitecore.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Forms.Core, Version=8.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Sitecore.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Forms.Custom, Version=8.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Sitecore.Forms.Custom.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Kernel, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.WFFM, Version=8.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Sitecore.WFFM.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Unicorn, Version=3.0.1.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Unicorn.Core.3.0.1.1\lib\net45\Unicorn.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="code\SaveActions\CreatItem.cs" />
+    <Compile Include="layouts\EndSession.aspx.cs">
+      <DependentUpon>EndSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\EndSession.aspx.designer.cs">
+      <DependentUpon>EndSession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\LogOut.aspx.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\LogOut.aspx.designer.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="layouts\EndSession.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="layouts\LogOut.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="layouts\msdemo\Main.aspx" />
+    <Content Include="layouts\msdemo\OneColumn.ascx" />
+    <Content Include="layouts\msdemo\OneColumnBC.ascx" />
+    <Content Include="layouts\msdemo\OneColumnTitle.ascx" />
+    <Content Include="layouts\msdemo\OneColumnTitleBC.ascx" />
+    <Content Include="layouts\msdemo\PageContent.ascx" />
+    <Content Include="layouts\msdemo\SurfacePro3Form.ascx" />
+    <Content Include="layouts\msdemo\ThreeColumn.ascx" />
+    <Content Include="layouts\msdemo\ThreeColumnBC.ascx" />
+    <Content Include="layouts\msdemo\ThreeColumnNarrow.ascx" />
+    <Content Include="layouts\msdemo\ThreeColumnNarrowBC.ascx" />
+    <Content Include="layouts\msdemo\ThreeColumnTitle.ascx" />
+    <Content Include="layouts\msdemo\ThreeColumnTitleBC.ascx" />
+    <Content Include="layouts\msdemo\TopContent.ascx" />
+    <Content Include="layouts\msdemo\TwoColumn.ascx" />
+    <Content Include="layouts\msdemo\TwoColumnBC.ascx" />
+    <Content Include="layouts\msdemo\TwoColumnBCleft.ascx" />
+    <Content Include="layouts\msdemo\TwoColumnTitle.ascx" />
+    <Content Include="layouts\msdemo\TwoColumnTitleBC.ascx" />
+    <Content Include="layouts\msdemo\TwoColumn_6-6.ascx" />
+    <Content Include="layouts\QueryableRulesRunner.ascx" />
+    <Content Include="layouts\system\Social\Connector\Login with Facebook.ascx" />
+    <Content Include="layouts\system\Social\Connector\Login with Google.ascx" />
+    <Content Include="layouts\system\Social\Connector\Login with LinkedIn.ascx" />
+    <Content Include="layouts\system\Social\Connector\Login with Twitter.ascx" />
+    <Content Include="layouts\system\Social\Connector\Style.css" />
+    <Content Include="layouts\system\Social\Sharing\GooglePlusOneButton.ascx" />
+    <Content Include="layouts\system\Social\Sharing\LikeButton.ascx" />
+    <Content Include="layouts\system\Social\Sharing\LinkedInShareButton.ascx" />
+    <Content Include="layouts\system\Social\Sharing\SocialEvents.aspx" />
+    <Content Include="layouts\system\Social\Sharing\TweetButton.ascx" />
+    <Content Include="layouts\system\VIChecker.aspx" />
+    <Content Include="layouts\system\VisitorIdentification.ascx" />
+    <Content Include="layouts\system\VisitorIdentification.aspx" />
+    <Content Include="layouts\system\VisitorIdentification.js" />
+    <Content Include="layouts\system\VisitorIdentificationCss.aspx" />
+    <Content Include="metronic\frontend\layout\css\style-override.css" />
+    <Content Include="sitecore modules\Shell\Web Forms for Marketers\Themes\Metronic.css" />
+    <Content Include="xsl\EmailCampaign\Display Body.xslt" />
+    <Content Include="xsl\EmailCampaign\Display Footer.xslt" />
+    <Content Include="xsl\EmailCampaign\Display Sidebar.xslt" />
+    <Content Include="xsl\EmailCampaign\Newsletter\Auto Overview.xslt" />
+    <Content Include="xsl\EmailCampaign\Newsletter\Category Section.xslt" />
+    <Content Include="xsl\EmailCampaign\Newsletter\Footer.xslt" />
+    <Content Include="xsl\EmailCampaign\Newsletter\Header.xslt" />
+    <Content Include="xsl\EmailCampaign\Newsletter\Main Section.xslt" />
+    <Content Include="xsl\EmailCampaign\Newsletter\Sidebar Auto Overview.xslt" />
+    <Content Include="xsl\EmailCampaign\Newsletter\Sidebar Section.xslt" />
+    <Content Include="xsl\EmailCampaign\Newsletter\Simple Section.xslt" />
+    <Content Include="xsl\EmailCampaign\Newsletter\Top Image.xslt" />
+    <Content Include="xsl\EmailCampaign\Newsletter\Two Column Section.xslt" />
+    <Content Include="xsl\EmailCampaign\Set Page Title.xslt" />
+    <Content Include="xsl\EmailCampaign\Target Item.xslt" />
+    <Content Include="xsl\EmailCampaign\Text Message.xslt" />
+    <Content Include="xsl\msdemo\banner.xslt" />
+    <Content Include="xsl\msdemo\blockquote.xslt" />
+    <Content Include="xsl\msdemo\breadcrumb.xslt" />
+    <Content Include="xsl\msdemo\clientgallery.xslt" />
+    <Content Include="xsl\msdemo\clients.xslt" />
+    <Content Include="xsl\msdemo\contact.xslt" />
+    <Content Include="xsl\msdemo\footer.xslt" />
+    <Content Include="xsl\msdemo\header.xslt" />
+    <Content Include="xsl\msdemo\home-news.xslt" />
+    <Content Include="xsl\msdemo\home-ops.xslt" />
+    <Content Include="xsl\msdemo\home-what.xslt" />
+    <Content Include="xsl\msdemo\importantinfo.xslt" />
+    <Content Include="xsl\msdemo\itemlist.xslt" />
+    <Content Include="xsl\msdemo\javascript.xslt" />
+    <Content Include="xsl\msdemo\leftmenu.xslt" />
+    <Content Include="xsl\msdemo\map.xslt" />
+    <Content Include="xsl\msdemo\newsitem.xslt" />
+    <Content Include="xsl\msdemo\newslist.xslt" />
+    <Content Include="xsl\msdemo\pagetitle.xslt" />
+    <Content Include="xsl\msdemo\pagetitlenoedit.xslt" />
+    <Content Include="xsl\msdemo\photostream.xslt" />
+    <Content Include="xsl\msdemo\productgallery.xslt" />
+    <Content Include="xsl\msdemo\productitem.xslt" />
+    <Content Include="xsl\msdemo\recentitems.xslt" />
+    <Content Include="xsl\msdemo\selection.xslt" />
+    <Content Include="xsl\msdemo\servicebox.xslt" />
+    <Content Include="xsl\msdemo\slider.xslt" />
+    <Content Include="xsl\msdemo\steps.xslt" />
+    <Content Include="xsl\msdemo\tabsandtest.xslt" />
+    <Content Include="xsl\msdemo\topbar.xslt" />
+    <Content Include="xsl\msdemo\video.xslt" />
+    <Content Include="xsl\msdemo\videosidebar.xslt" />
+    <Content Include="xsl\msdemo\xboxgamesleftmenu.xslt" />
+    <Content Include="xsl\sample rendering.xslt" />
+    <Content Include="xsl\system\WebEdit\Hidden Rendering.xslt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="layouts\system\Social\Connector\SocialLogin.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Rainbow.config" />
+    <Content Include="App_Config\Include\XslExtension.config" />
+    <Content Include="App_Config\Include\z.OfficecoreCallHome.config" />
+    <Content Include="App_Config\Include\zOfficecore.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Unicorn\Unicorn.UI.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Unicorn\Unicorn.Remote.config.disabled" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Unicorn\Unicorn.Deployed.config.disabled" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Unicorn\Unicorn.DataProvider.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.NewItemsOnly.example" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Unicorn\Unicorn.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54456</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54456/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

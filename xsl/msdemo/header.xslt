@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+  xmlns:sc="http://www.sitecore.net/sc"  
+  xmlns:sql="http://www.sitecore.net/sql"
+  exclude-result-prefixes="sc sql">
+
+  <!-- output directives -->
+  <xsl:output method="html" indent="no" encoding="UTF-8"  />
+
+  <!-- sitecore parameters -->
+  <xsl:param name="lang" select="'en'"/>
+  <xsl:param name="id" select="''"/>
+  <xsl:param name="sc_item"/>
+  <xsl:param name="sc_currentitem"/>
+  
+<!--  <xsl:variable name="home" select="sc:item('110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9',.)"/> -->
+  <xsl:variable name="home" select="$sc_item/ancestor-or-self::item[@template='home']" />
+  <xsl:variable name="this_section" select="$home/child::item[@template='section']" />
+  <xsl:variable name="section" select="$sc_item/ancestor-or-self::item[@template='section']" />
+
+  
+  
+  <!-- entry point -->
+  <xsl:template match="*">    
+
+    <!-- BEGIN HEADER -->
+    <div class="header">
+      <div class="container">
+        <sc:link select="$home" class="site-logo"><sc:image select="$home" field="logo" /></sc:link>
+
+        <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
+
+        <!-- BEGIN NAVIGATION -->
+        <div class="header-navigation pull-right font-transform-inherit">
+          <ul>
+			<li>
+				<xsl:if test="./@id=$home/@id">
+				  <xsl:attribute name="class">
+					<xsl:value-of select="'active'"/>
+				  </xsl:attribute>
+				</xsl:if>
+				<sc:link select="$home">
+					<span><sc:text field="menu title" select="$home"  disable-web-editing="true"/></span>
+				</sc:link>
+			</li>
+		  
+        <xsl:for-each select="$home/item[sc:IsItemOfType('section',.)]">
+		<xsl:variable name="thisitem" select="." />
+			
+			<xsl:choose>
+				<xsl:when test="sc:pageMode()/pageEditor/edit">
+					<xsl:choose>
+						<xsl:when test="sc:fld('dropdown',.)='1'">
+							<li>
+								<xsl:choose>
+									<xsl:when test="./@id=$section/@id">
+										<xsl:attribute name="class">
+											<xsl:value-of select="'active'"/>
+										</xsl:attribute>
+										<sc:link><span><sc:text field="menu title" disable-web-editing="true"/></span></sc:link>
+									</xsl:when>
+									<xsl:otherwise>
+										<sc:link><span><sc:text field="menu title" disable-web-editing="true"/></span></sc:link>
+									</xsl:otherwise>
+								</xsl:choose>
+
+								<ul class="dropdown-menu">
+									<li>
+										<div class="header-navigation-content">
+											<div class="row">
+												<xsl:for-each select="item">
+													<xsl:if test="sc:fld('show in menu',.)='1'">
+														<div class="col-md-4 header-navigation-col">
+															<sc:link><h4 style="color: #3e4d5c;!important"><sc:text field="menu title" disable-web-editing="true"/></h4></sc:link>
+															<ul>
+																<xsl:for-each select="./item">
+																	<li><sc:link><sc:text field="menu title" disable-web-editing="true"/></sc:link></li>
+																</xsl:for-each>
+															</ul>
+														</div>
+													</xsl:if>
+												</xsl:for-each>
+											</div>
+										</div>
+									</li>
+								</ul>
+								
+							</li>
+						</xsl:when>
+						<xsl:otherwise>
+							<li>
+								<xsl:choose>
+									<xsl:when test="./@id=$section/@id">
+										<xsl:attribute name="class">
+											<xsl:value-of select="'active'"/>
+										</xsl:attribute>
+										<sc:link><span><sc:text field="menu title" disable-web-editing="true"/></span></sc:link>
+									</xsl:when>
+									<xsl:otherwise>
+										<sc:link><span><sc:text field="menu title" disable-web-editing="true"/></span></sc:link>
+									</xsl:otherwise>
+								</xsl:choose>
+							</li>
+						</xsl:otherwise>
+					</xsl:choose>
+				  
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:choose>
+						<xsl:when test="sc:fld('dropdown',.)='1'">
+							<li>
+								<xsl:choose>
+									<xsl:when test="./@id=$section/@id">
+										<xsl:attribute name="class">
+											<xsl:value-of select="'active'"/>
+										</xsl:attribute>
+										<sc:link><span><sc:text field="menu title"/></span></sc:link>
+									</xsl:when>
+									<xsl:otherwise>
+										<sc:link><span><sc:text field="menu title"/></span></sc:link>
+									</xsl:otherwise>
+								</xsl:choose>
+
+								<ul class="dropdown-menu">
+									<li>
+										<div class="header-navigation-content">
+											<div class="row">
+												<xsl:for-each select="item">
+													<xsl:if test="sc:fld('show in menu',.)='1'">
+														<div class="col-md-4 header-navigation-col">
+															<h4><sc:link style="color: #3e4d5c;!important"><sc:text field="menu title"/></sc:link></h4>
+															<ul>
+																<xsl:for-each select="./item">
+																	<li><sc:link><sc:text field="menu title"/></sc:link></li>
+																</xsl:for-each>
+															</ul>
+														</div>
+													</xsl:if>
+												</xsl:for-each>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</xsl:when>
+						<xsl:otherwise>
+							<li>
+								<xsl:choose>
+									<xsl:when test="./@id=$section/@id">
+										<xsl:attribute name="class">
+											<xsl:value-of select="'active'"/>
+										</xsl:attribute>
+										<sc:link>
+											<span>
+												<sc:text field="menu title"/>
+											</span>
+										</sc:link>
+									</xsl:when>
+									<xsl:otherwise>
+										<sc:link>
+											<span>
+												<sc:text field="menu title"/>
+											</span>
+										</sc:link>
+									</xsl:otherwise>
+								</xsl:choose>
+							</li>
+						</xsl:otherwise>
+					</xsl:choose>
+
+				</xsl:otherwise>
+			</xsl:choose>
+
+		</xsl:for-each>
+
+            <!-- BEGIN TOP SEARCH -->
+            <li class="menu-search">
+              <span class="sep"></span>
+              <i class="fa fa-search search-btn"></i>
+              <div class="search-box">
+                <form2 action="#">
+                  <div class="input-group">
+                    <input type="text" placeholder="Search" class="form-control"/>
+                    <span class="input-group-btn">
+                      <button class="btn btn-primary" type="submit">Search</button>
+                    </span>
+                  </div>
+                </form2>
+              </div> 
+            </li>
+            <!-- END TOP SEARCH -->
+          </ul>
+        </div>
+        <!-- END NAVIGATION -->
+      </div>
+    </div>
+    <!-- Header END -->
+  
+  </xsl:template>
+
+</xsl:stylesheet>
