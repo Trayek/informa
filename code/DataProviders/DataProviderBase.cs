@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using ms8.code.Models;
@@ -23,17 +24,18 @@ namespace ms8.code.DataProviders
         protected readonly string IdTablePrefix;
         protected readonly ID ItemTemplateId;
         protected readonly ID RootTemplateId;
+        protected readonly ID RootItemId;
 
         protected readonly IEnumerable<T> ExternalItems;
 
         protected DataProviderBase(string targetDatabaseName, string rootTemplateId, string itemTemplateId,
-            string idTablePrefix)
+            string idTablePrefix, string rootItemId)
         {
             Assert.ArgumentNotNullOrEmpty(targetDatabaseName, "targetDatabaseName");
             Assert.ArgumentNotNullOrEmpty(rootTemplateId, "rootTemplateId");
             Assert.ArgumentNotNullOrEmpty(itemTemplateId, "itemTemplateId");
             Assert.ArgumentNotNullOrEmpty(idTablePrefix, "idTablePrefix");
-
+           
             TargetDatabaseName = targetDatabaseName;
             IdTablePrefix = idTablePrefix;
 
@@ -47,12 +49,22 @@ namespace ms8.code.DataProviders
                 throw new InvalidOperationException(string.Format("Invalid template ID {0}", itemTemplateId));
             }
 
+            if (!ID.TryParse(rootItemId, out RootItemId))
+            {
+                throw new InvalidOperationException(string.Format("Invalid rootItem ID {0}", rootItemId));
+            }
+
             ExternalItems = LoadExternalItems();
         }
 
         protected abstract string GetFieldValue(TemplateField field, T externalItem);
 
         protected abstract IEnumerable<T> LoadExternalItems();
+
+        public override ID GetRootID(CallContext context)
+        {
+            return RootItemId;
+        }
 
         public override bool MoveItem(ItemDefinition itemDefinition, ItemDefinition destination, CallContext context)
         {
@@ -114,7 +126,7 @@ namespace ms8.code.DataProviders
 
                 var itemIdList = new IDList();
 
-                foreach (var externalItem in ExternalItems)
+                foreach (var externalItem in LoadChildren(parentItem))
                 {
                     var externalItemId = externalItem.Id;
 
@@ -136,11 +148,16 @@ namespace ms8.code.DataProviders
             return base.GetChildIDs(parentItem, context);
         }
 
+        protected virtual IEnumerable<T> LoadChildren(ItemDefinition parentItem)
+        {
+            return ExternalItems;
+        }
+
         private bool CanProcessParent(ID id)
         {
             var item = Factory.GetDatabase(TargetDatabaseName).Items[id];
 
-            bool canProcess = item.Paths.IsContentItem && item.TemplateID == RootTemplateId;
+            bool canProcess = item.Paths.IsContentItem && (item.TemplateID == RootTemplateId || item.TemplateID == ItemTemplateId);
 
             return canProcess;
         }

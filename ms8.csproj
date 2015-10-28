@@ -48,6 +48,14 @@
       <Private>True</Private>
       <HintPath>packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
+    <Reference Include="MongoDB.Bson, Version=1.8.3.9, Culture=neutral, PublicKeyToken=f686731cfb9cc103, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver, Version=1.8.3.9, Culture=neutral, PublicKeyToken=f686731cfb9cc103, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\MongoDB.Driver.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Bin\Newtonsoft.Json.dll</HintPath>
@@ -123,6 +131,7 @@
     <Compile Include="code\Models\IHasName.cs" />
     <Compile Include="code\Models\Journal.cs" />
     <Compile Include="code\Models\JournalType.cs" />
+    <Compile Include="code\Models\IsbnDocument.cs" />
     <Compile Include="code\Repositories\JournalRepository.cs" />
     <Compile Include="code\SaveActions\CreatItem.cs" />
     <Compile Include="code\Search\FacetResult.cs" />
@@ -265,6 +274,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\DataProviders.config" />
+    <Content Include="App_Config\ConnectionStrings.config" />
     <None Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.example" />
   </ItemGroup>
