@@ -1,6 +1,6 @@
 ﻿namespace ms8.code.Models
 {
-    public class Category : IHasName, IHasId
+    public class Category : IHasName, IHasId, IIsFolder
     {
         public string Id { get; set; }
         public string Name { get; set; }

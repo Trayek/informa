@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 namespace ms8.code.Models
 {
-    public class Journal : IHasId, IHasName
+    public class Journal : IHasId, IHasName, IIsFolder
     {
         public Journal()
         {
@@ -10,7 +10,7 @@ namespace ms8.code.Models
             Categories = new string[0];
         }
 
-        public string ParentId { get; set; }
+        public string ParentId => null;
         public string Id { get; set; }
         public string Name { get; set; }
         public string Title { get; set; }
@@ -27,5 +27,6 @@ namespace ms8.code.Models
         public DateTime PublicationDate { get; set; }
 
         public string TableOfContents { get; set; }
+        public bool IsFolder { get { return false; } }
     }
 }

@@ -18,8 +18,10 @@ using Sitecore.Reflection;
 
 namespace ms8.code.DataProviders
 {
-    public abstract class DataProviderBase<T> : DataProvider where T:IHasId, IHasName
+    public abstract class DataProviderBase<T> : DataProvider where T:IHasId, IHasName, IIsFolder
     {
+        protected ID FolderTemplateId => ID.Parse("{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}");
+
         protected readonly string TargetDatabaseName;
         protected readonly string IdTablePrefix;
         protected readonly ID ItemTemplateId;
@@ -96,7 +98,10 @@ namespace ms8.code.DataProviders
                 {
                     var itemName = ItemUtil.ProposeValidItemName(journal.Name);
 
-                    return new ItemDefinition(itemId, itemName, ID.Parse(ItemTemplateId), ID.Null);
+                    return new ItemDefinition(itemId, itemName,
+                        //(journal.IsFolder ? FolderTemplateId : ItemTemplateId),
+                        ItemTemplateId,
+                        ID.Null);
                 }
             }
 
@@ -150,14 +155,23 @@ namespace ms8.code.DataProviders
 
         protected virtual IEnumerable<T> LoadChildren(ItemDefinition parentItem)
         {
-            return ExternalItems;
+            if (parentItem.ID == RootItemId)
+            {
+                return ExternalItems.Where(a => a.ParentId == null);
+            }
+
+            return new T[0];
         }
 
         private bool CanProcessParent(ID id)
         {
             var item = Factory.GetDatabase(TargetDatabaseName).Items[id];
 
-            bool canProcess = item.Paths.IsContentItem && (item.TemplateID == RootTemplateId || item.TemplateID == ItemTemplateId);
+            bool canProcess = item.Paths.IsContentItem && (
+                item.TemplateID == RootTemplateId 
+                || item.TemplateID == ItemTemplateId 
+                //|| item.TemplateID == FolderTemplateId
+                );
 
             return canProcess;
         }

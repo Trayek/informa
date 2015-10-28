@@ -129,6 +129,7 @@
     <Compile Include="code\Models\Category.cs" />
     <Compile Include="code\Models\IHasId.cs" />
     <Compile Include="code\Models\IHasName.cs" />
+    <Compile Include="code\Models\IIsFolder.cs" />
     <Compile Include="code\Models\Journal.cs" />
     <Compile Include="code\Models\JournalType.cs" />
     <Compile Include="code\Models\IsbnDocument.cs" />
