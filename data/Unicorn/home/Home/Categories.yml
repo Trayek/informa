@@ -1,0 +1,13 @@
+﻿---
+ID: 879c8778-114b-4bcf-bcf2-0aab097ded11
+Parent: 110d559f-dea5-42ea-9c1c-8a5df7e70ef9
+Template: 24533c1b-1178-4504-80db-e73571ff461b
+Path: /sitecore/content/Home/Categories
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151028T150429Z

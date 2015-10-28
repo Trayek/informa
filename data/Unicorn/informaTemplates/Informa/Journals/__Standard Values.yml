@@ -1,0 +1,30 @@
+﻿---
+ID: abac9234-0191-4f2c-97db-ed7401f3e94d
+Parent: 3a6f45ac-5c68-4b15-bd08-82aba07a9e0b
+Template: 3a6f45ac-5c68-4b15-bd08-82aba07a9e0b
+Path: /sitecore/templates/User Defined/Informa/Journals/__Standard Values
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  # __Masters
+  Type: TreelistEx
+  Value: {20E8F6F1-1027-4092-BB4F-568321F66251}
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  # __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{14030E9F-CE92-49C6-AD87-7D49B50E42EA}">
+        <r id="{DE6757BC-0D8D-45B2-9E8E-8A5BBB19FEC3}" ph="main" uid="{3A18A176-D9C7-46A7-90EF-A8CD4A8C37FA}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151012T092308Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

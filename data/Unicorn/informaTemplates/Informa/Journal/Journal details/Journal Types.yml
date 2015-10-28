@@ -1,0 +1,23 @@
+﻿---
+ID: ae6b3a7b-7b9f-4856-ad1f-5a9e89b88c55
+Parent: 0f20c1d2-8659-4ed1-98fd-c9933957f32c
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/User Defined/Informa/Journal/Journal details/Journal Types
+SharedFields:
+- ID: 1eb8ae32-e190-44a6-968d-ed904c794ebf
+  # Source
+  Value: /sitecore/content/Home/Journal Types
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Multilist
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151022T131503Z

@@ -48,6 +48,10 @@
       <Private>True</Private>
       <HintPath>packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Rainbow, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Rainbow.Core.1.0.0\lib\net45\Rainbow.dll</HintPath>
       <Private>True</Private>
@@ -63,6 +67,14 @@
     <Reference Include="Sitecore.Client, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Sitecore.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\Sitecore.ContentSearch.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch.Linq, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\Sitecore.ContentSearch.Linq.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Forms.Core, Version=8.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -102,7 +114,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="code\DataProviders\CategoryDataProvider.cs" />
+    <Compile Include="code\DataProviders\DataProviderBase.cs" />
+    <Compile Include="code\DataProviders\JournalDataProvider.cs" />
+    <Compile Include="code\DataProviders\JournalTypeDataProvider.cs" />
+    <Compile Include="code\Models\Category.cs" />
+    <Compile Include="code\Models\IHasId.cs" />
+    <Compile Include="code\Models\IHasName.cs" />
+    <Compile Include="code\Models\Journal.cs" />
+    <Compile Include="code\Models\JournalType.cs" />
+    <Compile Include="code\Repositories\JournalRepository.cs" />
     <Compile Include="code\SaveActions\CreatItem.cs" />
+    <Compile Include="code\Search\FacetResult.cs" />
+    <Compile Include="code\Search\IIndexSearchService.cs" />
+    <Compile Include="code\Search\IndexSearchService.cs" />
+    <Compile Include="code\Search\QueryBuilder.cs" />
+    <Compile Include="code\Search\SearchParameters.cs" />
+    <Compile Include="code\Search\SearchParametersFacet.cs" />
+    <Compile Include="code\Search\SearchResult.cs" />
     <Compile Include="layouts\EndSession.aspx.cs">
       <DependentUpon>EndSession.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -235,12 +264,14 @@
     <Content Include="App_Config\Include\zOfficecore.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\DataProviders.config" />
     <None Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.example" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Unicorn\Unicorn.config" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

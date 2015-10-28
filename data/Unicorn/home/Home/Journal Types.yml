@@ -1,0 +1,16 @@
+﻿---
+ID: 0ee25e20-a1c9-4dc3-bb8d-e1f95a97a157
+Parent: 110d559f-dea5-42ea-9c1c-8a5df7e70ef9
+Template: 0e8a5d93-e82a-4267-a306-d7755558f4ef
+Path: /sitecore/content/Home/Journal Types
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151028T150444Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

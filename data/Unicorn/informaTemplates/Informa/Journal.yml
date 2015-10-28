@@ -1,0 +1,30 @@
+﻿---
+ID: 20e8f6f1-1027-4092-bb4f-568321f66251
+Parent: bc8e57f4-c275-433e-8318-adf6cfdac6d7
+Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+Path: /sitecore/templates/User Defined/Informa/Journal
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Applications/32x32/notebook_edit.png
+- ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
+  # __Base template
+  Type: tree list
+  Value: {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+- ID: c9283d9e-7c29-4419-9c28-5a5c8ff53e84
+  # __Bucketable
+  Value: 1
+- ID: f7d48a55-2158-4f02-9356-756654404f73
+  # __Standard values
+  Value: {3AEBA5DA-DCD0-481B-BBF2-DEE215FD8BAC}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151012T091449Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

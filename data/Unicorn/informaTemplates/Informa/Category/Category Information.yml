@@ -1,0 +1,16 @@
+﻿---
+ID: 2556710e-63ac-4560-864f-60d28482ee4c
+Parent: 4c6ccc1d-0993-4688-874a-10bcc15d5396
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/User Defined/Informa/Category/Category Information
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151012T135259Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
