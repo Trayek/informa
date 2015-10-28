@@ -120,6 +120,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Rainbow.config" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.NewItemsOnly.example" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.DataProvider.config" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.Deployed.config.disabled" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.Remote.config.disabled" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.UI.config" />
     <Content Include="layouts\EndSession.aspx">
       <SubType>ASPXCodeBehind</SubType>
     </Content>
@@ -223,34 +230,16 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Rainbow.config" />
     <Content Include="App_Config\Include\XslExtension.config" />
     <Content Include="App_Config\Include\z.OfficecoreCallHome.config" />
     <Content Include="App_Config\Include\zOfficecore.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Unicorn\Unicorn.UI.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_Config\Include\Unicorn\Unicorn.Remote.config.disabled" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_Config\Include\Unicorn\Unicorn.Deployed.config.disabled" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_Config\Include\Unicorn\Unicorn.DataProvider.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.NewItemsOnly.example" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.config" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.example" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Unicorn\Unicorn.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

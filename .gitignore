@@ -15096,3 +15096,6 @@ vars.user.cmd
 /xsl/EmailCampaign/Text Message.xslt
 /xsl/sample rendering.xslt
 /xsl/system/WebEdit/Hidden Rendering.xslt
+temp/IconCache/*
+App_Data/MediaCache/*
+informa/*
