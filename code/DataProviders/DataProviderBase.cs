@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using ms8.code.Models;
@@ -28,8 +27,9 @@ namespace ms8.code.DataProviders
         protected readonly ID RootTemplateId;
         protected readonly ID RootItemId;
 
-        protected readonly IEnumerable<T> ExternalItems;
-
+        protected readonly T[] ExternalItems;
+        protected readonly Dictionary<string, T> IdItems;
+        
         protected DataProviderBase(string targetDatabaseName, string rootTemplateId, string itemTemplateId,
             string idTablePrefix, string rootItemId)
         {
@@ -61,7 +61,7 @@ namespace ms8.code.DataProviders
 
         protected abstract string GetFieldValue(TemplateField field, T externalItem);
 
-        protected abstract IEnumerable<T> LoadExternalItems();
+        protected abstract T[] LoadExternalItems();
 
         public override ID GetRootID(CallContext context)
         {
@@ -132,7 +132,8 @@ namespace ms8.code.DataProviders
 
                 var itemIdList = new IDList();
 
-                foreach (var externalItem in LoadChildren(parentItem))
+                foreach (
+                    var externalItem in LoadChildren(parentItem).Where(a => a != null && !String.IsNullOrEmpty(a.Id)))
                 {
                     var externalItemId = externalItem.Id;
 
@@ -158,7 +159,7 @@ namespace ms8.code.DataProviders
         {
             if (parentItem.ID == RootItemId)
             {
-                Log.Info("RootDataProvider LoadChildren: " + parentItem.Key + " " + String.Join(",", ExternalItems.Select(a => a.ParentId)), this);
+                //Log.Info("RootDataProvider LoadChildren: " + parentItem.Key + " " + String.Join(",", ExternalItems.Select(a => a.ParentId)), this);
 
                 return ExternalItems.Where(a => a.ParentId == null);
             }
@@ -220,7 +221,12 @@ namespace ms8.code.DataProviders
                         {
                             foreach (var field in GetDataFields(template))
                             {
-                                fields.Add(field.ID, GetFieldValue(field, journal));
+                                try
+                                {
+                                    fields.Add(field.ID, GetFieldValue(field, journal));
+                                }
+                                catch (Exception)
+                                {}
                             }
                         }
                     }
@@ -265,7 +271,7 @@ namespace ms8.code.DataProviders
         {
             List<Guid> itemGuids = values.Select(a => FindIdTableGuid(a, idTableKey)).ToList();
 
-            return String.Join("|", itemGuids.Where(a => a != Guid.Empty).Select(a => a.ToString("B").ToUpper()));
+            return String.Join("|", itemGuids.Where(a => a != Guid.Empty).Distinct().Select(a => a.ToString("B").ToUpper()));
         }
 
         private Guid FindIdTableGuid(string value, string idTableKey)

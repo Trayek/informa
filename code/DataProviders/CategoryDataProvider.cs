@@ -15,27 +15,15 @@ namespace ms8.code.DataProviders
         public CategoryDataProvider(string targetDatabaseName, string rootTemplateId, string itemTemplateId, string idTablePrefix, string rootItemId) 
             : base(targetDatabaseName, rootTemplateId, itemTemplateId, idTablePrefix, rootItemId)
         {
+            
         }
 
         protected override IEnumerable<Category> LoadChildren(ItemDefinition parentItem)
         {
-            var idTableEntries = IDTable.GetKeys(IdTablePrefix, parentItem.ID);
-
-            if (parentItem.ID == RootItemId)
-            {
-                return ExternalItems.Where(a => a.ParentId == null);
-            }
-            else if (idTableEntries.Any())
-            {
-                var parentKey = idTableEntries.FirstOrDefault();
-
-                return ExternalItems.Where(a => a.ParentId == parentKey.Key);
-            }
-
-            return new Category[0];
+            return new SimpleChildrenNesting().Children(parentItem, IdTablePrefix, ExternalItems, RootItemId);
         }
 
-        protected override IEnumerable<Category> LoadExternalItems()
+        protected override Category[] LoadExternalItems()
         {
             return new JournalRepository().GetCategoriesFromJson();
         }

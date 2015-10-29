@@ -126,6 +126,7 @@
     <Compile Include="code\DataProviders\DataProviderBase.cs" />
     <Compile Include="code\DataProviders\JournalDataProvider.cs" />
     <Compile Include="code\DataProviders\JournalTypeDataProvider.cs" />
+    <Compile Include="code\DataProviders\SimpleChildrenNesting.cs" />
     <Compile Include="code\Models\Category.cs" />
     <Compile Include="code\Models\IHasId.cs" />
     <Compile Include="code\Models\IHasName.cs" />

@@ -1,4 +1,6 @@
-﻿namespace ms8.code.Models
+﻿using System;
+
+namespace ms8.code.Models
 {
     public class StructuredItem : IFolder
     {
@@ -14,11 +16,11 @@
 
         public int Depth { get; set; }
 
-        public string ParentId => (IsFolder || Depth == 0) ? null : BuildFolder();
+        public string ParentId => (Depth == 0) ? null : BuildFolder();
 
         private string BuildFolder()
         {
-            if (Id.Length > Depth)
+            if (!String.IsNullOrEmpty(Id) && Id.Length >= Depth)
             {
                 return Id.Substring(0, Depth).ToLower();
             }

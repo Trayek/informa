@@ -13,8 +13,12 @@ namespace ms8.code.DataProviders
         {
         }
 
-        
-        protected override IEnumerable<JournalType> LoadExternalItems()
+        protected override IEnumerable<JournalType> LoadChildren(ItemDefinition parentItem)
+        {
+            return new SimpleChildrenNesting().Children(parentItem, IdTablePrefix, ExternalItems, RootItemId);
+        }
+
+        protected override JournalType[] LoadExternalItems()
         {
             return new JournalRepository().GetJournalTypesFromJson();
         }
