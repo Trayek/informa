@@ -28,8 +28,10 @@ namespace ms8.code.DataProviders
         protected readonly ID RootItemId;
 
         protected readonly T[] ExternalItems;
-        protected readonly Dictionary<string, T> IdItems;
-        
+        protected readonly Dictionary<ID, string> IdItems;
+        protected readonly Dictionary<ID, ID> ParentIdItems;
+        protected readonly Dictionary<ID, bool> CanProcessItems;
+
         protected DataProviderBase(string targetDatabaseName, string rootTemplateId, string itemTemplateId,
             string idTablePrefix, string rootItemId)
         {
@@ -55,6 +57,10 @@ namespace ms8.code.DataProviders
             {
                 throw new InvalidOperationException(string.Format("Invalid rootItem ID {0}", rootItemId));
             }
+
+            IdItems = new Dictionary<ID, string>();
+            ParentIdItems = new Dictionary<ID, ID>();
+            CanProcessItems = new Dictionary<ID, bool>();
 
             ExternalItems = LoadExternalItems();
         }
@@ -115,10 +121,23 @@ namespace ms8.code.DataProviders
 
         private string GetExternalItemIdFromIdTable(ID itemId)
         {
+            if (IdItems.ContainsKey(itemId))
+            {
+                return IdItems[itemId];
+            }
+
             var idTableEntries = IDTable.GetKeys(IdTablePrefix, itemId);
 
             if (idTableEntries.Any())
-                return idTableEntries[0].Key;
+            {
+                string key = idTableEntries[0].Key;
+
+                IdItems[itemId] = key;
+
+                return key;
+            }
+
+            IdItems[itemId] = null;
 
             return null;
         }
@@ -182,11 +201,20 @@ namespace ms8.code.DataProviders
 
         public override ID GetParentID(ItemDefinition itemDefinition, CallContext context)
         {
+            if (ParentIdItems.ContainsKey(itemDefinition.ID))
+            {
+                return ParentIdItems[itemDefinition.ID];
+            }
+
             var idTableEntries = IDTable.GetKeys(IdTablePrefix, itemDefinition.ID);
 
             if (idTableEntries.Any())
             {
-                return idTableEntries.First().ParentID;
+                ID parentId = idTableEntries.First().ParentID;
+
+                ParentIdItems[itemDefinition.ID] = parentId;
+
+                return parentId;
             }
 
             return base.GetParentID(itemDefinition, context);
@@ -260,11 +288,19 @@ namespace ms8.code.DataProviders
 
         private bool CanProcessItem(ID id)
         {
+            if (CanProcessItems.ContainsKey(id))
+            {
+                return CanProcessItems[id];
+            }
+
+            CanProcessItems[id] = false;
+
             if (IDTable.GetKeys(IdTablePrefix, id).Length > 0)
             {
-                return true;
+                CanProcessItems[id] = true;
             }
-            return false;
+
+            return CanProcessItems[id];
         }
 
         protected string FindRelated(IEnumerable<string> values, string idTableKey)
