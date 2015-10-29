@@ -3,6 +3,19 @@ ID: 95a0b67b-04df-4307-a5f7-d107e769fad5
 Parent: 110d559f-dea5-42ea-9c1c-8a5df7e70ef9
 Template: 3a6f45ac-5c68-4b15-bd08-82aba07a9e0b
 Path: /sitecore/content/Home/Journals
+SharedFields:
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  # __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" s:l="{B0BCC7AE-135D-4B90-BC17-F708D51EDDC2}">
+        <r uid="{3A18A176-D9C7-46A7-90EF-A8CD4A8C37FA}">
+          <p:d />
+        </r>
+        <r uid="{ABA358E0-74B2-472F-A405-224BED26C95D}" s:id="{0107B38E-7BB6-4068-98EA-62B99C7B0335}" s:ph="body" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:

@@ -39,6 +39,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Flurl, Version=1.0.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Flurl.1.0.10\lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+MonoTouch10\Flurl.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Kamsar.WebConsole, Version=1.2.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Kamsar.WebConsole.1.2.2.0\lib\net40\Kamsar.WebConsole.dll</HintPath>
       <Private>True</Private>
@@ -158,6 +162,21 @@
     <Compile Include="layouts\LogOut.aspx.designer.cs">
       <DependentUpon>LogOut.aspx</DependentUpon>
     </Compile>
+    <Compile Include="layouts\msdemo\SearchResults.ascx.cs">
+      <DependentUpon>SearchResults.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\msdemo\SearchResults.ascx.designer.cs">
+      <DependentUpon>SearchResults.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\msdemo\SearchResultsFacets.ascx.cs">
+      <DependentUpon>SearchResultsFacets.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\msdemo\SearchResultsFacets.ascx.designer.cs">
+      <DependentUpon>SearchResultsFacets.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\msdemo\SearchResultsManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -180,6 +199,8 @@
     <Content Include="layouts\msdemo\OneColumnTitle.ascx" />
     <Content Include="layouts\msdemo\OneColumnTitleBC.ascx" />
     <Content Include="layouts\msdemo\PageContent.ascx" />
+    <Content Include="layouts\msdemo\SearchResults.ascx" />
+    <Content Include="layouts\msdemo\SearchResultsFacets.ascx" />
     <Content Include="layouts\msdemo\SurfacePro3Form.ascx" />
     <Content Include="layouts\msdemo\ThreeColumn.ascx" />
     <Content Include="layouts\msdemo\ThreeColumnBC.ascx" />
@@ -278,6 +299,8 @@
   <ItemGroup>
     <Content Include="App_Config\Include\DataProviders.config" />
     <Content Include="App_Config\ConnectionStrings.config" />
+    <Content Include="App_Config\Include\Sitecore.ContentSearch.Lucene.Index.Master.Journals.config" />
+    <None Include="App_Config\Include\Sitecore.ContentSearch.Lucene.Index.Web.Journals.config" />
     <None Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.example" />
   </ItemGroup>
