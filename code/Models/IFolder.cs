@@ -1,6 +1,6 @@
 ﻿namespace ms8.code.Models
 {
-    public interface IIsFolder : IHasId
+    public interface IFolder : IHasId
     {
         bool IsFolder { get; }
 

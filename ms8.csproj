@@ -129,10 +129,11 @@
     <Compile Include="code\Models\Category.cs" />
     <Compile Include="code\Models\IHasId.cs" />
     <Compile Include="code\Models\IHasName.cs" />
-    <Compile Include="code\Models\IIsFolder.cs" />
+    <Compile Include="code\Models\IFolder.cs" />
     <Compile Include="code\Models\Journal.cs" />
     <Compile Include="code\Models\JournalType.cs" />
     <Compile Include="code\Models\IsbnDocument.cs" />
+    <Compile Include="code\Models\StructuredItem.cs" />
     <Compile Include="code\Repositories\JournalRepository.cs" />
     <Compile Include="code\SaveActions\CreatItem.cs" />
     <Compile Include="code\Search\FacetResult.cs" />

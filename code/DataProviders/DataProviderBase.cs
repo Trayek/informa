@@ -18,9 +18,9 @@ using Sitecore.Reflection;
 
 namespace ms8.code.DataProviders
 {
-    public abstract class DataProviderBase<T> : DataProvider where T:IHasId, IHasName, IIsFolder
+    public abstract class DataProviderBase<T> : DataProvider where T:IHasId, IHasName, IFolder
     {
-        protected ID FolderTemplateId => ID.Parse("{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}");
+        //protected ID FolderTemplateId => ID.Parse("{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}");
 
         protected readonly string TargetDatabaseName;
         protected readonly string IdTablePrefix;
@@ -99,8 +99,8 @@ namespace ms8.code.DataProviders
                     var itemName = ItemUtil.ProposeValidItemName(journal.Name);
 
                     return new ItemDefinition(itemId, itemName,
-                        //(journal.IsFolder ? FolderTemplateId : ItemTemplateId),
-                        ItemTemplateId,
+                        (journal.IsFolder ? RootTemplateId : ItemTemplateId),
+                        //ItemTemplateId,
                         ID.Null);
                 }
             }
@@ -127,6 +127,7 @@ namespace ms8.code.DataProviders
         {
             if (CanProcessParent(parentItem.ID))
             {
+                //aborting here means you don't see the crap in the tree - faux buckets :)
                 context.Abort();
 
                 var itemIdList = new IDList();
@@ -157,6 +158,8 @@ namespace ms8.code.DataProviders
         {
             if (parentItem.ID == RootItemId)
             {
+                Log.Info("RootDataProvider LoadChildren: " + parentItem.Key + " " + String.Join(",", ExternalItems.Select(a => a.ParentId)), this);
+
                 return ExternalItems.Where(a => a.ParentId == null);
             }
 

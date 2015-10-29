@@ -66,15 +66,15 @@ namespace ms8.code.Repositories
 
         public IEnumerable<Category> GetCategoriesFromJson()
         {
-            return GetJournals().SelectMany(a => a.Categories).Distinct().Select(b => new Category {Id = b, Name = b})
+            return GetJournals().SelectMany(a => a.Categories).Distinct().Select(b => new Category {Id = b, Name = b, Depth = 1})
                 .Union(InjectLetters());
         }
 
         private IEnumerable<Category> InjectLetters()
         {
-            foreach (char letter in "abcdefghijklmnopqrstuvwxyz")
+            foreach (char letter in "abcdefghijklmnopqrstuvwxyz0123456789")
             {
-                yield return new Category {Id = letter.ToString(), Name = letter.ToString(), IsFolder = true};
+                yield return new Category {Id = letter.ToString(), Name = letter.ToString(), IsFolder = true, Depth = 0};
             }
         }
 
