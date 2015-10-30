@@ -10,7 +10,7 @@
         </li>
     </ItemTemplate>
     <FooterTemplate>
-        <li><a href="<%# RemoveFacets() %>">--- Remove all facets ---</a></li>
+        <li runat="server" Visible="<%# AnyFacets() %>"><a href="<%# RemoveFacets() %>">--- Remove all facets ---</a></li>
         </ul>
     </FooterTemplate>
 </asp:Repeater>

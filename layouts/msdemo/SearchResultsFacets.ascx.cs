@@ -80,5 +80,10 @@ namespace ms8.layouts.msdemo
 
             return url;
         }
+
+        protected bool AnyFacets()
+        {
+            return SearchResultsManager.ExtractFacetsFromQueryString(QueryStringParameter).Any();
+        }
     }
 }

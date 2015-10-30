@@ -74,11 +74,17 @@ namespace ms8.layouts.msdemo
 
         private IEnumerable<PaginationEntry> CenterEntries(List<PaginationEntry> entries, int currentPage)
         {
+            string elipses = "...";
+
             int halfWindow = (MaxPaginationEntries - MaxPaginationEntries/2);
 
             if (currentPage < halfWindow)
             {
-                return entries.Take(MaxPaginationEntries);
+                IEnumerable<PaginationEntry> startFilteredEntries = entries.Take(MaxPaginationEntries);
+
+                startFilteredEntries.Last().Text = elipses;
+
+                return startFilteredEntries;
             }
 
             if (currentPage >= TotalPages - halfWindow)
@@ -86,7 +92,12 @@ namespace ms8.layouts.msdemo
                 return entries.Skip(Math.Max(0, entries.Count() - MaxPaginationEntries));
             }
 
-            return entries.Skip(currentPage - halfWindow).Take(MaxPaginationEntries);
+            IEnumerable<PaginationEntry> filteredEntries = entries.Skip(currentPage - halfWindow).Take(MaxPaginationEntries);
+            
+            filteredEntries.First().Text = elipses;
+            filteredEntries.Last().Text = elipses;
+
+            return filteredEntries;
         }
 
         public PaginationEntry PreviousUrl { get; set; }
