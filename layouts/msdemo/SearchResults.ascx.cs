@@ -13,6 +13,8 @@ namespace ms8.layouts.msdemo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            this.SearchTerm.Attributes.Add("onkeypress", "button_click(this,'" + this.SearchButton.ClientID + "')");
+
             if (!IsPostBack)
             {
                 RunSearch();
@@ -25,9 +27,18 @@ namespace ms8.layouts.msdemo
 
             var results = searchService.Search(BuildSearchParameters());
 
-            BindFacetNavigation(results.FacetCategories);
+            ResultsPlaceHolder.Visible = results.TotalHits > 0;
 
-            DumpSearchResults(results.SearchResults);
+            NoResultsPlaceHolder.Visible = results.TotalHits == 0;
+
+            if (results.TotalHits > 0)
+            {
+                BindFacetNavigation(results.FacetCategories);
+
+                DumpSearchResults(results.SearchResults);
+
+                SearchResultsPagination.TotalPages = results.TotalHits / SearchResultsManager.ResultsPerPage;
+            }
         }
 
         private void BindFacetNavigation(List<FacetCategory> facetCategories)
@@ -47,23 +58,32 @@ namespace ms8.layouts.msdemo
 
         private void DumpSearchResults(IEnumerable<ID> searchResults)
         {
-            List<Tuple<string, Item>> results = new List<Tuple<string, Item>>();
+            List<Tuple<SearchResult, Item>> results = new List<Tuple<SearchResult, Item>>();
 
             foreach (ID id in searchResults)
             {
                 Item relatedItem = Sitecore.Context.Database.GetItem(id);
 
-                Field field = relatedItem?.Fields["Title"];
+                Field titleField = relatedItem?.Fields["Title"];
 
-                if (field != null)
+                if (titleField != null)
                 {
-                    results.Add(new Tuple<string, Item>(field.Value, relatedItem));
+                    results.Add(new Tuple<SearchResult, Item>(BuildResult(relatedItem, titleField), relatedItem));
                 }
             }
 
             ResultRepeater.DataSource = results;
 
             ResultRepeater.DataBind();
+        }
+
+        private SearchResult BuildResult(Item relatedItem, Field titleField)
+        {
+            return new SearchResult
+            {
+                Title = titleField.Value,
+                Isbn = relatedItem["ISBN"]
+            };
         }
 
         private SearchParameters BuildSearchParameters()
@@ -74,11 +94,11 @@ namespace ms8.layouts.msdemo
 
             return new SearchParameters
             {
-                IndexName = "sitecore_master_journals_index",
+                IndexName = "sitecore_web_journals_index",
                 RootItemID = new ID("{95A0B67B-04DF-4307-A5F7-D107E769FAD5}"),
                 Facets = BuildFacets(),
-                PageIndex = 0,
-                PageSize = 50,
+                PageIndex = SearchResultsManager.CurrentPage(),
+                PageSize = SearchResultsManager.ResultsPerPage,
                 ContextLanguage = Sitecore.Context.Language.Name,
                 SearchTerm = searchTerm,
             };
@@ -114,5 +134,17 @@ namespace ms8.layouts.msdemo
                 Response.Redirect(SearchResultsManager.AddSearchToUrl(SearchTerm.Text));
             }
         }
+
+        protected void ResetClick(object sender, EventArgs e)
+        {
+            Response.Redirect(SearchResultsManager.RemoveSearchTerm());
+        }
+    }
+
+    public class SearchResult
+    {
+        public string Title { get; set; }
+        public string Isbn { get; set; }
+        public string Url { get; set; }
     }
 }

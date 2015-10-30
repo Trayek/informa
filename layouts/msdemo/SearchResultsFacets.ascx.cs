@@ -26,8 +26,12 @@ namespace ms8.layouts.msdemo
             foreach (var value in facetCategories.Values.OrderByDescending(a => a.Name))
             {
                 Item relatedItem = Sitecore.Context.Database.GetItem(new ID(Guid.Parse(value.Name)));
-                items.Add(new Tuple<FacetValue, Item, string>(value, relatedItem,
-                    relatedItem.Fields["Title"] + " (" + value.AggregateCount + ")"));
+
+                if (relatedItem != null)
+                {
+                    items.Add(new Tuple<FacetValue, Item, string>(value, relatedItem,
+                        relatedItem.Fields["Title"] + " (" + value.AggregateCount + ")"));
+                }
             }
 
             FacetRepeater.DataSource = items.OrderBy(a => a.Item3);
@@ -40,6 +44,8 @@ namespace ms8.layouts.msdemo
             Tuple<FacetValue, Item, string> tuple = dataItem as Tuple<FacetValue, Item, string>;
 
             Url url = new Url(Request.RawUrl);
+
+            url.RemoveQueryParam(SearchResultsManager.PageQueryString);
 
             List<Guid> allFacets = SearchResultsManager.ExtractFacetsFromQueryString(QueryStringParameter);
 

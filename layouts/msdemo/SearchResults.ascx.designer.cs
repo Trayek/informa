@@ -22,6 +22,33 @@ namespace ms8.layouts.msdemo {
         protected global::System.Web.UI.WebControls.TextBox SearchTerm;
         
         /// <summary>
+        /// SearchButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SearchButton;
+        
+        /// <summary>
+        /// NoResultsPlaceHolder control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl NoResultsPlaceHolder;
+        
+        /// <summary>
+        /// ResultsPlaceHolder control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl ResultsPlaceHolder;
+        
+        /// <summary>
         /// CategoryFacets control.
         /// </summary>
         /// <remarks>
@@ -38,6 +65,15 @@ namespace ms8.layouts.msdemo {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::ms8.layouts.msdemo.SearchResultsFacets JournalTypeFacets;
+        
+        /// <summary>
+        /// SearchResultsPagination control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::ms8.layouts.msdemo.SearchResultsPagination SearchResultsPagination;
         
         /// <summary>
         /// ResultRepeater control.

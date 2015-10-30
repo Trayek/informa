@@ -177,6 +177,13 @@
       <DependentUpon>SearchResultsFacets.ascx</DependentUpon>
     </Compile>
     <Compile Include="layouts\msdemo\SearchResultsManager.cs" />
+    <Compile Include="layouts\msdemo\SearchResultsPagination.ascx.cs">
+      <DependentUpon>SearchResultsPagination.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\msdemo\SearchResultsPagination.ascx.designer.cs">
+      <DependentUpon>SearchResultsPagination.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -201,6 +208,7 @@
     <Content Include="layouts\msdemo\PageContent.ascx" />
     <Content Include="layouts\msdemo\SearchResults.ascx" />
     <Content Include="layouts\msdemo\SearchResultsFacets.ascx" />
+    <Content Include="layouts\msdemo\SearchResultsPagination.ascx" />
     <Content Include="layouts\msdemo\SurfacePro3Form.ascx" />
     <Content Include="layouts\msdemo\ThreeColumn.ascx" />
     <Content Include="layouts\msdemo\ThreeColumnBC.ascx" />
@@ -300,6 +308,7 @@
     <Content Include="App_Config\Include\DataProviders.config" />
     <Content Include="App_Config\ConnectionStrings.config" />
     <Content Include="App_Config\Include\Sitecore.ContentSearch.Lucene.Index.Master.Journals.config" />
+    <Content Include="App_Config\Include\Sitecore.ContentSearch.Lucene.DefaultIndexConfiguration.config" />
     <None Include="App_Config\Include\Sitecore.ContentSearch.Lucene.Index.Web.Journals.config" />
     <None Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.example" />

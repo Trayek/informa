@@ -11,12 +11,16 @@ namespace ms8.layouts.msdemo
         public static readonly string CategoryFacets = "categories";
         public static readonly string JournalTypeFacets = "journalTypes";
         public static readonly string SearchTermQueryString = "search";
+        public static readonly string PageQueryString = "page";
+        public static readonly int ResultsPerPage = 50;
 
         public static string AddSearchToUrl(string searchTerm)
         {
             Url url = new Url(HttpContext.Current.Request.RawUrl);
 
             url.SetQueryParam(SearchTermQueryString, searchTerm);
+
+            url.RemoveQueryParam(PageQueryString);
 
             return url;
         }
@@ -65,6 +69,45 @@ namespace ms8.layouts.msdemo
         public static List<Guid> ExtractJournalTypesFromQueryString()
         {
             return ExtractFacetsFromQueryString(JournalTypeFacets);
+        }
+
+        public static string RemoveSearchTerm()
+        {
+            Url url = new Url(HttpContext.Current.Request.RawUrl);
+
+            url.RemoveQueryParam(SearchTermQueryString);
+
+            url.RemoveQueryParam(PageQueryString);
+
+            return url;
+        }
+
+        public static int CurrentPage()
+        {
+            Url url = new Url(HttpContext.Current.Request.RawUrl);
+
+            if (url.QueryParams.ContainsKey(PageQueryString))
+            {
+                try
+                {
+                    return int.Parse(url.QueryParams[PageQueryString].ToString());
+                }
+                catch (Exception e)
+                {
+                    
+                }
+            }
+
+            return 0;
+        }
+
+        public static string SetPage(int page)
+        {
+            Url url = new Url(HttpContext.Current.Request.RawUrl);
+
+            url.SetQueryParam(PageQueryString, page);
+
+            return url;
         }
     }
 }
