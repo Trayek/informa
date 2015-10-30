@@ -50,7 +50,7 @@ namespace ms8.code.Repositories
                 List<string> keys = new List<string>();
 
                 foreach (var result in cursor
-                    .Take(500)
+                    //.Take(500)
                     )
                 {
                     var document = BuildResult(result); 
@@ -152,6 +152,8 @@ namespace ms8.code.Repositories
 
         public JournalType[] GetJournalTypesFromJson()
         {
+            return new JournalType[0];
+
             if (JournalTypes == null)
             {
                 JournalTypes = GetJournals()

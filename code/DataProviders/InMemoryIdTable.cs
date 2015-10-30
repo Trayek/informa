@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
+using System.Linq;
 using Sitecore.Data;
 using Sitecore.Data.IDTables;
 
@@ -96,7 +97,9 @@ namespace ms8.code.DataProviders
                 return _idByKey[idTableStringKey];
             }
 
-            return null;
+            _idByKey[idTableStringKey] = IDTable.GetID(prefix, key);
+
+            return _idByKey[idTableStringKey];
         }
 
         public IDTableEntry[] GetKeys(string prefix, ID id)
@@ -108,7 +111,9 @@ namespace ms8.code.DataProviders
                 return _idById[key].ToArray();
             }
 
-            return new IDTableEntry[0];
+            _idById[key] = IDTable.GetKeys(prefix, id).ToList();
+
+            return _idById[key].ToArray();
         }
 
         public void RemoveID(string prefix, ID id)
@@ -119,6 +124,8 @@ namespace ms8.code.DataProviders
             {
                 _idById.Remove(key);
             }
+
+            IDTable.RemoveID(prefix, id);
         }
 
         internal void Add(string prefix, string key, ID id, ID parentId)
@@ -138,13 +145,13 @@ namespace ms8.code.DataProviders
             {
                 _idByKey[idTableStringKey] = tableEntry;
             }
+
+            IDTable.Add(prefix, key, id, parentId);
         }
 
         public IDTableEntry GetNewID(string prefix, string key, ID parentId)
         {
             IDTableEntry newId = IDTable.GetNewID(prefix, key, parentId);
-
-            Add(prefix, key, newId.ID, parentId);
 
             return newId;
         }
