@@ -113,7 +113,12 @@ namespace ms8.code.DataProviders
 
             _idById[key] = IDTable.GetKeys(prefix, id).ToList();
 
-            return _idById[key].ToArray();
+            if (_idById.ContainsKey(key))
+            {
+                return _idById[key].ToArray();
+            }
+
+            return new IDTableEntry[0];
         }
 
         public void RemoveID(string prefix, ID id)
@@ -134,14 +139,14 @@ namespace ms8.code.DataProviders
 
             var tableEntry = new IDTableEntry(prefix, key, id, parentId, "");
 
-            if (_idById.ContainsKey(idTableIdKey))
+            if (!_idById.ContainsKey(idTableIdKey))
             {
                 _idById.Add(idTableIdKey, new List<IDTableEntry> { tableEntry });
             }
 
             var idTableStringKey = new IdTableStringKey(prefix, key);
 
-            if (_idByKey.ContainsKey(idTableStringKey))
+            if (!_idByKey.ContainsKey(idTableStringKey))
             {
                 _idByKey[idTableStringKey] = tableEntry;
             }

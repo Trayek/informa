@@ -117,7 +117,7 @@ namespace ms8.code.Repositories
                     {
                         Id = isbnDocument.Isbn,
                         ISBN = isbnDocument.Isbn,
-                        Types = content.MetaTags?.Split(' '),
+                        Types = new string[0],// content.MetaTags?.Split(' '),
                         Categories = content.Categories?.Select(a => a.Title).ToArray(),
                         Title = content.Name,
                         Description = content.TableOfContent,
