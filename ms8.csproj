@@ -128,6 +128,9 @@
   <ItemGroup>
     <Compile Include="code\DataProviders\CategoryDataProvider.cs" />
     <Compile Include="code\DataProviders\DataProviderBase.cs" />
+    <Compile Include="code\DataProviders\IdTableIdKey.cs" />
+    <Compile Include="code\DataProviders\IdTableStringKey.cs" />
+    <Compile Include="code\DataProviders\InMemoryIdTable.cs" />
     <Compile Include="code\DataProviders\JournalDataProvider.cs" />
     <Compile Include="code\DataProviders\JournalTypeDataProvider.cs" />
     <Compile Include="code\DataProviders\SimpleChildrenNesting.cs" />

@@ -28,9 +28,7 @@ namespace ms8.code.DataProviders
         protected readonly ID RootItemId;
 
         protected readonly T[] ExternalItems;
-        protected readonly Dictionary<ID, string> IdItems;
-        protected readonly Dictionary<ID, ID> ParentIdItems;
-        protected readonly Dictionary<ID, bool> CanProcessItems;
+        private static InMemoryIdTable _idTable;
 
         protected DataProviderBase(string targetDatabaseName, string rootTemplateId, string itemTemplateId,
             string idTablePrefix, string rootItemId)
@@ -58,9 +56,7 @@ namespace ms8.code.DataProviders
                 throw new InvalidOperationException(string.Format("Invalid rootItem ID {0}", rootItemId));
             }
 
-            IdItems = new Dictionary<ID, string>();
-            ParentIdItems = new Dictionary<ID, ID>();
-            CanProcessItems = new Dictionary<ID, bool>();
+            _idTable = new InMemoryIdTable("master");
 
             ExternalItems = LoadExternalItems();
         }
@@ -82,9 +78,9 @@ namespace ms8.code.DataProviders
 
                 string externalItemId = GetExternalItemIdFromIdTable(itemDefinition.ID);
 
-                IDTable.RemoveID(IdTablePrefix, itemDefinition.ID);
+                _idTable.RemoveID(IdTablePrefix, itemDefinition.ID);
 
-                IDTable.Add(IdTablePrefix, externalItemId, itemDefinition.ID, destination.ID);
+                _idTable.Add(IdTablePrefix, externalItemId, itemDefinition.ID, destination.ID);
             }
 
             return base.MoveItem(itemDefinition, destination, context);
@@ -121,23 +117,14 @@ namespace ms8.code.DataProviders
 
         private string GetExternalItemIdFromIdTable(ID itemId)
         {
-            if (IdItems.ContainsKey(itemId))
-            {
-                return IdItems[itemId];
-            }
-
-            var idTableEntries = IDTable.GetKeys(IdTablePrefix, itemId);
+            var idTableEntries = _idTable.GetKeys(IdTablePrefix, itemId);
 
             if (idTableEntries.Any())
             {
                 string key = idTableEntries[0].Key;
 
-                IdItems[itemId] = key;
-
                 return key;
             }
-
-            IdItems[itemId] = null;
 
             return null;
         }
@@ -156,11 +143,11 @@ namespace ms8.code.DataProviders
                 {
                     var externalItemId = externalItem.Id;
 
-                    IDTableEntry mappedId = IDTable.GetID(IdTablePrefix, externalItemId);
+                    IDTableEntry mappedId = _idTable.GetID(IdTablePrefix, externalItemId);
 
                     if (mappedId == null)
                     {
-                        mappedId = IDTable.GetNewID(IdTablePrefix, externalItemId, parentItem.ID);
+                        mappedId = _idTable.GetNewID(IdTablePrefix, externalItemId, parentItem.ID);
                     }
 
                     itemIdList.Add(mappedId.ID);
@@ -201,18 +188,11 @@ namespace ms8.code.DataProviders
 
         public override ID GetParentID(ItemDefinition itemDefinition, CallContext context)
         {
-            if (ParentIdItems.ContainsKey(itemDefinition.ID))
-            {
-                return ParentIdItems[itemDefinition.ID];
-            }
-
-            var idTableEntries = IDTable.GetKeys(IdTablePrefix, itemDefinition.ID);
+            var idTableEntries = _idTable.GetKeys(IdTablePrefix, itemDefinition.ID);
 
             if (idTableEntries.Any())
             {
                 ID parentId = idTableEntries.First().ParentID;
-
-                ParentIdItems[itemDefinition.ID] = parentId;
 
                 return parentId;
             }
@@ -224,7 +204,7 @@ namespace ms8.code.DataProviders
         {
             var fields = new FieldList();
 
-            var idTableEntries = IDTable.GetKeys(IdTablePrefix, itemDefinition.ID);
+            var idTableEntries = _idTable.GetKeys(IdTablePrefix, itemDefinition.ID);
 
             if (idTableEntries.Any())
             {
@@ -288,19 +268,12 @@ namespace ms8.code.DataProviders
 
         private bool CanProcessItem(ID id)
         {
-            if (CanProcessItems.ContainsKey(id))
+            if (_idTable.GetKeys(IdTablePrefix, id).Length > 0)
             {
-                return CanProcessItems[id];
+                return true;
             }
 
-            CanProcessItems[id] = false;
-
-            if (IDTable.GetKeys(IdTablePrefix, id).Length > 0)
-            {
-                CanProcessItems[id] = true;
-            }
-
-            return CanProcessItems[id];
+            return false;
         }
 
         protected string FindRelated(IEnumerable<string> values, string idTableKey)
@@ -312,7 +285,7 @@ namespace ms8.code.DataProviders
 
         private Guid FindIdTableGuid(string value, string idTableKey)
         {
-            IDTableEntry idTableEntry = IDTable.GetID(idTableKey, value);
+            IDTableEntry idTableEntry = _idTable.GetID(idTableKey, value);
 
             if (idTableEntry == null)
             {
