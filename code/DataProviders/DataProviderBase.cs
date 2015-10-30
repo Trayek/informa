@@ -28,7 +28,7 @@ namespace ms8.code.DataProviders
         protected readonly ID RootItemId;
 
         protected readonly T[] ExternalItems;
-        private static InMemoryIdTable _idTable;
+        protected static InMemoryIdTable InMemoryIdTable;
 
         protected DataProviderBase(string targetDatabaseName, string rootTemplateId, string itemTemplateId,
             string idTablePrefix, string rootItemId)
@@ -56,7 +56,7 @@ namespace ms8.code.DataProviders
                 throw new InvalidOperationException(string.Format("Invalid rootItem ID {0}", rootItemId));
             }
 
-            _idTable = new InMemoryIdTable("master");
+            InMemoryIdTable = new InMemoryIdTable("master");
 
             ExternalItems = LoadExternalItems();
         }
@@ -78,9 +78,9 @@ namespace ms8.code.DataProviders
 
                 string externalItemId = GetExternalItemIdFromIdTable(itemDefinition.ID);
 
-                _idTable.RemoveID(IdTablePrefix, itemDefinition.ID);
+                InMemoryIdTable.RemoveID(IdTablePrefix, itemDefinition.ID);
 
-                _idTable.Add(IdTablePrefix, externalItemId, itemDefinition.ID, destination.ID);
+                InMemoryIdTable.Add(IdTablePrefix, externalItemId, itemDefinition.ID, destination.ID);
             }
 
             return base.MoveItem(itemDefinition, destination, context);
@@ -117,7 +117,7 @@ namespace ms8.code.DataProviders
 
         private string GetExternalItemIdFromIdTable(ID itemId)
         {
-            var idTableEntries = _idTable.GetKeys(IdTablePrefix, itemId);
+            var idTableEntries = InMemoryIdTable.GetKeys(IdTablePrefix, itemId);
 
             if (idTableEntries.Any())
             {
@@ -143,11 +143,11 @@ namespace ms8.code.DataProviders
                 {
                     var externalItemId = externalItem.Id;
 
-                    IDTableEntry mappedId = _idTable.GetID(IdTablePrefix, externalItemId);
+                    IDTableEntry mappedId = InMemoryIdTable.GetID(IdTablePrefix, externalItemId);
 
                     if (mappedId == null)
                     {
-                        mappedId = _idTable.GetNewID(IdTablePrefix, externalItemId, parentItem.ID);
+                        mappedId = InMemoryIdTable.GetNewID(IdTablePrefix, externalItemId, parentItem.ID);
                     }
 
                     itemIdList.Add(mappedId.ID);
@@ -188,7 +188,7 @@ namespace ms8.code.DataProviders
 
         public override ID GetParentID(ItemDefinition itemDefinition, CallContext context)
         {
-            var idTableEntries = _idTable.GetKeys(IdTablePrefix, itemDefinition.ID);
+            var idTableEntries = InMemoryIdTable.GetKeys(IdTablePrefix, itemDefinition.ID);
 
             if (idTableEntries.Any())
             {
@@ -204,7 +204,7 @@ namespace ms8.code.DataProviders
         {
             var fields = new FieldList();
 
-            var idTableEntries = _idTable.GetKeys(IdTablePrefix, itemDefinition.ID);
+            var idTableEntries = InMemoryIdTable.GetKeys(IdTablePrefix, itemDefinition.ID);
 
             if (idTableEntries.Any())
             {
@@ -268,7 +268,7 @@ namespace ms8.code.DataProviders
 
         private bool CanProcessItem(ID id)
         {
-            if (_idTable.GetKeys(IdTablePrefix, id).Length > 0)
+            if (InMemoryIdTable.GetKeys(IdTablePrefix, id).Length > 0)
             {
                 return true;
             }
@@ -285,7 +285,7 @@ namespace ms8.code.DataProviders
 
         private Guid FindIdTableGuid(string value, string idTableKey)
         {
-            IDTableEntry idTableEntry = _idTable.GetID(idTableKey, value);
+            IDTableEntry idTableEntry = InMemoryIdTable.GetID(idTableKey, value);
 
             if (idTableEntry == null)
             {

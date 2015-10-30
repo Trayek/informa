@@ -8,10 +8,10 @@ namespace ms8.code.DataProviders
 {
     public class SimpleChildrenNesting
     {
-        public IEnumerable<T> Children<T>(ItemDefinition parentItem, string idTablePrefix, IEnumerable<T> externalItems, ID rootItemId) 
+        public IEnumerable<T> Children<T>(ItemDefinition parentItem, string idTablePrefix, IEnumerable<T> externalItems, ID rootItemId, InMemoryIdTable inMemoryIdTable) 
             where T : StructuredItem, new()
         {
-            var idTableEntries = IDTable.GetKeys(idTablePrefix, parentItem.ID);
+            var idTableEntries = inMemoryIdTable.GetKeys(idTablePrefix, parentItem.ID);
 
             if (parentItem.ID == rootItemId)
             {

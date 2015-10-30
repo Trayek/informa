@@ -20,7 +20,7 @@ namespace ms8.code.DataProviders
 
         protected override IEnumerable<Category> LoadChildren(ItemDefinition parentItem)
         {
-            return new SimpleChildrenNesting().Children(parentItem, IdTablePrefix, ExternalItems, RootItemId);
+            return new SimpleChildrenNesting().Children(parentItem, IdTablePrefix, ExternalItems, RootItemId, InMemoryIdTable);
         }
 
         protected override Category[] LoadExternalItems()

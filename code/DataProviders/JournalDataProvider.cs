@@ -24,25 +24,7 @@ namespace ms8.code.DataProviders
 
         protected override IEnumerable<Journal> LoadChildren(ItemDefinition parentItem)
         {
-            var idTableEntries = IDTable.GetKeys(IdTablePrefix, parentItem.ID);
-
-            if (parentItem.ID == RootItemId)
-            {
-                return ExternalItems.Where(a => a.ParentId == null);
-            }
-           
-            if (idTableEntries.Any())
-            {
-                var parentKey = idTableEntries.FirstOrDefault();
-
-                //Log.Info("JOURNAL " + parentKey.Key + " " + String.Join(",", ExternalItems.Select(a => a.ParentId)), this);
-
-                return ExternalItems.Where(a => a.ParentId == parentKey.Key);
-            }
-
-            return new Journal[0];
-
-            //   return new SimpleChildrenNesting().Children(parentItem, IdTablePrefix, ExternalItems, RootItemId);
+            return new SimpleChildrenNesting().Children(parentItem, IdTablePrefix, ExternalItems, RootItemId, InMemoryIdTable);
         }
 
         protected override string GetFieldValue(TemplateField field, Journal externalItem)
