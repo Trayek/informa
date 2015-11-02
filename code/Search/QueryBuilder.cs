@@ -11,7 +11,13 @@ namespace ms8.code.Search
 {
     public class QueryBuilder
     {
+        private readonly bool _matchAnyFacetValue;
         private SearchParameters _searchParameters;
+
+        public QueryBuilder(bool matchAnyFacetValue = false)
+        {
+            _matchAnyFacetValue = matchAnyFacetValue;
+        }
 
         public Expression<Func<SearchResultItem, bool>> BuildQuery(SearchParameters searchParameters)
         {
@@ -119,11 +125,11 @@ namespace ms8.code.Search
                     if (facet.SelectedValues != null && facet.SelectedValues.Any())
                     {
                         // facet values within a single facet will be OR'd together, anchor to 'False'
-                        Expression<Func<SearchResultItem, bool>> facetValuesQuery = PredicateBuilder.True<SearchResultItem>();
+                        Expression<Func<SearchResultItem, bool>> facetValuesQuery = _matchAnyFacetValue ? PredicateBuilder.False<SearchResultItem>() : PredicateBuilder.True<SearchResultItem>();
 
                         foreach (string facetValue in facet.SelectedValues)
                         {
-                            facetValuesQuery = facetValuesQuery.And(i => i[facet.Name] == facetValue);
+                            facetValuesQuery = _matchAnyFacetValue ? facetValuesQuery.Or(i => i[facet.Name] == facetValue) : facetValuesQuery.And(i => i[facet.Name] == facetValue);
                         }
 
                         // Now AND each set of selected facet values from each facet into the main query

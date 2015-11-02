@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Web;
 using ms8.code.Search;
 using Sitecore.ContentSearch.Linq;
 using Sitecore.Data;
@@ -38,6 +39,15 @@ namespace ms8.layouts.msdemo
 
                 SearchResultsPagination.TotalPages = results.TotalHits / SearchResultsManager.ResultsPerPage;
             }
+        }
+
+        private SearchParameters BuildSearchParameters()
+        {
+            string searchTerm = HttpContext.Current.Request.QueryString[SearchResultsManager.SearchTermQueryString];
+
+            SearchTerm.Text = searchTerm;
+
+            return SearchResultsManager.BuildSearchParameters();
         }
 
         private void BindFacetNavigation(List<FacetCategory> facetCategories)
@@ -85,47 +95,6 @@ namespace ms8.layouts.msdemo
                 Url = LinkManager.GetItemUrl(relatedItem),
             };
         }
-
-        private SearchParameters BuildSearchParameters()
-        {
-            string searchTerm = Request.QueryString[SearchResultsManager.SearchTermQueryString];
-
-            SearchTerm.Text = searchTerm;
-
-            return new SearchParameters
-            {
-                IndexName = "sitecore_web_journals_index",
-                RootItemID = new ID("{95A0B67B-04DF-4307-A5F7-D107E769FAD5}"),
-                Facets = BuildFacets(),
-                PageIndex = SearchResultsManager.CurrentPage(),
-                PageSize = SearchResultsManager.ResultsPerPage,
-                ContextLanguage = Sitecore.Context.Language.Name,
-                SearchTerm = searchTerm,
-            };
-        }
-
-        private IList<SearchParametersFacet> BuildFacets()
-        {
-            return new List<SearchParametersFacet>
-            {
-                new SearchParametersFacet
-                {
-                    Name = "Categories",
-                    SelectedValues = SearchResultsManager.ExtractCategoriesFromQueryString().Select(Clean)
-                },
-                new SearchParametersFacet
-                {
-                    Name = "Journal Types",
-                    SelectedValues = SearchResultsManager.ExtractJournalTypesFromQueryString().Select(Clean)
-                }
-            };
-        }
-
-        private string Clean(Guid value)
-        {
-            return value.ToString().Replace("{", "").Replace("}", "").Replace("-", "");
-        }
-
 
         protected void SearchClick(object sender, EventArgs e)
         {

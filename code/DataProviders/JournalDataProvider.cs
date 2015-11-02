@@ -60,7 +60,7 @@ namespace ms8.code.DataProviders
                         fieldValue = externalItem.SubjectGroup;
                         break;
                     case "Publication Date":
-                        fieldValue = externalItem?.PublicationDate.ToString();
+                        fieldValue = externalItem?.PublicationDate.ToString("dd/MM/yyyy");
                         break;
                     case "Categories":
                         fieldValue = FindRelated(externalItem?.Categories, "Categories");

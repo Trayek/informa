@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Flurl;
+using ms8.code.Search;
+using Sitecore.Data;
 
 namespace ms8.layouts.msdemo
 {
@@ -13,6 +15,44 @@ namespace ms8.layouts.msdemo
         public static readonly string SearchTermQueryString = "search";
         public static readonly string PageQueryString = "page";
         public static readonly int ResultsPerPage = 20;
+
+        public static SearchParameters BuildSearchParameters()
+        {
+            string searchTerm = HttpContext.Current.Request.QueryString[SearchResultsManager.SearchTermQueryString];
+            
+            return new SearchParameters
+            {
+                IndexName = "sitecore_web_journals_index",
+                RootItemID = new ID("{95A0B67B-04DF-4307-A5F7-D107E769FAD5}"),
+                Facets = BuildFacets(),
+                PageIndex = CurrentPage(),
+                PageSize = ResultsPerPage,
+                ContextLanguage = Sitecore.Context.Language.Name,
+                SearchTerm = searchTerm,
+            };
+        }
+
+        private static IList<SearchParametersFacet> BuildFacets()
+        {
+            return new List<SearchParametersFacet>
+            {
+                new SearchParametersFacet
+                {
+                    Name = "Categories",
+                    SelectedValues = SearchResultsManager.ExtractCategoriesFromQueryString().Select(Clean)
+                },
+                new SearchParametersFacet
+                {
+                    Name = "Journal Types",
+                    SelectedValues = SearchResultsManager.ExtractJournalTypesFromQueryString().Select(Clean)
+                }
+            };
+        }
+
+        public static string Clean(Guid value)
+        {
+            return value.ToString().Replace("{", "").Replace("}", "").Replace("-", "");
+        }
 
         public static string AddSearchToUrl(string searchTerm)
         {
