@@ -12,7 +12,7 @@ namespace ms8.layouts.msdemo
         public static readonly string JournalTypeFacets = "journalTypes";
         public static readonly string SearchTermQueryString = "search";
         public static readonly string PageQueryString = "page";
-        public static readonly int ResultsPerPage = 50;
+        public static readonly int ResultsPerPage = 20;
 
         public static string AddSearchToUrl(string searchTerm)
         {

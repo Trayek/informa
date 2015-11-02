@@ -28,6 +28,6 @@ namespace ms8.code.Models
         public string TableOfContents { get; set; }
 
         public string SeriesDescription { get; set; }
-        
+        public string Subtitle { get; set; }
     }
 }

@@ -92,10 +92,10 @@ namespace ms8.code.DataProviders
         {
             var idTableStringKey = new IdTableStringKey(prefix, key);
 
-            if (_idByKey.ContainsKey(idTableStringKey))
-            {
-                return _idByKey[idTableStringKey];
-            }
+            //if (_idByKey.ContainsKey(idTableStringKey))
+            //{
+            //    return _idByKey[idTableStringKey];
+            //}
 
             _idByKey[idTableStringKey] = IDTable.GetID(prefix, key);
 
@@ -106,10 +106,10 @@ namespace ms8.code.DataProviders
         {
             var key = new IdTableIdKey(prefix, id.Guid);
 
-            if (_idById.ContainsKey(key))
-            {
-                return _idById[key].ToArray();
-            }
+            //if (_idById.ContainsKey(key))
+            //{
+            //    return _idById[key].ToArray();
+            //}
 
             _idById[key] = IDTable.GetKeys(prefix, id).ToList();
 
@@ -123,33 +123,33 @@ namespace ms8.code.DataProviders
 
         public void RemoveID(string prefix, ID id)
         {
-            var key = new IdTableIdKey(prefix, id.Guid);
+            //var key = new IdTableIdKey(prefix, id.Guid);
 
-            if (_idById.ContainsKey(key))
-            {
-                _idById.Remove(key);
-            }
+            //if (_idById.ContainsKey(key))
+            //{
+            //    _idById.Remove(key);
+            //}
 
             IDTable.RemoveID(prefix, id);
         }
 
         internal void Add(string prefix, string key, ID id, ID parentId)
         {
-            var idTableIdKey = new IdTableIdKey(prefix, id.Guid);
+            //var idTableIdKey = new IdTableIdKey(prefix, id.Guid);
 
-            var tableEntry = new IDTableEntry(prefix, key, id, parentId, "");
+            //var tableEntry = new IDTableEntry(prefix, key, id, parentId, "");
 
-            if (!_idById.ContainsKey(idTableIdKey))
-            {
-                _idById.Add(idTableIdKey, new List<IDTableEntry> { tableEntry });
-            }
+            //if (!_idById.ContainsKey(idTableIdKey))
+            //{
+            //    _idById.Add(idTableIdKey, new List<IDTableEntry> { tableEntry });
+            //}
 
-            var idTableStringKey = new IdTableStringKey(prefix, key);
+            //var idTableStringKey = new IdTableStringKey(prefix, key);
 
-            if (!_idByKey.ContainsKey(idTableStringKey))
-            {
-                _idByKey[idTableStringKey] = tableEntry;
-            }
+            //if (!_idByKey.ContainsKey(idTableStringKey))
+            //{
+            //    _idByKey[idTableStringKey] = tableEntry;
+            //}
 
             IDTable.Add(prefix, key, id, parentId);
         }

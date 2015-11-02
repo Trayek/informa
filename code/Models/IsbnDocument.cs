@@ -29,6 +29,10 @@ namespace ms8.code.Models
         [BsonElement("toc")]
         public string TableOfContent { get; set; }
 
+        [BsonElement("description")]
+        public string Description { get; set; }
+
+
         [BsonElement("actualPublicationDate")]
         public DateTime PublicationDate { get; set; }
 
@@ -38,7 +42,7 @@ namespace ms8.code.Models
         [BsonElement("name")]
         public string Name { get; set; }
 
-        [BsonElement("subtitle")]
+        [BsonElement("shortTitle")]
         public string Subtitle { get; set; }
 
         [BsonElement("categories")]
@@ -49,10 +53,21 @@ namespace ms8.code.Models
 
         [BsonElement("series")]
         public IsbnSeries Series { get; set; }
+
+
+        [BsonElement("publisher")]
+        public IsbnPublisher Publisher { get; set; }
     }
 
     [BsonIgnoreExtraElements]
     internal class IsbnSubject
+    {
+        [BsonElement("description")]
+        public string Description { get; set; }
+    }
+
+    [BsonIgnoreExtraElements]
+    internal class IsbnPublisher
     {
         [BsonElement("description")]
         public string Description { get; set; }

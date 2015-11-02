@@ -47,10 +47,13 @@ namespace ms8.code.DataProviders
                     case "Publisher Description":
                         fieldValue = externalItem.PublisherDescription;
                         break;
+                    case "Subtitle":
+                        fieldValue = externalItem.Subtitle;
+                        break;
                     case "Series Description":
                         fieldValue = externalItem.SeriesDescription;
                         break;
-                    case "Table of content":
+                    case "Table Of Content":
                         fieldValue = externalItem.TableOfContents;
                         break;
                     case "Subject Group":

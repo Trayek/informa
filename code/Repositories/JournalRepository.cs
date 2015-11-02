@@ -9,7 +9,7 @@ using ConfigurationManager = System.Configuration.ConfigurationManager;
 
 namespace ms8.code.Repositories
 {
-    internal class JournalRepository
+    public class JournalRepository
     {
         private int _journalFolderDepth = 12;
         private string _journalFolderNumbers = "0123456789";
@@ -50,7 +50,7 @@ namespace ms8.code.Repositories
                 List<string> keys = new List<string>();
 
                 foreach (var result in cursor
-                    .Take(5)
+                    .Take(80)
                     )
                 {
                     var document = BuildResult(result); 
@@ -62,8 +62,8 @@ namespace ms8.code.Repositories
                     }
                 }
 
-                Journals = MapResults(results, _journalFolderDepth - 1)
-                    .Union(InjectLayers(keys))
+                Journals = MapResults(results, 0)
+                    //.Union(InjectLayers(keys))
                     .ToArray();
             }
 
@@ -72,13 +72,13 @@ namespace ms8.code.Repositories
 
         private IsbnDocument BuildResult(BsonDocument result)
         {
-            try
+            //try
             {
                 return BsonSerializer.Deserialize<IsbnDocument>(result);
             }
-            catch (Exception)
+            //catch (Exception)
             {
-                return null;
+                //return null;
             }
         }
 
@@ -120,14 +120,15 @@ namespace ms8.code.Repositories
                         Types = new string[0],// content.MetaTags?.Split(' '),
                         Categories = content.Categories?.Select(a => a.Title).ToArray(),
                         Title = content.Name,
-                        Description = content.TableOfContent,
+                        Description = content.Description,
                         Name = content.Name,
                         PublicationDate = content.PublicationDate,
-                        PublisherDescription = "",
+                        PublisherDescription = content.Publisher?.Description,
                         SubjectGroup = content.SubjectGroup?.Description,
                         TableOfContents = content.TableOfContent,
                         Depth = folderDepth,
-                        SeriesDescription = content.Series?.Description
+                        SeriesDescription = content.Series?.Description,
+                        Subtitle = content.Subtitle,
                     };
                 }
             }
