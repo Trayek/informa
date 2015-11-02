@@ -22,8 +22,12 @@ namespace ms8.code.Models
         public string SubjectGroup { get; set; }
 
         public string PublisherDescription { get; set; }
+
         public DateTime PublicationDate { get; set; }
 
         public string TableOfContents { get; set; }
+
+        public string SeriesDescription { get; set; }
+        
     }
 }

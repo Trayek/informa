@@ -131,6 +131,7 @@
     <Compile Include="code\DataProviders\IdTableIdKey.cs" />
     <Compile Include="code\DataProviders\IdTableStringKey.cs" />
     <Compile Include="code\DataProviders\InMemoryIdTable.cs" />
+    <Compile Include="code\DataProviders\InMemoryIDTableDataProvider.cs" />
     <Compile Include="code\DataProviders\JournalDataProvider.cs" />
     <Compile Include="code\DataProviders\JournalTypeDataProvider.cs" />
     <Compile Include="code\DataProviders\SimpleChildrenNesting.cs" />
@@ -164,6 +165,13 @@
     </Compile>
     <Compile Include="layouts\LogOut.aspx.designer.cs">
       <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\msdemo\ProductDetails.ascx.cs">
+      <DependentUpon>ProductDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\msdemo\ProductDetails.ascx.designer.cs">
+      <DependentUpon>ProductDetails.ascx</DependentUpon>
     </Compile>
     <Compile Include="layouts\msdemo\SearchResults.ascx.cs">
       <DependentUpon>SearchResults.ascx</DependentUpon>
@@ -209,6 +217,7 @@
     <Content Include="layouts\msdemo\OneColumnTitle.ascx" />
     <Content Include="layouts\msdemo\OneColumnTitleBC.ascx" />
     <Content Include="layouts\msdemo\PageContent.ascx" />
+    <Content Include="layouts\msdemo\ProductDetails.ascx" />
     <Content Include="layouts\msdemo\SearchResults.ascx" />
     <Content Include="layouts\msdemo\SearchResultsFacets.ascx" />
     <Content Include="layouts\msdemo\SearchResultsPagination.ascx" />
@@ -315,6 +324,15 @@
     <None Include="App_Config\Include\Sitecore.ContentSearch.Lucene.Index.Web.Journals.config" />
     <None Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.example" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Unicorn\Unicorn.config" />

@@ -4494,7 +4494,6 @@ vars.user.cmd
 /metronic/global/scripts/datatable.js
 /metronic/global/scripts/metronic.js
 /ms8.csproj.sitecore
-/packages.config
 /sitecore modules/Shell/EmailCampaign/Handlers/CsvFileExportHandler.ashx
 /sitecore modules/Shell/EmailCampaign/Images/check_document.png
 /sitecore modules/Shell/EmailCampaign/Images/spindown.png

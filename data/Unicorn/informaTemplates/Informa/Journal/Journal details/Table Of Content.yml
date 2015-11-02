@@ -1,0 +1,20 @@
+﻿---
+ID: 9747b14e-3de6-4e60-994f-f7e83449332f
+Parent: 0f20c1d2-8659-4ed1-98fd-c9933957f32c
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/User Defined/Informa/Journal/Journal details/Table Of Content
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Multi-Line Text
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 1000
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151102T105335Z

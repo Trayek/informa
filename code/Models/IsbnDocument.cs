@@ -38,15 +38,28 @@ namespace ms8.code.Models
         [BsonElement("name")]
         public string Name { get; set; }
 
+        [BsonElement("subtitle")]
+        public string Subtitle { get; set; }
+
         [BsonElement("categories")]
         public IsbnCategory[] Categories { get; set; }
 
         [BsonElement("subjectGroup")]
         public IsbnSubject SubjectGroup { get; set; }
+
+        [BsonElement("series")]
+        public IsbnSeries Series { get; set; }
     }
 
     [BsonIgnoreExtraElements]
     internal class IsbnSubject
+    {
+        [BsonElement("description")]
+        public string Description { get; set; }
+    }
+
+    [BsonIgnoreExtraElements]
+    internal class IsbnSeries
     {
         [BsonElement("description")]
         public string Description { get; set; }

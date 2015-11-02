@@ -6,6 +6,7 @@ using Sitecore.ContentSearch.Linq;
 using Sitecore.Data;
 using Sitecore.Data.Fields;
 using Sitecore.Data.Items;
+using Sitecore.Links;
 
 namespace ms8.layouts.msdemo
 {
@@ -82,7 +83,8 @@ namespace ms8.layouts.msdemo
             return new SearchResult
             {
                 Title = titleField.Value,
-                Isbn = relatedItem["ISBN"]
+                Isbn = relatedItem["ISBN"],
+                Url = LinkManager.GetItemUrl(relatedItem),
             };
         }
 

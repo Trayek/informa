@@ -50,7 +50,7 @@ namespace ms8.code.Repositories
                 List<string> keys = new List<string>();
 
                 foreach (var result in cursor
-                    //.Take(500)
+                    .Take(5)
                     )
                 {
                     var document = BuildResult(result); 
@@ -126,7 +126,8 @@ namespace ms8.code.Repositories
                         PublisherDescription = "",
                         SubjectGroup = content.SubjectGroup?.Description,
                         TableOfContents = content.TableOfContent,
-                        Depth = folderDepth
+                        Depth = folderDepth,
+                        SeriesDescription = content.Series?.Description
                     };
                 }
             }

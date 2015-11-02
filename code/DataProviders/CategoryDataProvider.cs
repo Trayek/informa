@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using ms8.code.Models;
 using ms8.code.Repositories;
+using Sitecore;
 using Sitecore.Data;
 using Sitecore.Data.IDTables;
 using Sitecore.Data.Templates;
@@ -37,6 +38,12 @@ namespace ms8.code.DataProviders
                 case "Title":
                     fieldValue = externalItem.Name;
                     break;
+                //case "__Updated":
+                //    fieldValue = DateUtil.IsoNow.ToString();
+                //    break;
+                //case "__Created":
+                //    fieldValue = DateUtil.IsoNow.ToString();
+                //    break;
                 default:
                     break;
             }
