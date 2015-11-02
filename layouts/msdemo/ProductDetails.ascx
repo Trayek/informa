@@ -17,13 +17,15 @@
     </h1>
     <h2>
         <sc:Text runat="server" Field="Subject Group" /> - Publisher: <sc:Text runat="server" Field="Publisher Description" />
-        
     </h2>
     <h3>
         Date of publication: <sc:Date runat="server" Format="MM/dd/YYYY" Field="Publication Date"/>. ISBN: <sc:Text runat="server" Field="ISBN" />
     </h3>
+    <h3>
+        Edition:  <sc:Text runat="server" Field="Edition" /> - Pages:  <sc:Text runat="server" Field="Pages" /> - Format:  <sc:Text runat="server" Field="Print format" />
+    </h3>
     <asp:Repeater runat="server" id="RelatedItemRepeater">
-        <HeaderTemplate><p>Related products:<ul> </HeaderTemplate>
+        <HeaderTemplate><p>Related items:<ul> </HeaderTemplate>
         <ItemTemplate>
             <li><a href="<%# LinkManager.GetItemUrl((Item) Container.DataItem) %>"><%# ((Item) Container.DataItem)["Title"] %></a><br/>ISBN:<%# ((Item) Container.DataItem)["ISBN"] %> </li>
         </ItemTemplate>

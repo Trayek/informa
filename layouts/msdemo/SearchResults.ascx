@@ -13,7 +13,7 @@
                     event.preventDefault();
                     $('#<%= SearchButton.ClientID %>').click();
                 }
-             });
+            });
         });
     </script>
     <div class="">
@@ -59,7 +59,10 @@
                 <ItemTemplate>
                     <li style="margin-bottom: 10px;">
                         <strong><a href="<%# Eval("Item1.Url") %>"><%# Eval("Item1.Title") %></a></strong><br />
-                        ISBN: <%# Eval("Item1.Isbn") %>
+                        ISBN: <%# Eval("Item1.Isbn") %><br />
+                        Format: <%# Eval("Item1.PrintFormat") %><br />
+                        Edition: <%# Eval("Item1.Edition") %><br />
+                        Pages: <%#Eval("Item1.Pages") %>
                     </li>
                 </ItemTemplate>
                 <FooterTemplate></ul></FooterTemplate>

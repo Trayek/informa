@@ -57,6 +57,22 @@ namespace ms8.code.Models
 
         [BsonElement("publisher")]
         public IsbnPublisher Publisher { get; set; }
+
+        [BsonElement("editionNumber")]
+        public string EditionNumber { get; set; }
+
+        [BsonElement("binding")]
+        public IsbnBinding Binding { get; set; }
+
+        [BsonElement("pageNum")]
+        public string Pages { get; set; }
+    }
+
+    [BsonIgnoreExtraElements]
+    internal class IsbnBinding
+    {
+        [BsonElement("text")]
+        public string Text { get; set; }
     }
 
     [BsonIgnoreExtraElements]

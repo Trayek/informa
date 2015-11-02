@@ -93,6 +93,9 @@ namespace ms8.layouts.msdemo
                 Title = titleField.Value,
                 Isbn = relatedItem["ISBN"],
                 Url = LinkManager.GetItemUrl(relatedItem),
+                Edition = relatedItem["Edition"],
+                PrintFormat = relatedItem["Print format"],
+                Pages = relatedItem["Pages"]
             };
         }
 
@@ -115,5 +118,9 @@ namespace ms8.layouts.msdemo
         public string Title { get; set; }
         public string Isbn { get; set; }
         public string Url { get; set; }
+
+        public string Pages { get; set; }
+        public string Edition { get; set; }
+        public string PrintFormat { get; set; }
     }
 }

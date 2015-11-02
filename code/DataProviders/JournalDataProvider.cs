@@ -59,6 +59,15 @@ namespace ms8.code.DataProviders
                     case "Subject Group":
                         fieldValue = externalItem.SubjectGroup;
                         break;
+                    case "Edition":
+                        fieldValue = externalItem.Edition;
+                        break;
+                    case "Pages":
+                        fieldValue = externalItem.TotalPages;
+                        break;
+                    case "Print Format":
+                        fieldValue = externalItem.PrintFormat;
+                        break;
                     case "Publication Date":
                         fieldValue = externalItem?.PublicationDate.ToString("dd/MM/yyyy");
                         break;

@@ -29,5 +29,8 @@ namespace ms8.code.Models
 
         public string SeriesDescription { get; set; }
         public string Subtitle { get; set; }
+        public string Edition { get; set; }
+        public string TotalPages { get; set; }
+        public string PrintFormat { get; set; }
     }
 }

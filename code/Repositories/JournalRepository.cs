@@ -129,6 +129,9 @@ namespace ms8.code.Repositories
                         Depth = folderDepth,
                         SeriesDescription = content.Series?.Description,
                         Subtitle = content.Subtitle,
+                        Edition = content.EditionNumber,
+                        PrintFormat = content.Binding?.Text,
+                        TotalPages = content.Pages
                     };
                 }
             }
