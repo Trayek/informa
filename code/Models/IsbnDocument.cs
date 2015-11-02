@@ -54,6 +54,8 @@ namespace ms8.code.Models
         [BsonElement("series")]
         public IsbnSeries Series { get; set; }
 
+        [BsonElement("imprint")]
+        public IsbnImprint Imprint { get; set; }
 
         [BsonElement("publisher")]
         public IsbnPublisher Publisher { get; set; }
@@ -73,6 +75,13 @@ namespace ms8.code.Models
     {
         [BsonElement("text")]
         public string Text { get; set; }
+    }
+
+    [BsonIgnoreExtraElements]
+    internal class IsbnImprint
+    {
+        [BsonElement("name")]
+        public string Name { get; set; }
     }
 
     [BsonIgnoreExtraElements]

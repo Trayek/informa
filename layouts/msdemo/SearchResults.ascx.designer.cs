@@ -49,15 +49,6 @@ namespace ms8.layouts.msdemo {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl ResultsPlaceHolder;
         
         /// <summary>
-        /// CategoryFacets control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ms8.layouts.msdemo.SearchResultsFacets CategoryFacets;
-        
-        /// <summary>
         /// JournalTypeFacets control.
         /// </summary>
         /// <remarks>
@@ -65,6 +56,15 @@ namespace ms8.layouts.msdemo {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::ms8.layouts.msdemo.SearchResultsFacets JournalTypeFacets;
+        
+        /// <summary>
+        /// CategoryFacets control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::ms8.layouts.msdemo.SearchResultsFacets CategoryFacets;
         
         /// <summary>
         /// SearchResultsPagination control.

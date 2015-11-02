@@ -43,10 +43,11 @@
     </div>
 
     <div runat="server" id="ResultsPlaceHolder" style="min-height: 500px;">
-        <div class="col-md-4">
-            <uc1:SearchResultsFacets ID="CategoryFacets" runat="server" />
+        <div class="col-md-4" style="padding-top: 50px;">
+            
+            <uc1:SearchResultsFacets ID="JournalTypeFacets" Name="Imprints" runat="server"  />
             <br />
-            <uc1:SearchResultsFacets ID="JournalTypeFacets" runat="server" Visible="False" />
+            <uc1:SearchResultsFacets ID="CategoryFacets" Name="Categories" runat="server" />
             <br />
         </div>
         <div class="col-md-8">

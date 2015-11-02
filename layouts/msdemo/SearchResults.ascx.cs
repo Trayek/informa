@@ -54,13 +54,9 @@ namespace ms8.layouts.msdemo
         {
             CategoryFacets.QueryStringParameter = SearchResultsManager.CategoryFacets;
 
-            CategoryFacets.Name = "Categories";
-
             CategoryFacets.BindFacetNavigation(facetCategories.FirstOrDefault(a => a.Name == "categories"));
 
             JournalTypeFacets.QueryStringParameter = SearchResultsManager.JournalTypeFacets;
-
-            JournalTypeFacets.Name = "Types";
 
             JournalTypeFacets.BindFacetNavigation(facetCategories.FirstOrDefault(a => a.Name == "journal_types"));
         }

@@ -50,7 +50,7 @@ namespace ms8.code.Repositories
                 List<string> keys = new List<string>();
 
                 foreach (var result in cursor
-                    .Take(80)
+                    .Take(95)
                     )
                 {
                     var document = BuildResult(result); 
@@ -117,7 +117,7 @@ namespace ms8.code.Repositories
                     {
                         Id = isbnDocument.Isbn,
                         ISBN = isbnDocument.Isbn,
-                        Types = new string[0],// content.MetaTags?.Split(' '),
+                        Types = new[] { content.Imprint?.Name },
                         Categories = content.Categories?.Select(a => a.Title).ToArray(),
                         Title = content.Name,
                         Description = content.Description,
@@ -157,15 +157,16 @@ namespace ms8.code.Repositories
 
         public JournalType[] GetJournalTypesFromJson()
         {
-            return new JournalType[0];
+            //return new JournalType[0];
 
             if (JournalTypes == null)
             {
                 JournalTypes = GetJournals()
                     .SelectMany(a => a.Types)
                     .Distinct()
-                    .Select(b => new JournalType() {Id = b, Name = b, Depth = 1})
-                    .Union(InjectLetters<JournalType>()).ToArray();
+                    .Select(b => new JournalType() {Id = b, Name = b, Depth = 0})
+                    //.Union(InjectLetters<JournalType>())
+                    .ToArray();
             }
 
             return JournalTypes;
