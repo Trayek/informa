@@ -49,13 +49,13 @@
     </div>
 
     <div runat="server" id="ResultsPlaceHolder" style="min-height: 500px;">
-        <div class="col-md-3">
+        <div class="col-md-4">
             <uc1:SearchResultsFacets ID="CategoryFacets" runat="server" />
             <br />
             <uc1:SearchResultsFacets ID="JournalTypeFacets" runat="server" Visible="False" />
             <br />
         </div>
-        <div class="col-md-9">
+        <div class="col-md-8">
             <uc1:SearchResultsPagination runat="server" ID="SearchResultsPagination" />
             <br clear="all" />
             <asp:Repeater runat="server" ID="ResultRepeater">
