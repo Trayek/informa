@@ -21,18 +21,6 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
-      # __Final Renderings
-      Type: Layout
-      Value: |
-        <r xmlns:p="p" xmlns:s="s" p:p="1">
-          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <r uid="{0770BAC0-2F6E-4F27-98CA-4E7915FC4E28}">
-              <p:d />
-            </r>
-            <r uid="{2F4741CA-6B09-4400-A78B-92C8B234CDD0}" s:id="{55F679C5-2D35-459B-88C8-AA152ADB7DC8}" s:ph="content" />
-          </d>
-        </r>
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20151012T100516Z

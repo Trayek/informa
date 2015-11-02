@@ -44,7 +44,7 @@
         </div>
     </div>
 
-    <div runat="server" ID="ResultsPlaceHolder">
+    <div runat="server" ID="ResultsPlaceHolder" style="min-height: 500px;"> 
         <div class="col-md-3">
             <uc1:SearchResultsFacets ID="CategoryFacets" runat="server" />
             <br />
@@ -52,7 +52,7 @@
             <br />
         </div>
         <div class="col-md-9">
-            <uc1:SearchResultsPagination runat="server" id="SearchResultsPagination" />
+            <uc1:SearchResultsPagination runat="server" id="SearchResultsPagination" /><br clear="all"/>
             <asp:Repeater runat="server" ID="ResultRepeater">
                 <HeaderTemplate>
                     <ul class="list-unstyled">
