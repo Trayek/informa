@@ -37,6 +37,8 @@ namespace ms8.layouts.msdemo
             FacetRepeater.DataSource = items.OrderBy(a => a.Item3);
 
             FacetRepeater.DataBind();
+
+            NoResultsPlaceholder.Visible = items.Count() == 0;
         }
 
         protected string AddFacetToUrl(object dataItem)

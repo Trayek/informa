@@ -14,3 +14,6 @@
         </ul>
     </FooterTemplate>
 </asp:Repeater>
+<Asp:PlaceHolder runat="server" id="NoResultsPlaceholder">
+    <p>Sorry, no facets were found for your results</p>
+</Asp:PlaceHolder>

@@ -4,17 +4,21 @@
 
 
 <div class="container">
-    <script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
     <script type="text/javascript">
 
-        function button_click(objTextBox, objBtnID) {
-        }
 
-        $('#<%= SearchTerm.ClientID %>').keyup(function (event) {
-            if (event.keyCode == 13) {
-                $('#<%= SearchButton.ClientID %>').click();
-            }
+        $(document).ready(function () {
+            $('#<%= SearchTerm.ClientID %>').keyup(function (event) {
+                $('#header-search-box').val($('#<%= SearchTerm.ClientID %>').val());
+                if (event.keyCode == 13) {
+                    event.preventDefault();
+                    $('#<%= SearchButton.ClientID %>').click();
+                }
+             });
+
         });
+
 
     </script>
     <div class="">
@@ -37,14 +41,14 @@
             color: #08C;
         }
     </style>
-    <div runat="server" ID="NoResultsPlaceHolder">
+    <div runat="server" id="NoResultsPlaceHolder">
         <div class="col-md-offset-3 col-md-9">
             <p style="margin: 20px 0px 200px 0px">Sorry, no results could be found. Please try another search term.</p>
 
         </div>
     </div>
 
-    <div runat="server" ID="ResultsPlaceHolder" style="min-height: 500px;"> 
+    <div runat="server" id="ResultsPlaceHolder" style="min-height: 500px;">
         <div class="col-md-3">
             <uc1:SearchResultsFacets ID="CategoryFacets" runat="server" />
             <br />
@@ -52,14 +56,15 @@
             <br />
         </div>
         <div class="col-md-9">
-            <uc1:SearchResultsPagination runat="server" id="SearchResultsPagination" /><br clear="all"/>
+            <uc1:SearchResultsPagination runat="server" ID="SearchResultsPagination" />
+            <br clear="all" />
             <asp:Repeater runat="server" ID="ResultRepeater">
                 <HeaderTemplate>
                     <ul class="list-unstyled">
                 </HeaderTemplate>
                 <ItemTemplate>
                     <li style="margin-bottom: 10px;">
-                        <strong><a href="<%# Eval("Item1.Url") %>"><%# Eval("Item1.Title") %></a></strong><br/>
+                        <strong><a href="<%# Eval("Item1.Url") %>"><%# Eval("Item1.Title") %></a></strong><br />
                         ISBN: <%# Eval("Item1.Isbn") %>
                     </li>
                 </ItemTemplate>

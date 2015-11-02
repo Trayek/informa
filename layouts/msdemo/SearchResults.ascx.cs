@@ -14,8 +14,6 @@ namespace ms8.layouts.msdemo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            this.SearchTerm.Attributes.Add("onkeypress", "button_click(this,'" + this.SearchButton.ClientID + "')");
-
             if (!IsPostBack)
             {
                 RunSearch();

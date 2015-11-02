@@ -75,6 +75,8 @@ License: You must have a valid license purchased only from themeforest (the abov
 	<script type="text/javascript" src="/amcharts/pie.js"></script>
 	<script type="text/javascript" src="/amcharts/serial.js"></script>
 	<script type="text/javascript" src="/amcharts/light.js"></script>
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
   
   <sc:VisitorIdentification runat="server" />
 </head>

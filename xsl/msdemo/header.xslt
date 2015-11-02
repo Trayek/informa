@@ -179,14 +179,25 @@
               <span class="sep"></span>
               <i class="fa fa-search search-btn"></i>
               <div class="search-box">
-                <form2 action="#">
+                
+                  <script type="text/javascript">
+                    $(document).ready(function() {
+                      $('#header-search-button').click(function(e) {
+                        e.preventDefault();
+                        var url = "http://"+window.location.hostname + "/en/journals?search="+$('#header-search-box').val();
+                        console.log("Redirecting to " + url);
+                        window.location.href = url;
+                      });
+                    });
+                  
+                  </script>
                   <div class="input-group">
-                    <input type="text" placeholder="Search" class="form-control"/>
+                    <input type="text" id="header-search-box" placeholder="Search" class="form-control"/>
                     <span class="input-group-btn">
-                      <button class="btn btn-primary" type="submit">Search</button>
+                      <button class="btn btn-primary" id="header-search-button" type="submit">Search</button>
                     </span>
                   </div>
-                </form2>
+                
               </div> 
             </li>
             <!-- END TOP SEARCH -->
