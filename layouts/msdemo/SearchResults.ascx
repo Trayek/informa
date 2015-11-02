@@ -6,8 +6,6 @@
 <div class="container">
 
     <script type="text/javascript">
-
-
         $(document).ready(function () {
             $('#<%= SearchTerm.ClientID %>').keyup(function (event) {
                 $('#header-search-box').val($('#<%= SearchTerm.ClientID %>').val());
@@ -16,10 +14,7 @@
                     $('#<%= SearchButton.ClientID %>').click();
                 }
              });
-
         });
-
-
     </script>
     <div class="">
         <div class="input-group">
@@ -29,7 +24,6 @@
                 <asp:Button runat="server" CssClass="btn btn-warning" OnClick="ResetClick" Text="Reset" />
             </span>
         </div>
-
     </div>
     <hr />
     <style type="text/css">

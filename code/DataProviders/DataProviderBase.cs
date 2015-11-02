@@ -98,7 +98,7 @@ namespace ms8.code.DataProviders
 
                 if (journal != null)
                 {
-                    var itemName = ItemUtil.ProposeValidItemName(journal.Name);
+                    var itemName = ItemUtil.ProposeValidItemName(journal.Name).Replace("-"," ");
 
                     return new ItemDefinition(itemId, itemName,
                         (journal.IsFolder ? RootTemplateId : ItemTemplateId),
