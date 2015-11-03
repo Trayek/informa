@@ -32,5 +32,6 @@ namespace ms8.code.Models
         public string Edition { get; set; }
         public string TotalPages { get; set; }
         public string PrintFormat { get; set; }
+        public string EnrichedImage { get; set; }
     }
 }

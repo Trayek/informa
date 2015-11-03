@@ -1,0 +1,20 @@
+﻿---
+ID: 2077e2c5-8201-4108-9b71-52120b482ec4
+Parent: 4524d7da-b8e7-4db7-96ca-cb958ffbc579
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/User Defined/Informa/Journal/Enriched Data/Enriched Image
+SharedFields:
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Image
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151103T170159Z

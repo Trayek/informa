@@ -21,9 +21,18 @@
     <h3>
         Date of publication: <sc:Date runat="server" Format="MM/dd/YYYY" Field="Publication Date"/>. ISBN: <sc:Text runat="server" Field="ISBN" />
     </h3>
-    <h3>
+    <h4>
         Edition:  <sc:Text runat="server" Field="Edition" /> - Pages:  <sc:Text runat="server" Field="Pages" /> - Format:  <sc:Text runat="server" Field="Print format" />
-    </h3>
+    </h4>
+    <sc:Image runat="server" Field="Enriched Image" />
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $.getJSON("http://informa.services/api/pricing/getPrices?isbn=" + <%= Isbn %>, function (data) {
+                var div = $('h3');
+                div.append(". <span>Cost: " + data.Currency + Number(data.Value).toFixed(2)+"</span>");
+            });
+        });
+    </script>
     <asp:Repeater runat="server" id="RelatedItemRepeater">
         <HeaderTemplate><p>Related items:<ul> </HeaderTemplate>
         <ItemTemplate>

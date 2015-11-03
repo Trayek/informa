@@ -51,5 +51,10 @@ namespace ms8.layouts.msdemo
                 return Guid.Empty;
             }
         }
+
+        public string Isbn
+        {
+            get { return Sitecore.Context.Item.Fields["ISBN"].Value; }
+        }
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using ms8.code.Models;
+using Sitecore;
 using Sitecore.Caching;
 using Sitecore.Collections;
 using Sitecore.Configuration;
@@ -200,12 +201,36 @@ namespace ms8.code.DataProviders
             return base.GetParentID(itemDefinition, context);
         }
 
+        public override bool SaveItem(ItemDefinition itemDefinition, ItemChanges changes, CallContext context)
+        {
+            foreach (FieldChange change in changes.FieldChanges)
+            {
+                if (ShouldApplyChangeToDataStore(change))
+                {
+                    SaveChangeToDataStore(change, IDTable.GetKeys(IdTablePrefix, itemDefinition.ID).FirstOrDefault().Key);
+                }
+            }
+
+            return base.SaveItem(itemDefinition, changes, context);
+        }
+
+        protected virtual bool ShouldApplyChangeToDataStore(FieldChange change)
+        {
+            return false;
+        }
+
+        protected virtual void SaveChangeToDataStore(FieldChange change, string key)
+        {
+            throw new NotImplementedException();
+        }
+
         public override FieldList GetItemFields(ItemDefinition itemDefinition, VersionUri version, CallContext context)
         {
             var fields = new FieldList();
 
             var idTableEntries = InMemoryIdTable.GetKeys(IdTablePrefix, itemDefinition.ID);
 
+           
             if (idTableEntries.Any())
             {
                 if (context.DataManager.DataSource.ItemExists(itemDefinition.ID))
@@ -219,22 +244,24 @@ namespace ms8.code.DataProviders
 
                 if (template != null)
                 {
-                    var journalId = GetExternalItemIdFromIdTable(itemDefinition.ID);
+                    var externalItemId = GetExternalItemIdFromIdTable(itemDefinition.ID);
 
-                    if (!string.IsNullOrEmpty(journalId))
+                    if (!string.IsNullOrEmpty(externalItemId))
                     {
-                        var journal = ExternalItems.FirstOrDefault(o => o.Id == journalId);
+                        var journal = ExternalItems.FirstOrDefault(o => o.Id == externalItemId);
 
                         if (journal != null)
                         {
                             foreach (var field in GetDataFields(template))
                             {
-                                try
+                                //try
                                 {
                                     fields.Add(field.ID, GetFieldValue(field, journal));
                                 }
-                                catch (Exception)
-                                {}
+                                //catch (Exception e)
+                                {
+                                    //Log.Error("Dataprovider error:" + field.Name ,e, this);
+                                }
                             }
                         }
                     }
@@ -246,8 +273,10 @@ namespace ms8.code.DataProviders
 
         protected virtual IEnumerable<TemplateField> GetDataFields(Template template)
         {
-            return template.GetFields().Where(ItemUtil.IsDataField);
+            return template.GetFields().Where(a => ItemUtil.IsDataField(a));
         }
+
+       
 
         public override VersionUriList GetItemVersions(ItemDefinition item, CallContext context)
         {

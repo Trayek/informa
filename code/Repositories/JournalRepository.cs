@@ -5,6 +5,7 @@ using ms8.code.Models;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Driver;
+using MongoDB.Driver.Builders;
 using ConfigurationManager = System.Configuration.ConfigurationManager;
 
 namespace ms8.code.Repositories
@@ -29,21 +30,9 @@ namespace ms8.code.Repositories
         {
             if (Journals == null)
             {
-                var connectionString = ConfigurationManager.ConnectionStrings["ServiceExport"].ConnectionString;
+                var collection = MongoCollection();
 
-                string serverName = connectionString.Substring(0, connectionString.LastIndexOf("/"));
-
-                string dbName = connectionString.Substring(connectionString.LastIndexOf("/") + 1);
-
-                var client = new MongoClient(serverName);
-
-                var server = client.GetServer();
-
-                var db = server.GetDatabase(dbName);
-
-                MongoCollection<IsbnDocument> documents = db.GetCollection<IsbnDocument>("IsbnDocuments");
-
-                MongoCursor<BsonDocument> cursor = documents.FindAllAs<BsonDocument>();
+                MongoCursor<BsonDocument> cursor = collection.FindAllAs<BsonDocument>();
 
                 List<IsbnDocument> results = new List<IsbnDocument>();
 
@@ -68,6 +57,25 @@ namespace ms8.code.Repositories
             }
 
             return Journals;
+        }
+
+        private static MongoCollection<IsbnDocument> MongoCollection()
+        {
+            var connectionString = ConfigurationManager.ConnectionStrings["ServiceExport"].ConnectionString;
+
+            string serverName = connectionString.Substring(0, connectionString.LastIndexOf("/"));
+
+            string dbName = connectionString.Substring(connectionString.LastIndexOf("/") + 1);
+
+            var client = new MongoClient(serverName);
+
+            var server = client.GetServer();
+
+            var db = server.GetDatabase(dbName);
+
+            MongoCollection<IsbnDocument> documents = db.GetCollection<IsbnDocument>("IsbnDocuments");
+
+            return documents;
         }
 
         private IsbnDocument BuildResult(BsonDocument result)
@@ -131,7 +139,8 @@ namespace ms8.code.Repositories
                         Subtitle = content.Subtitle,
                         Edition = content.EditionNumber,
                         PrintFormat = content.Binding?.Text,
-                        TotalPages = content.Pages
+                        TotalPages = content.Pages,
+                        EnrichedImage = isbnDocument.EnrichedImage
                     };
                 }
             }
@@ -178,6 +187,15 @@ namespace ms8.code.Repositories
             {
                 yield return new T {Id = letter.ToString(), Name = letter.ToString(), IsFolder = true, Depth = 0};
             }
+        }
+
+        public void SaveChange(string name, string value, string isbnNumber)
+        {
+            var collection = MongoCollection();
+
+            collection.Update(Query.EQ("IsbnNumber", isbnNumber), Update.Set(name, value), UpdateFlags.Upsert);
+
+            Journals.FirstOrDefault(a => a.ISBN == isbnNumber).EnrichedImage = value;
         }
     }
 }
