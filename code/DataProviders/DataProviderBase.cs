@@ -134,7 +134,6 @@ namespace ms8.code.DataProviders
         {
             if (CanProcessParent(parentItem.ID))
             {
-                //aborting here means you don't see the crap in the tree - faux buckets :)
                 context.Abort();
 
                 var itemIdList = new IDList();
