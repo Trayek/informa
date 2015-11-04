@@ -89,14 +89,14 @@ namespace ms8.code.DataProviders
 
         protected override bool ShouldApplyChangeToDataStore(FieldChange change)
         {
-            if (change.Definition.Name == "Enriched Image")
+            if (change.Definition != null && change.Definition.Name == "Enriched Image")
             {
                 return true;
             }
 
             return false;
         }
-
+        
         protected override void SaveChangeToDataStore(FieldChange change, string key)
         {
             new JournalRepository().SaveChange(change.Definition.Name, change.Value, key);

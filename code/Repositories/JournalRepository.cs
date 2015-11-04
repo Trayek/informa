@@ -195,7 +195,10 @@ namespace ms8.code.Repositories
 
             collection.Update(Query.EQ("IsbnNumber", isbnNumber), Update.Set(name, value), UpdateFlags.Upsert);
 
-            Journals.FirstOrDefault(a => a.ISBN == isbnNumber).EnrichedImage = value;
+            if (name == "Enriched Image")
+            {
+                Journals.FirstOrDefault(a => a.ISBN == isbnNumber).EnrichedImage = value;
+            }
         }
     }
 }

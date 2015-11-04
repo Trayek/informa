@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using ms8.code.Search;
+using Sitecore.Data.Fields;
+using Sitecore.Data.Items;
 
 namespace ms8.layouts.msdemo
 {
