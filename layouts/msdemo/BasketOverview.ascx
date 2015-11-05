@@ -1,13 +1,13 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="BasketOverview.ascx.cs" Inherits="ms8.layouts.msdemo.BasketOverview" %>
+<%@ Import Namespace="Sitecore.Links" %>
 
 <asp:Repeater runat="server" ID="rptProducts" ItemType="Sitecore.Data.Items.Item" OnItemDataBound="rptProductsDataBound">
     <ItemTemplate>
         <div class="basket-product" style="padding-bottom:60px;">
             <div class="basket-product-content">
-                <h2><%# GetFieldValue(Item, "title") %></h2>
+                <h2><a href="<%# LinkManager.GetItemUrl(GetItem(Item)) %>"><%# GetFieldValue(Item, "title") %></a></h2>
                 <div style="float:left;padding-right: 20px;padding-bottom:20px;">
-                    <sc:image Item="<%# GetItem(Item) %>" Field="Enriched Image" runat="server" MaxWidth="150"/>
-
+                    <a href="<%# LinkManager.GetItemUrl(GetItem(Item)) %>"><sc:image Item="<%# GetItem(Item) %>" Field="Enriched Image" runat="server" MaxWidth="150"/></a>
                 </div>
                 <div>
                     <p><%# GetFieldValue(Item, "description") %></p>
