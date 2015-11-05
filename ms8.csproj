@@ -212,6 +212,13 @@
     <Compile Include="layouts\msdemo\PriceHarvest.aspx.designer.cs">
       <DependentUpon>PriceHarvest.aspx</DependentUpon>
     </Compile>
+    <Compile Include="layouts\msdemo\RelatedProducts.ascx.cs">
+      <DependentUpon>RelatedProducts.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\msdemo\RelatedProducts.ascx.designer.cs">
+      <DependentUpon>RelatedProducts.ascx</DependentUpon>
+    </Compile>
     <Compile Include="layouts\msdemo\ProductDetails.ascx.cs">
       <DependentUpon>ProductDetails.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -267,6 +274,7 @@
     <Content Include="layouts\msdemo\OneColumnTitleBC.ascx" />
     <Content Include="layouts\msdemo\PageContent.ascx" />
     <Content Include="layouts\msdemo\PriceHarvest.aspx" />
+    <Content Include="layouts\msdemo\RelatedProducts.ascx" />
     <Content Include="layouts\msdemo\ProductDetails.ascx" />
     <Content Include="layouts\msdemo\SearchResults.ascx" />
     <Content Include="layouts\msdemo\SearchResultsFacets.ascx" />
@@ -338,6 +346,7 @@
     <Content Include="xsl\msdemo\newslist.xslt" />
     <Content Include="xsl\msdemo\pagetitle.xslt" />
     <Content Include="xsl\msdemo\pagetitlenoedit.xslt" />
+    <Content Include="xsl\msdemo\relateditems.xslt" />
     <Content Include="xsl\msdemo\photostream.xslt" />
     <Content Include="xsl\msdemo\productgallery.xslt" />
     <Content Include="xsl\msdemo\productitem.xslt" />

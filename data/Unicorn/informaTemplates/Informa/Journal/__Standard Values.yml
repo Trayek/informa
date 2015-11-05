@@ -13,8 +13,11 @@ SharedFields:
   Value: |
     <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{B0BCC7AE-135D-4B90-BC17-F708D51EDDC2}">
-        <r ds="" id="{55F679C5-2D35-459B-88C8-AA152ADB7DC8}" par="" ph="body" uid="{2F4741CA-6B09-4400-A78B-92C8B234CDD0}" />
-        <r id="{40099209-DE7B-4408-81D1-AE39D9C29764}" ph="body" uid="{BF1402E4-7B32-4F4B-97D8-E5AFE3206F8B}" />
+        <r id="{D0870F0F-39D9-4511-A40E-6D17F58D9ABE}" ph="rightcontent" uid="{6374482F-C45D-4C9F-8BD1-C2D2ECD09BA9}" />
+        <r ds="" id="{55F679C5-2D35-459B-88C8-AA152ADB7DC8}" par="" ph="content" uid="{2F4741CA-6B09-4400-A78B-92C8B234CDD0}" />
+        <r ds="" id="{40099209-DE7B-4408-81D1-AE39D9C29764}" par="" ph="rightcontent" uid="{BF1402E4-7B32-4F4B-97D8-E5AFE3206F8B}" />
+        <r ds="" id="{C1CA931F-2A26-4445-9A36-619206474604}" par="" ph="maincontent" uid="{B50F4B16-4ABE-4FAF-8F5E-EED6A7AB6CED}" />
+        <r id="{0BC5FF90-C8D6-4D4A-B7F9-BE3A11CEC796}" ph="body" uid="{B6FD864F-4E25-410F-A426-C1035FDA364B}" />
       </d>
     </r>
 Languages:
@@ -28,7 +31,7 @@ Languages:
       Value: |
         <r xmlns:p="p" xmlns:s="s" p:p="1">
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <r uid="{BF1402E4-7B32-4F4B-97D8-E5AFE3206F8B}" s:id="{40099209-DE7B-4408-81D1-AE39D9C29764}" s:ph="body" />
+            <r uid="{6374482F-C45D-4C9F-8BD1-C2D2ECD09BA9}" p:before="r[@uid='{2F4741CA-6B09-4400-A78B-92C8B234CDD0}']" s:id="{D0870F0F-39D9-4511-A40E-6D17F58D9ABE}" s:ph="rightcontent" />
           </d>
         </r>
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497

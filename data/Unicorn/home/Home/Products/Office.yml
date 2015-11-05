@@ -41,9 +41,6 @@ Languages:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20150112T134343Z
-    - ID: 2cd3e702-4a51-4faa-aa10-a6f4956e13d3
-      # Show in menu
-      Value: 1
     - ID: 33bd8c22-ad75-4c83-bb2e-2299f823f719
       # Image
       Value: "<image mediaid=\"{D98AD7EC-D374-4A63-9A19-A6F300BB4907}\" ></image>"

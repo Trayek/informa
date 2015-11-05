@@ -59,6 +59,7 @@
                 </HeaderTemplate>
                 <ItemTemplate>
                     <li style="margin-bottom: 10px;">
+
                         <strong><a href="<%# Eval("Item1.Url") %>"><%# Eval("Item1.Title") %></a></strong><br />
                         ISBN: <%# Eval("Item1.Isbn") %><br />
                         Format: <%# Eval("Item1.PrintFormat") %><br />
