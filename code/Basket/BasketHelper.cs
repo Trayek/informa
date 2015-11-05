@@ -26,6 +26,23 @@ namespace ms8.code.Basket
             basketName = Tracker.Current.Contact.ContactId.ToString();
         }
 
+        internal int GetProductCount()
+        {
+            var basket = GetBasket();
+            var products = GetAllProducts(basket);
+            int productCount = 0;
+            foreach (var product in products)
+            {
+                int x;
+                if (int.TryParse(product["Quantity"], out x))
+                {
+                    productCount = productCount + x;
+                }
+            }
+
+            return productCount;
+        }
+
         public Item GetBasket()
         {
             var basketRoot = db.GetItem(basketRootID);

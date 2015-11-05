@@ -1,7 +1,8 @@
 ﻿<!DOCTYPE html>
 <%@ Page language="c#" Codepage="65001" AutoEventWireup="true" %>
 <%@ OutputCache Location="None" VaryByParam="none" %>
-<%@ Register Src="~/layouts/msdemo/Basket.ascx" TagPrefix="uc1" TagName="Basket" %>
+<%@ Register Src="~/layouts/msdemo/topbar.ascx" TagPrefix="uc1" TagName="topbar" %>
+
 
 <!-- 
 Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.2.0
@@ -92,9 +93,10 @@ License: You must have a valid license purchased only from themeforest (the abov
 	<sc:XslFile runat="server" RenderingID="{718081E9-2C33-4D29-85CF-78EF8F7967C5}" Path="/xsl/msdemo/profiles.xslt" ID="profiles" ></sc:XslFile>
 	
 	<!-- SC_HEADER -->
-	<sc:XslFile runat="server" RenderingID="{817C9298-9095-413C-9B4F-1BBE80BDD877}" Path="/xsl/msdemo/topbar.xslt" ID="topbar" ></sc:XslFile>
+	<%--<sc:XslFile runat="server" RenderingID="{817C9298-9095-413C-9B4F-1BBE80BDD877}" Path="/xsl/msdemo/topbar.xslt" ID="topbar" ></sc:XslFile>--%>
+    <uc1:topbar runat="server" id="topbar" />
 	<sc:XslFile runat="server" RenderingID="{3DB6DCCD-770E-4683-87BD-D84482F82BB6}" Path="/xsl/msdemo/header.xslt" ID="header" ></sc:XslFile>
-    <uc1:Basket runat="server" id="Basket" />
+    
 	<sc:placeholder key="header" runat="server" />
 
 	<!-- SC_SLIDER -->

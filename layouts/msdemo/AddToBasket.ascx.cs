@@ -29,6 +29,9 @@ namespace ms8.layouts.msdemo
             {
                 helper.AddProductToBasket(basket, Sitecore.Context.Item.Name, 1);
             }
+
+            var url = Sitecore.Web.WebUtil.GetRawUrl();
+            Response.Redirect(url);
         }
     }
 }

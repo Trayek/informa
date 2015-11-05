@@ -191,12 +191,12 @@
     <Compile Include="layouts\msdemo\AddToBasket.ascx.designer.cs">
       <DependentUpon>AddToBasket.ascx</DependentUpon>
     </Compile>
-    <Compile Include="layouts\msdemo\Basket.ascx.cs">
-      <DependentUpon>Basket.ascx</DependentUpon>
+    <Compile Include="layouts\msdemo\topbar.ascx.cs">
+      <DependentUpon>topbar.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="layouts\msdemo\Basket.ascx.designer.cs">
-      <DependentUpon>Basket.ascx</DependentUpon>
+    <Compile Include="layouts\msdemo\topbar.ascx.designer.cs">
+      <DependentUpon>topbar.ascx</DependentUpon>
     </Compile>
     <Compile Include="layouts\msdemo\BasketOverview.ascx.cs">
       <DependentUpon>BasketOverview.ascx</DependentUpon>
@@ -258,7 +258,7 @@
       <SubType>ASPXCodeBehind</SubType>
     </Content>
     <Content Include="layouts\msdemo\AddToBasket.ascx" />
-    <Content Include="layouts\msdemo\Basket.ascx" />
+    <Content Include="layouts\msdemo\topbar.ascx" />
     <Content Include="layouts\msdemo\BasketOverview.ascx" />
     <Content Include="layouts\msdemo\Main.aspx" />
     <Content Include="layouts\msdemo\OneColumn.ascx" />
