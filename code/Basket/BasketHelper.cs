@@ -29,12 +29,18 @@ namespace ms8.code.Basket
         public Item GetBasket()
         {
             var basketRoot = db.GetItem(basketRootID);
+            Item basket = null;
             if (basketRoot != null)
             {
-                return basketRoot.Children.FirstOrDefault(x => string.Equals(basketName, x.Name, StringComparison.InvariantCultureIgnoreCase));
+                basket = basketRoot.Children.FirstOrDefault(x => string.Equals(basketName, x.Name, StringComparison.InvariantCultureIgnoreCase));
             }
 
-            return CreateBasket();
+            if (basket == null)
+            {
+                basket = CreateBasket();
+            }
+            
+            return basket;
         }
 
         internal Item CreateBasket()

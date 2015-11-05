@@ -1,8 +1,8 @@
 ﻿---
-ID: b04029ca-2259-48a0-9fce-5b5a24b33177
-Parent: f863cde1-ced0-46c1-b4e1-339a66a454db
+ID: 3ec1d86b-5639-444b-a3e4-8385e1994a22
+Parent: 5c0319da-5685-4ca9-a8ef-7fe55f0d707b
 Template: fbaa4fa6-1d35-4560-94e7-daa7e7bd1a19
-Path: /sitecore/content/Settings/Baskets/22b4de62-2243-4427-9c08-62396cbd9ca1/Pharmaceutical Chartbook
+Path: /sitecore/content/Settings/Baskets/22b4de62-2243-4427-9c08-62396cbd9ca1/A Colour Atlas of Poisonous Fungi
 Languages:
 - Language: en
   Versions:
@@ -13,10 +13,10 @@ Languages:
       Value: 1
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
-      Value: 20151105T092909Z
+      Value: 20151105T141223Z
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
       # __Created by
       Value: extranet\Anonymous
     - ID: 96023e09-212b-4551-a4c1-13d6308d6d0b
       # Product
-      Value: {90DA14F6-2A1E-4B1E-BCD2-93C2A131EC09}
+      Value: {5F287310-61AE-4145-B989-90D051648759}
