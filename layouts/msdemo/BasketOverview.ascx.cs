@@ -44,6 +44,17 @@ namespace ms8.layouts.msdemo
             return string.Empty;
         }
 
+        protected Item GetItem(Item item)
+        {
+            ReferenceField field = item.Fields["Product"];
+            if (field != null && field.TargetItem != null)
+            {
+                return field.TargetItem;
+            }
+
+            return null;
+        }
+
         protected string GetQuantity(Item productBasket)
         {
             return productBasket["Quantity"];
