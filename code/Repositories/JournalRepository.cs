@@ -42,7 +42,7 @@ namespace ms8.code.Repositories
                     .Take(95)
                     )
                 {
-                    var document = BuildResult(result); 
+                    var document = BuildResult(result);
 
                     if (document != null)
                     {
@@ -112,7 +112,7 @@ namespace ms8.code.Repositories
                 yield return new Journal {IsFolder = true, Depth = item.Length - 1, Id = item, Name = item};
             }
         }
-       
+
         private IEnumerable<Journal> MapResults(IEnumerable<IsbnDocument> results, int folderDepth)
         {
             foreach (var isbnDocument in results)
@@ -125,7 +125,7 @@ namespace ms8.code.Repositories
                     {
                         Id = isbnDocument.Isbn,
                         ISBN = isbnDocument.Isbn,
-                        Types = new[] { content.Imprint?.Name },
+                        Types = new[] {content.Imprint?.Name},
                         Categories = content.Categories?.Select(a => a.Title).ToArray(),
                         Title = content.Name,
                         Description = content.Description,
@@ -195,9 +195,14 @@ namespace ms8.code.Repositories
 
             collection.Update(Query.EQ("IsbnNumber", isbnNumber), Update.Set(name, value), UpdateFlags.Upsert);
 
-            if (name == "Enriched Image")
+            var firstOrDefault = Journals.FirstOrDefault(a => a.ISBN == isbnNumber);
+
+            if (firstOrDefault != null)
             {
-                Journals.FirstOrDefault(a => a.ISBN == isbnNumber).EnrichedImage = value;
+                if (name == "Enriched Image")
+                {
+                    firstOrDefault.EnrichedImage = value;
+                }
             }
         }
     }

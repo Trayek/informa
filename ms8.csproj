@@ -139,6 +139,7 @@
     <Compile Include="code\DataProviders\JournalDataProvider.cs" />
     <Compile Include="code\DataProviders\JournalTypeDataProvider.cs" />
     <Compile Include="code\DataProviders\SimpleChildrenNesting.cs" />
+    <Compile Include="code\Mappers\PricingMapper.cs" />
     <Compile Include="code\Models\Category.cs" />
     <Compile Include="code\Models\IHasId.cs" />
     <Compile Include="code\Models\IHasName.cs" />
@@ -146,7 +147,15 @@
     <Compile Include="code\Models\Journal.cs" />
     <Compile Include="code\Models\JournalType.cs" />
     <Compile Include="code\Models\IsbnDocument.cs" />
+    <Compile Include="code\Models\PricingDetails.cs" />
     <Compile Include="code\Models\StructuredItem.cs" />
+    <Compile Include="code\Pricing\Endpoints\IsbnService.cs" />
+    <Compile Include="code\Pricing\Endpoints\PricingService.cs" />
+    <Compile Include="code\Pricing\Endpoints\SearchService.cs" />
+    <Compile Include="code\Pricing\Endpoints\WebService.cs" />
+    <Compile Include="code\Loggers\ConsoleLog.cs" />
+    <Compile Include="code\Loggers\ILog.cs" />
+    <Compile Include="code\Pricing\Repositories\PriceHarvestRepository.cs" />
     <Compile Include="code\Repositories\JournalRepository.cs" />
     <Compile Include="code\SaveActions\CreatItem.cs" />
     <Compile Include="code\Search\FacetResult.cs" />
@@ -169,6 +178,13 @@
     </Compile>
     <Compile Include="layouts\LogOut.aspx.designer.cs">
       <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\msdemo\PriceHarvest.aspx.cs">
+      <DependentUpon>PriceHarvest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\msdemo\PriceHarvest.aspx.designer.cs">
+      <DependentUpon>PriceHarvest.aspx</DependentUpon>
     </Compile>
     <Compile Include="layouts\msdemo\ProductDetails.ascx.cs">
       <DependentUpon>ProductDetails.ascx</DependentUpon>
@@ -221,6 +237,7 @@
     <Content Include="layouts\msdemo\OneColumnTitle.ascx" />
     <Content Include="layouts\msdemo\OneColumnTitleBC.ascx" />
     <Content Include="layouts\msdemo\PageContent.ascx" />
+    <Content Include="layouts\msdemo\PriceHarvest.aspx" />
     <Content Include="layouts\msdemo\ProductDetails.ascx" />
     <Content Include="layouts\msdemo\SearchResults.ascx" />
     <Content Include="layouts\msdemo\SearchResultsFacets.ascx" />
