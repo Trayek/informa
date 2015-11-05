@@ -4,10 +4,13 @@ using System.Linq;
 using ms8.code.Search;
 using Sitecore.Data.Fields;
 using Sitecore.Data.Items;
+using Sitecore.Data;
+using Sitecore.Resources.Media;
+using System.Web.UI.WebControls;
 
 namespace ms8.layouts.msdemo
 {
-    public partial class ProductDetails : System.Web.UI.UserControl
+    public partial class RelatedProducts : System.Web.UI.UserControl
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -58,5 +61,6 @@ namespace ms8.layouts.msdemo
         {
             get { return Sitecore.Context.Item.Fields["ISBN"].Value; }
         }
+       
     }
 }

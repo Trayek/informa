@@ -10,7 +10,7 @@
 namespace ms8.layouts.msdemo {
     
     
-    public partial class ProductDetails {
+    public partial class RelatedProducts {
         
         /// <summary>
         /// RelatedItemRepeater control.
