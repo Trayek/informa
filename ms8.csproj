@@ -76,6 +76,10 @@
       <HintPath>packages\Rainbow.Storage.Yaml.1.0.0\lib\net45\Rainbow.Storage.Yaml.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Sitecore.Analytics, Version=8.0.5138.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Sitecore.Analytics.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Client, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Sitecore.Client.dll</HintPath>
@@ -126,6 +130,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="code\Basket\BasketHelper.cs" />
     <Compile Include="code\DataProviders\CategoryDataProvider.cs" />
     <Compile Include="code\DataProviders\DataProviderBase.cs" />
     <Compile Include="code\DataProviders\IdTableIdKey.cs" />
@@ -165,6 +170,27 @@
     </Compile>
     <Compile Include="layouts\LogOut.aspx.designer.cs">
       <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\msdemo\AddToBasket.ascx.cs">
+      <DependentUpon>AddToBasket.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\msdemo\AddToBasket.ascx.designer.cs">
+      <DependentUpon>AddToBasket.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\msdemo\Basket.ascx.cs">
+      <DependentUpon>Basket.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\msdemo\Basket.ascx.designer.cs">
+      <DependentUpon>Basket.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\msdemo\BasketOverview.ascx.cs">
+      <DependentUpon>BasketOverview.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\msdemo\BasketOverview.ascx.designer.cs">
+      <DependentUpon>BasketOverview.ascx</DependentUpon>
     </Compile>
     <Compile Include="layouts\msdemo\ProductDetails.ascx.cs">
       <DependentUpon>ProductDetails.ascx</DependentUpon>
@@ -211,6 +237,9 @@
     <Content Include="layouts\LogOut.aspx">
       <SubType>ASPXCodeBehind</SubType>
     </Content>
+    <Content Include="layouts\msdemo\AddToBasket.ascx" />
+    <Content Include="layouts\msdemo\Basket.ascx" />
+    <Content Include="layouts\msdemo\BasketOverview.ascx" />
     <Content Include="layouts\msdemo\Main.aspx" />
     <Content Include="layouts\msdemo\OneColumn.ascx" />
     <Content Include="layouts\msdemo\OneColumnBC.ascx" />
