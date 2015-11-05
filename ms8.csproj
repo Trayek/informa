@@ -117,6 +117,10 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\System.Web.Http.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -140,6 +144,7 @@
     <Compile Include="code\DataProviders\JournalDataProvider.cs" />
     <Compile Include="code\DataProviders\JournalTypeDataProvider.cs" />
     <Compile Include="code\DataProviders\SimpleChildrenNesting.cs" />
+    <Compile Include="code\Mappers\PricingMapper.cs" />
     <Compile Include="code\Models\Category.cs" />
     <Compile Include="code\Models\IHasId.cs" />
     <Compile Include="code\Models\IHasName.cs" />
@@ -147,7 +152,15 @@
     <Compile Include="code\Models\Journal.cs" />
     <Compile Include="code\Models\JournalType.cs" />
     <Compile Include="code\Models\IsbnDocument.cs" />
+    <Compile Include="code\Models\PricingDetails.cs" />
     <Compile Include="code\Models\StructuredItem.cs" />
+    <Compile Include="code\Pricing\Endpoints\IsbnService.cs" />
+    <Compile Include="code\Pricing\Endpoints\PricingService.cs" />
+    <Compile Include="code\Pricing\Endpoints\SearchService.cs" />
+    <Compile Include="code\Pricing\Endpoints\WebService.cs" />
+    <Compile Include="code\Loggers\ConsoleLog.cs" />
+    <Compile Include="code\Loggers\ILog.cs" />
+    <Compile Include="code\Pricing\Repositories\PriceHarvestRepository.cs" />
     <Compile Include="code\Repositories\JournalRepository.cs" />
     <Compile Include="code\SaveActions\CreatItem.cs" />
     <Compile Include="code\Search\FacetResult.cs" />
@@ -191,6 +204,12 @@
     </Compile>
     <Compile Include="layouts\msdemo\BasketOverview.ascx.designer.cs">
       <DependentUpon>BasketOverview.ascx</DependentUpon>
+    <Compile Include="layouts\msdemo\PriceHarvest.aspx.cs">
+      <DependentUpon>PriceHarvest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\msdemo\PriceHarvest.aspx.designer.cs">
+      <DependentUpon>PriceHarvest.aspx</DependentUpon>
     </Compile>
     <Compile Include="layouts\msdemo\ProductDetails.ascx.cs">
       <DependentUpon>ProductDetails.ascx</DependentUpon>
@@ -246,6 +265,7 @@
     <Content Include="layouts\msdemo\OneColumnTitle.ascx" />
     <Content Include="layouts\msdemo\OneColumnTitleBC.ascx" />
     <Content Include="layouts\msdemo\PageContent.ascx" />
+    <Content Include="layouts\msdemo\PriceHarvest.aspx" />
     <Content Include="layouts\msdemo\ProductDetails.ascx" />
     <Content Include="layouts\msdemo\SearchResults.ascx" />
     <Content Include="layouts\msdemo\SearchResultsFacets.ascx" />
@@ -260,7 +280,6 @@
     <Content Include="layouts\msdemo\TopContent.ascx" />
     <Content Include="layouts\msdemo\TwoColumn.ascx" />
     <Content Include="layouts\msdemo\TwoColumnBC.ascx" />
-    <Content Include="layouts\msdemo\TwoColumnBCleft.ascx" />
     <Content Include="layouts\msdemo\TwoColumnTitle.ascx" />
     <Content Include="layouts\msdemo\TwoColumnTitleBC.ascx" />
     <Content Include="layouts\msdemo\TwoColumn_6-6.ascx" />
@@ -326,9 +345,7 @@
     <Content Include="xsl\msdemo\servicebox.xslt" />
     <Content Include="xsl\msdemo\slider.xslt" />
     <Content Include="xsl\msdemo\steps.xslt" />
-    <Content Include="xsl\msdemo\tabsandtest.xslt" />
     <Content Include="xsl\msdemo\topbar.xslt" />
-    <Content Include="xsl\msdemo\video.xslt" />
     <Content Include="xsl\msdemo\videosidebar.xslt" />
     <Content Include="xsl\msdemo\xboxgamesleftmenu.xslt" />
     <Content Include="xsl\sample rendering.xslt" />
@@ -356,6 +373,7 @@
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
+    <None Include="Properties\PublishProfiles\Filesystem.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

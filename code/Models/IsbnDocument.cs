@@ -14,6 +14,9 @@ namespace ms8.code.Models
 
         [BsonElement("Content")]
         public IsbnContent Content { get; set; }
+
+        [BsonElement("Enriched Image")]
+        public string EnrichedImage { get; set; }
     }
 
     [BsonIgnoreExtraElements]

@@ -5,6 +5,7 @@ using ms8.code.Models;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Driver;
+using MongoDB.Driver.Builders;
 using ConfigurationManager = System.Configuration.ConfigurationManager;
 
 namespace ms8.code.Repositories
@@ -29,21 +30,9 @@ namespace ms8.code.Repositories
         {
             if (Journals == null)
             {
-                var connectionString = ConfigurationManager.ConnectionStrings["ServiceExport"].ConnectionString;
+                var collection = MongoCollection();
 
-                string serverName = connectionString.Substring(0, connectionString.LastIndexOf("/"));
-
-                string dbName = connectionString.Substring(connectionString.LastIndexOf("/") + 1);
-
-                var client = new MongoClient(serverName);
-
-                var server = client.GetServer();
-
-                var db = server.GetDatabase(dbName);
-
-                MongoCollection<IsbnDocument> documents = db.GetCollection<IsbnDocument>("IsbnDocuments");
-
-                MongoCursor<BsonDocument> cursor = documents.FindAllAs<BsonDocument>();
+                MongoCursor<BsonDocument> cursor = collection.FindAllAs<BsonDocument>();
 
                 List<IsbnDocument> results = new List<IsbnDocument>();
 
@@ -53,7 +42,7 @@ namespace ms8.code.Repositories
                     .Take(95)
                     )
                 {
-                    var document = BuildResult(result); 
+                    var document = BuildResult(result);
 
                     if (document != null)
                     {
@@ -68,6 +57,25 @@ namespace ms8.code.Repositories
             }
 
             return Journals;
+        }
+
+        private static MongoCollection<IsbnDocument> MongoCollection()
+        {
+            var connectionString = ConfigurationManager.ConnectionStrings["ServiceExport"].ConnectionString;
+
+            string serverName = connectionString.Substring(0, connectionString.LastIndexOf("/"));
+
+            string dbName = connectionString.Substring(connectionString.LastIndexOf("/") + 1);
+
+            var client = new MongoClient(serverName);
+
+            var server = client.GetServer();
+
+            var db = server.GetDatabase(dbName);
+
+            MongoCollection<IsbnDocument> documents = db.GetCollection<IsbnDocument>("IsbnDocuments");
+
+            return documents;
         }
 
         private IsbnDocument BuildResult(BsonDocument result)
@@ -104,7 +112,7 @@ namespace ms8.code.Repositories
                 yield return new Journal {IsFolder = true, Depth = item.Length - 1, Id = item, Name = item};
             }
         }
-       
+
         private IEnumerable<Journal> MapResults(IEnumerable<IsbnDocument> results, int folderDepth)
         {
             foreach (var isbnDocument in results)
@@ -117,7 +125,7 @@ namespace ms8.code.Repositories
                     {
                         Id = isbnDocument.Isbn,
                         ISBN = isbnDocument.Isbn,
-                        Types = new[] { content.Imprint?.Name },
+                        Types = new[] {content.Imprint?.Name},
                         Categories = content.Categories?.Select(a => a.Title).ToArray(),
                         Title = content.Name,
                         Description = content.Description,
@@ -131,7 +139,8 @@ namespace ms8.code.Repositories
                         Subtitle = content.Subtitle,
                         Edition = content.EditionNumber,
                         PrintFormat = content.Binding?.Text,
-                        TotalPages = content.Pages
+                        TotalPages = content.Pages,
+                        EnrichedImage = isbnDocument.EnrichedImage
                     };
                 }
             }
@@ -177,6 +186,23 @@ namespace ms8.code.Repositories
             foreach (char letter in "abcdefghijklmnopqrstuvwxyz0123456789")
             {
                 yield return new T {Id = letter.ToString(), Name = letter.ToString(), IsFolder = true, Depth = 0};
+            }
+        }
+
+        public void SaveChange(string name, string value, string isbnNumber)
+        {
+            var collection = MongoCollection();
+
+            collection.Update(Query.EQ("IsbnNumber", isbnNumber), Update.Set(name, value), UpdateFlags.Upsert);
+
+            var firstOrDefault = Journals.FirstOrDefault(a => a.ISBN == isbnNumber);
+
+            if (firstOrDefault != null)
+            {
+                if (name == "Enriched Image")
+                {
+                    firstOrDefault.EnrichedImage = value;
+                }
             }
         }
     }
