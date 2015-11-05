@@ -1,0 +1,16 @@
+﻿---
+ID: cceb0f6c-d3b2-4d3e-8c5b-c6de663f30bd
+Parent: 0de95ae4-41ab-4d01-9eb0-67441b7c2450
+Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+Path: /sitecore/content/Settings
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151103T140043Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

@@ -1,0 +1,22 @@
+﻿---
+ID: b04029ca-2259-48a0-9fce-5b5a24b33177
+Parent: f863cde1-ced0-46c1-b4e1-339a66a454db
+Template: fbaa4fa6-1d35-4560-94e7-daa7e7bd1a19
+Path: /sitecore/content/Settings/Baskets2/22b4de62-2243-4427-9c08-62396cbd9ca1/Pharmaceutical Chartbook
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 197f3028-bc8a-42cc-99f5-00787e221e10
+      # Quantity
+      Value: 1
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151105T092909Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: extranet\Anonymous
+    - ID: 96023e09-212b-4551-a4c1-13d6308d6d0b
+      # Product
+      Value: {90DA14F6-2A1E-4B1E-BCD2-93C2A131EC09}
