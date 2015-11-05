@@ -1,0 +1,16 @@
+﻿---
+ID: f39fe4f5-7fbf-4ddb-bd13-866eee24fc1a
+Parent: fbaa4fa6-1d35-4560-94e7-daa7e7bd1a19
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/User Defined/msdemo/Product/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151103T141830Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

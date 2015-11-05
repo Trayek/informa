@@ -14,6 +14,7 @@ SharedFields:
     <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{B0BCC7AE-135D-4B90-BC17-F708D51EDDC2}">
         <r ds="" id="{55F679C5-2D35-459B-88C8-AA152ADB7DC8}" par="" ph="body" uid="{2F4741CA-6B09-4400-A78B-92C8B234CDD0}" />
+        <r id="{40099209-DE7B-4408-81D1-AE39D9C29764}" ph="body" uid="{BF1402E4-7B32-4F4B-97D8-E5AFE3206F8B}" />
       </d>
     </r>
 Languages:
@@ -21,6 +22,15 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{BF1402E4-7B32-4F4B-97D8-E5AFE3206F8B}" s:id="{40099209-DE7B-4408-81D1-AE39D9C29764}" s:ph="body" />
+          </d>
+        </r>
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20151012T100516Z
