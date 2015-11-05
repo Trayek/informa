@@ -204,6 +204,7 @@
     </Compile>
     <Compile Include="layouts\msdemo\BasketOverview.ascx.designer.cs">
       <DependentUpon>BasketOverview.ascx</DependentUpon>
+    </Compile>
     <Compile Include="layouts\msdemo\PriceHarvest.aspx.cs">
       <DependentUpon>PriceHarvest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
