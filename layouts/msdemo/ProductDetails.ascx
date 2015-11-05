@@ -2,17 +2,11 @@
 <%@ Import Namespace="Sitecore.Data.Items" %>
 <%@ Import Namespace="Sitecore.Links" %>
 
-<div class="container" style="min-height: 500px; line-height: 200%; padding-bottom: 20px;">
-    <style type="text/css">
-        h1,h2,h3 {
-            margin-bottom: 2%;
-        }
-        h1 {
-            margin-top: 20px;
-        }
-    </style>
+
+<div class="content-page">
+
     <a href="/en/journals.aspx">< Back to search</a>
-    <h1>
+    <h1 style="padding-top: 20px;">
         <sc:Text runat="server" Field="title" />
     </h1>
     <h2>
