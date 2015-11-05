@@ -14435,3 +14435,4 @@ vars.user.cmd
 temp/*
 App_Data/MediaCache/*
 informa/*
+/sitecore/shell/Applications/Page Modes/Ouput
