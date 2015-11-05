@@ -249,7 +249,6 @@ vars.user.cmd
 /Views/Form/Index.cshtml
 /Views/Form/Web.config
 /Views/Shared/ExperienceExplorerView.cshtml
-/Web.config
 /amcharts/amcharts.js
 /amcharts/light.js
 /amcharts/pie.js
