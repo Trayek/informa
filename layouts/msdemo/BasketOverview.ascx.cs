@@ -28,9 +28,8 @@ namespace ms8.layouts.msdemo
             if (basket != null)
             {
                 rptProducts.DataSource = helper.GetAllProducts(basket);
+                rptProducts.DataBind();
             }
-
-            DataBind();
         }
 
         protected string GetFieldValue(Item item, string fieldName)

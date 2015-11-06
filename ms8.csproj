@@ -135,6 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="code\Basket\BasketHelper.cs" />
+    <Compile Include="code\Basket\RatingsHelper.cs" />
     <Compile Include="code\DataProviders\CategoryDataProvider.cs" />
     <Compile Include="code\DataProviders\DataProviderBase.cs" />
     <Compile Include="code\DataProviders\IdTableIdKey.cs" />
@@ -190,6 +191,20 @@
     </Compile>
     <Compile Include="layouts\msdemo\AddToBasket.ascx.designer.cs">
       <DependentUpon>AddToBasket.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\msdemo\Rating.ascx.cs">
+      <DependentUpon>Rating.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\msdemo\Rating.ascx.designer.cs">
+      <DependentUpon>Rating.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\msdemo\RatingReview.ascx.cs">
+      <DependentUpon>RatingReview.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\msdemo\RatingReview.ascx.designer.cs">
+      <DependentUpon>RatingReview.ascx</DependentUpon>
     </Compile>
     <Compile Include="layouts\msdemo\topbar.ascx.cs">
       <DependentUpon>topbar.ascx</DependentUpon>
@@ -265,6 +280,8 @@
       <SubType>ASPXCodeBehind</SubType>
     </Content>
     <Content Include="layouts\msdemo\AddToBasket.ascx" />
+    <Content Include="layouts\msdemo\Rating.ascx" />
+    <Content Include="layouts\msdemo\RatingReview.ascx" />
     <Content Include="layouts\msdemo\topbar.ascx" />
     <Content Include="layouts\msdemo\BasketOverview.ascx" />
     <Content Include="layouts\msdemo\Main.aspx" />
@@ -346,6 +363,8 @@
     <Content Include="xsl\msdemo\newslist.xslt" />
     <Content Include="xsl\msdemo\pagetitle.xslt" />
     <Content Include="xsl\msdemo\pagetitlenoedit.xslt" />
+    <Content Include="xsl\msdemo\rating.xslt" />
+    <Content Include="xsl\msdemo\ratingreview.xslt" />
     <Content Include="xsl\msdemo\relateditems.xslt" />
     <Content Include="xsl\msdemo\photostream.xslt" />
     <Content Include="xsl\msdemo\productgallery.xslt" />
