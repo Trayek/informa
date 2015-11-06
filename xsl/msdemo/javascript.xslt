@@ -59,6 +59,7 @@
     <!-- END RevolutionSlider -->
 
     <script src="/metronic/frontend/layout/scripts/layout.js" type="text/javascript"></script>
+    <script src="/metronic/global/plugins/rateit/src/jquery.rateit.js" type="text/javascript"></script>
     
 	
 	<script type="text/javascript">

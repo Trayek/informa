@@ -4,7 +4,7 @@
 
 
 <!-- BEGIN BLOG PHOTOS STREAM -->
-<div class="blog-photo-stream margin-bottom-20">
+<div class="blog-photo-stream margin-bottom-20" style="padding-top: 30px;">
 
     <asp:Repeater runat="server" id="RelatedItemRepeater">
         <HeaderTemplate><h2>Related Items</h2><ul class="list-unstyled"> </HeaderTemplate>

@@ -2,11 +2,11 @@
 ID: 37cc41ef-7b15-4b46-882c-a1b2a5b06c9d
 Parent: 312645d1-693f-4459-8038-37aaf2e1245d
 Template: f1f1d639-4f54-40c2-8be0-81266b392ceb
-Path: /sitecore/layout/Renderings/msdemo/Informa/Related Items
+Path: /sitecore/layout/Renderings/msdemo/Informa/ratingreview
 SharedFields:
 - ID: 78783f79-1411-4b91-958d-ad81f81e2485
   # Path
-  Value: /xsl/msdemo/relateditems.xslt
+  Value: /xsl/msdemo/ratingreview.xslt
 - ID: c7c26117-dbb1-42b2-ab5e-f7223845cca3
   # __Thumbnail
   Value: "<image mediaid=\"{4FFA1DCE-1268-473A-A936-089C14B70925}\" />"
