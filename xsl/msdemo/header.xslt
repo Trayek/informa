@@ -75,7 +75,15 @@
 															<sc:link><h4 style="color: #3e4d5c;!important"><sc:text field="menu title" disable-web-editing="true"/></h4></sc:link>
 															<ul>
 																<xsl:for-each select="./item">
-																	<li><sc:link><sc:text field="menu title" disable-web-editing="true"/></sc:link></li>
+                                  <xsl:choose>
+                                    <xsl:when test="./@template='products redirect'">
+                                      <li><sc:link field="link"><sc:text field="menu title" disable-web-editing="true"/></sc:link></li>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                      <li><sc:link><sc:text field="menu title" disable-web-editing="true"/></sc:link></li>  
+                                    </xsl:otherwise>
+                                  </xsl:choose>
+																	
 																</xsl:for-each>
 															</ul>
 														</div>
@@ -132,7 +140,22 @@
 															<h4><sc:link style="color: #3e4d5c;!important"><sc:text field="menu title"/></sc:link></h4>
 															<ul>
 																<xsl:for-each select="./item">
-																	<li><sc:link><sc:text field="menu title"/></sc:link></li>
+                                  <xsl:choose>
+                                    <xsl:when test="./@template='products redirect'">
+                                      <li>
+                                        <sc:link field="link">
+                                          <sc:text field="menu title" disable-web-editing="true"/>
+                                        </sc:link>
+                                      </li>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                      <li>
+                                        <sc:link>
+                                          <sc:text field="menu title" disable-web-editing="true"/>
+                                        </sc:link>
+                                      </li>
+                                    </xsl:otherwise>
+                                  </xsl:choose>
 																</xsl:for-each>
 															</ul>
 														</div>

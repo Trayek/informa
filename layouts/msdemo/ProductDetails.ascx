@@ -30,7 +30,6 @@
                 });
             });
             </script>
-
             <p>
                 <sc:Text runat="server" Field="description" />
             </p>

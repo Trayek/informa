@@ -265,3 +265,11 @@ Template Name: Metronic - Officecore overwrite
 video {
 	background-color: transparent;
 }
+
+/* Related Items */
+.blog-photo-stream li img {
+    width: 80px !important;
+    height: 120px !important;
+    padding: 2px;
+    border: solid 1px #eee;
+}

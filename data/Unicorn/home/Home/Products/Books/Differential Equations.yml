@@ -1,7 +1,7 @@
 ﻿---
 ID: 5f2f0d35-d09b-49d5-b23c-fa9c3c647fa3
 Parent: ca52b289-0164-40d4-9b06-49d04529d0ce
-Template: ae4ffa99-6472-453b-9516-21239ee8d2a6
+Template: 061a8958-92c6-4d0b-9b51-d70ad21f421f
 Path: /sitecore/content/Home/Products/Books/Differential Equations
 Languages:
 - Language: en
@@ -11,6 +11,9 @@ Languages:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20151105T114732Z
+    - ID: 5217a3ba-fff5-4381-88d9-97da332aeaf6
+      # Link
+      Value: "<link text=\"\" linktype=\"internal\" class=\"\" title=\"\" target='Active Browser' querystring=\"categories=a2098f86-2ed4-4c0c-8798-38978b5b68fb\" id=\"{95A0B67B-04DF-4307-A5F7-D107E769FAD5}\" />"
     - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
       # Title
       Value: Differential Equations
