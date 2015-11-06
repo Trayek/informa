@@ -1,5 +1,5 @@
 ﻿---
-ID: 5305b8fe-bb58-4ea6-b1d9-ff782a4d9c14
+ID: 581d9d32-c332-4e29-8c1a-8eeff7b22807
 Parent: 5c0319da-5685-4ca9-a8ef-7fe55f0d707b
 Template: fbaa4fa6-1d35-4560-94e7-daa7e7bd1a19
 Path: /sitecore/content/Settings/Baskets/22b4de62-2243-4427-9c08-62396cbd9ca1/A Colour Atlas of Poisonous Fungi
@@ -10,13 +10,13 @@ Languages:
     Fields:
     - ID: 197f3028-bc8a-42cc-99f5-00787e221e10
       # Quantity
-      Value: 2
+      Value: 1
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
-      Value: 20151105T160158Z
+      Value: 20151106T134122Z
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
       # __Created by
       Value: extranet\Anonymous
     - ID: 96023e09-212b-4551-a4c1-13d6308d6d0b
       # Product
-      Value: {5F287310-61AE-4145-B989-90D051648759}
+      Value: {7CF6C25B-7C28-48DB-8A03-2317DFFA87B8}
