@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using ms8.code.Models;
 using Sitecore;
 using Sitecore.Caching;
 using Sitecore.Collections;
 using Sitecore.Configuration;
+using Sitecore.ContentSearch.Linq;
 using Sitecore.Data;
 using Sitecore.Data.DataProviders;
 using Sitecore.Data.IDTables;
@@ -172,7 +174,24 @@ namespace ms8.code.DataProviders
 
         protected virtual Guid GenerateId(T externalItem)
         {
-            return Guid.Empty;
+            Guid value = ToGuid(externalItem.Name);
+
+            if (IDTable.GetKeys(IdTablePrefix, new ID(value)).Any())
+            {
+                return Guid.NewGuid();
+            }
+
+            return value;
+        }
+
+        private static Guid ToGuid(string src)
+        {
+            byte[] stringbytes = Encoding.UTF8.GetBytes(src);
+            byte[] hashedBytes = new System.Security.Cryptography
+                .SHA1CryptoServiceProvider()
+                .ComputeHash(stringbytes);
+            Array.Resize(ref hashedBytes, 16);
+            return new Guid(hashedBytes);
         }
 
         protected virtual IEnumerable<T> LoadChildren(ItemDefinition parentItem)
