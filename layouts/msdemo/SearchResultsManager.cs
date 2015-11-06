@@ -119,6 +119,10 @@ namespace ms8.layouts.msdemo
 
             url.RemoveQueryParam(PageQueryString);
 
+            url.RemoveQueryParam(CategoryFacets);
+
+            url.RemoveQueryParam(JournalTypeFacets);
+
             return url;
         }
 
