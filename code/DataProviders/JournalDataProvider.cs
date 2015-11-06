@@ -28,6 +28,18 @@ namespace ms8.code.DataProviders
             return new SimpleChildrenNesting().Children(parentItem, IdTablePrefix, ExternalItems, RootItemId, InMemoryIdTable);
         }
 
+        protected override Guid GenerateId(Journal externalItem)
+        {
+            string fullValue = externalItem.ISBN;
+
+            while (fullValue.Length < 32)
+            {
+                fullValue = fullValue + "0";
+            }
+
+            return Guid.Parse(fullValue);
+        }
+
         protected override string GetFieldValue(TemplateField field, Journal externalItem)
         {
             string fieldValue = string.Empty;

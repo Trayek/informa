@@ -147,7 +147,16 @@ namespace ms8.code.DataProviders
 
                     if (mappedId == null)
                     {
-                        mappedId = InMemoryIdTable.GetNewID(IdTablePrefix, externalItemId, parentItem.ID);
+                        Guid generatedGuid = GenerateId(externalItem);
+
+                        if (generatedGuid == Guid.Empty)
+                        {
+                            mappedId = InMemoryIdTable.GetNewID(IdTablePrefix, externalItemId, parentItem.ID);
+                        }
+                        else
+                        {
+                            mappedId = InMemoryIdTable.Add(IdTablePrefix, externalItemId, new ID(generatedGuid), parentItem.ID);
+                        }
                     }
 
                     itemIdList.Add(mappedId.ID);
@@ -159,6 +168,11 @@ namespace ms8.code.DataProviders
             }
 
             return base.GetChildIDs(parentItem, context);
+        }
+
+        protected virtual Guid GenerateId(T externalItem)
+        {
+            return Guid.Empty;
         }
 
         protected virtual IEnumerable<T> LoadChildren(ItemDefinition parentItem)

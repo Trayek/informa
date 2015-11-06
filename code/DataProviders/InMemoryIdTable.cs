@@ -123,35 +123,35 @@ namespace ms8.code.DataProviders
 
         public void RemoveID(string prefix, ID id)
         {
-            //var key = new IdTableIdKey(prefix, id.Guid);
+            var key = new IdTableIdKey(prefix, id.Guid);
 
-            //if (_idById.ContainsKey(key))
-            //{
-            //    _idById.Remove(key);
-            //}
+            if (_idById.ContainsKey(key))
+            {
+                _idById.Remove(key);
+            }
 
             IDTable.RemoveID(prefix, id);
         }
 
-        internal void Add(string prefix, string key, ID id, ID parentId)
+        internal IDTableEntry Add(string prefix, string key, ID id, ID parentId)
         {
-            //var idTableIdKey = new IdTableIdKey(prefix, id.Guid);
+            var idTableIdKey = new IdTableIdKey(prefix, id.Guid);
 
-            //var tableEntry = new IDTableEntry(prefix, key, id, parentId, "");
+            var tableEntry = new IDTableEntry(prefix, key, id, parentId, "");
 
-            //if (!_idById.ContainsKey(idTableIdKey))
-            //{
-            //    _idById.Add(idTableIdKey, new List<IDTableEntry> { tableEntry });
-            //}
+            if (!_idById.ContainsKey(idTableIdKey))
+            {
+                _idById.Add(idTableIdKey, new List<IDTableEntry> { tableEntry });
+            }
 
-            //var idTableStringKey = new IdTableStringKey(prefix, key);
+            var idTableStringKey = new IdTableStringKey(prefix, key);
 
-            //if (!_idByKey.ContainsKey(idTableStringKey))
-            //{
-            //    _idByKey[idTableStringKey] = tableEntry;
-            //}
+            if (!_idByKey.ContainsKey(idTableStringKey))
+            {
+                _idByKey[idTableStringKey] = tableEntry;
+            }
 
-            IDTable.Add(prefix, key, id, parentId);
+            return IDTable.Add(prefix, key, id, parentId);
         }
 
         public IDTableEntry GetNewID(string prefix, string key, ID parentId)
