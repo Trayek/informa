@@ -1,16 +1,14 @@
-﻿using Sitecore;
-using Sitecore.Configuration;
-using Sitecore.Data;
-using Sitecore.Data.Items;
-using Sitecore.SecurityModel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ms8.code.Basket
+﻿namespace ms8.code.Basket
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using Sitecore;
+    using Sitecore.Configuration;
+    using Sitecore.Data;
+    using Sitecore.Data.Items;
+    using Sitecore.SecurityModel;
+
     public class RatingsHelper
     {
         private Database db;
@@ -23,6 +21,77 @@ namespace ms8.code.Basket
         {
             db = Factory.GetDatabase("master");
             RatingsRoot = db.GetItem(RatingsRootId);
+        }
+
+        public string GetGlobalRating(Item product)
+        {
+            var allRatings = GetProductRatings(product);
+            var i = 0;
+            var totalRating = 0;
+            var avgRating = 0;
+            var returnValue = string.Empty;
+            foreach (var rating in allRatings.Where(x => !string.IsNullOrEmpty(x["Rating"])))
+            {
+                var r = 0;
+                int.TryParse(rating["Rating"], out r);
+                totalRating = totalRating + r;
+                i++;
+            }
+
+            if (i > 0)
+            {
+                avgRating = totalRating / i;
+
+                returnValue = GetRatingString(avgRating);
+            }
+            else
+            {
+                returnValue = GetRatingString(i, true);
+            }
+
+            return returnValue;
+        }
+
+        internal string GetRating(Item productRating)
+        {
+            var rating = 0;
+            if (int.TryParse(productRating["Rating"], out rating))
+            {
+                return GetRatingString(rating);
+            }
+
+            return GetRatingString(rating, true);
+        }
+
+        private string GetRatingString(int rating, bool notRated = false)
+        {
+            var returnValue = string.Empty;
+
+            if (notRated)
+            {
+                for (var z = 1; z <= 5; z++)
+                {
+                    returnValue += "<span class=\"emptystar\">&nbsp;</span>";
+                }
+
+                returnValue += " (Not yet rated)";
+            }
+            else
+            {
+                for (var z = 1; z <= 5; z++)
+                {
+                    if (rating >= z)
+                    {
+                        returnValue += "<span class=\"goldstar\">&nbsp;</span>";
+                    }
+                    else
+                    {
+                        returnValue += "<span class=\"emptystar\">&nbsp;</span>";
+                    }
+                }
+            }
+
+            return returnValue;
         }
 
         public List<Item> GetProductRatings(Item product)
@@ -43,7 +112,7 @@ namespace ms8.code.Basket
 
         public Item GetProductRatingRoot(Item product)
         {
-            return RatingsRoot.Children.FirstOrDefault(x => string.Equals(product.ID.ToString(), Sitecore.Context.Item.ID.ToString(), StringComparison.InvariantCultureIgnoreCase));
+            return RatingsRoot.Children.FirstOrDefault(x => string.Equals(x.Name, product.ID.ToShortID().ToString(), StringComparison.InvariantCultureIgnoreCase));
         }
 
         public Item CreateReview(Item product, string reviewer)

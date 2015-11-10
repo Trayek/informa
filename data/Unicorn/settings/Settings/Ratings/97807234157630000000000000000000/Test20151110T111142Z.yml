@@ -1,0 +1,28 @@
+﻿---
+ID: 78e15ef4-553a-41b6-8590-dd4e44e9e94c
+Parent: ddd93f5f-bb50-47f1-a9d0-98a407fe7203
+Template: 8158389d-c841-4993-876a-2b2ed53ea984
+Path: /sitecore/content/Settings/Ratings/97807234157630000000000000000000/Test20151110T111142Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151110T111142Z
+    - ID: 26097c05-a1b6-4026-bc6f-17ae0a5f77b2
+      # Email
+      Value: lorem@ipsum.com
+    - ID: 435de530-555d-4f6b-9623-653f29f3c484
+      # Name
+      Value: Dr. Ipsum
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: extranet\Anonymous
+    - ID: 8f18c05d-042c-4371-88e5-c39d9e2ddcde
+      # Review
+      Value: Nullam in tempor urna. Pellentesque massa velit, ornare a justo a, mattis venenatis urna. Aliquam dapibus luctus nibh. Etiam non ultricies purus. Vivamus id vehicula mauris. Sed eleifend dui lacus, sit amet sagittis quam maximus sed. Aenean turpis arcu, tincidunt eu enim non, scelerisque tincidunt ex. Praesent tincidunt odio auctor viverra aliquam. Nam eleifend sem vitae congue consequat. Quisque ligula mauris, consectetur vel suscipit in, convallis a sem. Ut mauris ante, varius non malesuada sit amet, pulvinar eu lectus. Nullam at sem blandit augue hendrerit vestibulum. Donec id turpis semper, viverra dui sed, molestie mauris.<br>
+    - ID: c072851e-6b51-4842-8503-88085a00e235
+      # Rating
+      Value: 4

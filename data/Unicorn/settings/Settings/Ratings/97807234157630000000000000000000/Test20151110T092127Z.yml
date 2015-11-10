@@ -1,0 +1,28 @@
+﻿---
+ID: 55a8d352-6b38-4a53-aa7a-f4c1d2a5359d
+Parent: ddd93f5f-bb50-47f1-a9d0-98a407fe7203
+Template: 8158389d-c841-4993-876a-2b2ed53ea984
+Path: /sitecore/content/Settings/Ratings/97807234157630000000000000000000/Test20151110T092127Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151110T092127Z
+    - ID: 26097c05-a1b6-4026-bc6f-17ae0a5f77b2
+      # Email
+      Value: lorem@ipsum.com
+    - ID: 435de530-555d-4f6b-9623-653f29f3c484
+      # Name
+      Value: Mr. Lorem
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: extranet\Anonymous
+    - ID: 8f18c05d-042c-4371-88e5-c39d9e2ddcde
+      # Review
+      Value: Aenean eu accumsan nisi. Vivamus laoreet ut purus imperdiet condimentum. Proin at mi est. Vivamus gravida bibendum egestas. Donec id velit pharetra, mollis dui ut, cursus quam. Vivamus in odio tempor, consequat nibh eu, faucibus arcu. Nam sollicitudin ultricies turpis vehicula scelerisque. Integer bibendum malesuada semper. In accumsan ac tellus vel tincidunt. Duis sed euismod enim. Etiam orci ligula, gravida et elementum sed, porta vitae tellus. Integer ut iaculis ligula, nec egestas mauris. Nam in tristique sem. Suspendisse euismod posuere diam. Proin volutpat neque justo. Phasellus nec quam risus.<br>
+    - ID: c072851e-6b51-4842-8503-88085a00e235
+      # Rating
+      Value: 3

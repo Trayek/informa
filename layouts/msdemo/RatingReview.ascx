@@ -1,30 +1,23 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="RatingReview.ascx.cs" Inherits="ms8.layouts.msdemo.RatingReview" %>
 
-<div class="reviews">
-    <asp:Repeater runat="server" ID="rptReviews" ItemType="Sitecore.Data.Items.Item">
+<h2>Reviews</h2>
+<div class="reviews" id="Reviews">
+    <asp:Repeater runat="server" ID="rptReviews" ItemType="Sitecore.Data.Items.Item" OnItemDataBound="rptReviews_ItemDataBound">
         <ItemTemplate>
-            <p>
-                <sc:Text Field="Name" runat="server" DisableWebEditing="true" Item="<%# Item %>" />
-            </p>
-            <p>
-                <sc:Text Field="Email" runat="server" DisableWebEditing="true" Item="<%# Item %>" />
-            </p>
-            <p>
-                <sc:Text Field="Review" runat="server" DisableWebEditing="true" Item="<%# Item %>" />
-            </p>
-            <p>
-                <div class="rateit" data-rateit-backingfld="#backing4" data-rateit-resetable="false" data-rateit-ispreset="true" data-rateit-min="0" data-rateit-max="5">
-                    <button id="rateit-reset-2" data-role="none" class="rateit-reset" aria-label="reset rating" aria-controls="rateit-range-2" style="display: none;"></button>
-                    <div id="rateit-range-2" class="rateit-range" tabindex="0" role="slider" aria-label="rating" aria-owns="rateit-reset-2" aria-valuemin="0" aria-valuemax="5" aria-valuenow="<%# Item["Rating"] %>" aria-readonly="false" style="width: 80px; height: 16px;">
-                        <div class="rateit-selected rateit-preset" style="height: 16px; width: 64px; display: block;"></div><div class="rateit-hover" style="height: 16px; width: 0px; display: none;"></div>
-                    </div>
+            <div class="review-item clearfix">
+                <div class="review-item-submitted">
+                    <strong><sc:Text Field="Name" runat="server" DisableWebEditing="true" Item="<%# Item %>" /></strong>
+                    <p class="rateit" style="float: right">
+                        <asp:Literal ID="litDisplayStars" runat="server" />
+                    </p>
                 </div>
-            </p>
+                <div class="review-item-content">
+                    <sc:Text Field="Review" runat="server" DisableWebEditing="true" Item="<%# Item %>" />
+                </div>
+            </div>
         </ItemTemplate>
     </asp:Repeater>
 </div>
-
-
 
 <div style="padding-top: 10px;">
     <!-- BEGIN FORM-->
@@ -48,7 +41,8 @@
         </div>
         <div class="form-group">
           <label for="email" style="padding-right:10px;">Rating</label>
-          <input type="range" value="4" step="1" id="backing5" runat="server"/>
+          <%--<input type="range" value="4" step="1" id="backing5"  />--%>
+            <asp:TextBox runat="server" ID="backing5" ClientIDMode="Static" />
             <div class="rateit" data-rateit-backingfld="#backing5" data-rateit-resetable="false"  data-rateit-ispreset="true" data-rateit-min="0" data-rateit-max="5">
             </div>
           </div>

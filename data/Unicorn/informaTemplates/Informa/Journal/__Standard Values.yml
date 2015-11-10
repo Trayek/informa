@@ -19,7 +19,7 @@ SharedFields:
         <r ds="" id="{40099209-DE7B-4408-81D1-AE39D9C29764}" par="" ph="content" uid="{BF1402E4-7B32-4F4B-97D8-E5AFE3206F8B}" />
         <r ds="" id="{999FE10D-F06C-44EE-81F2-30E62809F4B3}" par="" ph="content" uid="{0A63ABA8-D794-45C2-B2F4-02000C5CCD02}" />
         <r id="{D0870F0F-39D9-4511-A40E-6D17F58D9ABE}" ph="rightcontent" uid="{6374482F-C45D-4C9F-8BD1-C2D2ECD09BA9}" />
-        <r id="{8806CBD9-9C74-4EAF-8266-1CDE88E694A4}" ph="rightcontent" uid="{70955E1B-ED75-4D44-9D1C-785D4DCF99A8}" />
+        <r id="{2C8405EE-9036-4AFD-87B2-704822E4CEED}" ph="rightcontent" uid="{70955E1B-ED75-4D44-9D1C-785D4DCF99A8}" />
       </d>
     </r>
 Languages:
@@ -33,7 +33,7 @@ Languages:
       Value: |
         <r xmlns:p="p" xmlns:s="s" p:p="1">
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <r uid="{0A63ABA8-D794-45C2-B2F4-02000C5CCD02}" s:id="{999FE10D-F06C-44EE-81F2-30E62809F4B3}" />
+            <r uid="{70955E1B-ED75-4D44-9D1C-785D4DCF99A8}" s:id="{2C8405EE-9036-4AFD-87B2-704822E4CEED}" />
             <r uid="{6374482F-C45D-4C9F-8BD1-C2D2ECD09BA9}" p:before="*[1=2]" />
           </d>
         </r>

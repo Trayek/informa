@@ -12,7 +12,7 @@
             <li><a href="<%# LinkManager.GetItemUrl((Item) Container.DataItem) %>">
                     <sc:image item="<%#(Item) Container.DataItem%>" Field="Enriched Image" runat="server" MaxWidth="80" />
 
-                    <!--<%# ((Item) Container.DataItem)["Title"] %>-->
+                    <%# ((Item) Container.DataItem)["Title"] %>
                 </a>
             </li>
         </ItemTemplate>

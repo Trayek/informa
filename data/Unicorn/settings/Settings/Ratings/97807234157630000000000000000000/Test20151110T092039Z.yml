@@ -1,0 +1,28 @@
+﻿---
+ID: 55f99c1c-962a-4657-b66e-b05665d4eb7e
+Parent: ddd93f5f-bb50-47f1-a9d0-98a407fe7203
+Template: 8158389d-c841-4993-876a-2b2ed53ea984
+Path: /sitecore/content/Settings/Ratings/97807234157630000000000000000000/Test20151110T092039Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151110T092039Z
+    - ID: 26097c05-a1b6-4026-bc6f-17ae0a5f77b2
+      # Email
+      Value: lorem@ipsum.com
+    - ID: 435de530-555d-4f6b-9623-653f29f3c484
+      # Name
+      Value: L. Ipsum
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: extranet\Anonymous
+    - ID: 8f18c05d-042c-4371-88e5-c39d9e2ddcde
+      # Review
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet purus consectetur magna tristique, sit amet pharetra velit sollicitudin. Aenean at massa ultrices, lobortis sapien ut, commodo dolor. Proin lectus lacus, pharetra vel dui quis, suscipit commodo dui. Ut facilisis sapien vitae neque lacinia, vitae fermentum tortor volutpat. Aliquam euismod sodales risus non laoreet. Praesent sapien nunc, vehicula eget nisl non, vehicula suscipit augue. Donec tellus odio, imperdiet et diam in, vehicula mollis risus. Aenean in ipsum sit amet tellus tempor consequat sed ut sapien. Etiam imperdiet placerat nibh, non sollicitudin nibh venenatis id. Duis iaculis molestie felis, ac vestibulum lacus laoreet dictum. Vestibulum quam ipsum, placerat sit amet nibh vel, semper vestibulum dui. Nunc hendrerit nisi sed tortor vulputate, nec mattis ante tempor. Vestibulum eleifend, ligula ut commodo suscipit, leo nisl consequat velit, vel ullamcorper lacus tellus in nunc. Vestibulum placerat nulla vel odio rutrum, sit amet scelerisque velit hendrerit.<br>
+    - ID: c072851e-6b51-4842-8503-88085a00e235
+      # Rating
+      Value: 5
