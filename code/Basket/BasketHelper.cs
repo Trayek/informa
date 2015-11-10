@@ -132,7 +132,7 @@ namespace ms8.code.Basket
         /// <returns>A list of ProductBasket items</returns>
         internal List<Item> GetAllProducts(Item basket)
         {
-            return basket.Children.ToList();
+            return basket.Children.Where(x => !Sitecore.MainUtil.GetBool(x["Purchased"], false)).ToList();
         }
     }
 }
