@@ -35,19 +35,19 @@ namespace ms8.code.Pricing.Endpoints
             GbpCurrency,
             new Currency
             {
-                Symbol = "$",
                 Id = "1001",
-                IsoName = "USD",
-                Name = "US Dollars",
-                ConversionFactor = "1.0",
             },
             new Currency
             {
-                Symbol = "EUR",
                 Id = "1006",
-                IsoName = "EUR",
-                Name = "EU Euros",
-                ConversionFactor = "1.12",
+            },
+            new Currency
+            {
+                Id = "1017",
+            },
+            new Currency
+            {
+                Id = "1003",
             }
         };
 
@@ -82,11 +82,7 @@ namespace ms8.code.Pricing.Endpoints
 
         public string ToWebServiceParameter()
         {
-            return $@"<conversionFactor>{ConversionFactor}</conversionFactor>
-            <id>{Id}</id>
-            <isoName>{IsoName}</isoName>
-            <name>{Name}</name>
-            <symbol>{Symbol}</symbol>";
+            return $@"<id>{Id}</id>";
         }
     }
 }

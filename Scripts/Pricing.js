@@ -28,8 +28,11 @@ function showPrices(isbn) {
         var div = $('#priceDiv');
         div.empty();
         div.append("<span>Cost: " + data.Currency + Number(data.Value).toFixed(2) + "</span>  - show in: ");
-        var pounds = priceCookieValue.length == 0;
-        var currencyLink = jQuery('<a/>', { text: pounds ? "$" : "£" });
+        
+        var pounds = priceCookieValue == null || priceCookieValue.length == 0;
+        
+        var currencyLink = jQuery('<a />', { text: pounds ? "$" : "£" });
+        
         currencyLink.on("click", function() {
             setCurrency(isbn, pounds ? "$" : "");
         });
