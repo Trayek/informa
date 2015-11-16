@@ -104,10 +104,15 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Sitecore.Kernel.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Services.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Sitecore.Services.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.WFFM, Version=8.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Sitecore.WFFM.dll</HintPath>
     </Reference>
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -159,6 +164,7 @@
     <Compile Include="code\Models\IsbnDocument.cs" />
     <Compile Include="code\Models\PricingDetails.cs" />
     <Compile Include="code\Models\StructuredItem.cs" />
+    <Compile Include="code\Pipelines\Initialize\CustomHttpControllerSelector.cs" />
     <Compile Include="code\Pipelines\Initialize\WebApiRouteInitializationProcessor.cs" />
     <Compile Include="code\Pricing\Endpoints\IsbnService.cs" />
     <Compile Include="code\Pricing\Endpoints\PricingService.cs" />
@@ -178,6 +184,7 @@
     <Compile Include="code\Search\SearchParametersFacet.cs" />
     <Compile Include="code\Search\SearchResult.cs" />
     <Compile Include="Controllers\Api\PricingController.cs" />
+    <Compile Include="Controllers\Api\TestController.cs" />
     <Compile Include="layouts\EndSession.aspx.cs">
       <DependentUpon>EndSession.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -404,7 +411,7 @@
     <Content Include="App_Config\ConnectionStrings.config" />
     <Content Include="App_Config\Include\Sitecore.ContentSearch.Lucene.Index.Master.Journals.config" />
     <Content Include="App_Config\Include\Sitecore.ContentSearch.Lucene.DefaultIndexConfiguration.config" />
-    <Content Include="App_Config\Include\Pipelines.config" />
+    <Content Include="App_Config\Include\z_Pipelines.config" />
     <None Include="App_Config\Include\Sitecore.ContentSearch.Lucene.Index.Web.Journals.config" />
     <None Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.example" />
