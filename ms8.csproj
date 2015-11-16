@@ -121,6 +121,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Bin\System.Web.Http.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -155,12 +159,14 @@
     <Compile Include="code\Models\IsbnDocument.cs" />
     <Compile Include="code\Models\PricingDetails.cs" />
     <Compile Include="code\Models\StructuredItem.cs" />
+    <Compile Include="code\Pipelines\Initialize\WebApiRouteInitializationProcessor.cs" />
     <Compile Include="code\Pricing\Endpoints\IsbnService.cs" />
     <Compile Include="code\Pricing\Endpoints\PricingService.cs" />
     <Compile Include="code\Pricing\Endpoints\SearchService.cs" />
     <Compile Include="code\Pricing\Endpoints\WebService.cs" />
     <Compile Include="code\Loggers\ConsoleLog.cs" />
     <Compile Include="code\Loggers\ILog.cs" />
+    <Compile Include="code\Pricing\PricingDetailsService.cs" />
     <Compile Include="code\Pricing\Repositories\PriceHarvestRepository.cs" />
     <Compile Include="code\Repositories\JournalRepository.cs" />
     <Compile Include="code\SaveActions\CreatItem.cs" />
@@ -171,6 +177,7 @@
     <Compile Include="code\Search\SearchParameters.cs" />
     <Compile Include="code\Search\SearchParametersFacet.cs" />
     <Compile Include="code\Search\SearchResult.cs" />
+    <Compile Include="Controllers\Api\PricingController.cs" />
     <Compile Include="layouts\EndSession.aspx.cs">
       <DependentUpon>EndSession.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -326,6 +333,7 @@
     <Content Include="layouts\system\VisitorIdentification.js" />
     <Content Include="layouts\system\VisitorIdentificationCss.aspx" />
     <Content Include="metronic\frontend\layout\css\style-override.css" />
+    <Content Include="Scripts\Pricing.js" />
     <Content Include="sitecore modules\Shell\Web Forms for Marketers\Themes\Metronic.css" />
     <Content Include="xsl\EmailCampaign\Display Body.xslt" />
     <Content Include="xsl\EmailCampaign\Display Footer.xslt" />
@@ -396,6 +404,7 @@
     <Content Include="App_Config\ConnectionStrings.config" />
     <Content Include="App_Config\Include\Sitecore.ContentSearch.Lucene.Index.Master.Journals.config" />
     <Content Include="App_Config\Include\Sitecore.ContentSearch.Lucene.DefaultIndexConfiguration.config" />
+    <Content Include="App_Config\Include\Pipelines.config" />
     <None Include="App_Config\Include\Sitecore.ContentSearch.Lucene.Index.Web.Journals.config" />
     <None Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.example" />

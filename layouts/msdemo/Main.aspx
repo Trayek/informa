@@ -82,6 +82,8 @@ License: You must have a valid license purchased only from themeforest (the abov
     <link href="/metronic/global/plugins/rateit/src/rateit.css" rel="stylesheet" type="text/css">
     
     <script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    
+    <script type="text/javascript" src="/Scripts/Pricing.js"></script>
   
   <sc:VisitorIdentification runat="server" />
 </head>

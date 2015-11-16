@@ -19,17 +19,24 @@
         <h3>
             Date of publication: <sc:Date runat="server" Format="MM/dd/YYYY" Field="Publication Date"/>.<br />ISBN: <sc:Text runat="server" Field="ISBN" />
         </h3>
+        <div id="priceDiv"></div>
         <h4>
             Edition:  <sc:Text runat="server" Field="Edition" /> - Pages:  <sc:Text runat="server" Field="Pages" /> - Format:  <sc:Text runat="server" Field="Print format" />
         </h4>
+        <style type="text/css">
+            #priceDiv {
+                font-size: 14pt;
+                font-weight: normal;
+            }
+            #priceDiv a {
+                color: #651F76;
+            }
+        </style>
                 <script type="text/javascript">
-            $(document).ready(function() {
-                $.getJSON("http://informa.services/api/pricing/getPrices?isbn=" + <%= Isbn %>, function (data) {
-                    var div = $('h3');
-                    div.append(". <span>Cost: " + data.Currency + Number(data.Value).toFixed(2)+"</span>");
-                });
-            });
-            </script>
+                    $(document).ready(function () {
+                        showPrices(<%= Isbn %>);
+                    });
+                </script>
             <p>
                 <sc:Text runat="server" Field="description" />
             </p>
