@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Xml.Linq;
 using ms8.code.Models;
 using Newtonsoft.Json;
@@ -8,17 +9,35 @@ namespace ms8.code.Mappers
 {
     public class PricingMapper
     {
-        public static PricingDetails Map(string isbnNumber, XDocument document)
+        public static PricingDetails Map(string isbnNumber, XDocument document, PricingDetails pricingDetails = null)
         {
-            string json = JsonConvert.SerializeXNode(document.Descendants("return").FirstOrDefault());
+            if (pricingDetails == null)
+            {
+                pricingDetails = new PricingDetails {IsbnNumber = isbnNumber};
+            }
 
-            var jObject = JObject.Parse(json);
+            try
+            {
+                string json = JsonConvert.SerializeXNode(document.Descendants("return").FirstOrDefault());
 
-            decimal price = jObject["return"]["listPrice"].Value<decimal>();
+                var jObject = JObject.Parse(json);
 
-            string symbol = jObject["return"]["currency"]["symbol"].Value<string>();
+                decimal price = jObject["return"]["listPrice"].Value<decimal>();
 
-            return new PricingDetails { IsbnNumber = isbnNumber, Currency = symbol, Value = price };
+                string symbol = jObject["return"]["currency"]["symbol"].Value<string>();
+
+                pricingDetails.CurrencyDetails.Add(new PricingCurrencyDetails
+                {
+                    Currency = symbol,
+                    Value = price,
+                });
+            }
+            catch (Exception) 
+            {
+                
+            }
+
+            return pricingDetails;
         }
     }
 }

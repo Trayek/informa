@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using ms8.code.Mappers;
+using ms8.code.Models;
+using ms8.code.Pricing.Endpoints;
 using ms8.code.Pricing.Repositories;
 using Sitecore.Data;
 using Sitecore.Data.Items;
@@ -27,7 +29,21 @@ namespace ms8.layouts.msdemo
 
             foreach (string isbnNumber in isbnNumbers)
             {
-                collection.Insert(PricingMapper.Map(isbnNumber, new PricingService(new ConsoleLog()).FindPriceByIsbn(isbnNumber)));
+                var pricingService = new PricingService(new ConsoleLog());
+                
+                var pricingDetails = new PricingDetails()
+                {
+                    IsbnNumber = isbnNumber
+                };
+
+                foreach (Currency currency in pricingService.Currencies)
+                {
+                    var price = pricingService.FindPriceByIsbn(isbnNumber, currency);
+
+                    PricingMapper.Map(isbnNumber, price, pricingDetails);
+                }
+
+                collection.Insert(pricingDetails);
             }
         }
 

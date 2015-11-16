@@ -1,13 +1,25 @@
-﻿using MongoDB.Bson.Serialization.Attributes;
+﻿using System.Collections.Generic;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace ms8.code.Models
 {
     [BsonIgnoreExtraElements]
     public class PricingDetails
     {
-        public decimal Value { get; set; }
+        public PricingDetails()
+        {
+            CurrencyDetails = new List<PricingCurrencyDetails>();
+        }
 
-        public string Currency { get; set; }
+        public List<PricingCurrencyDetails> CurrencyDetails { get; set; }
+
         public string IsbnNumber { get; set; }
+    }
+
+    public class PricingCurrencyDetails
+    {
+        public string Currency { get; set; }
+
+        public decimal Value { get; set; }
     }
 }
