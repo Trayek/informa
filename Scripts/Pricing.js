@@ -24,7 +24,7 @@ function setCurrency(isbn, currencyValue) {
 }
 function showPrices(isbn) {
     var priceCookieValue = readCookie('currency');
-    $.getJSON("/api/pricing/getPrices?isbn=" + isbn + "&currency="+priceCookieValue, function (data) {
+    $.getJSON("//informa.services/api/pricing/getPrices?isbn=" + isbn + "&currency="+priceCookieValue, function (data) {
         var div = $('#priceDiv');
         div.empty();
         div.append("<span>Cost: " + data.Currency + Number(data.Value).toFixed(2) + "</span>  - show in: ");
