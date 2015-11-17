@@ -118,9 +118,23 @@ namespace ms8.code.Basket
             }
             else
             {
-                int amount = 1; // if the product is there there's a minumum of 1 - however this value should not be used anyway because of the next statement
-                int.TryParse(product["Quantity"], out amount);
-                UpdateProduct(product, amount + 1); 
+                if (Sitecore.MainUtil.GetBool(product["Purchased"], false))
+                {
+                    using (new SecurityDisabler())
+                    {
+                        product.Editing.BeginEdit();
+                        product.Name = product.Name + Sitecore.DateUtil.IsoNow;
+                        product.Editing.EndEdit();
+                    }
+
+                    AddProductToBasket(basket, Sitecore.Context.Item.Name, 1);
+                }
+                else
+                {
+                    int amount = 1; // if the product is there there's a minumum of 1 - however this value should not be used anyway because of the next statement
+                    int.TryParse(product["Quantity"], out amount);
+                    UpdateProduct(product, amount + 1);
+                }
             }
 
             return product;
