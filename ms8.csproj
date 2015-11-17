@@ -206,6 +206,13 @@
     <Compile Include="layouts\msdemo\AddToBasket.ascx.designer.cs">
       <DependentUpon>AddToBasket.ascx</DependentUpon>
     </Compile>
+    <Compile Include="layouts\msdemo\Checkout.ascx.cs">
+      <DependentUpon>Checkout.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\msdemo\Checkout.ascx.designer.cs">
+      <DependentUpon>Checkout.ascx</DependentUpon>
+    </Compile>
     <Compile Include="layouts\msdemo\Rating.ascx.cs">
       <DependentUpon>Rating.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -294,6 +301,7 @@
       <SubType>ASPXCodeBehind</SubType>
     </Content>
     <Content Include="layouts\msdemo\AddToBasket.ascx" />
+    <Content Include="layouts\msdemo\Checkout.ascx" />
     <Content Include="layouts\msdemo\Rating.ascx" />
     <Content Include="layouts\msdemo\RatingReview.ascx" />
     <Content Include="layouts\msdemo\topbar.ascx" />

@@ -101,6 +101,11 @@ namespace ms8.layouts.msdemo
             }
         }
 
+        protected void btnCheckout_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/checkout");
+        }
+
         public void rptProductsDataBound(object sender, RepeaterItemEventArgs e)
         {
             if (e.Item.ItemType != ListItemType.Item && e.Item.ItemType != ListItemType.AlternatingItem)

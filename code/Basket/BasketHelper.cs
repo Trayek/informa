@@ -130,8 +130,13 @@ namespace ms8.code.Basket
         /// </summary>
         /// <param name="basket">The basket</param>
         /// <returns>A list of ProductBasket items</returns>
-        internal List<Item> GetAllProducts(Item basket)
+        internal List<Item> GetAllProducts(Item basket = null)
         {
+            if (basket == null)
+            {
+                basket = GetBasket();
+            }
+
             return basket.Children.Where(x => !Sitecore.MainUtil.GetBool(x["Purchased"], false)).ToList();
         }
     }

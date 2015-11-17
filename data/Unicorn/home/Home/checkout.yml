@@ -1,8 +1,8 @@
 ﻿---
-ID: 41124979-ffa8-4cf8-9de7-6d22a2224989
+ID: 150c4f64-8ebd-42e4-952c-6565447a10f7
 Parent: 110d559f-dea5-42ea-9c1c-8a5df7e70ef9
 Template: 76036f5e-cbce-46d1-af0a-4143f9b557aa
-Path: /sitecore/content/Home/My Cart
+Path: /sitecore/content/Home/checkout
 SharedFields:
 - ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
   # __Workflow
@@ -24,7 +24,7 @@ Languages:
             <r uid="{CF044AD9-0332-407A-ABDE-587214A2C808}">
               <p:d />
             </r>
-            <r uid="{B343725A-3A93-446E-A9C8-3A2CBD3DB489}" s:id="{670DA518-E5F8-42A0-A74D-1D9A98803976}" s:ph="content" />
+            <r uid="{B343725A-3A93-446E-A9C8-3A2CBD3DB489}" s:id="{86672BF2-5714-4A7F-959F-1DED1CF337D5}" s:ph="content" />
             <r uid="{1598B9BE-C4C1-43F9-A2CD-B3CC99DBC8C2}" p:before="r[@uid='{7E4F49B5-3083-4A9C-922B-A385C7F72D4A}']" s:id="{0BC5FF90-C8D6-4D4A-B7F9-BE3A11CEC796}" s:ph="body" />
             <r uid="{7E4F49B5-3083-4A9C-922B-A385C7F72D4A}" s:ds="" s:id="{894CA360-ABBB-4F9A-B4CA-0FDAB0FEF5AA}" s:par="" s:ph="maincontent" />
           </d>
@@ -40,4 +40,4 @@ Languages:
       Value: sitecore\admin
     - ID: 75577384-3c97-45da-a847-81b00500e250
       # Title
-      Value: My Basket
+      Value: Checkout
