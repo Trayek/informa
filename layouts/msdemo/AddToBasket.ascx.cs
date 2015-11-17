@@ -1,13 +1,6 @@
 ﻿using ms8.code.Basket;
-using Sitecore.Analytics;
-using Sitecore.Configuration;
 using Sitecore.Data;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace ms8.layouts.msdemo
 {
@@ -27,6 +20,7 @@ namespace ms8.layouts.msdemo
 
             if (basket != null)
             {
+                // TODO: This doesn't work if there's already a historical product..
                 helper.AddProductToBasket(basket, Sitecore.Context.Item.Name, 1);
             }
 

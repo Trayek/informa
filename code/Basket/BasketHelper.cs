@@ -1,4 +1,5 @@
-﻿using Sitecore.Analytics;
+﻿using ms8.code.Pricing;
+using Sitecore.Analytics;
 using Sitecore.Configuration;
 using Sitecore.Data;
 using Sitecore.Data.Fields;
@@ -138,6 +139,44 @@ namespace ms8.code.Basket
             }
 
             return basket.Children.Where(x => !Sitecore.MainUtil.GetBool(x["Purchased"], false)).ToList();
+        }
+
+        /// <summary>
+        /// Gets all ProductBasket items
+        /// </summary>
+        /// <param name="basket">The basket</param>
+        /// <returns>A list of ProductBasket items</returns>
+        internal List<Item> GetAllPurchasedProducts(Item basket = null)
+        {
+            if (basket == null)
+            {
+                basket = GetBasket();
+            }
+
+            return basket.Children.Where(x => Sitecore.MainUtil.GetBool(x["Purchased"], false)).ToList();
+        }
+
+        internal decimal GetBasketTotal()
+        {
+            var products = GetAllProducts();
+            if (products.Any())
+            {
+                decimal total = 0;
+                foreach (var product in products)
+                {
+                    ReferenceField field = product.Fields["Product"];
+                    if (field != null && field.TargetItem != null)
+                    {
+                        var isbn = field.TargetItem["Isbn"];
+                        var qty = int.Parse(product["Quantity"]);
+                        total = total + (new PricingDetailsService().GetPrices(isbn, "").Value * qty);
+                    }
+                }
+
+                return total;
+            }
+
+            return 0;
         }
     }
 }

@@ -206,12 +206,26 @@
     <Compile Include="layouts\msdemo\AddToBasket.ascx.designer.cs">
       <DependentUpon>AddToBasket.ascx</DependentUpon>
     </Compile>
+    <Compile Include="layouts\msdemo\BasketValue.ascx.cs">
+      <DependentUpon>BasketValue.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\msdemo\BasketValue.ascx.designer.cs">
+      <DependentUpon>BasketValue.ascx</DependentUpon>
+    </Compile>
     <Compile Include="layouts\msdemo\Checkout.ascx.cs">
       <DependentUpon>Checkout.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="layouts\msdemo\Checkout.ascx.designer.cs">
       <DependentUpon>Checkout.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\msdemo\OrderHistory.ascx.cs">
+      <DependentUpon>OrderHistory.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\msdemo\OrderHistory.ascx.designer.cs">
+      <DependentUpon>OrderHistory.ascx</DependentUpon>
     </Compile>
     <Compile Include="layouts\msdemo\Rating.ascx.cs">
       <DependentUpon>Rating.ascx</DependentUpon>
@@ -301,7 +315,9 @@
       <SubType>ASPXCodeBehind</SubType>
     </Content>
     <Content Include="layouts\msdemo\AddToBasket.ascx" />
+    <Content Include="layouts\msdemo\BasketValue.ascx" />
     <Content Include="layouts\msdemo\Checkout.ascx" />
+    <Content Include="layouts\msdemo\OrderHistory.ascx" />
     <Content Include="layouts\msdemo\Rating.ascx" />
     <Content Include="layouts\msdemo\RatingReview.ascx" />
     <Content Include="layouts\msdemo\topbar.ascx" />
@@ -398,6 +414,7 @@
     <Content Include="xsl\msdemo\slider.xslt" />
     <Content Include="xsl\msdemo\steps.xslt" />
     <Content Include="xsl\msdemo\topbar.xslt" />
+    <Content Include="xsl\msdemo\userprofilesc.xslt" />
     <Content Include="xsl\msdemo\videosidebar.xslt" />
     <Content Include="xsl\msdemo\xboxgamesleftmenu.xslt" />
     <Content Include="xsl\sample rendering.xslt" />
