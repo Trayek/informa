@@ -2,11 +2,14 @@
 ID: fb560c8f-d452-4b8d-b644-a9aa82e7ce82
 Parent: e18457f8-5889-4ba0-b0ef-2e001534da96
 Template: 824052cf-ae81-4519-aad3-af06a02a4c93
-Path: /sitecore/content/Home/News/Sitecore delivers strong growth
+Path: /sitecore/content/Home/News/taylor francis and eifl announce first open access agreement
 SharedFields:
 - ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
   # __Workflow
   Value: {7B0575A7-7211-4248-AF91-4F25AF93D1CB}
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 75
 Languages:
 - Language: en
   Versions:
@@ -14,29 +17,47 @@ Languages:
     Fields:
     - ID: 04621054-da72-4e54-aa5c-e545b2971819
       # Teaser Image
-      Value: "<image mediaid=\"{46F173BA-46BD-4BDB-9A0F-7FC7E709E0B2}\" ></image>"
+      Value: "<image mediaid=\"{100E9DC5-C22B-4C4C-A94A-55AECB24EAEC}\" alt=\"EIFL Knowledge Without Boundaries\" height=\"\" width=\"\" hspace=\"\" vspace=\"\"></image>"
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
-      Value: 20141204T105529
+      Value: 20141204T105529Z
     - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
       # Text
       Value: |
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel vehicula neque. Integer efficitur turpis ac nisl feugiat, sollicitudin ullamcorper nibh auctor. Maecenas semper massa elit, in rhoncus neque dictum eget. Sed tortor nisl, finibus at massa ac, tempor vestibulum metus. Vivamus tristique quam ac tempor ultrices. Vestibulum vel ex a tortor tincidunt ornare at sit amet arcu. Nulla lacinia semper diam sed condimentum. Phasellus non varius lacus, a vestibulum est. Praesent et facilisis mi. Sed vel pellentesque quam. Nulla egestas pretium iaculis. Proin efficitur sed nisl eu rutrum. Nullam quis finibus elit, a tincidunt orci.</p>
-        <p>Vivamus viverra augue ac dignissim elementum. Proin consectetur massa sit amet efficitur finibus. Quisque a est vestibulum, dictum nisi vel, sagittis lacus. Aliquam interdum erat quis dui sodales, et efficitur massa gravida. Fusce non neque bibendum, tempor massa et, semper lorem. Donec euismod egestas tortor eu finibus. Integer sed luctus metus. Nullam non egestas nunc, non laoreet quam. Donec bibendum et magna at porta. Nulla facilisi. Proin volutpat ultrices dui at mollis. Pellentesque interdum nisl vel nunc pharetra, ultrices dictum sapien porttitor. Duis blandit nec ante quis gravida. Suspendisse vitae ultrices mauris. Nam convallis dolor sem.</p>
-        <p>Fusce justo felis, eleifend eu lorem in, vulputate imperdiet risus. Aenean tempus rutrum nisl, in rutrum turpis condimentum nec. Nulla fermentum elit sit amet purus cursus, non feugiat ligula eleifend. In hac habitasse platea dictumst. Phasellus erat orci, vestibulum non aliquet a, auctor eget erat. Nullam venenatis tincidunt ex, sed accumsan justo egestas sagittis. Aliquam diam nibh, faucibus ornare ex ultrices, cursus maximus orci. Integer tristique hendrerit odio, id viverra lacus egestas ut. Nam rhoncus id lectus ac pulvinar. Nulla tempus sem a iaculis finibus. Donec viverra dui elementum metus consectetur, non mollis nisi vulputate. Sed pharetra laoreet bibendum. Duis posuere libero aliquam nisl semper, quis feugiat purus suscipit. Sed bibendum quis urna nec fringilla.</p>
+        <h3>No, or heavily reduced, article publishing charges for researchers in developing countries</h3>
+        <p>Taylor &amp; Francis Group and EIFL (Electronic Information for Libraries) have just announced a twelve month agreement&nbsp; which will enable researchers in countries with developing or transition economies to publish Open Access (OA) at a substantially reduced rate, or completely free of any article publishing charge (APC) on some Taylor &amp; Francis and Routledge journals.</p>
+        <p>Researchers in EIFL&rsquo;s 45 network countries will be able to choose from a selection of 66 pure OA journals to publish in, ranging across the sciences, social sciences and humanities. As one of the original signatories of the Budapest Open Access Initiative, EIFL plays a significant role in spreading the principles of open research throughout their network. This is the first time they have signed such an agreement with a publisher, part of Taylor &amp; Francis&rsquo; continued commitment to support open access publishing in emerging countries.</p>
+        <p>EIFL Director, Rima Kupryte, said of the agreement,</p>
+        <p><em>&ldquo;EIFL is excited about the article publishing charge agreement with Taylor &amp; Francis. It is the first time we have signed an agreement like this, so it will be interesting to see how authors from our network will react. We&rsquo;ve already received some positive feedback.&rdquo;</em></p>
+        <p><em>&ldquo;We are delighted to embark on this initiative with EIFL.&rdquo;</em>&nbsp;said Victoria Gardner, Open Access Publisher at Taylor &amp; Francis Group.&nbsp;<em>&ldquo;It will help to facilitate Open Access for authors around the globe and represents an important addition to our long running development initiatives, including our OA waiver policy and free or discounted access programmes. The new initiative allows us to extend further the publication options available to researchers.&rdquo;</em></p>
+        <p>More detail on the agreement is on Taylor &amp; Francis&rsquo;&nbsp;<a href="http://authorservices.taylorandfrancis.com/eifl-open-access-agreement/">Author Services website</a>.</p>
+        <p>-ENDS-</p>
+        <p><strong>About Taylor &amp; Francis Group</strong><br>
+        Taylor &amp; Francis Group partners with researchers, scholarly societies, universities and libraries worldwide to bring knowledge to life. As one of the world&rsquo;s leading publishers of scholarly journals, books, ebooks and reference works our content spans all areas of Humanities, Social Sciences, Behavioural Sciences, Science, Technology and Medicine.</p>
+        <p>From our network of offices in Oxford, New York, Philadelphia, Boca Raton, Boston, Melbourne, Hong Kong, Singapore, Beijing, Tokyo, Stockholm, New Delhi and Johannesburg, Taylor &amp; Francis staff provide local expertise and support to our editors, societies, and authors and tailored, efficient customer service to our library colleagues. Find out more at&nbsp;<a href="http://www.tandfonline.com/">www.tandfonline.com</a>.</p>
+        <p><strong>About EIFL</strong><br>
+        EIFL is a not for profit organisation that works with libraries to enable access to knowledge in developing and transition economy countries throughout the world. Working in over 60 countries, they help people access and use information for education, learning, research and sustainable community development. Find out more at&nbsp;<a href="http://www.eifl.net/">www.eifl.net</a>.</p>
+        <p>For more information, please contact:<br>
+        Elaine Devine,<br>
+        Communications Manager (Author Relations), Taylor &amp; Francis Group<br>
+        Tel:&nbsp;+44 (020) 7551 9181<br>
+        elaine.devine@tandf.co.uk</p>
     - ID: 9acbbcab-2484-4558-9728-28433fe2f8a1
       # Summary
-      Value: Sitecore, the global leader in customer experience management solutions, today announced another year of significant topline growth and profitability in its fiscal year ending June 30, 2014
+      Value: Taylor & Francis Group and EIFL (Electronic Information for Libraries) have just announced a twelve month agreement  which will enable researchers in countries with developing or transition economies to publish Open Access (OA) at a substantially reduced rate, or completely free of any article publishing charge (APC) on some Taylor & Francis and Routledge journals.
     - ID: a41260d2-aebe-4529-8aa7-202cf190f7fe
       # Tags
       Type: Treelist
       Value: {3C61E3F7-B91C-4BEE-9E63-3B1047953F40}
     - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
       # Title
-      Value: Sitecore delivers strong growth
+      Value: Taylor & Francis and EIFL announce first Open Access agreement
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Taylor & Francis and EIFL announce first Open Access agreement
     - ID: d95bd7d2-2a5e-4f6c-a7c4-e5a564eb5487
       # Date
-      Value: 20141201T105500Z
+      Value: 20151115T105500Z
     - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
       # Menu title
       Value: Sitecore delivers strong growth

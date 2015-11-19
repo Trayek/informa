@@ -331,3 +331,23 @@ video {
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+/*********************************************************JZI**************************************************************************/
+
+.header-navigation > ul > li > a, .pre-header a, .pre-header li, .header-navigation li.menu-search i  {
+    color: #ddd;
+}
+
+.header, .pre-header {
+    background-color: #2237B6;
+}
+
+.pre-header {
+    border: none;
+}
+
+.header-navigation li.menu-search i:hover, .pre-header a:hover {
+    color: #9FA4A6;
+}
+
+/*********************************************************END JZI**********************************************************************/

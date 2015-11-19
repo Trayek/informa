@@ -38,7 +38,7 @@
 					  <div class="recent-work-item">
 						<em>
 						<sc:link>
-						  <sc:image select="." mw="273" mh="152" as="1" field="teaser image" class="img-responsive" />
+						  <sc:image select="." mw="273" mh="152" as="1"  field="teaser image" class="img-responsive" />
 						</sc:link>
 						</em>
 						<sc:link class="recent-work-description">
@@ -51,7 +51,7 @@
 					  <div class="recent-work-item">
 						<em>
 						<sc:link>
-						  <sc:image select="." mw="273" mh="152" as="1" field="teaser image" class="img-responsive" />
+						  <sc:image select="." w="273" h="152" as="1" field="teaser image" class="img-responsive" />
 						</sc:link>
 						</em>
 						<sc:link class="recent-work-description">

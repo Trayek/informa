@@ -259,7 +259,7 @@ Languages:
         </r>
     - ID: 0582109b-9d24-4347-a969-8e59297c548d
       # Theme
-      Value: {F3485060-3C97-4957-BC1C-13E2083B9061}
+      Value: {BB014AE2-CC6E-4BCA-A542-5C907E960700}
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20150213T153046Z
@@ -271,7 +271,7 @@ Languages:
       Value: sitecore\admin
     - ID: 79357b7c-4d56-4b3b-b75d-6b713d7dbea0
       # Logo
-      Value: "<image mediaid=\"{FD122A92-AAD7-429C-BE1D-D8B29E5B5B58}\" />"
+      Value: "<image mediaid=\"{39A88366-2B92-4D3C-8A36-06CC8456ED90}\" />"
     - ID: 9541e67d-ce8c-4225-803d-33f7f29f09ef
       # __Short description
       Value: Welcome to Sitecore.

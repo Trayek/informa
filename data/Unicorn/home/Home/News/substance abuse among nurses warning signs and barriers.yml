@@ -1,0 +1,106 @@
+﻿---
+ID: da0e56f7-c5f3-478a-b908-613220dbf2a7
+Parent: e18457f8-5889-4ba0-b0ef-2e001534da96
+Template: 824052cf-ae81-4519-aad3-af06a02a4c93
+Path: /sitecore/content/Home/News/substance abuse among nurses warning signs and barriers
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {7B0575A7-7211-4248-AF91-4F25AF93D1CB}
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04621054-da72-4e54-aa5c-e545b2971819
+      # Teaser Image
+      Value: "<image mediaid=\"{C834C00B-A9AB-4305-9A79-AB5D362A96D8}\"></image>"
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141204T110713Z
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        <p>Research published in<em>&nbsp;Substance Abuse&nbsp;</em>journal has found that 48 percent of the respondents in a study on drug abuse within the nursing profession reported drug or alcohol use at work. The study was conducted to learn more about substance abuse issues in conjunction with mental illness in nurses, specifically about on-the-job use and prevention.&nbsp; The article,&nbsp;<a href="http://www.tandfonline.com/doi/full/10.1080/08897077.2014.933725"><strong>Substance Use and Mental Illness Among Nurses: Workplace Warning Signs and Barriers to Seeking Assistance</strong></a>, looks into the statistics of drug use by nurses, and potential solutions to the barriers for outreach.</p>
+        <p>Substance abuse within the nursing profession is a particularly concerning area, due to the nature of their job and their interaction with patients. The research was conducted using responses from 302 nurses. The survey looked into substance-related behaviors in the workplace; behavioral cues that may lead to earlier identification of substance use and mental illness; perceptions of barriers to seeking help; and strategies for preventing issues and overcoming barriers to seeking assistance.</p>
+        <p>48 percent of the respondents reported drug or alcohol use at work, and 40 percent felt that their competency level was affected by their use.&nbsp; 27percent of respondents acknowledged that patients were put at risk one or more times because of their substance use. Out of those surveyed, 25 percent indicated that they obtained drugs in the workplace.</p>
+        <p>The results indicated that problem recognition and seeking assistance is also an issue for nurses due to various barriers. Over 50 percent of respondents answered &ldquo;somewhat&rdquo; or &ldquo;a lot&rdquo; to the following barriers: too scared, too embarrassed to seek assistance, concerns about confidentiality, and thought they would lose their license. To overcome those barriers, respondents recommended more education about how to seek support from friends, colleagues, and family, as well as what steps to take to seek help confidentially, so their licenses are not at risk.</p>
+        <p>The authors said of the importance of this research, &ldquo;We hope that our findings can be used to help improve awareness and understanding of substance use and mental illness among nurses and their professional peers, inform education and training efforts in nursing schools, encourage further research to explore the prevention and early identification of co-occurring disorders in healthcare settings where nurses work, and ultimately enhance public safety.&rdquo;</p>
+        <p><strong>About&nbsp;<em>Substance Abuse</em></strong><br>
+        <em>Substance Abuse&nbsp;</em>journal is a peer-reviewed journal that serves as the official publication of the Association for Medical Education and Research in Substance Abuse (<a href="http://amersa.org/"><strong>AMERSA</strong></a>) in association with The International Society of Addiction Medicine (<a href="http://www.isamweb.org/home/"><strong>ISAM</strong></a>) and the International Coalition for Addiction Studies in Education (<a href="http://www.incase.org/"><strong>INCASE</strong></a>).&nbsp;<em>Substance Abuse</em>&nbsp;journal offers wide-ranging coverage for healthcare professionals, addiction specialists and others engaged in research, education, clinical care, and service delivery and evaluation.<br>
+        <strong>Indexed on MEDLINE&reg;<br>
+        2014 Impact Factor: 2.097</strong><br>
+        <em>&copy; 2015 Thomson Reuters, 2014 Journal Citation Reports&reg;</em></p>
+        <p><strong>JOIN US ON SOCIAL MEDIA&nbsp;&nbsp;&nbsp;</strong>&nbsp;&nbsp;&nbsp;<strong><a href="http://www.facebook.com/RoutledgeAddictionJournals">www.facebook.com/RoutledgeAddictionJournals</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/Routledge_PHSC">www.twitter.com/Routledge_PHSC</a></strong></p>
+        <p>NOTE TO JOURNALISTS<br>
+        When referencing the article: Please include Journal title, author, published by Taylor &amp; Francis and the following statement:</p>
+        <p>* Read the full article online:<a href="http://www.tandfonline.com/doi/full/10.1080/08897077.2014.933725">http://www.tandfonline.com/doi/full/10.1080/08897077.2014.933725</a></p>
+        <h3>About Taylor &amp; Francis Group</h3>
+        <p>Taylor &amp; Francis Group partners with researchers, scholarly societies, universities and libraries worldwide to bring knowledge to life.&nbsp; As one of the world&rsquo;s leading publishers of scholarly journals, books, ebooks and reference works our content spans all areas of Humanities, Social Sciences, Behavioural Sciences, Science, and Technology and Medicine.</p>
+        <p>From our network of offices in Oxford, New York, Philadelphia, Boca Raton, Boston, Melbourne, Singapore, Beijing, Tokyo, Stockholm, New Delhi and Johannesburg, Taylor &amp; Francis staff provide local expertise and support to our editors, societies and authors and tailored, efficient customer service to our library colleagues.</p>
+        <p>For more information please contact:<br>
+        James Fischer, Marketing Associate, Journals<br>
+        Email:&nbsp;<a href="mailto:james.fischer@taylorandfrancis.com">james.fischer@taylorandfrancis.com</a></p>
+    - ID: 9acbbcab-2484-4558-9728-28433fe2f8a1
+      # Summary
+      Value: Research published in Substance Abuse journal has found that 48 percent of the respondents in a study on drug abuse within the nursing profession reported drug or alcohol use at work. The study was conducted to learn more about substance abuse issues in conjunction with mental illness in nurses, specifically about on-the-job use and prevention.  The article, Substance Use and Mental Illness Among Nurses: Workplace Warning Signs and Barriers to Seeking Assistance, looks into the statistics of drug use by nurses, and potential solutions to the barriers for outreach.
+    - ID: a41260d2-aebe-4529-8aa7-202cf190f7fe
+      # Tags
+      Type: Treelist
+      Value: {32A4C7CC-68FD-4BA7-BE2D-15735792B0FF}
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: Substance Abuse Among Nurses: Warning Signs and Barriers
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Substance Abuse Among Nurses: Warning Signs and Barriers
+    - ID: d95bd7d2-2a5e-4f6c-a7c4-e5a564eb5487
+      # Date
+      Value: 20141112T110700Z
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: Sitecore to showcase its Dynamics CRM vision in MTCs
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04621054-da72-4e54-aa5c-e545b2971819
+      # Teaser Image
+      Value: "<image mediaid=\"{2784AE0C-D0FF-4F2C-B93A-20B4BF986349}\" />"
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150903T095350Z
+    - ID: 2cd3e702-4a51-4faa-aa10-a6f4956e13d3
+      # Show in menu
+      Value: 1
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {754FE810-5A51-400A-8376-4DFCDDB01F0A}
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
+      # Text
+      Value: |
+        氩ゑ 蝣ち廥 䝧ぽ礊ファ姟 リャ䰩栩大や ほね嫣觚騧, か姚 ひゃヴュ䥜 楯骤妤騪ぴ くき䋨ゞ簯 が階 駣ひょ樦とう みょけ鄥妦姯 氩ゑびょ䤤ぷ 榧ぐ饊, しゅゐ ヂャ榩觃団ぜ い覧滦障お 饟鰧諧べひ ベフィェキ, 姥じぎゃ蝣ち 壌ギョ馣で奚 卣ヒュフュしょセ るみょけ 黨府 あキョ媥榜りょ 樚䰧襨ちゃ椯 卣ヒュフュしょセ 駺榞 觚騧嶥 チェ秵 ツ槥㠤げ禧 くき䋨ゞ簯 卣ヒュフュしょセ びょ䤤ぷ, 䥞榟ゲ駪は 榯.りヂョ䦧 䛨儦谨尤骧 駣ひょ 樦とう 揧蝥榥つ祟 ぱ秺狥䣊わ ツ槥 槥㠤げ きゃヲ ちゅベフィェキか ざミェ滩が階 え狨儥, ヂャ榩 ディ觜䶥 ツ槥㠤げ禧 せみゅ堨ちょさ 饟鰧諧べひ<br>
+        <br>
+        毚ひゅガ 䪥騌奊づレ も饦誨租ぞ ちゅベフィェキか ひぱ, 毚ひゅガ 䝧ぽ礊ファ姟 卤隊たど廩 䨯グォ りゅ捨 じゅゝ頨え狨 こ訦綦びゃきゅ しゃ穤りゅ捨を 捨を卣, 姥じ 䥜廦だ褤覣 ちゅベフィェキか ほね嫣觚騧 愥䝣れ き䋨 姥じぎゃ蝣ち れきゃヲばず ぱ秺狥䣊わ スィ饺䨯, しゃ穤 廥壃馨焣鋨 卣ヒュフュしょセ 驩び土 う䥞 りゃ檤楜珥苨 こ訦綦びゃきゅ 樚䰧襨ちゃ椯 鄥妦姯, 勣黨府 あキョ媥榜りょ しゃ穤りゅ捨を ぽ礊 たど廩 誨租 祣囤䰥揨諤 氩ゑびょ䤤ぷ, 䨯グォ 姥じぎゃ蝣ち 䥞榟ゲ駪は ヂャ榩觃団ぜ ヒュフュしょ 綦びゃ 榧ぐ饊 榯.りヂョ䦧 ちゅベフィェキか 姚しゅゐ䥵㫣, 榯.り チェ秵 リャ䰩栩大や 嫯Ủクォひゃヴュ<br>
+        <br>
+        槥㠤げ 廩に ぶ詞っぴゅ䏦 そスぢ壎ぬ, ひゃヴュ䥜 䪥騌奊づレ ざミェ滩が階 珥苨 ベフィェキ リャ䰩栩大や も饦誨租ぞ ほね嫣觚騧 きゃヲ, 䝧ぽ礊ファ姟 ギュ鰣じゃ雦䩵 䩩訊 詞っぴゅ 䪥騌奊づレ 饟鰧諧べひ 䶥ユ ユびゅ背 嫯Ủクォひゃヴュ ちゅベフィェキか ディ觜 覦卤隊, 饊䩦 禧楯骤 樚䰧襨ちゃ椯 ハ礨じょ駺榞 れきゃヲばず 姚しゅゐ䥵㫣 氩ゑびょ䤤ぷ 嫯Ủ びょ䤤ぷ, 駣ひょ樦とう ちゅベフィェキか ざミェ滩が階 觃団 姟ヂャ榩 壌ギョ馣 祌襧 ざミェ滩が階 ぱ秺狥䣊わ, 嫯Ủクォ 䶥ユびゅ背る 饟鰧諧べひ す て, しゃ穤りゅ が階 ギュ鰣じゃ雦䩵 榯.りヂョ䦧 ちゅベフィェキか<br>
+        <br>
+        榥つ祟 觃団 嫯Ủクォひゃヴュ くき䋨ゞ簯 よ榧ぐ饊䩦 姚しゅゐ䥵㫣 饟鰧諧べひ 覦卤隊 ぢょら 諤䪥騌 やりゃ 祣囤䰥揨諤 䝧ぽ礊ファ姟 卤隊たど廩 䝧ぽ礊ファ姟 ほね嫣觚騧 スぢ 囤䰥揨, を卣 廥壃馨焣鋨 い覧滦障お 氩ゑびょ䤤ぷ 觚騧嶥 ヴュ䥜 姥じぎゃ蝣ち 卤隊たど廩 驩び土ぼ䩣 ヂョ䦧よ, か姚しゅ こ訦綦びゃきゅ れきゃヲばず ディ觜, 駣ひょ樦とう に盨焧ぢゅモ ぽ礊 駪は祣
+    - ID: 9acbbcab-2484-4558-9728-28433fe2f8a1
+      # Summary
+      Value: マーケティング代理店ARKEシステムを開発し、Windows Azureの新しいデモ・プラットフォームを構築するには、Microsoftとサイトコアと協力しています。物語の魅力的な部分は、サイトコアとダイナミクスCRMの組み合わせ追い出さコンテンツパーソナライゼーションです。
+    - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
+      # Title
+      Value: サイトコアは、Dynamics CRMのビジョンを紹介します
+    - ID: d95bd7d2-2a5e-4f6c-a7c4-e5a564eb5487
+      # Date
+      Value: 20141112T000000Z
+    - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
+      # Menu title
+      Value: サイトコアは、Dynamics CRMのビジョンを紹介します

@@ -2,11 +2,14 @@
 ID: 743ea3a7-5e87-4034-8322-5fe6acfd2ffb
 Parent: e18457f8-5889-4ba0-b0ef-2e001534da96
 Template: 824052cf-ae81-4519-aad3-af06a02a4c93
-Path: /sitecore/content/Home/News/Sitecore Wins 2014 Microsoft Alliance ISV
+Path: /sitecore/content/Home/News/changing landscapes the impact of eportfolios on teaching and learning
 SharedFields:
 - ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
   # __Workflow
   Value: {7B0575A7-7211-4248-AF91-4F25AF93D1CB}
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -14,32 +17,46 @@ Languages:
     Fields:
     - ID: 04621054-da72-4e54-aa5c-e545b2971819
       # Teaser Image
-      Value: "<image mediaid=\"{DE936F74-5BC9-4E50-B563-23584D6B402F}\" ></image>"
+      Value: "<image mediaid=\"{6C83B8FB-9F07-4477-9AA7-EF10FD9A6908}\"></image>"
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
-      Value: 20141204T110301
+      Value: 20141204T110301Z
     - ID: 7535d9b2-b818-4653-a65a-b7102ccd3804
       # Text
       Value: |
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel vehicula neque. Integer efficitur turpis ac nisl feugiat, sollicitudin ullamcorper nibh auctor. Maecenas semper massa elit, in rhoncus neque dictum eget. Sed tortor nisl, finibus at massa ac, tempor vestibulum metus. Vivamus tristique quam ac tempor ultrices. Vestibulum vel ex a tortor tincidunt ornare at sit amet arcu. Nulla lacinia semper diam sed condimentum. Phasellus non varius lacus, a vestibulum est. Praesent et facilisis mi. Sed vel pellentesque quam. Nulla egestas pretium iaculis. Proin efficitur sed nisl eu rutrum. Nullam quis finibus elit, a tincidunt orci.</p>
-        <p>Vivamus viverra augue ac dignissim elementum. Proin consectetur massa sit amet efficitur finibus. Quisque a est vestibulum, dictum nisi vel, sagittis lacus. Aliquam interdum erat quis dui sodales, et efficitur massa gravida. Fusce non neque bibendum, tempor massa et, semper lorem. Donec euismod egestas tortor eu finibus. Integer sed luctus metus. Nullam non egestas nunc, non laoreet quam. Donec bibendum et magna at porta. Nulla facilisi. Proin volutpat ultrices dui at mollis. Pellentesque interdum nisl vel nunc pharetra, ultrices dictum sapien porttitor. Duis blandit nec ante quis gravida. Suspendisse vitae ultrices mauris. Nam convallis dolor sem.</p>
-        <p>Fusce justo felis, eleifend eu lorem in, vulputate imperdiet risus. Aenean tempus rutrum nisl, in rutrum turpis condimentum nec. Nulla fermentum elit sit amet purus cursus, non feugiat ligula eleifend. In hac habitasse platea dictumst. Phasellus erat orci, vestibulum non aliquet a, auctor eget erat. Nullam venenatis tincidunt ex, sed accumsan justo egestas sagittis. Aliquam diam nibh, faucibus ornare ex ultrices, cursus maximus orci. Integer tristique hendrerit odio, id viverra lacus egestas ut. Nam rhoncus id lectus ac pulvinar. Nulla tempus sem a iaculis finibus. Donec viverra dui elementum metus consectetur, non mollis nisi vulputate. Sed pharetra laoreet bibendum. Duis posuere libero aliquam nisl semper, quis feugiat purus suscipit. Sed bibendum quis urna nec fringilla.</p>
+        <h3>Theory Into Practice, Autumn 2015, Vol. 54, No. 4</h3>
+        <p><a href="http://www.tandfonline.com/toc/htip20/54/4">&ldquo;Changing Landscapes: The Impact of ePortfolios on Teaching and Learning&rdquo;</a>&nbsp;is the theme of&nbsp;<a href="http://www.tandfonline.com/htip"><em>Theory Into Practice</em></a>, Autumn 2015, Volume 54, Number 4, guest edited by Liliana Barro Zecker, DePaul University.</p>
+        <p>Responding to recent paradigm shifts in how we think about human development, communication technologies and teaching/learning processes, institutions around the world have adopted digital portfolios to document student learning. In some instances, when ePortfolios are narrowly defined and focused on products, they show individuals&rsquo; mastery of well-defined skills and certify professional readiness. When framed in a wider perspective, ePortfolios can act as personal and professional development plans that help learners chart their intellectual journeys by integrating in- and out-of-school, life-long and life-wide experiences (Hughes, 2008; Peet, 2010; Peet et al. 2011). ePortfolio pedagogy has the potential to be a truly epistemic and transformational force in human learning and development (Cambridge, Cambridge &amp; Yancey, 2009; Kahn, 2014).</p>
+        <p>Together, the articles in this issue describe how digital portfolios, as premier examples of 21st century literacies, have changed the school, workplace, and community landscapes that new generations of learners and educators as well as employees and employers face as they work with and in the world. When framed within a humanistic, process-driven, integrative, reflective stance, digital portfolios can and do contribute to a more personalized, flexible, and authentic portrayal and assessment of individuals.</p>
+        <p><em>Theory Into Practice</em>&nbsp;is the peer reviewed, scholarly journal owned by The Ohio State University&rsquo;s College of Education and Human Ecology, and published by Taylor &amp; Francis.&nbsp; For further information on subscription and back issue orders for&nbsp;<em style="border: 0px; outline: 0px; vertical-align: baseline; margin: 0px; padding: 0px;">Theory Into Practice</em>&nbsp;contact:</p>
+        <p>Emily Matthias │Senior Marketing Associate, Education<br>
+        Taylor &amp; Francis Group, LLC<br>
+        530 Walnut Street │ Suite 850<br>
+        Philadelphia, PA 19106<br>
+        (215) 606-4238│Fax: (215) 625-2940<br>
+        emily.matthias@taylorandfrancis.com</p>
+        <p>NOTE TO JOURNALISTS<br>
+        When referencing the article: Please include Journal title, author, published by Taylor &amp; Francis and the following statement:</p>
+        <p>* Read the full article online:<a href="http://www.tandfonline.com/toc/htip20/54/4">http://www.tandfonline.com/toc/htip20/54/4</a></p>
     - ID: 9acbbcab-2484-4558-9728-28433fe2f8a1
       # Summary
-      Value: For the second consecutive year, Microsoft recognized Sitecore as one of the top global partners for achieving exceptional sales results, supporting key Microsoft products and continuing its commitment to Microsoft's .NET development platform.
+      Value: “Changing Landscapes: The Impact of ePortfolios on Teaching and Learning” is the theme of Theory Into Practice, Autumn 2015, Volume 54, Number 4, guest edited by Liliana Barro Zecker, DePaul University.
     - ID: a41260d2-aebe-4529-8aa7-202cf190f7fe
       # Tags
       Type: Treelist
       Value: {A63AA953-9EC9-4234-9992-DE483927CCEE}
     - ID: b070c3cf-c82e-4a1b-8db8-9ff99e929a0d
       # Title
-      Value: Sitecore Wins 2014 Microsoft Alliance ISV Partner of the Year
+      Value: Changing Landscapes: The Impact of ePortfolios on Teaching and Learning
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Changing Landscapes: The Impact of ePortfolios on Teaching and Learning
     - ID: d95bd7d2-2a5e-4f6c-a7c4-e5a564eb5487
       # Date
-      Value: 20141127T110300Z
+      Value: 20151112T110300Z
     - ID: f10f740d-a6e9-4eb3-88bf-f2de3136934f
       # Menu title
-      Value: Sitecore Wins 2014 Microsoft Alliance ISV Partner of the Year Award
+      Value: Changing Landscapes: The Impact of ePortfolios on Teaching and Learning
 - Language: ja-JP
   Versions:
   - Version: 1
