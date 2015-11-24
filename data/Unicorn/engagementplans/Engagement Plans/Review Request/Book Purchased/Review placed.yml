@@ -1,0 +1,32 @@
+﻿---
+ID: a839d5b3-ebfb-4cab-ac39-b1da5bb096da
+Parent: 134d680a-893e-49fc-83c5-a9cdb1b907b1
+Template: 0a43a0fe-7e0e-49ef-95d4-e3de34f4f175
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Review Request/Book Purchased/Review placed
+SharedFields:
+- ID: 3f72bc07-de92-483e-a724-d430769d9ba4
+  # Designer ID
+  Value: ccb96291-8bd7-4b46-9b93-db7473edbf82
+- ID: 7642ed71-348b-4b88-8634-cc7b28949472
+  # Origin ID
+  Value: 00000000-0000-0000-0000-000000000000
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 0
+- ID: d2368879-c784-4031-9b79-6a3bf3cb444e
+  # Next state
+  Value: a4c739ae-8b92-4383-bbb4-d544fa0382ff
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151124T110451:635839598912717768Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Review placed?

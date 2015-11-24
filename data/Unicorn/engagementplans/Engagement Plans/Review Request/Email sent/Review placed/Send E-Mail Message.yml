@@ -1,0 +1,35 @@
+﻿---
+ID: 10dbded1-9214-4557-a162-113e8a1b92d7
+Parent: 73c2fb46-8ce3-4bb0-8b85-a3453a398568
+Template: 8c5ead00-5f68-4310-ab0c-84f283b5ee0a
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Review Request/Email sent/Review placed/Send E-Mail Message
+SharedFields:
+- ID: 1507131d-cee3-49e9-af32-de5403a37b49
+  # Parameters
+  Value: AutomationActionDescription=&Subject=&Content=&FixedEmail=
+- ID: 3f72bc07-de92-483e-a724-d430769d9ba4
+  # Designer ID
+  Value: 10dbded1-9214-4557-a162-113e8a1b92d7
+- ID: 7642ed71-348b-4b88-8634-cc7b28949472
+  # Origin ID
+  Value: bc62a688-ae9e-4462-abd4-73e28782d74a
+- ID: 8728a037-47d3-4180-b754-87926eda7ae8
+  # Editor
+  Value: /sitecore/shell/~/xaml/Sitecore.Shell.Applications.MarketingAutomation.Dialogs.ActionEditors.SendEmailMessage.aspx
+- ID: a291a22b-99e2-46bb-a27b-8ec744275396
+  # Type
+  Value: Sitecore.Analytics.Automation.AutomationActions.SendEmailMessageAction,Sitecore.Analytics.Automation
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151124T110454:635839598944512675Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

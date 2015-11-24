@@ -1,0 +1,32 @@
+﻿---
+ID: 00924913-5fff-49da-9cfd-b0e0f1f776b8
+Parent: 0324781c-d999-4094-b9ce-c56032ef34b0
+Template: 8ce2707a-3742-4a89-933b-065e5be02bc9
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Review Request/Email sent
+SharedFields:
+- ID: 07ce07cb-078c-415e-8f92-96690babd6c7
+  # Time interval
+  Value: 2880
+- ID: 3f72bc07-de92-483e-a724-d430769d9ba4
+  # Designer ID
+  Value: bfe8c519-fba0-49fa-8f62-8f3ad632a370
+- ID: 7642ed71-348b-4b88-8634-cc7b28949472
+  # Origin ID
+  Value: 00000000-0000-0000-0000-000000000000
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 06f2d72a-1924-4b9a-ba1e-186ce4e57efd
+      # Description
+      Value: An email has been sent to the customer requesting to place a review
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151124T110453:635839598933106196Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Email sent
