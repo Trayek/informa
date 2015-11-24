@@ -1,0 +1,32 @@
+﻿---
+ID: b04c2fd6-52f9-43ea-9313-0e5dfd22804f
+Parent: 6bda86ef-573a-432f-9235-8d397a339aa0
+Template: 8ce2707a-3742-4a89-933b-065e5be02bc9
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Abandoned Cart/Item added to cart
+SharedFields:
+- ID: 07ce07cb-078c-415e-8f92-96690babd6c7
+  # Time interval
+  Value: 1440
+- ID: 3f72bc07-de92-483e-a724-d430769d9ba4
+  # Designer ID
+  Value: e7c4356a-0c7b-4e58-9a60-d7f7ae3b3abd
+- ID: 7642ed71-348b-4b88-8634-cc7b28949472
+  # Origin ID
+  Value: 00000000-0000-0000-0000-000000000000
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 06f2d72a-1924-4b9a-ba1e-186ce4e57efd
+      # Description
+      Value: Customer has added an item to the cart.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151124T101344:635839568249555386Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Item added to cart

@@ -1,0 +1,32 @@
+﻿---
+ID: da517514-443f-4d8d-a5e5-225e14bcbc29
+Parent: e4451cbb-6cc1-4d8f-8013-efb0b09cf1c1
+Template: 0a43a0fe-7e0e-49ef-95d4-e3de34f4f175
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Abandoned Cart/User emailed/Is cart empty
+SharedFields:
+- ID: 3f72bc07-de92-483e-a724-d430769d9ba4
+  # Designer ID
+  Value: 6474b06d-9441-4bf8-811d-a00de9c39d44
+- ID: 7642ed71-348b-4b88-8634-cc7b28949472
+  # Origin ID
+  Value: 00000000-0000-0000-0000-000000000000
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 0
+- ID: d2368879-c784-4031-9b79-6a3bf3cb444e
+  # Next state
+  Value: 25319f46-350a-499b-9055-180ecc552287
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151124T101348:635839568281569349Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Is cart empty?

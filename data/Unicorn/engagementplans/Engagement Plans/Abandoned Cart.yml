@@ -1,0 +1,67 @@
+﻿---
+ID: 6bda86ef-573a-432f-9235-8d397a339aa0
+Parent: 4497a9be-0a00-4ee4-9ae0-50d6cbb4fab2
+Template: 6e5b63d6-2401-4a52-8b4d-cfef5e4e9752
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Abandoned Cart
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {689E2994-4656-4C58-9112-7826CB46EE69}
+- ID: c36d22d2-94fc-46ac-91db-2cf322c66895
+  # Flow designer items
+  Value: |
+    <flowDesignerItems>
+      <connectors>
+        <connector itemId="f391505c-2f3c-49b2-8109-77a05824f7bc" originId="00000000-0000-0000-0000-000000000000" designerId="6b6f8ba0-adc9-4965-ae5a-ac57efd7f456" name="New item" description="Description" startItemId="e7c4356a-0c7b-4e58-9a60-d7f7ae3b3abd" endItemId="4415ffa7-f9ba-453f-bc72-8d6788474944" points="23,9 23,13" />
+        <connector itemId="1357e696-d189-49ec-9aea-bec41b094c03" originId="00000000-0000-0000-0000-000000000000" designerId="90300ef0-b289-43e9-a9d4-85a2772204f7" name="New item" description="Description" startItemId="4415ffa7-f9ba-453f-bc72-8d6788474944" endItemId="25319f46-350a-499b-9055-180ecc552287" points="28,16 69,16" />
+        <connector itemId="f0d94944-d24f-494e-8c96-78821d40ce50" originId="00000000-0000-0000-0000-000000000000" designerId="fcf105fb-a1e5-4f2b-9592-a34fb9a4b389" name="New item" description="Description" startItemId="4415ffa7-f9ba-453f-bc72-8d6788474944" endItemId="711f5fe1-218a-4f5a-a432-beac117c2314" points="23,19 23,23" />
+        <connector itemId="0f6fc23d-4c24-4cd2-8b37-a77e0d506fd8" originId="00000000-0000-0000-0000-000000000000" designerId="e13cf8d8-2a5f-4b5b-8726-51a1592cd3bd" name="New item" description="Description" startItemId="711f5fe1-218a-4f5a-a432-beac117c2314" endItemId="30ff4c31-db62-4f59-a56a-26300064c7d4" points="28,26 44,26" />
+        <connector itemId="ddeafb96-cf7b-4704-b90c-af590ec53fd1" originId="00000000-0000-0000-0000-000000000000" designerId="f2ac5cf7-33ed-4e2b-bb76-72764826db6b" name="New item" description="Description" startItemId="30ff4c31-db62-4f59-a56a-26300064c7d4" endItemId="6474b06d-9441-4bf8-811d-a00de9c39d44" points="50,29 50,33" />
+        <connector itemId="20a8bc42-9545-4f5b-9ed6-5c64b5ea3339" originId="00000000-0000-0000-0000-000000000000" designerId="9a5ba0ce-d483-456d-bd2e-2e4fe4eb395c" name="New item" description="Description" startItemId="6474b06d-9441-4bf8-811d-a00de9c39d44" endItemId="27184d2d-fb40-48f1-add0-9ac3608259b2" points="50,39 50,43" />
+        <connector itemId="09c71ea8-69f5-4052-bbdc-7b1079d3de69" originId="00000000-0000-0000-0000-000000000000" designerId="ffbfba0f-8a17-4a3a-b2e9-15707d970060" name="New item" description="Description" startItemId="27184d2d-fb40-48f1-add0-9ac3608259b2" endItemId="4678e441-d579-48d7-9d7b-60d870d700fc" points="55,46 69,46" />
+        <connector itemId="9a63422e-91f9-4652-9b54-a06d5d9e4a92" originId="00000000-0000-0000-0000-000000000000" designerId="dc4b42b1-22d7-4664-98fe-4a8540958688" name="New item" description="Description" startItemId="6474b06d-9441-4bf8-811d-a00de9c39d44" endItemId="25319f46-350a-499b-9055-180ecc552287" points="55,36 75,19" />
+        <connector itemId="a3fd24cc-04d4-43de-a66a-e93ec0d23410" originId="00000000-0000-0000-0000-000000000000" designerId="fb7dac3c-78b2-4bb3-bc46-a2ef27bea2df" name="New item" description="Description" startItemId="711f5fe1-218a-4f5a-a432-beac117c2314" endItemId="31131bb8-80bf-440b-84f3-c3f7f8f65f3d" points="23,29 23,33" />
+        <connector itemId="0320cc6c-2581-4622-b528-4926c34af464" originId="00000000-0000-0000-0000-000000000000" designerId="aba5fb9f-ceae-4058-bf27-f2b39bbb7996" name="New item" description="Description" startItemId="31131bb8-80bf-440b-84f3-c3f7f8f65f3d" endItemId="e535e2df-57ed-4477-bbed-8d8b75fae0c2" points="18,36 14,36" />
+        <connector itemId="1d20a228-6ce5-4e62-b20b-5e2b3a8cfac6" originId="00000000-0000-0000-0000-000000000000" designerId="bc955918-c2ac-4f0e-8dec-42ba39e6bd12" name="New item" description="Description" startItemId="e535e2df-57ed-4477-bbed-8d8b75fae0c2" endItemId="7b8aade1-3512-4f3e-ae40-edfb3efdacb8" points="8,39 8,43" />
+        <connector itemId="34047320-27fa-4bad-9597-ec6d1931ced2" originId="00000000-0000-0000-0000-000000000000" designerId="e7a34b36-a4a9-4fad-8d5d-cd5c360baa5b" name="New item" description="Description" startItemId="7b8aade1-3512-4f3e-ae40-edfb3efdacb8" endItemId="30ff4c31-db62-4f59-a56a-26300064c7d4" points="13,46 50,23" />
+      </connectors>
+      <disconnectedItems />
+      <flowRenderedItemsValues>
+        <flowRenderedItemValues itemId="e7c4356a-0c7b-4e58-9a60-d7f7ae3b3abd" x="17" y="3" width="12" height="6" zIndex="5" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="4415ffa7-f9ba-453f-bc72-8d6788474944" x="18" y="13" width="10" height="6" zIndex="15" backgroundColor="#FF00767E" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="711f5fe1-218a-4f5a-a432-beac117c2314" x="18" y="23" width="10" height="6" zIndex="51" backgroundColor="#FF00767E" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="e1bc1a25-0c1c-4786-85d5-774b317d9768" x="10" y="10" width="8" height="4" zIndex="0" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="/temp/IconCache/Imaging/32x32/line_straight_blue_h.png" showIcon="true" fieldEditorValues="&lt;fields itemId=&quot;{BC62A688-AE9E-4462-ABD4-73E28782D74A}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; name=&quot;Description&quot; value=&quot;Description&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{A291A22B-99E2-46BB-A27B-8EC744275396}&quot; name=&quot;Type&quot; value=&quot;Sitecore.Analytics.Automation.AutomationActions.SendEmailMessageAction,Sitecore.Analytics.Automation&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{1507131D-CEE3-49E9-AF32-DE5403A37B49}&quot; name=&quot;Parameters&quot; value=&quot;AutomationActionDescription=Just for you&amp;amp;Subject=Just for you&amp;amp;Content=&amp;amp;FixedEmail=&amp;amp;FromName=Taylor and Francis Group&amp;amp;FromEmail=info@tandfgroup.com&amp;amp;BaseSiteURL=http://localhost&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{8728A037-47D3-4180-B754-87926EDA7AE8}&quot; name=&quot;Editor&quot; value=&quot;/sitecore/shell/~/xaml/Sitecore.Shell.Applications.MarketingAutomation.Dialogs.ActionEditors.SendEmailMessage.aspx&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; name=&quot;__Display name&quot; value=&quot;Send E-Mail Message&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+        <flowRenderedItemValues itemId="31131bb8-80bf-440b-84f3-c3f7f8f65f3d" x="18" y="33" width="10" height="6" zIndex="56" backgroundColor="#FF00767E" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="25319f46-350a-499b-9055-180ecc552287" x="69" y="13" width="12" height="6" zIndex="46" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="30ff4c31-db62-4f59-a56a-26300064c7d4" x="44" y="23" width="12" height="6" zIndex="64" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="6474b06d-9441-4bf8-811d-a00de9c39d44" x="45" y="33" width="10" height="6" zIndex="45" backgroundColor="#FF00767E" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="27184d2d-fb40-48f1-add0-9ac3608259b2" x="45" y="43" width="10" height="6" zIndex="41" backgroundColor="#FF00767E" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="4678e441-d579-48d7-9d7b-60d870d700fc" x="69" y="43" width="12" height="6" zIndex="42" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="e535e2df-57ed-4477-bbed-8d8b75fae0c2" x="2" y="33" width="12" height="6" zIndex="61" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="7b8aade1-3512-4f3e-ae40-edfb3efdacb8" x="3" y="43" width="10" height="6" zIndex="63" backgroundColor="#FF00767E" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="c3978aa8-5a06-48dd-9f29-40cffe292edf" x="10" y="10" width="8" height="4" zIndex="0" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="/temp/IconCache/Imaging/32x32/line_straight_blue_h.png" showIcon="true" fieldEditorValues="&lt;fields itemId=&quot;{BC62A688-AE9E-4462-ABD4-73E28782D74A}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{A291A22B-99E2-46BB-A27B-8EC744275396}&quot; value=&quot;Sitecore.Analytics.Automation.AutomationActions.SendEmailMessageAction,Sitecore.Analytics.Automation&quot; name=&quot;Type&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{1507131D-CEE3-49E9-AF32-DE5403A37B49}&quot; value=&quot;AutomationActionDescription=&amp;amp;Subject=&amp;amp;Content=&amp;amp;FixedEmail=&quot; name=&quot;Parameters&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{8728A037-47D3-4180-B754-87926EDA7AE8}&quot; value=&quot;/sitecore/shell/~/xaml/Sitecore.Shell.Applications.MarketingAutomation.Dialogs.ActionEditors.SendEmailMessage.aspx&quot; name=&quot;Editor&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+        <flowRenderedItemValues itemId="6b6f8ba0-adc9-4965-ae5a-ac57efd7f456" x="23" y="9" width="10" height="10" zIndex="4" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="90300ef0-b289-43e9-a9d4-85a2772204f7" x="28" y="16" width="10" height="10" zIndex="9" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="fcf105fb-a1e5-4f2b-9592-a34fb9a4b389" x="23" y="19" width="10" height="10" zIndex="14" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="e13cf8d8-2a5f-4b5b-8726-51a1592cd3bd" x="28" y="26" width="10" height="10" zIndex="20" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="f2ac5cf7-33ed-4e2b-bb76-72764826db6b" x="50" y="29" width="10" height="10" zIndex="32" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="9a5ba0ce-d483-456d-bd2e-2e4fe4eb395c" x="50" y="39" width="10" height="10" zIndex="36" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="ffbfba0f-8a17-4a3a-b2e9-15707d970060" x="55" y="46" width="10" height="10" zIndex="40" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="dc4b42b1-22d7-4664-98fe-4a8540958688" x="0" y="0" width="10" height="10" zIndex="44" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="fb7dac3c-78b2-4bb3-bc46-a2ef27bea2df" x="23" y="29" width="10" height="10" zIndex="50" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="aba5fb9f-ceae-4058-bf27-f2b39bbb7996" x="18" y="36" width="10" height="10" zIndex="55" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="bc955918-c2ac-4f0e-8dec-42ba39e6bd12" x="8" y="39" width="10" height="10" zIndex="60" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="e7a34b36-a4a9-4fad-8d5d-cd5c360baa5b" x="0" y="0" width="10" height="10" zIndex="62" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+      </flowRenderedItemsValues>
+    </flowDesignerItems>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151124T095455Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {39156DC0-21C6-4F64-B641-31E85C8F5DFE}
