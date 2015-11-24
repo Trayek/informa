@@ -27,7 +27,7 @@
     <!-- BEGIN HEADER -->
     <div class="header">
       <div class="container">
-        <sc:link select="$home" class="site-logo"><sc:image select="$home" field="logo" /></sc:link>
+        <sc:link select="$home" class="site-logo"><sc:image select="$home" field="logo" h="55"/></sc:link>
 
         <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
 
@@ -72,18 +72,17 @@
 												<xsl:for-each select="item">
 													<xsl:if test="sc:fld('show in menu',.)='1'">
 														<div class="col-md-4 header-navigation-col">
-															<sc:link><h4 style="color: #3e4d5c;!important"><sc:text field="menu title" disable-web-editing="true"/></h4></sc:link>
+															<sc:link target="_self"><h4 style="color: #3e4d5c;!important"><sc:text field="menu title" disable-web-editing="true"/></h4></sc:link>
 															<ul>
 																<xsl:for-each select="./item">
-                                  <xsl:choose>
-                                    <xsl:when test="./@template='products redirect'">
-                                      <li><sc:link field="link"><sc:text field="menu title" disable-web-editing="true"/></sc:link></li>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                      <li><sc:link><sc:text field="menu title" disable-web-editing="true"/></sc:link></li>  
-                                    </xsl:otherwise>
-                                  </xsl:choose>
-																	
+																  <xsl:choose>
+																	<xsl:when test="./@template='products redirect'">
+																	  <li><sc:link field="link" disable-web-editing="true" target="_self"><sc:text field="menu title" disable-web-editing="true"/></sc:link></li>
+																	</xsl:when>
+																	<xsl:otherwise>
+																	  <li><sc:link target="_self"><sc:text field="menu title" disable-web-editing="true"/></sc:link></li>  
+																	</xsl:otherwise>
+																  </xsl:choose>
 																</xsl:for-each>
 															</ul>
 														</div>
@@ -103,10 +102,10 @@
 										<xsl:attribute name="class">
 											<xsl:value-of select="'active'"/>
 										</xsl:attribute>
-										<sc:link><span><sc:text field="menu title" disable-web-editing="true"/></span></sc:link>
+										<sc:link target="_self"><span><sc:text field="menu title" disable-web-editing="true"/></span></sc:link>
 									</xsl:when>
 									<xsl:otherwise>
-										<sc:link><span><sc:text field="menu title" disable-web-editing="true"/></span></sc:link>
+										<sc:link target="_self"><span><sc:text field="menu title" disable-web-editing="true"/></span></sc:link>
 									</xsl:otherwise>
 								</xsl:choose>
 							</li>
@@ -140,22 +139,22 @@
 															<h4><sc:link style="color: #3e4d5c;!important"><sc:text field="menu title"/></sc:link></h4>
 															<ul>
 																<xsl:for-each select="./item">
-                                  <xsl:choose>
-                                    <xsl:when test="./@template='products redirect'">
-                                      <li>
-                                        <sc:link field="link">
-                                          <sc:text field="menu title" disable-web-editing="true"/>
-                                        </sc:link>
-                                      </li>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                      <li>
-                                        <sc:link>
-                                          <sc:text field="menu title" disable-web-editing="true"/>
-                                        </sc:link>
-                                      </li>
-                                    </xsl:otherwise>
-                                  </xsl:choose>
+																	  <xsl:choose>
+																		<xsl:when test="./@template='products redirect'">
+																		  <li>
+																			<sc:link field="link">
+																			  <sc:text field="menu title" disable-web-editing="true"/>
+																			</sc:link>
+																		  </li>
+																		</xsl:when>
+																		<xsl:otherwise>
+																		  <li>
+																			<sc:link>
+																			  <sc:text field="menu title" disable-web-editing="true"/>
+																			</sc:link>
+																		  </li>
+																		</xsl:otherwise>
+																	  </xsl:choose>
 																</xsl:for-each>
 															</ul>
 														</div>

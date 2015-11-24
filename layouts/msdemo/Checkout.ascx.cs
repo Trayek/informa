@@ -38,7 +38,7 @@
             }
 
             var url = Sitecore.Web.WebUtil.GetRawUrl();
-            Response.Redirect(url + "?ordered=1");
+            Response.Redirect(url + "?ordered=1&sc_trk={56D2D745-FEF2-4918-B23E-8C3EDF739916}");
         }
     }
 }

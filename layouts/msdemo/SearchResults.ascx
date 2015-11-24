@@ -20,8 +20,8 @@
         <div class="input-group">
             <asp:TextBox runat="server" CssClass="form-control" Placeholder="Search term" ID="SearchTerm" />
             <span class="input-group-btn">
-                <asp:Button runat="server" CssClass="btn btn-primary" ID="SearchButton" OnClick="SearchClick" Text="Search" />
-                <asp:Button runat="server" CssClass="btn btn-warning" OnClick="ResetClick" Text="Reset" />
+                <asp:Button runat="server" CssClass="btn btn-primary scbrandcustom" ID="SearchButton" OnClick="SearchClick" Text="Search" />
+                <asp:Button runat="server" CssClass="btn btn-warning scbrandred" OnClick="ResetClick" Text="Reset" />
             </span>
         </div>
     </div>

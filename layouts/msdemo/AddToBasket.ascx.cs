@@ -25,7 +25,7 @@ namespace ms8.layouts.msdemo
             }
 
             var url = Sitecore.Web.WebUtil.GetRawUrl();
-            Response.Redirect(url);
+            Response.Redirect(url + "?sc_trk={4BEEC42D-0349-4264-93E4-A14C4075CFEF}");
         }
     }
 }
